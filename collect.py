@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 
 ROOT = pathlib.Path(__file__).parent
-OUT = ROOT / 'data' / 'reports.json'
+OUT = ROOT / 'reports.json'
 SOURCES = [
  ('Goldman Sachs','https://www.goldmansachs.com/insights/'),
  ('J.P. Morgan Asset Management','https://am.jpmorgan.com/us/en/asset-management/adv/insights/'),
