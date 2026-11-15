@@ -1,80 +1,73 @@
 #!/usr/bin/env python3
-"""Small, read-only pilot of three official insight indexes. No paid API.
-Writes data/official_pilot.json; does not modify reports.json.
-"""
+"""Read-only diagnostic for official insight indexes. No paid APIs."""
 import datetime as dt
 import json
-import pathlib
-import re
-from html.parser import HTMLParser
-from urllib.parse import urljoin, urlparse
+from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
-ROOT = pathlib.Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent
 OUT = ROOT / 'data' / 'official_pilot.json'
 SITES = [
     ('Goldman Sachs', 'https://www.goldmansachs.com/insights/', 'goldmansachs.com'),
     ('J.P. Morgan Asset Management', 'https://am.jpmorgan.com/us/en/asset-management/adv/insights/', 'jpmorgan.com'),
     ('Morgan Stanley', 'https://www.morganstanley.com/insights', 'morganstanley.com'),
 ]
-MAX_PER_FIRM = 3
-class Links(HTMLParser):
-    def __init__(self):
-        super().__init__(); self.href = None; self.parts = []; self.links = []
-    def handle_starttag(self, tag, attrs):
-        if tag == 'a':
-            self.href = dict(attrs).get('href'); self.parts = []
-    def handle_data(self, data):
-        if self.href is not None: self.parts.append(data)
-    def handle_endtag(self, tag):
-        if tag == 'a' and self.href is not None:
-            title = re.sub(r'\s+', ' ', ''.join(self.parts)).strip()
-            if title: self.links.append((self.href, title))
-            self.href = None; self.parts = []
-def allowed(url, domain):
-    p = urlparse(url); h = (p.hostname or '').lower()
-    return p.scheme == 'https' and (h == domain or h.endswith('.' + domain))
-def get_html(url, domain):
-    if not allowed(url, domain): return None
-    req = Request(url, headers={'User-Agent':'Mozilla/5.0 (compatible; GMIResearchPilot/1.0)'})
-    with urlopen(req, timeout=12) as resp:
-        if not allowed(resp.geturl(), domain): return None
-        if 'text/html' not in resp.headers.get('Content-Type',''): return None
-        body = resp.read(350001)
-        if len(body) > 350000: return None
-        charset = resp.headers.get_content_charset() or 'utf-8'
-        return body.decode(charset, errors='replace')
+MAX_BYTES = 2_000_000
+
+def official(url, domain):
+    p = urlparse(url)
+    host = (p.hostname or '').lower()
+    return p.scheme == 'https' and (host == domain or host.endswith('.' + domain))
+
+def inspect(firm, url, domain):
+    result = {'firm': firm, 'index_url': url, 'official_url_candidates': 0,
+              'extracted': 0, 'status': 'unknown', 'http_status': None,
+              'final_url': None, 'content_type': None, 'bytes_read': 0,
+              'size_limit_hit': False, 'error': None}
+    try:
+        req = Request(url, headers={
+            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+        })
+        with urlopen(req, timeout=20) as response:
+            result['http_status'] = response.status
+            result['final_url'] = response.geturl()
+            result['content_type'] = response.headers.get('Content-Type', '')
+            if not official(result['final_url'], domain):
+                result['status'] = 'redirected_outside_official_domain'
+                return result
+            if 'text/html' not in result['content_type'].lower():
+                result['status'] = 'not_html'
+                return result
+            content = response.read(MAX_BYTES + 1)
+            result['bytes_read'] = len(content)
+            result['size_limit_hit'] = len(content) > MAX_BYTES
+            result['status'] = 'html_received' if not result['size_limit_hit'] else 'html_over_2mb'
+            # This is intentionally a connectivity diagnostic, not an article extractor.
+    except HTTPError as exc:
+        result['http_status'] = exc.code
+        result['status'] = 'http_error'
+        result['error'] = str(exc)[:180]
+    except (URLError, TimeoutError, OSError, ValueError) as exc:
+        result['status'] = 'connection_error'
+        result['error'] = f'{type(exc).__name__}: {exc}'[:180]
+    return result
+
 def main():
-    # Imports existing extraction helper from the repository.
-    from article_helper import extract
-    results=[]; stats=[]
-    for firm, index, domain in SITES:
-        found=0; extracted=0; error=None
-        try:
-            page=get_html(index, domain)
-            if not page: raise ValueError('Index page unavailable or not verified')
-            parser=Links(); parser.feed(page)
-            seen=set()
-            for href, title in parser.links:
-                url=urljoin(index, href).split('#')[0]
-                path=urlparse(url).path.rstrip('/')
-                if not allowed(url,domain) or url==index or url in seen: continue
-                if len(title)<24 or len(title)>180: continue
-                if path in ('/insights','/ideas') or any(x in path.lower() for x in ('/privacy','/contact','/terms','/login','/subscribe')): continue
-                if not any(x in path.lower() for x in ('insight','article','market','research','idea','outlook','investment','econom','technology','ai-')): continue
-                seen.add(url); found+=1
-                try: excerpt=extract(url, domain)
-                except Exception as exc: excerpt=None; note=str(exc)[:120]
-                else: note=''
-                if excerpt: extracted+=1
-                results.append({'firm':firm,'title':title,'official_url':url,'excerpt':excerpt or '',
-                    'excerpt_status':'公式ページの本文抜粋（要約ではありません）' if excerpt else '本文未取得',
-                    'error':note})
-                if found>=MAX_PER_FIRM: break
-        except Exception as exc: error=str(exc)[:200]
-        stats.append({'firm':firm,'official_url_candidates':found,'extracted':extracted,'error':error})
-        print(f'{firm}: official URL candidates {found}; extracted {extracted}; error {error or "none"}')
-    OUT.parent.mkdir(parents=True,exist_ok=True)
-    OUT.write_text(json.dumps({'updated':dt.datetime.now(dt.timezone.utc).isoformat(),'pilot':True,'stats':stats,'articles':results},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print('Saved',OUT)
-if __name__=='__main__': main()
+    stats = []
+    for firm, url, domain in SITES:
+        r = inspect(firm, url, domain)
+        stats.append(r)
+        print(f"{firm}: status={r['status']}; http={r['http_status']}; "
+              f"bytes={r['bytes_read']}; final={r['final_url']}; error={r['error']}", flush=True)
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps({'updated': dt.datetime.now(dt.timezone.utc).isoformat(),
+                               'pilot': True, 'diagnostic': True, 'stats': stats, 'articles': []},
+                              ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print('Saved', OUT, flush=True)
+
+if __name__ == '__main__':
+    main()
