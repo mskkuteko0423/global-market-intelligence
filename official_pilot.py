@@ -5,6 +5,7 @@ Candidate labels are heuristic and must be checked against the source.
 """
 import datetime as dt
 import json
+import html as html_lib
 import pathlib
 import re
 from html import unescape
@@ -26,10 +27,10 @@ CATEGORIES = {
     '株式': ('equity', 'equities', 'stock', 'earnings', 's&p', 'nasdaq'),
     '債券・金利': ('bond', 'fixed income', 'treasury', 'yield', 'interest rate', 'duration'),
     '為替': ('currency', 'currencies', 'forex', 'fx market', 'dollar', 'yen'),
-    'マクロ経済': ('macro', 'econom', 'inflation', 'gdp', 'recession', 'growth', 'fed ', 'central bank'),
+    'マクロ経済': ('macro', 'econom', 'inflation', 'gdp', 'recession', 'central bank'),
     'クレジット': ('credit', 'spread', 'high yield', 'private debt'),
     'コモディティ': ('commodity', 'commodities', 'oil price', 'gold price', 'energy market'),
-    '投資戦略・資金フロー': ('portfolio', 'asset allocation', 'investor', 'market outlook', 'investment outlook', 'capital flow', 'liquidity', 'market'),
+    '投資戦略・資金フロー': ('portfolio', 'asset allocation', 'market outlook', 'investment outlook', 'capital flow', 'liquidity'),
     '政策・地政学': ('geopolit', 'tariff', 'trade policy', 'fiscal policy', 'election'),
     'AI・半導体': ('artificial intelligence', ' ai ', 'semiconductor', 'chipmaker', 'data center'),
     'その他の産業テーマ': ('healthcare', 'technology', 'infrastructure', 'industry', 'sector'),
@@ -139,7 +140,7 @@ def parse(html):
 
 def classify(text):
     normalized = ' ' + text.lower() + ' '
-    return [name for name, terms in CATEGORIES.items() if any(term in normalized for term in terms)]
+    return [name for name, terms in CATEGORIES.items() if any(re.search(r'(?<![a-z])' + re.escape(term.strip()) + r'(?![a-z])', normalized) for term in terms)]
 
 
 def candidates(parser, index, domain):
@@ -165,6 +166,52 @@ def candidates(parser, index, domain):
     return found
 
 
+def find_date(page_html, meta, anchor_title):
+    for key in ('article:published_time', 'datepublished', 'date', 'publishdate',
+                'dc.date', 'dc.date.issued', 'parsely-pub-date'):
+        value = meta.get(key)
+        if value:
+            m = re.search(r'20\d{2}-\d{2}-\d{2}', value)
+            if m:
+                return m.group()
+    # JSON-LD datePublished; HTML entities are decoded before matching.
+    decoded = html_lib.unescape(page_html)
+    m = re.search(r'["\\]datePublished["\\]\s*:\s*["\\](20\d{2}-\d{2}-\d{2})', decoded, re.I)
+    if m:
+        return m.group(1)
+    m = re.search(r'\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},?\s+20\d{2}\b', anchor_title, re.I)
+    if m:
+        try:
+            return dt.datetime.strptime(m.group().replace(',', ''), '%b %d %Y').date().isoformat()
+        except ValueError:
+            pass
+    return None
+
+
+def is_topic_page(url, title, meta, paragraphs):
+    path = urlparse(url).path.lower().rstrip('/')
+    # Known landing paths observed in the prior pilot artifact.
+    known = ('/insights/artificial-intelligence', '/insights/mergers-and-acquisitions',
+             '/ideas/artificial-intelligence', '/ideas/mergers-and-acquisitions')
+    if path in known or path.endswith('/artificial-intelligence') or path.endswith('/mergers-and-acquisitions'):
+        return True
+    # Explicit webpage metadata, if present, is stronger than paragraph count.
+    ogtype = (meta.get('og:type') or '').lower()
+    if ogtype == 'website' and not any(meta.get(k) for k in ('article:published_time', 'datepublished')) and len(paragraphs) < 4:
+        return True
+    # Do not reject genuine short articles merely because their date is missing.
+    if len(paragraphs) < 2 and not any(meta.get(k) for k in ('article:published_time', 'datepublished')):
+        return True
+    return False
+
+
+def classify_focus(title, description):
+    # Avoid classifying by unrelated boilerplate or all page paragraphs.
+    primary = classify(title)
+    secondary = [x for x in classify(description) if x not in primary]
+    return primary[:2], secondary[:2]
+
+
 def main():
     stats, articles = [], []
     for firm, index, domain in SITES:
@@ -174,38 +221,45 @@ def main():
         try:
             index_parser = parse(get_html(index, domain))
             links = candidates(index_parser, index, domain)
+            if not links:
+                # Diagnostic only: do not publish unverified links as articles.
+                samples = []
+                for href, label in index_parser.links:
+                    candidate_url = urldefrag(urljoin(index, href))[0]
+                    if official(candidate_url, domain) and len(label) >= 18:
+                        samples.append({'title': label[:100], 'url': candidate_url[:250]})
+                    if len(samples) == 8:
+                        break
+                print(f'{firm}: diagnostic official links {json.dumps(samples, ensure_ascii=False)}', flush=True)
+            if not links:
+                print(f'{firm}: no candidate links matched publication path/title filters; source page may require a different discovery strategy', flush=True)
             for url, anchor_title in links[:MAX_PER_FIRM]:
                 record = {'firm': firm, 'official_url': url, 'link_title': anchor_title,
                           'title': anchor_title, 'published': None, 'categories': [],
                           'excerpt': '', 'excerpt_status': 'Not extracted', 'page_type': 'unverified',
                           'market_relevance': 'Needs human review', 'error': None}
                 try:
-                    page = parse(get_html(url, domain))
+                    page_html = get_html(url, domain)
+                    page = parse(page_html)
                     m = page.meta
                     record['title'] = m.get('og:title') or m.get('twitter:title') or anchor_title
-                    record['published'] = (m.get('article:published_time') or
-                                           m.get('datepublished') or m.get('date'))
-                    # Date fallback: JSON-LD or the link label (never invent a date).
-                    if not record['published']:
-                        match = re.search(r'\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},?\s+20\d{2}\b', anchor_title, re.I)
-                        if match:
-                            try:
-                                record['published'] = dt.datetime.strptime(match.group().replace(',', ''), '%b %d %Y').date().isoformat()
-                            except ValueError:
-                                pass
-                    # Topic landing pages are not individual articles.
-                    path = urlparse(url).path.lower().rstrip('/')
-                    topic_landing = path in ('/insights/artificial-intelligence', '/insights/mergers-and-acquisitions') or (path.count('/') <= 2 and not record['published'] and len(page.paragraphs) < 4)
-                    record['page_type'] = 'topic_or_index' if topic_landing else 'article_candidate'
-                    # Use page title, metadata and first paragraphs for topic hints.
-                    signal = ' '.join([record['title'], m.get('description', ''),
-                                       m.get('og:description', ''), ' '.join(page.paragraphs[:3])])
-                    record['categories'] = classify(signal)
+                    record['published'] = find_date(page_html, m, anchor_title)
+                    record['date_status'] = 'metadata_or_link_detected_not_independently_verified' if record['published'] else 'unverified'
+                    record['page_type'] = ('topic_or_index' if is_topic_page(url, record['title'], m, page.paragraphs)
+                                           else 'article_candidate')
+                    description = m.get('description', '') or m.get('og:description', '')
+                    primary, secondary = classify_focus(record['title'], description)
+                    record['primary_categories'] = primary
+                    record['secondary_categories'] = secondary
+                    record['categories'] = primary + secondary
                     boilerplate = ('we harness every resource', 'goldman sachs’ weekly newsletter',
                                    'our weekly newsletter delivers', 'we invest the power of goldman sachs',
                                    'subscribe now', 'privacy policy', 'cookie preferences')
                     clean = [p for p in page.paragraphs if not any(b in p.lower() for b in boilerplate)]
                     if record['page_type'] == 'topic_or_index':
+                        record['categories'] = []
+                        record['primary_categories'] = []
+                        record['secondary_categories'] = []
                         record['excerpt_status'] = 'Topic/index page; not an article'
                     elif len(clean) >= 2:
                         record['excerpt'] = ' '.join(clean[:5])[:1800]
@@ -228,7 +282,7 @@ def main():
               f'extracted {extracted}; error {error or "none"}', flush=True)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({'updated': dt.datetime.now(dt.timezone.utc).isoformat(),
-                               'pilot': True, 'method': 'broad market pilot; topic pages flagged, boilerplate filtered; no stance inferred',
+                               'pilot': True, 'method': 'v7: broad-market diagnostic; topic pages flagged; dates are unverified detections; no stance inferred',
                                'stats': stats, 'articles': articles},
                               ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print('Saved', OUT)
