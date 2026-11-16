@@ -7,6 +7,7 @@ import datetime as dt
 import json
 import pathlib
 import re
+from html import unescape
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse, urldefrag
 from urllib.request import Request, urlopen
@@ -176,7 +177,7 @@ def main():
             for url, anchor_title in links[:MAX_PER_FIRM]:
                 record = {'firm': firm, 'official_url': url, 'link_title': anchor_title,
                           'title': anchor_title, 'published': None, 'categories': [],
-                          'excerpt': '', 'excerpt_status': 'Not extracted',
+                          'excerpt': '', 'excerpt_status': 'Not extracted', 'page_type': 'unverified',
                           'market_relevance': 'Needs human review', 'error': None}
                 try:
                     page = parse(get_html(url, domain))
@@ -184,16 +185,34 @@ def main():
                     record['title'] = m.get('og:title') or m.get('twitter:title') or anchor_title
                     record['published'] = (m.get('article:published_time') or
                                            m.get('datepublished') or m.get('date'))
+                    # Date fallback: JSON-LD or the link label (never invent a date).
+                    if not record['published']:
+                        match = re.search(r'\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},?\s+20\d{2}\b', anchor_title, re.I)
+                        if match:
+                            try:
+                                record['published'] = dt.datetime.strptime(match.group().replace(',', ''), '%b %d %Y').date().isoformat()
+                            except ValueError:
+                                pass
+                    # Topic landing pages are not individual articles.
+                    path = urlparse(url).path.lower().rstrip('/')
+                    topic_landing = path in ('/insights/artificial-intelligence', '/insights/mergers-and-acquisitions') or (path.count('/') <= 2 and not record['published'] and len(page.paragraphs) < 4)
+                    record['page_type'] = 'topic_or_index' if topic_landing else 'article_candidate'
                     # Use page title, metadata and first paragraphs for topic hints.
                     signal = ' '.join([record['title'], m.get('description', ''),
                                        m.get('og:description', ''), ' '.join(page.paragraphs[:3])])
                     record['categories'] = classify(signal)
-                    if len(page.paragraphs) >= 2:
-                        record['excerpt'] = ' '.join(page.paragraphs[:5])[:1800]
-                        record['excerpt_status'] = 'Unverified page excerpt (not a summary)'
+                    boilerplate = ('we harness every resource', 'goldman sachs’ weekly newsletter',
+                                   'our weekly newsletter delivers', 'we invest the power of goldman sachs',
+                                   'subscribe now', 'privacy policy', 'cookie preferences')
+                    clean = [p for p in page.paragraphs if not any(b in p.lower() for b in boilerplate)]
+                    if record['page_type'] == 'topic_or_index':
+                        record['excerpt_status'] = 'Topic/index page; not an article'
+                    elif len(clean) >= 2:
+                        record['excerpt'] = ' '.join(clean[:5])[:1800]
+                        record['excerpt_status'] = 'Cleaned candidate excerpt; editorial verification required'
                         extracted += 1
                     else:
-                        record['error'] = 'Fewer than 2 substantial paragraphs'
+                        record['error'] = 'Fewer than 2 substantial non-boilerplate paragraphs'
                     # Classify as candidate only: automated classification is not editorial verification.
                     record['market_relevance'] = ('Market-related candidate; review required'
                                                   if record['categories'] else 'Unclear; review required')
@@ -209,7 +228,7 @@ def main():
               f'extracted {extracted}; error {error or "none"}', flush=True)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({'updated': dt.datetime.now(dt.timezone.utc).isoformat(),
-                               'pilot': True, 'method': 'heuristic candidate discovery; no investment stance inferred',
+                               'pilot': True, 'method': 'broad market pilot; topic pages flagged, boilerplate filtered; no stance inferred',
                                'stats': stats, 'articles': articles},
                               ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print('Saved', OUT)
