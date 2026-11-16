@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T21:50:31.178472+00:00",
+  "updated": "2026-11-16T21:58:40.291063+00:00",
   "sources": [
     {
       "name": "Goldman Sachs",
@@ -63,6 +63,242 @@
     }
   ],
   "articles": [
+    {
+      "id": "83fbf59dc7a2def5d9ea",
+      "firm": "Morgan Stanley",
+      "title": "Emerging Markets Debt Perspectives - Morgan Stanley",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPclpfU1FNMi13VUM5dEVnR0pJY3NLcmFsTDdySFlCV2U4N3EwOUZwLTM4d0tKSUdDRWQ0QXRySHhaVGdOUmh0YklIZWh6bjNOb0hQNHhGQ0ZRR1BfQjBEeVNtbnAxYjFqeEFHQUJHZTh0UU9LaWRKMVY4OWI5cUFPbklZSEhxT25lV0d2aEZKM25WMjA?oc=5",
+      "published": "2026-11-16",
+      "description": "Emerging Markets Debt Perspectives Morgan Stanley",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼",
+      "title_ja": "新興国市場の債務の展望 - モルガン・スタンレー",
+      "description_ja": "新興国市場の債務の展望 モルガン・スタンレー"
+    },
+    {
+      "id": "3de72df60fcbafb2dbda",
+      "firm": "Goldman Sachs",
+      "title": "Global Stocks Are Expected to Rally in 2027 Even as Earnings Growth Slows - Goldman Sachs",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVncwVWdFNkk4NnRjbENhTDQwWDlIMklGS19CWVNmM3RwbC11M2l4amROS3IyVG1SbXJUQWZwbWp4OWZjVjh5TWlaaWFaUG9tQWRuZVZPUHZDcU5CaVRHMzhLUS1RYjdkNTdkVml2a2xOandyT25fTTVUZHJhWjVGWkw0djNPMlpicE4xaUp6N3dsN3ZJVHNZNHl0bFZSR1NLU1N2WlU4WlZFWExhZ3JxWg?oc=5",
+      "published": "2026-11-16",
+      "description": "Global Stocks Are Expected to Rally in 2027 Even as Earnings Growth Slows Goldman Sachs",
+      "topic": "æ ªå¼",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "15e341cab802d4c0191f",
+      "firm": "J.P. Morgan Asset Management",
+      "title": "The Technology Threat - J.P. Morgan",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNekVNREJrcTJ1ZWJkVEhIdE4wY2pzbmhTTXFtaDhHQzBUa3hRNkFwclF5ZUdlWnlyZkdjU21OLTEwMU9CSE9MMEFTM2hnRnB6YUtIdFNrQTNsZ2l5b1FvaHh3c09yaVNJSmpJc2ZXTGQ1TkE4dFFSTk5mVFJJY19LM1hVWWxKTjRPSWhGMlFTVV9SbEphS25leXRFcnNBcHFDNlNfbWVSaHpaVUZNSDZhYmtUdktxZFE0cXRDVWRWRDYyX3ZHeXNwNzN3YmMyQ2pWYmJj?oc=5",
+      "published": "2026-11-16",
+      "description": "The Technology Threat J.P. Morgan",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "bb5034ef721078fb5825",
+      "firm": "J.P. Morgan Asset Management",
+      "title": "Bonds look attractive as pressures ease, but be active - J.P. Morgan",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNV0JXMDdVcmJEZGlmajV5Qm03YUhQZUdRaG90UkVzeUtsV1RaajZLemRyRGpsOU9udHF0a2puOUNvUjNFVG9DZUhlRlNtU2JDNDhYYXBtVkowdnBvM1Nid0lRdTdfNEhpQm1ZMWhDUkpMZVBxWXJIMHczaXJUdHNCNjlkRjUxQkJpNFRJdzVRRTB0dlZtLWJBd2hseE8wZWZzUnNHVzVVRzJiMUxHcnVrSmVfbm1jNk5NYzlJMDlYcFllQmM?oc=5",
+      "published": "2026-11-16",
+      "description": "Bonds look attractive as pressures ease, but be active J.P. Morgan",
+      "topic": "åµå¸ã»éå©",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "fd993fc490c492149459",
+      "firm": "J.P. Morgan Asset Management",
+      "title": "Market Outlook | 2027 - J.P. Morgan",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS2piSzZlbVNoTzlwalJSV3FkUWZQX3dld3o2T2FCVnE0ZGNYTkZnUVBVQUVCOWJvUFdQeTdQWEVyNWg2VDdHbVMyb29lRVRBd21OM3FVdks5VFZaSUlsMnpUd0R5dk5qbGN5RjQtanJxVFBsSmNKS0RRa2IwNlM5Y0tBNHMzVEx5dEFLZUNVd0JnRFRpdXp6cEFTUng?oc=5",
+      "published": "2026-11-16",
+      "description": "Market Outlook | 2027 J.P. Morgan",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "ea8968f2ca5375a0ece3",
+      "firm": "J.P. Morgan Asset Management",
+      "title": "Corporate and government spending will underpin economic resilience - J.P. Morgan",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNY01tQWM3OGtTWGcxdFlmakxPY3NJTGtnay1nVHBZY2U4WURCb0x6Z3ZLODB5bUNmU1F2Rk8xdlpKZzRVd1lHaUllSTdVYVdYaTZYZ3B4Wlk5b3NQNG5tcUl5dTRORjFQdXIzZnRkZ19BaDIxNThnejYxdzlSRlA1b0FwczhURDVHZG1SU2NvMkVFNmNtaDJsUlRXa01wOWEzUnFQOUNEYVBnb0FWNTYycHdzM00xcHppVmRUUTE1djYxcWtkWm92c2l4VQ?oc=5",
+      "published": "2026-11-16",
+      "description": "Corporate and government spending will underpin economic resilience J.P. Morgan",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "f926ca4aaca3e8e95e46",
+      "firm": "BlackRock",
+      "title": "BII Global weekly commentary - BlackRock",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNLTY0MzZQM1RjblB4aTJFZmozQjlRNXdaTmxlSFRFOGVPQW1BZjNUMk9pSEY3ak5IWDc5U29vTkM1STZtOFVRR3BVWTQwaDNLdDA0OXNhMW1UQnY0YlUyVHAtd0JpYVhkbm1JLWk4TjdqeWxiQjRvV1VrWjZBMWt1TmlaTGdYNDczVHZ6RFNVampFclBQU05SeHZhb2Z5M2FOSWZLYkJTWktEclktZGtqTTU3ODZQZHIzWWxPdTY5b3NIcWFKT0Jma0Z2RTVXZjJDd0NpbmpGWXFiN0NYWHhSQw?oc=5",
+      "published": "2026-11-16",
+      "description": "BII Global weekly commentary BlackRock",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "429cf59fe810f9530b66",
+      "firm": "BlackRock",
+      "title": "Investment Management & Financial Services - BlackRock",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEazFRS2U2b1liREhFWm03YmpOYkxHbUJ4SWVuN1Z6OXp3cEVwRnUzTzM0NVE1NnJJUHI1WUM1OTJrMzNVOFktMVREanBLbjF0TWFHTlRaWWQ1UDJYUHg0OQ?oc=5",
+      "published": "2026-11-16",
+      "description": "Investment Management & Financial Services BlackRock",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "bbed53715b567404520e",
+      "firm": "BlackRock",
+      "title": "What history says about 2026 midterm elections and market performance - BlackRock",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTGotUEJuOGt5blNMbGEtMXVYZXk0dHZxYUJjbHpfcE5xM1JqWTVTY3JkZjlLeHdqdVRXU3NfQndGRF9YQTFkN1RaUWRTLXZyRnFhX01XQkRxa0xaT3FOaUpFTms0V2N4T3JWaERYYXNEaUZnT2tIdkRVR09Sd2taV0xrZDZYTTJwVnR0dHNUMFlueW92aEpxcFpuZGhkU2VhMEN5ekQ3ZS1yelk?oc=5",
+      "published": "2026-11-16",
+      "description": "What history says about 2026 midterm elections and market performance BlackRock",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "b8a67157d7fcf865a41b",
+      "firm": "UBS",
+      "title": "Daily: Stay invested as volatility tests market fundamentals - UBS",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNzBSS05pdC1KZ1V0cHpRWFVyMFZwZkZpX0ZRTU9RZm9oU1VXLTFvMDhaaTFPa1Bzc295Sk9DYUJJT0hHcjV3TVNRUTU3SUNSbml5cmJCNDBMSzFDTXM2V2MyckhlWDEwMVBnay1waWQzVTlVTFZjelk5Q2c3Rml3cUN6Q041b1lUbEU3SlhCQzN6TmljaEFlY0I3aDFGWVZ3ZEF5eHVya1ZGSFlidWZIczdDTUlheWFKbWF3MXBDRQ?oc=5",
+      "published": "2026-11-16",
+      "description": "Daily: Stay invested as volatility tests market fundamentals UBS",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "8f1d5aa6998f287a54ae",
+      "firm": "Citi",
+      "title": "Chips, Permits and People: What Pebble Beach Revealed About the AI Buildout - Citigroup",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWndVYVpnTnRDbFVDSmNucnY0VlVuMHdfdTBpRndkUUlqX1gxdXBXNEEzWmRSLUxtcjliXzRQcXhCQTQ5b1RrZkpWVi10QkNnWG4wZFNMOGNvektYcW1XeHN5ZzcyYkdlWDlkWlFNZ1llaDc3dGRteFhIS2pPV3hBenNpdGdJZjQ5amIxXzJBTzdlR0dka0VxMzA2S0U3b250WTlpOXlxNGdVOVU?oc=5",
+      "published": "2026-11-16",
+      "description": "Chips, Permits and People: What Pebble Beach Revealed About the AI Buildout Citigroup",
+      "topic": "AIã»åå°ä½",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼",
+      "excerpt_status": "å¬å¼è¨äºURLæªç¢ºèª"
+    },
+    {
+      "id": "e5d62b90f6a1b5be9b5b",
+      "firm": "Citi",
+      "title": "Global Trustee and Fiduciary Services Bite-Sized Issue 11, November 2026 - Citigroup",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUDk0YkJYdzBXODdiYjEwbUhOeEo4b0JPdy04ZjRBX3ZybTBpU1ZWVEs1RkRlXzNjc1p5RjlPcTNZZ3poRDhvbFE1SVJRcnRRdE84a1F6aFRwU1V3Si01NFRDSUlPVl9oQ2NFd2dMa1g2cHNjcjNSekZWdDBzOFBJdFN3UDJsbkFITTBBdE82bjdxR0FhNUt0N0VqdVpzd2Y4ajZKOGI4eGRraFdCbDZZSjgzdw?oc=5",
+      "published": "2026-11-16",
+      "description": "Global Trustee and Fiduciary Services Bite-Sized Issue 11, November 2026 Citigroup",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "338bb127d99e9b40a03a",
+      "firm": "Citi",
+      "title": "Blueprint for Housing Opportunity | Citi Foundation - Citigroup",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRVpJYmg3eWFFVjRhVGowblcxekw3aFk0MFJuem5XSEhHb3NtQlJqWDI1ZDVVUGxBWUQwQ0Y0OWEwM1JxYzdFdUdvWHQ5MVVXcEVzMzQwZENtb3lnX0VLcVprVXFPdG5iY2o3NUI1cFpNdGpzVS01VEZiTEl5b1RCVXhmSXVaNElNV0U3R0ZDYw?oc=5",
+      "published": "2026-11-16",
+      "description": "Blueprint for Housing Opportunity | Citi Foundation Citigroup",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "f0d57427cd5a511968e5",
+      "firm": "Fidelity",
+      "title": "Nvidia rules out Huang comeback as campaign for his return grows - Fidelity Investments",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE96ZVRwZ2JUUnExSmIzU0o4eWItem5wdFdQNWlqNUViU0IzZzlXTGZJbmlTNk9OZy11T1RGbm9IVDZMYWRweFMxQnhqT1E4WVU0QndiMlhnck1Eb2ZsME9UcmRtU3JFNk1idWo1QjFDZw?oc=5",
+      "published": "2026-11-16",
+      "description": "Nvidia rules out Huang comeback as campaign for his return grows Fidelity Investments",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼",
+      "excerpt_status": "å¬å¼è¨äºURLæªç¢ºèª"
+    },
+    {
+      "id": "3c019c9a6ca30d021800",
+      "firm": "Fidelity",
+      "title": "Wall Street slumps on AI jitters ahead of Nvidia results, Anthropic IPO - Fidelity Investments",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01WmpnQ1llSkFGdnc1a3ljZzB3Q1dZd00xaEh4VjA3VjZhYjhHLVR2ZW9DVVVxSTBRMl92MXlLVlFkVzhBRHVBSEdrTlVCUkFOZkgzTXZ4RVA?oc=5",
+      "published": "2026-11-16",
+      "description": "Wall Street slumps on AI jitters ahead of Nvidia results, Anthropic IPO Fidelity Investments",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼",
+      "excerpt_status": "å¬å¼è¨äºURLæªç¢ºèª"
+    },
+    {
+      "id": "7d3035e79691f88fd23f",
+      "firm": "Fidelity",
+      "title": "NY Fed's Nordstrom flags resilience of foreign exchange markets - Fidelity Investments",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZ0F5dkhlS2RHcl93cEEwcXVUOHhGTkRIQWNtNm93NlBibmxQdm5kZGVOUjJjUU1rNEFrU3VmcHY2OHlGdU9GR3NwRkU5VUIyZ0w5N0Q2MnpVQ2h0bi1KNF94OTlDMUYtMmYwVkZIM0cweV9aQ2dSb01mdVVhVWxBOVlBbGNFOC1oNWRTdFdNWTJPX21xMFlOWnpmMA?oc=5",
+      "published": "2026-11-16",
+      "description": "NY Fed's Nordstrom flags resilience of foreign exchange markets Fidelity Investments",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "696a6722658bc1f67427",
+      "firm": "Vanguard",
+      "title": "Salim Ramji on Bloomberg’s Masters in Business - Vanguard Corporate",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWTdUc0o0SEc5QTdYOEk0X183ODVRR2NfSk9aQ2h0UEt4UEVqN25aQ3ZKWXhQTjRBRTVCRllZR0c1SndRMnNDNXF4M0RJS01CXzRjU0JqRF95T0RJcjR2YlFFYVJBOUJkVm9hZWpzZ0xuN01OTU9KdlFIM3JBNzB4OFhwSUtuWUZ0WlpDSURPM1ZIdGVqbk9tUEc1MUt0OGM0OFRCdzczWnRuanNJNzhhRDhEV0FBakk?oc=5",
+      "published": "2026-11-16",
+      "description": "Salim Ramji on Bloomberg’s Masters in Business Vanguard Corporate",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "acde03e25fae8abd14ea",
+      "firm": "Amundi",
+      "title": "High rates, higher interest payments - Amundi Research Center",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMlo3d2J4QVFlQU13Z1Npa01VZmhnVVFfMWlWVkQzY19wd201elJvTjVBeEEzb3hnd3pWWEVFTGpkbnhiXzd1TUlFYk11MVBKd3ZjeW5ubDNfaTJJTkZONWpfVXNKVTZMdWNtYmx2OXNLb3Y4T3d6VnEyTDBFM1kydno3Zkk?oc=5",
+      "published": "2026-11-16",
+      "description": "High rates, higher interest payments Amundi Research Center",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "989bd86ecda6c16a52b7",
+      "firm": "State Street",
+      "title": "Expanding investment choice for 403(b) plans - State Street Global Advisors",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2VmUENZQkExeVFWWFUxN29Ta25idGVYVlhUOG9qZXJsbHlLcEdBb3BSREhJY2wxNVlkR0xCN2I3N0pJOW9wT3dzMEFCMGJteXBPYzBna0dhRmlOUTJiWEVIRHJUQUlZVlJEbEhuaGhqVWl3QTlWTDlxTnIwbTM3VHNodW5LWmNOXy03Nl9WQUpJTklfaExCTg?oc=5",
+      "published": "2026-11-16",
+      "description": "Expanding investment choice for 403(b) plans State Street Global Advisors",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "505992a2919789c9a63d",
+      "firm": "State Street",
+      "title": "Volatility beneath a steady S&P - State Street Global Advisors",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeml2QWttVlo5NzMzb29tMU9hY3hjaHlicnpjUmxoSnBKdDhfeGRVN0RFUEg0QzF6QUxvSW1vMG4xRzYxSFVBOXRjN19BazlLeF96TE82MEhJMkZ1b1B6T3FVOWxzclBpZW1URmhQUjc4alY1NUtzdEg4MlphbEUxclBWVkZhLWotbUpXYW5kNnRvQQ?oc=5",
+      "published": "2026-11-16",
+      "description": "Volatility beneath a steady S&P State Street Global Advisors",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "b06ec0408b97e0739dd7",
+      "firm": "Deutsche Bank",
+      "title": "Deutsche Bank helps advance cross-border digital asset settlement connectivity - Deutsche Bank AG",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYUNiNFEyMVFWbkdKSVlJcEFrcjBTOTk5OXFqTHV6MFFQMlpWNXFVcVZNcXpZNWlMcl9KNW9uejEyeEs1NF9oUHR4M3IyWk0yNTVKNG05RjNHOE5UUXlZaWhyYTBFeG5YR1VBQ3R1TTBEVTgyMmtCNWJhNmkxVjZ3eEg4am1URWw3U3ZlTjNTNTYyUWdHMkl3d0VydnlkLWp1SVhwZENCMVktSDlJeC1iM3h1bVdlWENTNnRVWTB3SnpNLUJzVlQtZVFBLW0?oc=5",
+      "published": "2026-11-16",
+      "description": "Deutsche Bank helps advance cross-border digital asset settlement connectivity Deutsche Bank AG",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
     {
       "id": "bf2aeb490bcac3a0e274",
       "firm": "J.P. Morgan Asset Management",
@@ -344,6 +580,18 @@
       "description_ja": "新興国市場の債務解説: 2026 年 10 月 |ステート ストリート ステート ストリート グローバル アドバイザー"
     },
     {
+      "id": "91193dcbad116de802bf",
+      "firm": "J.P. Morgan Asset Management",
+      "title": "The Icarus Files: What’s next for Nvidia and AI - J.P. Morgan",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQllnWldfUFEwQ2xnSlZKYUoyQ2s3Ym1obTZLN3Vqa2ZHc1ljOFJ6NUNEdWo5X0wwaTFsam5VU0dUN2Izdll6bkt2OHFiZlk4RHhFeUFIVVhYNnhHOEdEZDgtWkFhLURRRUNQMVA4ckZ3YmtxMU00clUxSllnc3dkRWRFSmtla2tWZ1l3WW8yM1JfUDFuaUNrOUdiRTBKQV9nZkZIT29kTWI1dmdmRXlkbF82M2VVeUotLUF3ZDQzVjdjUkFJWWwybEs2R2hGUnR3VzBOd2VLRHU?oc=5",
+      "published": "2026-11-14",
+      "description": "The Icarus Files: What’s next for Nvidia and AI J.P. Morgan",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼",
+      "excerpt_status": "å¬å¼è¨äºURLæªç¢ºèª"
+    },
+    {
       "id": "4130c81736acb3281edb",
       "firm": "Goldman Sachs",
       "title": "Why European Companies Are Forecast to Have Robust Earnings Growth - Goldman Sachs",
@@ -501,19 +749,6 @@
       "description_ja": "ヴィッキー・ゲッジ PIMCO"
     },
     {
-      "id": "83fbf59dc7a2def5d9ea",
-      "firm": "Morgan Stanley",
-      "title": "Emerging Markets Debt Perspectives - Morgan Stanley",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPclpfU1FNMi13VUM5dEVnR0pJY3NLcmFsTDdySFlCV2U4N3EwOUZwLTM4d0tKSUdDRWQ0QXRySHhaVGdOUmh0YklIZWh6bjNOb0hQNHhGQ0ZRR1BfQjBEeVNtbnAxYjFqeEFHQUJHZTh0UU9LaWRKMVY4OWI5cUFPbklZSEhxT25lV0d2aEZKM25WMjA?oc=5",
-      "published": "2026-11-13",
-      "description": "Emerging Markets Debt Perspectives Morgan Stanley",
-      "topic": "ãã®ä»",
-      "source": "Google News RSS",
-      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼",
-      "title_ja": "新興国市場の債務の展望 - モルガン・スタンレー",
-      "description_ja": "新興国市場の債務の展望 モルガン・スタンレー"
-    },
-    {
       "id": "3375c5144c9b462a6c33",
       "firm": "State Street",
       "title": "How the midterms could reshape the AI investment cycle - State Street Global Advisors",
@@ -566,6 +801,139 @@
       "title_ja": "中間選挙は AI 投資サイクルをどのように再形成する可能性があるか - ステート ストリート グローバル アドバイザーズ",
       "description_ja": "中間選挙は AI 投資サイクルをどのように再形成する可能性があるか State Street Global Advisors",
       "excerpt_status": "å¬å¼è¨äºURLæªç¢ºèª"
+    },
+    {
+      "id": "e4b1ccdc7601ec194f6f",
+      "firm": "PIMCO",
+      "title": "PIMCO Investment Grade Corporate Bond Exchange-Traded Fund USETF - CORP - ETF - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWE1NeDllS3ZrX3JOTURqMkU3UHNTbWV4TG5Val9VekVYSmNtXzZ6dHhycDE1cE9leGJ5ejRFTXhGR2thTzNIbTA4Umx5aTJjanJqYUJiNGdWbDA0Yk8tQnhURUE0NjMzd0N3UzU5RzNQaTZSVDhGWTlCRFVqaGJmdDN5MFFzckxTTkZXdmxUdmdZU2hHY3RVWmtuR2ltWWFyNktGYjZLRHZWYjNMdlJ4Z1BB?oc=5",
+      "published": "2026-11-13",
+      "description": "PIMCO Investment Grade Corporate Bond Exchange-Traded Fund USETF - CORP - ETF PIMCO",
+      "topic": "åµå¸ã»éå©",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "2afa2439de2272428b6d",
+      "firm": "PIMCO",
+      "title": "PIMCO CommoditiesPLUS® and Bond Alpha Fund INST - PCLIX - Mutual Funds - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSFR5ekhMX1loZFQzZkVXWjdqVnBRYzROaHNZeGhmeUYtNnVWdmdFN3FwWS1ZQlM1Rm9MWnM3YVZ1bEQ0dHpHeFNCOTJOTmxHYzZfeHJWRk1mcUQ0Unk2ZmlPcjR2SkJwNjc3X1AtbWRZaFhCdHV4UzJDVEU2anFpa05UY2R4Y0ZydmR3dWtDS0xodUxvSzJHMkt0dEJzNEMtdl9BLQ?oc=5",
+      "published": "2026-11-13",
+      "description": "PIMCO CommoditiesPLUS® and Bond Alpha Fund INST - PCLIX - Mutual Funds PIMCO",
+      "topic": "åµå¸ã»éå©",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "485740e3ed8ba7630216",
+      "firm": "PIMCO",
+      "title": "PIMCO Commodity and Real Return Bond Alpha Fund A - PCRAX - Mutual Funds - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUU5MRlpRUUI1NU1ydUk4Y0NuR2pGQWZuTUV2ZjZxRVo3U0hfWnJLc3d1Tm96S1N4d05yQU1PZVJfVWNVZ2UyM2pUWDlvUm5EM0V4eVBCNjZkUGlrcUxOazctV3ptdWZJOVI2TGVLUktBMXQzS05XWVNDZXNMZXVtMkVScll3VFg5MklpdXAwY3R0WmxXUDg3ZXFva3U0OEFRT3J2cDdJQzg?oc=5",
+      "published": "2026-11-13",
+      "description": "PIMCO Commodity and Real Return Bond Alpha Fund A - PCRAX - Mutual Funds PIMCO",
+      "topic": "åµå¸ã»éå©",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "f68fdf7ed50c479e4ed3",
+      "firm": "Morgan Stanley",
+      "title": "From AI to Air Conditioning: The Power Boom in Asia - Morgan Stanley",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUWZuM2dvT2t6cUJNQmVXbG1pZGtGZlRiUVhyLXUxV1VTWXJBc3k1bm54SEItUVVzTTU1cGZKUVFWMlpHSU1MOVhsTXdwRmlnY05jbnNmbjA1YWJwdU8zR1ZLSWY1VHB4NG9YbzNybHQyWmFNVlZ2SGRaU0hjN2dQcUNqeTlQOWU2Sm9XUFdyQnYySno0UjJzYmNoaDY3YUZWMDNzcW5PM0Zmc0hXQW9vaEZKdTVzUQ?oc=5",
+      "published": "2026-11-13",
+      "description": "From AI to Air Conditioning: The Power Boom in Asia Morgan Stanley",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼",
+      "excerpt_status": "å¬å¼è¨äºURLæªç¢ºèª"
+    },
+    {
+      "id": "21b04c3fc0055e95e426",
+      "firm": "Morgan Stanley",
+      "title": "Carlos Andrade - Morgan Stanley",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZllZODFjRjE2TEpZTUhZNzFxR1VhcnFHd1ZyQVBXdDB5MHc5bEtDOGZHSl90SEZKVmpQWWUwMmxQMXIwVkktYW94RktZcVVuUGdpNHlpQ0M0VVA2SWNUOFp5QVR1VTY4MHFPT0JqWlFXdXh2Zm92LWlDN3Z3ektQeUtkV256S01pck4yRkg2VVVIY3JzUFpwYkd1ZVBjTnY3SWdNcWgzZVhYbkNUWTVrOTZ6WmZkcGJ6ZnRGNm1sdVdGQktuTXc?oc=5",
+      "published": "2026-11-13",
+      "description": "Carlos Andrade Morgan Stanley",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "d800026e075af2b87572",
+      "firm": "Morgan Stanley",
+      "title": "High Yield Team: Strategy, Team - Morgan Stanley",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNEpuRnFLbXNaekdFUEJQQjJxWGhMaUxsaTBFb3Q2V1J6V1YtWWt4VmZOMVhweXNrOXBuMXFYLXZLSnZEWEJLYWtMdWpwV2c0VE1PUW9ITF9KVm13akRGVHBRNHFWWDc3VGUtei0yWXY2dmNod05LRzNkXzRPZ2lZckg0UnpweUJISkkxbFFGYWVhUEphWHFjMGx0N21iUHBWZUVITXB4VndYc2NyM0Y5YXFhaUZ0alVrSG1EYUxRRQ?oc=5",
+      "published": "2026-11-13",
+      "description": "High Yield Team: Strategy, Team Morgan Stanley",
+      "topic": "åµå¸ã»éå©",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "e784d2d40c81ea364024",
+      "firm": "Fidelity",
+      "title": "Weekly market update | Market recap - Fidelity Investments",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdTRadjQySm9kc0NTT1djT3R1ZmVTTjlLckhLa2VuOHJzMU9PQ3BvOHRicHFubXByZDFQSlhkaGxHdTFGMlAyMFAxb19oenRKQU5XM0l4a014RFdUMGVPc2xsV2psb2hsTUtEVVVLTlFwX1JhazVjV05USzNWMDNnQi1PQUJ5QQ?oc=5",
+      "published": "2026-11-13",
+      "description": "Weekly market update | Market recap Fidelity Investments",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "9f09b3f758bf4f63d1a4",
+      "firm": "Fidelity",
+      "title": "Redesign Health Expands Investment Platform with Growth Equity Practice - Fidelity Investments",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU1JBVk5Bck54dUdlRU9OUnhiQWxiSTRDMU5Ed0Rma0s1LU1JVklUcXBsSjZJTGZyXzA0aUpmd3hHS09aYkVTX2J0MURWbFllREY3TjluaThVUnlUMllOSzBacnV6Rjd5YVYxZnB6eUFiM0FwYkxxYTMyOU9VTHdBTExKNGIzLVFCV1NGbHo5NlBPZHd1T2ZIelN3N3VONmcw?oc=5",
+      "published": "2026-11-13",
+      "description": "Redesign Health Expands Investment Platform with Growth Equity Practice Fidelity Investments",
+      "topic": "æ ªå¼",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "787482609866090d265d",
+      "firm": "PIMCO",
+      "title": "PIMCO Flexible Emerging Markets and Income Fund INST - EMFLX - Interval Funds - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVm5PZzYzUjZLYnFEdE5SOXdsa1hMU0tMenZpSVJaS0ZPMTV3dE5OS2k3cDhzWk5kZkRzcksySDFKdzZFTFFybVZxRmtIbGlzLUJOamxtcExZY0VtTVc1T0ZzS1JOQUZ3Q3Y0dmpsVFNxNEdONmtLeVVINUZLemdDQ0s3SnpMXzRWN2RRLVJseXo2S3NpX1I4MTZyLTZzOEoyVGQxQWpqOUVzVHZSa3cw?oc=5",
+      "published": "2026-11-13",
+      "description": "PIMCO Flexible Emerging Markets and Income Fund INST - EMFLX - Interval Funds PIMCO",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "612de2eac5ce20669e2a",
+      "firm": "PIMCO",
+      "title": "PIMCO All Asset Fund INST - PAAIX - Mutual Funds - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU2FtcTFVQ0lhZFBLZTZ6MnZ4bExLTWM1N2xsYXh0NjdCWEtQbjIxdEpmQVBxTThkbGtBVktfYk1QeDZKdnFoNlZLRU8xV2ZzZk5KZU1BdkJYMXVJY0Y2ZkpLRGswOTdZTmlaSHFFbEtMRlFtbWNZXy1pTHF4R0tCVU12aVFHeTZV?oc=5",
+      "published": "2026-11-13",
+      "description": "PIMCO All Asset Fund INST - PAAIX - Mutual Funds PIMCO",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "95418213c1936e13234c",
+      "firm": "PIMCO",
+      "title": "PIMCO Long Duration Total Return Fund INST - PLRIX - Mutual Funds - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQkVWdjU2eGM4OEVEQmNHTEwxTnJZLXVSTUxfd1ZuNTNHT2RQa2lPeVROeTg4RXFreVp6eHQ1R1FKSlRfd280ejZWRW1Lb3NEc3RBOEgza0J0OVFEdy16WmR2UUNYUnhmNTRzdlRFUHd2RVlKZ0FUZUItNmxURHFuNFBaVVd6TVpVTUhNdlIwdzZ6LUZDaTZJVWJSd2Y0djA?oc=5",
+      "published": "2026-11-13",
+      "description": "PIMCO Long Duration Total Return Fund INST - PLRIX - Mutual Funds PIMCO",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "de909c61af32a9bbbdb1",
+      "firm": "PIMCO",
+      "title": "PIMCO Short-Term Fund INST - PTSHX - Mutual Funds - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVExmYkdFeUw1RXBDak9YVDQyV0dZYTJCR1Q0Z3RScXcxaGVtc050RTA3WngteUItSGdCNlpWZmwwTzl1aFE3TzJOUGpSanJUMFU0dExsbmhZNWhtYWdLay1JdFVRWVEwRHpxZ1RkTm43N3BxR21KQ051MWtUTUtFVlE2RktfWGlVNGc?oc=5",
+      "published": "2026-11-13",
+      "description": "PIMCO Short-Term Fund INST - PTSHX - Mutual Funds PIMCO",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
     {
       "id": "c956f15715db084d81bb",
@@ -905,17 +1273,6 @@
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
     {
-      "id": "e4b1ccdc7601ec194f6f",
-      "firm": "PIMCO",
-      "title": "PIMCO Investment Grade Corporate Bond Exchange-Traded Fund USETF - CORP - ETF - PIMCO",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWE1NeDllS3ZrX3JOTURqMkU3UHNTbWV4TG5Val9VekVYSmNtXzZ6dHhycDE1cE9leGJ5ejRFTXhGR2thTzNIbTA4Umx5aTJjanJqYUJiNGdWbDA0Yk8tQnhURUE0NjMzd0N3UzU5RzNQaTZSVDhGWTlCRFVqaGJmdDN5MFFzckxTTkZXdmxUdmdZU2hHY3RVWmtuR2ltWWFyNktGYjZLRHZWYjNMdlJ4Z1BB?oc=5",
-      "published": "2026-11-12",
-      "description": "PIMCO Investment Grade Corporate Bond Exchange-Traded Fund USETF - CORP - ETF PIMCO",
-      "topic": "åµå¸ã»éå©",
-      "source": "Google News RSS",
-      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
-    },
-    {
       "id": "afe2c0324d16566f61ea",
       "firm": "PIMCO",
       "title": "PIMCO Total Return Fund ADMIN - PTRAX - Mutual Funds - PIMCO",
@@ -945,28 +1302,6 @@
       "published": "2026-11-12",
       "description": "PIMCO Long-Term U.S. Government Fund INST - PGOVX - Mutual Funds PIMCO",
       "topic": "ãã®ä»",
-      "source": "Google News RSS",
-      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
-    },
-    {
-      "id": "2afa2439de2272428b6d",
-      "firm": "PIMCO",
-      "title": "PIMCO CommoditiesPLUS® and Bond Alpha Fund INST - PCLIX - Mutual Funds - PIMCO",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSFR5ekhMX1loZFQzZkVXWjdqVnBRYzROaHNZeGhmeUYtNnVWdmdFN3FwWS1ZQlM1Rm9MWnM3YVZ1bEQ0dHpHeFNCOTJOTmxHYzZfeHJWRk1mcUQ0Unk2ZmlPcjR2SkJwNjc3X1AtbWRZaFhCdHV4UzJDVEU2anFpa05UY2R4Y0ZydmR3dWtDS0xodUxvSzJHMkt0dEJzNEMtdl9BLQ?oc=5",
-      "published": "2026-11-12",
-      "description": "PIMCO CommoditiesPLUS® and Bond Alpha Fund INST - PCLIX - Mutual Funds PIMCO",
-      "topic": "åµå¸ã»éå©",
-      "source": "Google News RSS",
-      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
-    },
-    {
-      "id": "485740e3ed8ba7630216",
-      "firm": "PIMCO",
-      "title": "PIMCO Commodity and Real Return Bond Alpha Fund A - PCRAX - Mutual Funds - PIMCO",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUU5MRlpRUUI1NU1ydUk4Y0NuR2pGQWZuTUV2ZjZxRVo3U0hfWnJLc3d1Tm96S1N4d05yQU1PZVJfVWNVZ2UyM2pUWDlvUm5EM0V4eVBCNjZkUGlrcUxOazctV3ptdWZJOVI2TGVLUktBMXQzS05XWVNDZXNMZXVtMkVScll3VFg5MklpdXAwY3R0WmxXUDg3ZXFva3U0OEFRT3J2cDdJQzg?oc=5",
-      "published": "2026-11-12",
-      "description": "PIMCO Commodity and Real Return Bond Alpha Fund A - PCRAX - Mutual Funds PIMCO",
-      "topic": "åµå¸ã»éå©",
       "source": "Google News RSS",
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
@@ -1088,6 +1423,84 @@
       "published": "2026-11-12",
       "description": "PIMCO RAE Emerging Markets Fund INST - PEIFX - Mutual Funds PIMCO",
       "topic": "çºæ¿",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "80915851841301475902",
+      "firm": "PIMCO",
+      "title": "PIMCO Emerging Markets Opportunities Fund INST - PFSIX - Mutual Funds - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNUhmaHNGaEhhTk5wWmxRUjVBeVdCMmFxQzRjbmpTZkF1QmtpSzdmUEczVXJNS1VTVldOUFNVVkg2NFZaVDFmTnlRcUVrMXM4ZXZVRFFiTS1PZ09uSzB5bHdhX2NfUXFRNldKVC1EUFBfN2s5VFNtRkZ2elREN1hsTktjV0JOdmowbUktUUZjenktVGNjV3hQaENHRVgxVl9BckhXRQ?oc=5",
+      "published": "2026-11-12",
+      "description": "PIMCO Emerging Markets Opportunities Fund INST - PFSIX - Mutual Funds PIMCO",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "3f4acfb04b69457c934d",
+      "firm": "Morgan Stanley",
+      "title": "Midterms Could Delay the AI Buildout, Not Derail It - Morgan Stanley",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMDhkSFRLUGkwUndNOEt2QU85ZVY5a2ppMzlHcEoyaVl2ckZiWVpkTTRuem1jT05kN2JpVEVGWWdNTjdwSVBFQkxxc2d0VTE1WlFmVUtSTjVrZURobzh0OGQxVGNFbVM5SFFTeXFieXh0M3ZoQk5iXzktaV9CUVZZQjBOUlRKUVhoalBjZXBHTnN0Wl9kQ2RwMklQYnhSZ3ZNalNEWDdHWTkyNVdjMWFFRFAySVRrUm5xVktja2R3?oc=5",
+      "published": "2026-11-12",
+      "description": "Midterms Could Delay the AI Buildout, Not Derail It Morgan Stanley",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼",
+      "excerpt_status": "å¬å¼è¨äºURLæªç¢ºèª"
+    },
+    {
+      "id": "445ef80df86b434f6bd2",
+      "firm": "Morgan Stanley",
+      "title": "Our Business (English) - Morgan Stanley",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLVRIT2hVQ2w3R2hUNi1KaG5ONFVrcUZ5WTZrSzRDTnZzbjk3U0lsd2lValFkTGxTSWZkV29MYTJoS1hOdkNGZ3FjVWsyUjRlS2xGU25JWmpGUGFONEFnLWZYMTBmUTY5UG1UZ3poUGhVbGdTeWluRm9heGpScDA5U1RRQUpIZXFlaGJlc0l3?oc=5",
+      "published": "2026-11-12",
+      "description": "Our Business (English) Morgan Stanley",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "a72096490626413b86f8",
+      "firm": "Citi",
+      "title": "Industry Perspectives Episode 6 - Citigroup",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBqRldUTGJKNEhkd21yUmRoZ05HQzVURFliSlNQbEE4RkNzMlNGOUwxbTdwaFhhOEw4Z3h4MzkwMGJCU19mZGJ1NU5aOW90RzQwb1BqcUVFamQzbUEyRkNuZzhjVmxXeVNONG9OY01MZnlYQjY5V1B4QlRSQW44UQ?oc=5",
+      "published": "2026-11-12",
+      "description": "Industry Perspectives Episode 6 Citigroup",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "52bf43f9c522cc17be08",
+      "firm": "PIMCO",
+      "title": "PIMCO RAE US S Fund A - PMJAX - Mutual Funds - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMTdLT082anFpSFpiek9WNTZ3RVdfS2xhY0gyR3dSZExIbmRJOGZfQXFNdHlHLU9BdUpNYUZVcmJlaGxSM0tmcm9DckdsSWgwMzd1WFE2aUZnM2plWFJxOGU4T3p5b1dZd0tBQmNlZTh3WUZqSmZlcmdvMGV4NE1NeUhnSQ?oc=5",
+      "published": "2026-11-12",
+      "description": "PIMCO RAE US S Fund A - PMJAX - Mutual Funds PIMCO",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "ec1816af103a7d6eee2f",
+      "firm": "PIMCO",
+      "title": "PIMCO RAFI Dynamic Multi-Factor Emerging Markets Equity ETF USETF - MFEM - ETF - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLXUxa1J5cHB0X3o0RlhuMkRnT0Fpai1rblFkdFBsc0FrRmN4R19PT0pncWhQTlI0SXZTWVNqUTg4cFFUbXlyRU5kMGFQU0JnU01YRVNuM2pELTdDN1R5YktUY2l4VHEyRUo3SUZDeTJFMkpsc0tUSVZuejczVEVqTi1OSGZGRFVaNDRLRVN4Z1o0clpTZ0M5a2toUjNMaVQ3X2d0M005ZHR6SEZ6OGlpVGtIUQ?oc=5",
+      "published": "2026-11-12",
+      "description": "PIMCO RAFI Dynamic Multi-Factor Emerging Markets Equity ETF USETF - MFEM - ETF PIMCO",
+      "topic": "æ ªå¼",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "aad23846df7bf0c30f57",
+      "firm": "PIMCO",
+      "title": "PIMCO Income Fund A - PONAX - Mutual Funds - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcEZTWHR1TjJldmkxQ2JkRGJMQWNQNjMxWDhUel9GM2MzR084LS1GU2tQQ3RIMnZCS0NNUmxzVDNpaW5HNnpLWkVLZk9Ub2ltYzdkRGFKbDUyODdGMkxaNENXWTZHak9uaW1DVVpUS21CLU11LTF6eE1xOXRrQV9XWg?oc=5",
+      "published": "2026-11-12",
+      "description": "PIMCO Income Fund A - PONAX - Mutual Funds PIMCO",
+      "topic": "ãã®ä»",
       "source": "Google News RSS",
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
@@ -1294,17 +1707,6 @@
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
     {
-      "id": "80915851841301475902",
-      "firm": "PIMCO",
-      "title": "PIMCO Emerging Markets Opportunities Fund INST - PFSIX - Mutual Funds - PIMCO",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNUhmaHNGaEhhTk5wWmxRUjVBeVdCMmFxQzRjbmpTZkF1QmtpSzdmUEczVXJNS1VTVldOUFNVVkg2NFZaVDFmTnlRcUVrMXM4ZXZVRFFiTS1PZ09uSzB5bHdhX2NfUXFRNldKVC1EUFBfN2s5VFNtRkZ2elREN1hsTktjV0JOdmowbUktUUZjenktVGNjV3hQaENHRVgxVl9BckhXRQ?oc=5",
-      "published": "2026-11-11",
-      "description": "PIMCO Emerging Markets Opportunities Fund INST - PFSIX - Mutual Funds PIMCO",
-      "topic": "ãã®ä»",
-      "source": "Google News RSS",
-      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
-    },
-    {
       "id": "52640e31136e8db899f2",
       "firm": "Schroders",
       "title": "Schroders Credit Lens November 2026: your go-to guide to global credit markets - Schroders",
@@ -1444,9 +1846,9 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObWNEb2hzYktqRWI5NXJzVWNmMmFOWnd2NEUyRmhiay1fTDRhdTJSMDZibTdib1R5OWZRZ1dZZjdjUVQ0SU90TmtUUDBGSTR2MmY3aWcwTDNiSFlkLUt4c3JiV090Y0VneE1HV2N0MXN0SDdLMzl6R2hWakdMNGhaRWhUQXJCLXRnTFFGcWZKdG1MVnFIVnVzT1VOc3BWNDdRXzNQMWlUSVVDRkNtZXB6cy1DSHRLY0JFSzZ2UWFFS3ZKM25vbVozaHgzQ0xvQ1BSU1pHRGtzbkZKalV1?oc=5",
       "published": "2026-11-10",
       "description": "Anthropic, PBC - S-1/A-2 Fidelity Investments",
-      "topic": "その他",
+      "topic": "ãã®ä»",
       "source": "Google News RSS",
-      "origin": "検索フィード（公式発表未検証）"
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
     {
       "id": "5ce27f1ada6c2c7e4a37",
@@ -1580,6 +1982,28 @@
       "source": "Google News RSS",
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼",
       "excerpt_status": "å¬å¼è¨äºURLæªç¢ºèª"
+    },
+    {
+      "id": "7ad7d6fade20a4639426",
+      "firm": "J.P. Morgan Asset Management",
+      "title": "What to watch as earnings season enters full swing - J.P. Morgan",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRnY2WDlTNkdsdjRrS3ZhVUdoQXNSQ3cwUGtfemdSdXcyT2xIcGNIRnpqOGUtd2xIdV80N3pXQ3l6M0dSVWlpMldaeWs0S09IZjVVUWJ4RjZta3hKNkMwQnZXcjByeGNCaTNJNHZCQ21sMFBWT1lSWGZLaTVHc3JqMDlnaHBvd19lSl91czBFOF9yRFpqYVZlc0VacmFCLTZBOGdjYkpxMWpfckxKdXpBM3JrajI5dVVNdDdlaFN6UlZFWWttWjJ6cmNZeUxpbUxpcjRlYllDYmc1eEpkT0hyQ0U0c0hmS2Q5?oc=5",
+      "published": "2026-11-10",
+      "description": "What to watch as earnings season enters full swing J.P. Morgan",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "55ba6019b77bb448e4ee",
+      "firm": "Vanguard",
+      "title": "Beyond CCCs, high-yield appears resilient - Vanguard Corporate",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdkt0cmpwSFdmM2FHdzg1YkpOa1BZT0VkMU4xYTh4Q21Pb3dyU0FISVd2cks5OFBaRXE5QklKZ1F4Q2ZuRHNJR1UyR0FqMGlGaEtxRGg0THJ1SW5fY1F0QzJPWjM4Y1RSQ1lCYi1NOE1BLVZlZlNUcWpRQ1FEQXEwQm5ZNmVlUVR3THpxa3ZjN3k5azk4Q2Vma0dRTmFNdzFrMmNJdVRDVWk2cDM0bHFVcFNGN1JwRW1v?oc=5",
+      "published": "2026-11-10",
+      "description": "Beyond CCCs, high-yield appears resilient Vanguard Corporate",
+      "topic": "åµå¸ã»éå©",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
     {
       "id": "18ce9d06dcfbecc0cb1d",
@@ -1848,6 +2272,50 @@
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
     {
+      "id": "e15251959958a36cdc69",
+      "firm": "BlackRock",
+      "title": "BII Global weekly commentary - BlackRock",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOFNVNmxoX1lYbWFyMGFWTjZSYk5leWlRb3IzVWhhM1hKcW9hNWZHTHdkWmtURXJ1S3o1MmlsZGdfTENaSThjMkNuNHlDVzN4ODN6WnZQc09MQzBZWXlxM254VDEzaXo3U0ZoT3I1Vm81Q0FTX1AxZ1dpVHMxNVNhZ1JPZEJ2eHg4ekZJY21YT2VJbmlNSGdqWFk0LTNacENkYTlHOFBZelJhb3JzM01YaS1wbU1FMUVidER4SjRQVzJJQWhUZU4zNjNzQ1k3RkhTMlJ0TUFGQ05SU0tjMFNiRUZ2RV9HcmJOUjNF?oc=5",
+      "published": "2026-11-09",
+      "description": "BII Global weekly commentary BlackRock",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "ec4d18c8929789a2ab3d",
+      "firm": "UBS",
+      "title": "How will Fed rate hikes impact markets? - UBS",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOTlEbXVCaEhNS3lwQVcyV0tHZG1OZGFYWlNmeldpYllCdnE0M3g3RW1fclptSE13VmYzT2RvSE0zODFaZi1sWVBGS0hkMzFsdEI4d3Vra2tjdGNWV2dhZ200M1o5dmxNOG1ZajhHOExQam5nQUM4eDA4RW10b0t5OUhYMlNsblBlN1pfYURB?oc=5",
+      "published": "2026-11-09",
+      "description": "How will Fed rate hikes impact markets? UBS",
+      "topic": "æ¯æ°ã»éèæ¿ç­",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "0e03482b62169b12a936",
+      "firm": "UBS",
+      "title": "How can I invest in transformational innovation? - UBS",
+      "url": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxOaTVJZTdwR2RyM2xCN245RS0wMzBIYmhtUFJkUHdhUG1va1RSakM4TGRFTUhCQWVTZ3N4dS1SaUxoV0VPTVZCblhCbkxLdnkyS0g2anJVVkNwUzFySEFzZzROTnRNTVlDZWxreDJwa3NfQlBGNDFYUXRpYWxsRE5qRnFtS1pSNHlIV29tdkRKaEhnajc2clJkTVpuc1pGS2tVNlFYZ1BJVldlaG5INXVwMkRJSG83VXVCeTgwY3pYWV9nM2V0WnVFUUN0MFFOcTZDcjFZRlVFSGVjS2dQNmlaNm12RV9SaXZNTWtncmdBcVRYTkZEUzhLTlVHY09mam5zYzVSQWdiZTBLSG5KTnFjVmdheGNtSWVqNC1Sa0RtMzcxbWNlbFptZEt0V2ZnbzU4YnN2WThyNDZzdnhZaWgtSGhsejdtUTFHbnlORWJCMVZSeUQwb3Ntc2V1c1h4LU9BMEVEN2NSajZjZGhJX0pUdHpzMnZfOW5oS0xhaG5faS1nQ3IzM0dZQnFONHNuUjJGVXNXV3B6dHZHSjU4U3J6aklYajg2V3FndmtSZnVKaXBsNWJCdFdHcW5CR2loWmd6aklYOWpMTm84LTNlWEtMdW54Q1dzR2RWdHVhcTd6WWhPeWRkV3RjQVR6SWpBVTNNcUxmT0tRRzFUSWFIN2VGQ1dwWkhBaGpnQmNvNDhuYzN6bDhuSUVJb20yQnlFbWhhUDYtX0V1NDFCYWpacWhQTDVUOXR4ZDJlN2NYaHhOWFRwQQ?oc=5",
+      "published": "2026-11-09",
+      "description": "How can I invest in transformational innovation? UBS",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "8114c22af3018245358f",
+      "firm": "Fidelity",
+      "title": "How to invest in investment funds - Fidelity Investments",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdmtXdzlNRWRDZUJ2ek9YaDg3aGFScnExQ1p6ZVdBcldacVpkNlptaUszMHdFOGcyaVlXeG8tS2Q0SG43Z0FoblJFM0hWRVdqUTZtdW5TcWJ4bTkyaVc4clhDWXNXWGFxNHNwai1QeHZDSHhjNkZzMHNfTE5Ub1JkNm9GTWpWREtaWjdNSXpTZ3A?oc=5",
+      "published": "2026-11-09",
+      "description": "How to invest in investment funds Fidelity Investments",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
       "id": "15a59a816702e3f490dd",
       "firm": "BlackRock",
       "title": "Weekly market commentary - BlackRock",
@@ -1904,13 +2372,13 @@
       "excerpt_status": "å¬å¼è¨äºURLæªç¢ºèª"
     },
     {
-      "id": "a1ccaaf00388a2c237d8",
-      "firm": "J.P. Morgan Asset Management",
-      "title": "Hedge Funds Quarterly Outlook Q4 2026 - J.P. Morgan",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPODc3ZHpCa0E3REF3ZmtKMUpsUW56T25RUEJaVFY2ZjlqcjA0MXR4bENmMWY0NWpEZ2VJQkk5eS1KcUIyd01HNUFBdVBCazB1QzhLbnA1RXJXUURxcGZ2YnpJVkxPWU80MWdjOVdzc2traDRPUTY1OUptSk9aZ19GQmtwVGRkTWpzZHRBdEk4ZHhaRnJHdFhScGFLUDdkLThkVm9JRnlScFpPYjU0YWtxS2JJbGtBTVBOWjNRd0xmZw?oc=5",
-      "published": "2026-11-07",
-      "description": "Hedge Funds Quarterly Outlook Q4 2026 J.P. Morgan",
-      "topic": "ãã®ä»",
+      "id": "e90d997453121afffbd8",
+      "firm": "State Street",
+      "title": "State Street Global Emerging Markets Screened Index Equity Fund B Shares - State Street Global Advisors",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVXVxbDVnNGdOQ0EyZzVwR0gtMWMyR29RblFSR0tUZnBZZFBUb2Z2MjU5Uk5KNzktQmRhMDdVSi13WjFnMUdWWWg3RklUNTBzZWFyTXRrSDhZTVgzMV91b1p3V01YZ0FhRnFQTlVPb2ZYSHRsS1ZDTHhmQzE5N0hsRUlkWUpYbG5ScEFmQmR1Y1J0TVNQVjMtc3V0bEw3T0xtRVFXTnhoakJ5eGlYQXNocXBFYXR1SU5QVWx3NW56LS14RXoxUFZHTXlQTFN1ajdkNHBObDZyMVVVcmxLcXpZ?oc=5",
+      "published": "2026-11-08",
+      "description": "State Street Global Emerging Markets Screened Index Equity Fund B Shares State Street Global Advisors",
+      "topic": "æ ªå¼",
       "source": "Google News RSS",
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
@@ -1921,6 +2389,28 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBoQk5QTzU1QUFraFJPMlNZZ21ib3FteGxtY2JUU01PaUxPWnVPcTJqdnYtVFAyTDZhQURQeG12akVqVDlHd1B3ZHlQeU0wYzhsNlNEREprc19HR29KanU2Wmk3SEU1b2hzeWdpSUN5VWJmY3loQ0NfY3pjZw?oc=5",
       "published": "2026-11-07",
       "description": "JPMorgan Private Markets Fund J.P. Morgan",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "20b62fa878da0e42bfb8",
+      "firm": "State Street",
+      "title": "Looking beyond the growth-defensive split - State Street Global Advisors",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbmxKRkV6dXhqZ05odEFnSGMtQ28xY2VKVGdtWl83NENrTEpuNjVMd1J2RF80NGRaM3FpSnpobjcyaFF1Z3ZTQy1MQk5selFNYk5VZkFKcmpQZVlOTzY3M1Vna1BtM09lYjRxSFpsUGhwZTdES25jNHJqd2V5blVXYW5fSHA0bFNjX2t6dE9vdjNxcHRNNHlQdw?oc=5",
+      "published": "2026-11-07",
+      "description": "Looking beyond the growth-defensive split State Street Global Advisors",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "a1ccaaf00388a2c237d8",
+      "firm": "J.P. Morgan Asset Management",
+      "title": "Hedge Funds Quarterly Outlook Q4 2026 - J.P. Morgan",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPODc3ZHpCa0E3REF3ZmtKMUpsUW56T25RUEJaVFY2ZjlqcjA0MXR4bENmMWY0NWpEZ2VJQkk5eS1KcUIyd01HNUFBdVBCazB1QzhLbnA1RXJXUURxcGZ2YnpJVkxPWU80MWdjOVdzc2traDRPUTY1OUptSk9aZ19GQmtwVGRkTWpzZHRBdEk4ZHhaRnJHdFhScGFLUDdkLThkVm9JRnlScFpPYjU0YWtxS2JJbGtBTVBOWjNRd0xmZw?oc=5",
+      "published": "2026-11-06",
+      "description": "Hedge Funds Quarterly Outlook Q4 2026 J.P. Morgan",
       "topic": "ãã®ä»",
       "source": "Google News RSS",
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
@@ -2273,6 +2763,28 @@
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
     {
+      "id": "b7e08ef4c439c20ae0d7",
+      "firm": "J.P. Morgan Asset Management",
+      "title": "Keeping it real: Real assets, real rates and inflation - J.P. Morgan",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUVJUdWtYU2dldjdXSXJYV1lpRDJhSFJpSDJBcXhkRjAyeUNUcHJnR0E1dVFDVERoaVZud0oySktSLXZyYUNLV0ZKZWM5MnROd09pQ2swSHh6aFRwMTVFTDduMmlxWk5sWjJCaXpCM2RPQWhYM2lQNmxFY1FzcjF3U0NqV050Sm1GYW1xZ0JDbV9TX1lTZndCb1FrUUlmS1lQaktwQm1YVjU1WURXdjFTX2pVU19xb2xjUTVwYmZEcmNvWVVt?oc=5",
+      "published": "2026-11-06",
+      "description": "Keeping it real: Real assets, real rates and inflation J.P. Morgan",
+      "topic": "æ¯æ°ã»éèæ¿ç­",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "87a3d2a896b5a70343de",
+      "firm": "State Street",
+      "title": "SKUS : State Street Kempen US Small Cap Active Equity UCITS ETF (Acc) - State Street Global Advisors",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHJnQUcwcUZWN1pidnRQS2JCNGxGeGhyUnJEQVNwa0pWNkJ4SXRFWi1OcWh0RHlrclNGM3lfYTRpSkhwN0NfYWpGblZhS1gxNnVuVzVudGFYbWlCMEVvTEhIWTJSaDJxdTJRM2lyVGxoSzlIQ25SQndiazRxVnBYcUkwRFZmZ3cwOTItSUVOaWFSNmlITF9ETDAxRUxZN2lhU0U2MXVST0YzUm9mdzltbmd3LVBocmln?oc=5",
+      "published": "2026-11-06",
+      "description": "SKUS : State Street Kempen US Small Cap Active Equity UCITS ETF (Acc) State Street Global Advisors",
+      "topic": "æ ªå¼",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
       "id": "2004b7bd73439ee8004b",
       "firm": "Goldman Sachs",
       "title": "Goldman Sachs Announces Partner Class of 2026 - Goldman Sachs",
@@ -2480,6 +2992,17 @@
       "published": "2026-11-05",
       "description": "Income and resilience when global equity leadership is narrow J.P. Morgan",
       "topic": "æ ªå¼",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "7687f6c576cb0c9c4add",
+      "firm": "UBS",
+      "title": "UBS Blue Economy USD F-acc - UBS",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNHc3TFJvMnNRV21Rb2NsTllieDNYdVV1LWtWa1l2eDNjQTB2SDdPSzBoRnVsTElPQXNIb255ZTBWTXlQcU5jM2NEOXhYOU5aLUpPUFBBbjh3dDE5VlFaNWtuWjcwbTZqcFhZNUZmNktXZG1BRlBZQ0FKWkp5Z3FadkJCTGN4cmxNQzlIOEpRZFhJalc1OE1GMDU4VGxUb0xyZGtDbGtZanhsMXRhRFBZ?oc=5",
+      "published": "2026-11-05",
+      "description": "UBS Blue Economy USD F-acc UBS",
+      "topic": "æ¯æ°ã»éèæ¿ç­",
       "source": "Google News RSS",
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
@@ -2734,6 +3257,39 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWko3U0MwUmRMOF9UaUd0Tk5RbXRyNEFRTGJCLUZ5bTFPQ190UjMycDdHTldBQnJ3VEF3akNQR1dBa3VZZlZIQ3RBNEl6OHhCRHdNZTFlQkZER3FXRlo5WFhkQUlfZlZRUjQtRjBZSTdXT0RnYk9leUlaamFiRzVPdk9aVzR2WHdMdkhXRmZyTFM2cHZRNE5VOGtJWmRvakRYQW9QaTBJOWcyWTI0am91RkI1UGdIeUZheGN4SGZYNmZrTmM1V2JCajJfUQ?oc=5",
       "published": "2026-11-04",
       "description": "Now You Can See Everything J.P. Morgan",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "61609bac35687ac4620a",
+      "firm": "J.P. Morgan Asset Management",
+      "title": "What does a Democratic Congress mean for markets? - J.P. Morgan",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNYlQzb2NTd2FzMUhGMVdQVXVESGZHUWJ0T0xPWkVmYzJHd0JENTVhQ1ljZV9UN1Nielc4Z250alVEMHhibFRUeGw5Z2l4aHNHX05UWDJXWHhfYXljOVpCUHVJbTk0cmVlakw4cTNMVWxDUW5Ub0lWN0VxUF9INVRncWpySGEtN2IwUEcwX0cwQUtvbWRjOHJ6OVVLSUg3RlZLUmplZWMzeGV4ZjVkemxxWmljVzVMWmI0UTNtWllDdDBOQ29uQTRneXlWR1ZNdUNycTg5M2RZYXp6UHk2SnBpVHJpWTVqTXkyYUEtX0x5OWhkU2lKUm1Rb09JMzhaaDNjZ0NEZUVlcw?oc=5",
+      "published": "2026-11-04",
+      "description": "What does a Democratic Congress mean for markets? J.P. Morgan",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "d45bf4bc06505062608e",
+      "firm": "Citi",
+      "title": "Account Opening kit for Opening Trading account with Citigroup Global Markets India Private Limited - Citigroup",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNFA0R052emRxblU2cVlldERjeVE1R3F3RkwxUlJlSVlDUE9FazFsOWV1M2h2RXRiMElLeEtZNmE0cnZDTnBWLUl4MnYxaUdaNTRzUlhmMzdvRlFUdnhZaTdLTEJOeWdjbkdZeG5pbjVtcG0yZXUtRTBPTmRVSmItV04xZkt6QQ?oc=5",
+      "published": "2026-11-04",
+      "description": "Account Opening kit for Opening Trading account with Citigroup Global Markets India Private Limited Citigroup",
+      "topic": "ãã®ä»",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "e6570faefc91a64c93e3",
+      "firm": "State Street",
+      "title": "Midterms change Congress, not the macro regime - State Street Global Advisors",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOam9yNTF1cEVWZThOQWJadGtzb3p0R09ZUjlQZHhoOExQZnd3YmYydjItU1NvLVA5MTZ6Mzg0QU12M0M2WURmZVNVY0ZLczJ5NmxGZU9kQ0doRFRlYkc5aGtMOFFEMXFjMU1OcDBJWTdhOExHUG9uSTZkR0sxdldaY25nT3pVMzM4d2Exbnp3dmkwVGpBd0paUVZ3?oc=5",
+      "published": "2026-11-04",
+      "description": "Midterms change Congress, not the macro regime State Street Global Advisors",
       "topic": "ãã®ä»",
       "source": "Google News RSS",
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
@@ -3215,6 +3771,28 @@
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     },
     {
+      "id": "88ef6ad5600454a16576",
+      "firm": "PIMCO",
+      "title": "PIMCO ESG Income and Bond Fund INST - PEGIX - Mutual Funds - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWVRqZ28ycy1tbEJaMndaTmFDNGhzU2dWX2NEb2lQWXJvTDU1anhFa2NnWHByV3lzQlRDbnl4Zm1WQmZqczUzenFpbXlpMFJrejY4dnVqOFNtX0pVbVNpT0ZmWHZwTkhMOHNLMnlfZV8tMGJHWVNXblZ1dlhtaWRkSVRHelUwQkR3SmZGMlBRbnp0V1VlQXc?oc=5",
+      "published": "2026-08-01",
+      "description": "PIMCO ESG Income and Bond Fund INST - PEGIX - Mutual Funds PIMCO",
+      "topic": "åµå¸ã»éå©",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "94fa09f284b3cf0c179d",
+      "firm": "PIMCO",
+      "title": "PIMCO Stocks PLUS Bond Alpha Fund INST - PSTKX - Mutual Funds - PIMCO",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT0cyNGxKZnh1bG9oTkFtQlJvVjVsanNSUElWcTdxUTZYNW84NVdJRENqbWN6Q3h1SUQyRzNVTklnMWcxMFlDWk1jWS1FcmxWbWpkTGVYSV90RkRHLXhjZjhYZkhGTzZTLW9lTUlFRTJZQmJHY3poU19kYzdtQU9lZEZPdWI4b0s5U1NabnhNQk9iMU9qbTFpUEpn?oc=5",
+      "published": "2026-08-01",
+      "description": "PIMCO Stocks PLUS Bond Alpha Fund INST - PSTKX - Mutual Funds PIMCO",
+      "topic": "æ ªå¼",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
       "id": "9f4c74b70141fa825317",
       "firm": "Morgan Stanley",
       "title": "The BEAT Video - Q3 2026 - Morgan Stanley",
@@ -3279,8 +3857,19 @@
       "topic": "åµå¸ã»éå©",
       "source": "Google News RSS",
       "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
+    },
+    {
+      "id": "3f26e53d546aab52e4d8",
+      "firm": "UBS",
+      "title": "UBS (CH) Institutional Fund 3 - Bonds USD Emerging Markets Aggregate ESG Index NSL (CHF hedged) I-X-acc - UBS",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQQndMcW9KeTVabkxVYjFQTlZ5Mm54M0VURTBLU1EySW1kcko1ZTBOVlQyc0g2VTN6bWp6M3ZhUnliX1ZSWVYzVTJKMTlhb2hJNjhiS21DSlpXaXM0NWpmckpmMWJPN29McmZEc1JxRUZJenc3UGFydHk3TGRfak5FcG1ZendFdDVzdno5RXcta19DRWpzZEtudkdhQlMxa01TazZTV0RFd0M3VlZHbExYOTgzdGpjLUlDVGJfSDhhV1JEb1N1bzFiY183SmI2b1ZZSHBPNVlPX0pTV2EyU3hucjdQX0hUekF1RFQtYUYxbTJNanpmRGtDRlpoZnhuOHJ1Z0FOZ3BfRjBNaVRqaHc?oc=5",
+      "published": "2026-05-20",
+      "description": "UBS (CH) Institutional Fund 3 - Bonds USD Emerging Markets Aggregate ESG Index NSL (CHF hedged) I-X-acc UBS",
+      "topic": "åµå¸ã»éå©",
+      "source": "Google News RSS",
+      "origin": "æ¤ç´¢ãã£ã¼ãï¼å¬å¼çºè¡¨æªæ¤è¨¼ï¼"
     }
   ],
-  "successful_queries": 15,
+  "successful_queries": 13,
   "total_queries": 15
 }
