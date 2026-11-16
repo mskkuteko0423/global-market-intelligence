@@ -5,6 +5,7 @@ Candidate labels are heuristic and must be checked against the source.
 """
 import datetime as dt
 import json
+import html as html_escape
 import html as html_lib
 import pathlib
 import re
@@ -15,6 +16,8 @@ from urllib.request import Request, urlopen
 
 ROOT = pathlib.Path(__file__).resolve().parent
 OUT = ROOT / 'data' / 'official_pilot.json'
+PREVIEW = ROOT / 'data' / 'official_pilot_preview.html'
+TRANSLATION_LIMIT = 12  # max requests per run; public translation endpoint, no paid API
 SITES = [
     ('Goldman Sachs', 'https://www.goldmansachs.com/insights/', 'goldmansachs.com'),
     ('J.P. Morgan Asset Management', 'https://am.jpmorgan.com/us/en/asset-management/adv/insights/', 'jpmorgan.com'),
@@ -212,6 +215,55 @@ def classify_focus(title, description):
     return primary[:2], secondary[:2]
 
 
+def add_japanese(articles):
+    # Machine translation only, not a summary.
+    try:
+        from translate_helper import translate
+    except ImportError:
+        print('Translation helper unavailable; English retained', flush=True)
+        return
+    attempts = 0
+    for record in articles:
+        if record.get('page_type') != 'article_candidate' or not record.get('excerpt'):
+            continue
+        for field, source in (('title_ja', record.get('title', '')),
+                              ('excerpt_ja', record.get('excerpt', '')[:420])):
+            if attempts >= TRANSLATION_LIMIT:
+                break
+            attempts += 1
+            try:
+                record[field] = translate(source)
+            except Exception as exc:
+                record['translation_error'] = type(exc).__name__
+        record['japanese_status'] = ('machine_translation_of_partial_excerpt_not_summary'
+                                     if record.get('excerpt_ja') else 'not_translated')
+    print(f'Japanese translation attempts {attempts}/{TRANSLATION_LIMIT}', flush=True)
+
+
+def make_preview(articles):
+    # Standalone HTML preview.
+    items = []
+    for r in articles:
+        if r.get('page_type') != 'article_candidate' or not r.get('excerpt'):
+            continue
+        esc = lambda x: html_escape.escape(str(x or ''), quote=True)
+        title = esc(r.get('title_ja') or r.get('title'))
+        original = esc(r.get('title'))
+        excerpt = esc(r.get('excerpt_ja') or r.get('excerpt'))
+        lang = '日本語機械翻訳（本文の一部・要約ではありません）' if r.get('excerpt_ja') else '英語原文抜粋（翻訳未取得）'
+        url = r.get('official_url', '')
+        if not url.startswith('https://'):
+            continue
+        cats = ' / '.join(r.get('primary_categories', []) + r.get('secondary_categories', [])) or '分類未確定'
+        items.append(f'''<article><small>{esc(r.get('firm'))} · 公開日: {esc(r.get('published') or '未確認')} · {esc(cats)}</small>
+<h2>{title}</h2><p class="muted">原題: {original}</p><p><b>{lang}</b></p><p>{excerpt}</p>
+<p><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">公式記事を開く</a></p></article>''')
+    page = '''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GMI 公式記事 日本語プレビュー</title><style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#f5f6f8;color:#17202a;margin:0;padding:20px;max-width:860px;margin:auto}article{background:white;border:1px solid #ddd;border-radius:12px;padding:18px;margin:14px 0;line-height:1.7}h1{font-size:1.5rem}h2{font-size:1.15rem}small,.muted{color:#626d78}a{color:#155db3}header{line-height:1.6}</style><header><h1>Global Market Intelligence · 公式記事プレビュー</h1><p>対象は市場全般。表示文章は取得した本文の一部の機械翻訳であり、記事全体の要約や投資判断ではありません。日付・分類は未検証の可能性があります。</p></header>''' + '\n'.join(items) + '</html>'
+    PREVIEW.write_text(page, encoding='utf-8')
+    print(f'Preview saved {PREVIEW} ({len(items)} article candidates)', flush=True)
+
+
 def main():
     stats, articles = [], []
     for firm, index, domain in SITES:
@@ -280,9 +332,11 @@ def main():
                       'error': error})
         print(f'{firm}: candidates {len(links)}; tested {min(len(links), MAX_PER_FIRM)}; '
               f'extracted {extracted}; error {error or "none"}', flush=True)
+    add_japanese(articles)
     OUT.parent.mkdir(parents=True, exist_ok=True)
+    make_preview(articles)
     OUT.write_text(json.dumps({'updated': dt.datetime.now(dt.timezone.utc).isoformat(),
-                               'pilot': True, 'method': 'v7: broad-market diagnostic; topic pages flagged; dates are unverified detections; no stance inferred',
+                               'pilot': True, 'method': 'v8: broad-market; optional Japanese machine translation of partial excerpts; dates unverified; no stance inferred',
                                'stats': stats, 'articles': articles},
                               ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print('Saved', OUT)
