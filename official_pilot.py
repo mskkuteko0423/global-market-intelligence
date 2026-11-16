@@ -17,7 +17,7 @@ from urllib.request import Request, urlopen
 ROOT = pathlib.Path(__file__).resolve().parent
 OUT = ROOT / 'data' / 'official_pilot.json'
 PREVIEW = ROOT / 'data' / 'official_pilot_preview.html'
-TRANSLATION_LIMIT = 12  # max requests per run; public translation endpoint, no paid API
+TRANSLATION_LIMIT = 12  # total text fields per run; no paid API
 SITES = [
     ('Goldman Sachs', 'https://www.goldmansachs.com/insights/', 'goldmansachs.com'),
     ('J.P. Morgan Asset Management', 'https://am.jpmorgan.com/us/en/asset-management/adv/insights/', 'jpmorgan.com'),
@@ -216,29 +216,35 @@ def classify_focus(title, description):
 
 
 def add_japanese(articles):
-    # Machine translation only, not a summary.
-    try:
-        from translate_helper import translate
-    except ImportError:
-        print('Translation helper unavailable; English retained', flush=True)
-        return
+    """Translate public excerpts with bounded requests, explicit failure metadata.
+
+    Translation is not summarization. Never label untranslated English as Japanese.
+    """
+    from translation_fallback import translate_public_text
     attempts = 0
+    succeeded = 0
     for record in articles:
         if record.get('page_type') != 'article_candidate' or not record.get('excerpt'):
             continue
+        record['translation_errors'] = {}
         for field, source in (('title_ja', record.get('title', '')),
                               ('excerpt_ja', record.get('excerpt', '')[:420])):
             if attempts >= TRANSLATION_LIMIT:
-                break
+                record['translation_errors'][field] = 'run_limit_reached'
+                continue
+            if not source.strip():
+                continue
             attempts += 1
-            try:
-                record[field] = translate(source)
-            except Exception as exc:
-                record['translation_error'] = type(exc).__name__
+            translated, provider, failure = translate_public_text(source)
+            if translated:
+                record[field] = translated
+                record.setdefault('translation_provider', {})[field] = provider
+                succeeded += 1
+            else:
+                record['translation_errors'][field] = failure
         record['japanese_status'] = ('machine_translation_of_partial_excerpt_not_summary'
                                      if record.get('excerpt_ja') else 'not_translated')
-    print(f'Japanese translation attempts {attempts}/{TRANSLATION_LIMIT}', flush=True)
-
+    print(f'TRANSLATION_RESULT attempts={attempts} success={succeeded} failed={attempts-succeeded} limit={TRANSLATION_LIMIT}', flush=True)
 
 def make_preview(articles):
     # Standalone HTML preview.
@@ -259,7 +265,7 @@ def make_preview(articles):
 <h2>{title}</h2><p class="muted">原題: {original}</p><p><b>{lang}</b></p><p>{excerpt}</p>
 <p><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">公式記事を開く</a></p></article>''')
     page = '''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GMI 公式記事 日本語プレビュー</title><style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#f5f6f8;color:#17202a;margin:0;padding:20px;max-width:860px;margin:auto}article{background:white;border:1px solid #ddd;border-radius:12px;padding:18px;margin:14px 0;line-height:1.7}h1{font-size:1.5rem}h2{font-size:1.15rem}small,.muted{color:#626d78}a{color:#155db3}header{line-height:1.6}</style><header><h1>Global Market Intelligence · 公式記事プレビュー</h1><p>対象は市場全般。表示文章は取得した本文の一部の機械翻訳であり、記事全体の要約や投資判断ではありません。日付・分類は未検証の可能性があります。</p></header>''' + '\n'.join(items) + '</html>'
+<title>GMI 公式記事 日本語プレビュー</title><style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#f5f6f8;color:#17202a;margin:0;padding:20px;max-width:860px;margin:auto}article{background:white;border:1px solid #ddd;border-radius:12px;padding:18px;margin:14px 0;line-height:1.7}h1{font-size:1.5rem}h2{font-size:1.15rem}small,.muted{color:#626d78}a{color:#155db3}header{line-height:1.6}</style><header><h1>Global Market Intelligence · 公式記事プレビュー</h1><p>対象は市場全般。表示文章は取得した本文の一部の機械翻訳であり、記事全体の要約や投資判断ではありません。日付・分類は未検証の可能性があります。無料公開翻訳サービスの失敗時は英語原文を表示します。</p></header>''' + '\n'.join(items) + '</html>'
     PREVIEW.write_text(page, encoding='utf-8')
     print(f'Preview saved {PREVIEW} ({len(items)} article candidates)', flush=True)
 
@@ -336,7 +342,7 @@ def main():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     make_preview(articles)
     OUT.write_text(json.dumps({'updated': dt.datetime.now(dt.timezone.utc).isoformat(),
-                               'pilot': True, 'method': 'v8: broad-market; optional Japanese machine translation of partial excerpts; dates unverified; no stance inferred',
+                               'pilot': True, 'method': 'v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred',
                                'stats': stats, 'articles': articles},
                               ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print('Saved', OUT)
