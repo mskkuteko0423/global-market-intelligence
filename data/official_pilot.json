@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T12:44:02.718574+00:00",
+  "updated": "2026-11-17T13:38:39.625190+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -47,9 +47,9 @@
     },
     {
       "firm": "Vanguard",
-      "official_url_candidates": 0,
-      "tested": 0,
-      "extracted": 0,
+      "official_url_candidates": 11,
+      "tested": 5,
+      "extracted": 5,
       "error": null
     },
     {
@@ -71,20 +71,20 @@
       "official_url_candidates": 0,
       "tested": 0,
       "extracted": 0,
-      "error": "RuntimeError: All discovery methods failed: HTML https://www.ubs.com/global/en/wealth-management/insights.html: HTTPError HTTP Error 403: Forbidden | ROBOTS: HTTPError | XML https:"
+      "error": "RuntimeError: All discovery methods failed: HTML https://www.ubs.com/us/en/wealth-management/insights.html: HTTPError HTTP Error 403: Forbidden | ROBOTS: HTTPError | XML https://ww"
     },
     {
       "firm": "BNP Paribas",
       "official_url_candidates": 0,
       "tested": 0,
       "extracted": 0,
-      "error": "RuntimeError: All discovery methods failed: HTML https://group.bnpparibas/en/news: HTTPError HTTP Error 403: Forbidden | ROBOTS: HTTPError | XML https://group.bnpparibas/feed: HTTP"
+      "error": "RuntimeError: All discovery methods failed: HTML https://group.bnpparibas/en/all-news: HTTPError HTTP Error 403: Forbidden | HTML https://group.bnpparibas/en/rss/news: HTTPError HT"
     },
     {
       "firm": "Schroders",
       "official_url_candidates": 197,
       "tested": 5,
-      "extracted": 4,
+      "extracted": 0,
       "error": null
     },
     {
@@ -135,12 +135,12 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "ジョン・ウォルドロン氏が語るGDP成長、AI、M&Aの見通し",
+      "title_ja": "ジョン・ウォルドロン氏がGDP成長、AI、M&Aの見通しについて語る",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "ゴールドマン・サックスのジョン・ウォルドロン社長兼COOは、クライアントは慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れであると述べています。Exchangesポッドキャストでは、資産運用およびウェルスマネジメントにおける機会や、AIがどのように企業がクライアントにより良いサービスを提供することに役立つかについても語っています。M&Aの勢いは続くはずです。企業M&Aは、M&A取引の強力なパイプラインとコミットメントに支えられ、2026年には30%から35%増加する可能性があります。",
+      "excerpt_ja": "ゴールドマン・サックスの社長兼最高執行責任者（COO）のジョン・ウォルドロン氏は、顧客は慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れだと語る。 Exchanges のポッドキャストでは、資産および資産管理の機会と、AI が企業の顧客サービス向上にどのように役立つかについても説明しています。 M&Aの勢いは今後も続くはず: 企業のM&Aは、取引成立と企業向けの強力なパイプラインに支えられ、2026年には30%から35%増加する可能性がある",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -172,12 +172,12 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "Aaruが高度なAIシミュレーションを使用して人間の行動を予測する方法",
+      "title_ja": "Aaru が高度な AI シミュレーションを使用して人間の行動を予測する方法",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "設立から2年半が経過し、企業価値が10億ドルに達したスタートアップAaruは、マルチエージェントAIシミュレーションを導入することで、人々の意思決定を予測し、市場調査と消費者インテリジェンスを再定義しています。共同創業者兼CEOのCam Fink氏と、共同創業者兼プレジデントのNed Koh氏が、Aaruの創業の経緯と、高度な行動シミュレーションが従来の消費者調査の限界をどのように克服するかについて語ります。この対談では、",
+      "excerpt_ja": "設立 2 年半の新興企業 (評価額 10 億ドル) である Aaru は、マルチエージェント AI シミュレーションを導入して人間がどのように意思決定を行うかを予測することで、市場調査と消費者インテリジェンスを再定義しています。共同創設者兼 CEO の Cam Fink と共同創設者兼社長の Ned Koh が、Aaru の設立ストーリーと、高度な行動シミュレーションが従来の消費者投票の限界をどのように克服するかについて話し合います。この会話ではw",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -209,12 +209,12 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "サブスクリプション会員数の増加が予想を上回る中、世界の音楽収益は増加すると予測されています。",
+      "title_ja": "加入者数の増加が予想を上回るため、世界の音楽収益は増加すると予測",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "サブスクリプションストリーミングの見通しが改善する中、世界の音楽業界の収益は2035年までに年間約2,000億ドルに達すると見込まれています。ゴールドマン・サックス・リサーチによると、新しいサブスクリプションモデル、AI、D2C（ダイレクト・トゥ・コンシューマー）サービスにより、業界が新たな方法でオーディエンスにリーチする機会が生まれています。音楽市場は、過去数年間、成長期待を下回ってきました。新しい予測は",
+      "excerpt_ja": "サブスクリプションストリーミングの見通しが改善する中、世界の音楽業界の収益は2035年までに年間約2,000億ドルに達すると予想されています。ゴールドマン・サックス・リサーチによると、新しいサブスクリプションモデル、AI、消費者直販サービスにより、業界は新たな方法で視聴者にリーチする機会が生まれているという。音楽市場は過去数年間の成長予想を下回りました。新しい予測r",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -246,12 +246,12 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "エネルギーショックの中、レジリエンスを示す新興市場国クレジット",
+      "title_ja": "新興市場の信用はエネルギーショックの中でも回復力を示す",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "今年、イラン戦争が原油価格の高騰を引き起こした際、多くの投資家は発展途上国のクレジット市場が売り圧力にさらされると予想したかもしれません。しかし実際には、新興市場国の国債および社債は、新たに得られた安定性と投資家にとっての堅調なパフォーマンスにより、このショックを乗り越えました。この動きは、新興市場国のクレジットが強靭な資産クラスへと成熟しつつあることを示す重要な兆候であると、アヌパム・ダマ氏は述べています。",
+      "excerpt_ja": "今年、イラン戦争が原油価格の高騰を引き起こしたとき、多くの投資家は発展途上国の信用市場が下落に陥ると予想していたかもしれない。その代わりに、新興市場のソブリン債や社債は、投資家にとって新たな安定性と堅実なパフォーマンスによってショックを乗り越えました。アヌパム・ダマ氏によると、この発展は新興市場の信用が回復力のある資産クラスに成熟しつつあることを示す重要な兆候である",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -286,12 +286,12 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "ヘルスケアの次の成長ドライバー | モルガン・スタンレー",
+      "title_ja": "ヘルスケアの次の成長ドライバー |モルガン・スタンレー",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "ヘルスケア業界のリーダーたちが、特許の満了、ヘルスケア業界におけるM&A、そしてAIの導入にどのように対処し、業界の未来を形作っているか。2026年のモルガン・スタンレー・グローバル・ヘルスケア・カンファレンスにヘルスケア業界のリーダーや投資家が集まり、イノベーション、成長、ディスラプションのバランスを取る業界に関する議論が行われました。モルガン・スタンレーのバンカーたちは、バイオテクノロジー分野における資金調達環境の強化、差別化された製品・サービスに対する堅調な需要を強調しました。",
+      "excerpt_ja": "ヘルスケアのリーダーは、業界の未来を形作るために、特許期限切れ、ヘルスケアの M&A、AI 導入をどのように乗り越えているのか。 2026 年モルガン・スタンレー グローバル ヘルスケア カンファレンスにヘルスケアのリーダーと投資家が集まり、会話の中心は業界のイノベーション、成長、破壊的バランスにありました。モルガン・スタンレーの銀行関係者らは、バイオテクノロジー分野のより強力な資金調達環境と差別化に対する旺盛な需要を強調した",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -323,12 +323,12 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "ヘルスケア・コンシューマリズムの台頭 | モルガン・スタンレー",
+      "title_ja": "ヘルスケア消費主義の台頭 |モルガン・スタンレー",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "米国の消費者は、医療サービスへのアクセス方法や支払い方法においてますます主導権を握るようになり、バイオ医薬品および医療サービス全体にわたって潜在的な機会を生み出しています。複雑で高額な米国の医療システムにおいて、患者はもはや「かかりつけの医師に相談してください」という医薬品の広告に耳を傾けるだけではなく、直接情報源にアクセスしています。政策の変更と技術の進歩により、消費者は医療を直接選択する方法をより多く持つようになりました。",
+      "excerpt_ja": "米国の消費者はヘルスケアへのアクセスと支払い方法においてますます主導権を握るようになり、バイオ医薬品とヘルスケアサービス全体に潜在的な機会を生み出しています。複雑で費用のかかる米国の医療制度では、患者はもはや「医師に相談してください」という医薬品の広告に耳を傾けるだけではなく、情報源に直接アクセスしています。政策の変更と技術の進歩により、消費者が治療法を直接選択する方法が増えました。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -361,12 +361,12 @@
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "AIエージェントの勝者と敗者 | モルガン・スタンレー",
+      "title_ja": "AI エージェントの勝者と敗者 |モルガン・スタンレー",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "AIエージェントが消費者に代わって意思決定や購入を行う能力をますます高めるにつれて、Morgan Stanley Researchは、どの業界が恩恵を受ける可能性があるか、そしてどの業界が競争圧力の高まりに直面しているかを調査しています。高性能な消費者向けAIエージェントが最近登場したことで、小売業や保険業から、運輸業やライブエンターテイメントに至るまで、さまざまな業界が人工知能によってどのように変革される可能性があるかについて、議論が再燃しています。従来の",
+      "excerpt_ja": "AI エージェントが消費者に代わって意思決定や購入を行う能力が高まるにつれ、モルガン・スタンレー・リサーチはどの業界が恩恵を受ける可能性があるのか​​、またどの業界が競争圧力の増大に直面しているのかを調査しています。強力な消費者向け AI エージェントの最近の発売により、人工知能が小売、保険から運輸、ライブ エンターテイメントに至るまでの業界にどのような変革をもたらす可能性があるかについての議論が再燃しています。従来とは異なり",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -398,12 +398,12 @@
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "AIデータセンター、関税、イランに対する中期的な影響",
+      "title_ja": "AI データセンター、関税、イランへの中期的な影響",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスや配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -435,12 +435,12 @@
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "金利上昇が懸念される場合に考慮すべき5つのチャート",
+      "title_ja": "金利上昇が心配な場合に考慮すべき5つのチャート",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -477,12 +477,12 @@
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "債券投資家が債務の波に乗る方法",
+      "title_ja": "債券投資家は債務の波にどう乗り切るか",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスや配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -514,12 +514,12 @@
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "AIブームか破滅か？みなさまの疑問にお答えします",
+      "title_ja": "AI ブームか、それとも破滅か?あなたの質問が解決されました",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -547,12 +547,12 @@
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "ボラティリティのなかでアクティブな市政債投資が価値を引き出す方法",
+      "title_ja": "ボラティリティの中で積極的なミュン投資が価値を引き出す方法",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスや配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -624,9 +624,9 @@
       "title_ja": "週次マーケット・コメンタリー | BlackRock Investment Institute",
       "translation_provider": {
         "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "この動画を視聴するには、JavaScriptを有効にしてください。また、HTML5動画に対応したウェブブラウザへのアップグレードをご検討ください。最近のテクノロジー株の変動の中、当社は長期的なAIへの確信（これは当社の資本市場見通しの最新の更新で示されているように、戦略的なオーバーウェイトです）と、より短期的な慎重さ（当社の戦術的な6～12ヵ月の見通しはニュートラルです）を両立させています。米国株式の状況は、どのように見るかによって異なります。",
+      "excerpt_ja": "このビデオを表示するには、JavaScript を有効にして、HTML5 ビデオをサポートする Web ブラウザにアップグレードすることを検討してください。最近のハイテク株の変動のさなか、当社は長期的な AI の確信（資本市場の想定の最新の更新で明らかなように、戦略的なオーバーウェイトである）を、短期的な警戒を伴い調整中です。当社の戦術的な 6 ～ 12 か月の期間見通しは中立です。米国株の全体像はあなたの考え方次第",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -654,12 +654,12 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "3+1アクティブ投資家シリーズ | BlackRock",
+      "title_ja": "3+1 アクティブ投資家シリーズ |ブラックロック",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "このビデオを視聴するには、JavaScriptを有効にし、HTML5ビデオをサポートするウェブブラウザにアップグレードすることをご検討ください。おはようございます。グローバル・リソース＆リアル・アセット・チームの責任者を務めるエヴィ・ハムブロです。11月16日の週です。ここで、知っておくべきことが3つと、知らなくてもよいことが1つあります。まず最初に。コモディティです。これなしでは何も作れません。あまりにも長い間、コモディティは忘れられてきました。そして、その結果として、",
+      "excerpt_ja": "このビデオを表示するには、JavaScript を有効にして、HTML5 ビデオをサポートする Web ブラウザにアップグレードすることを検討してください。おはよう。私は、グローバル リソースおよび不動産チームの責任者である Evy Hambro です。 11月16日の週です。ここでは、知っておくべき 3 つのことと、知ってはいけない 1 つのことを紹介します。まず、商品です。商品なしでは何も構築できません。あまりにも長い間、商品は忘れ去られてきました。そして、その結果、",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -698,12 +698,12 @@
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-10-21",
-      "title_ja": "2026年第4四半期 固定収益の見通し | BlackRock",
+      "title_ja": "2026 年第 4 四半期債券収入の見通し |ブラックロック",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "利回りの上昇により、債券投資の機会が変わりました。持続的なインフレが債券の伝統的な分散投資の役割を試す中、また経済サイクルの乖離が市場間で異なる投資環境を生み出す中においても、ポートフォリオの潜在的なリターンの多くはインカムから得られる可能性があります。課題はもはや単に利回りを求めることではなく、投資家が引き受けるリスクに対してどのような報酬が支払われているかを理解することです。インカムは豊富かもしれませんが、"
+      "excerpt_ja": "利回りの上昇により債券の機会が変化しました。持続的なインフレテストが債券の伝統的な多様化の役割を果たし、経済サイクルの分岐が市場全体で異なる投資条件を生み出しているにもかかわらず、ポートフォリオの潜在的なリターンの多くは収入から得られる可能性があります。課題はもはや単に利回りを見つけることではなく、投資家がどのようなリスクを取るために報酬を得ているのかを理解することです。収入は豊富かもしれませんが、"
     },
     {
       "firm": "BlackRock",
@@ -1572,9 +1572,153 @@
       "published_candidate": "2026-07-22",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "Vanguard",
+      "official_url": "https://investor.vanguard.com/investor-resources-education/news/vanguard-economic-market-outlook-2024-global-summary",
+      "link_title": "Vanguard Economic Market Outlook 2024 Global Summary",
+      "title": "Vanguard economic and market outlook for 2024: Global summary | Vanguard",
+      "published": null,
+      "categories": [
+        "投資戦略・資金フロー"
+      ],
+      "excerpt": "An era of higher interest rates marks a return to sound money. Read more of Vanguard’s 2024 views in this summary. The global outlook summary highlights the top-level findings of Vanguard's full economic and market outlook, to be distributed in mid-December. Higher interest rates are here to stay. Even after policy rates recede from their cyclical peaks, in the decade ahead rates will settle at a higher level than we've grown accustomed to since the 2008 global financial crisis (GFC). This development ushers in a return to sound money, and the implications for the global economy and financial markets will be profound. Borrowing and savings behavior will reset, capital will be allocated more judiciously, and asset class return expectations will be recalibrated. Vanguard believes that a higher interest rate environment will serve investors well in achieving their long-term financial goals, but the transition may be bumpy. The global economy has proven more resilient than we expected in 2023. This is partly because monetary policy has not been as restrictive as initially thought. Fundamental changes to the global economy have pushed up the neutral rate of interest—the rate at which policy is neither expansionary nor contractionary. Various other factors have blunted the normal channels of monetary policy transmission, including the U.S. fiscal impulse from debt-financed pandemic support and industrial policies, improved household and corporate balance sheets, and tight labor markets that have resulted in real wage growth. In the U.S., our analysis suggests that these offsets almost entirely counteracted the impact of higher policy interest rates. Outside the U.S., this dynamic is less pronounced. Europe's predominantly bank-based economy is already flirting with recession,",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "投資戦略・資金フロー"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2023-11-24",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Vanguard",
+      "official_url": "https://investor.vanguard.com/investor-resources-education/news/staying-the-course-during-a-government-shutdown",
+      "link_title": "Staying The Course During A Government Shutdown",
+      "title": "Staying the course during a government shutdown | Vanguard",
+      "published": null,
+      "categories": [],
+      "excerpt": "Vanguard offers insights on how investors should respond to a government shutdown. Government shutdowns are not unprecedented. Although some volatility is possible, historically, there has been no clear relationship between U.S. government shutdowns and market returns. Investors shouldn’t make assumptions about how markets may or may not react during a government shutdown. Despite the uncertainty created by a shutdown, our guidance for investors remains the same: Tune out the noise and stick with your long-term investment plan. Past government shutdowns paused nonessential activities in various government departments—for example, national parks and museums have closed. Critical federal functions such as the Postal Service, payment of Social Security benefits, and air traffic control staffing generally were not affected. The scope of these pauses can vary across shutdowns, and each government agency within the affected departments and agencies will publish guidance clearly defining the scope of its activities during a shutdown. Federal shutdowns don’t affect state and local government functions that are not dependent on federal funding. Shutdowns have occurred more than 20 times since 1976. Unlike a U.S. debt default, a shutdown does not affect the government’s ability to pay its obligations, and, as noted, many critical services continue.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2025-10-15",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Vanguard",
+      "official_url": "https://investor.vanguard.com/investor-resources-education/news/a-betr-calculation-for-the-traditional-to-roth-ira-conversion-equation",
+      "link_title": "A Betr Calculation For The Traditional To Roth Ira Conversion Equation",
+      "title": "A BETR calculation for the Roth conversion equation | Vanguard",
+      "published": null,
+      "categories": [],
+      "excerpt": "Learn how a break-even tax rate approach may help evaluate traditional to Roth IRA conversions and support more informed retirement tax planning decisions. The Roth IRA offers tax-free investment growth and tax-free withdrawals during retirement. For many investors, these features make the Roth come out ahead in the ongoing traditional-versus-Roth IRA debate. Even so—and thanks mainly to a combination of legacy assets and the larger sums rolled over from employer-sponsored retirement accounts—the lion’s share of all IRA assets are held within traditional accounts.1 “Despite the advantages of conversion, there isn’t always a clear-cut path when deciding whether to convert a traditional to a Roth IRA,” says Vanguard’s Joel Dickson, global head of advice methodology. “The traditional wisdom says to convert if you expect your tax rate to rise in retirement. And yet, a Roth conversion can be favorable for far more investors than this rule of thumb would suggest.” Dickson and Vanguard wealth planning specialist Boris Wong champion the break-even tax rate (BETR) as a superior method for calculating the point at which a Roth conversion makes sense. With the BETR approach, future tax rate expectations are but one factor in the conversion decision. The approach levels up the analysis by taking into account crucial factors like conversion-tax proceeds paid from account assets held outside the IRA, the tax basis of the IRA account, and future plans to contribute to the IRA (typically using a backdoor strategy).",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2025-12-31",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Vanguard",
+      "official_url": "https://investor.vanguard.com/investor-resources-education/news/3-ways-to-keep-market-uncertainty-in-perspective",
+      "link_title": "3 Ways To Keep Market Uncertainty In Perspective",
+      "title": "Investment education, resources, & guidance | Vanguard",
+      "published": null,
+      "categories": [],
+      "excerpt": "There's no one-size-fits-all approach to investing. Check out some tips for the goals listed below, and learn how to balance them to fit your budget and lifestyle. Learning about financial topics is a great way to gain confidence as you start your investing journey. Use this tool to help you find the right account and discover resources for your investing goal. Explore state tax benefits for qualified education expenses and see how they stack up against The Vanguard 529 Plan. See if what you've been saving—or planning to save—is on track for your retirement income needs.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Vanguard",
+      "official_url": "https://investor.vanguard.com/investor-resources-education/news/diversification-still-works",
+      "link_title": "Diversification Still Works",
+      "title": "Diversification still works | Vanguard",
+      "published": null,
+      "categories": [
+        "債券・金利",
+        "投資戦略・資金フロー"
+      ],
+      "excerpt": "Bonds play a valuable role in a portfolio and can be a reliable asset in a low interest rate environment. Diversifying your portfolio is one of the most important things you can do to manage investment risk. Bonds are commonly used to help provide diversification and reduce risk against stock market dips. But with factors like market volatility and low interest rates that could rise, some may ask: Should bonds always play a role? It’s well known that implementing a diversified portfolio can be an essential way to manage risk. Having a balance of lower-risk assets (like bonds) and higher-risk assets (like stocks) allows your portfolio to grow while also providing a cushion against market volatility. Stocks typically provide higher returns than bonds over longer periods, but bonds can provide more stability when the market faces a downturn. With interest rates at historic lows, investors may be wondering how bonds will perform when rates have seemingly nowhere to go but up. In this environment, why hold bonds at all? In addition to the wealth of existing evidence, our machine learning analysis helps provide the answer. Many industries use machine learning to analyze detailed historical data to gather critical insights and make more accurate predictions. We used an unsupervised technique called K-means clustering to test the relationship between stocks and U.S. government bonds during historically low-interest-rate periods. It allowed us to analyze the historical returns on stocks and government bonds to see what patterns exist between them.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "債券・金利",
+        "投資戦略・資金フロー"
+      ],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2021-12-20",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 47,
+  "archive_count": 52,
   "archive_note": "first_seen is a GMI tracking date, never a publication date; historical first discovery may be unknown. Unverified dates are kept as published_candidate, never displayed as published. Excerpts are partial machine translations."
 }
