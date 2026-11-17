@@ -90,9 +90,14 @@ def main():
         item['last_seen'] = today if article_key(item) in {
             article_key(x) for x in current.get('articles', []) if valid_article(x)
         } else (valid_day(item.get('last_seen')) or item['first_seen'])
-        # A machine-detected publication date is NOT automatically independently verified.
-        item['publication_date_status'] = ('detected_unverified' if valid_day(item.get('published'))
-                                           else 'unknown')
+        # Publication dates detected from broad HTML searches are not verified.
+        # Preserve evidence separately, never expose it as a confirmed date.
+        candidate = valid_day(item.get('published')) or valid_day(item.get('published_candidate'))
+        if candidate:
+            item['published_candidate'] = candidate
+        item['published'] = None
+        item['date_status'] = 'unverified'
+        item['publication_date_status'] = 'unknown'
         item['is_verified_new'] = False
 
     result = dict(current)
@@ -100,8 +105,8 @@ def main():
     result['archive_enabled'] = True
     result['archive_count'] = len(archive)
     result['archive_note'] = ('first_seen is a GMI tracking date, never a publication date; '
-                              'historical first discovery may be unknown. Publication dates '
-                              'require independent verification. Excerpts are partial machine translations.')
+                              'historical first discovery may be unknown. Unverified dates are '
+                              'kept as published_candidate, never displayed as published. Excerpts are partial machine translations.')
     CURRENT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'ARCHIVE_RESULT previous={old_count} added={added} updated={updated} total={len(archive)}', flush=True)
     print(f'DATE_TRACKING first_seen={today} verified_new=0', flush=True)
