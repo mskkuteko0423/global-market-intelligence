@@ -243,6 +243,28 @@ def find_date(page_html, meta, anchor_title):
         if result:
             return result
 
+   
+    # 3. Publication date in HTML time elements
+    for match in re.finditer(
+        r'<time\b[^>]*\bdatetime\s*=\s*["\']([^"\']+)["\']',
+        page_html,
+        re.I
+    ):
+        result = normalize_date(match.group(1))
+        if result:
+            return result
+
+    # 4. Additional publication metadata
+    for key, value in meta.items():
+        key_lower = key.lower()
+        if any(term in key_lower for term in (
+            'published', 'publish_date', 'publicationdate',
+            'datecreated', 'date.issued'
+        )):
+            result = normalize_date(value)
+            if result:
+                return result
+
     # 3. Date explicitly included in the article link title
     result = normalize_date(anchor_title)
     if result:
