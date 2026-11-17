@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T13:38:39.625190+00:00",
+  "updated": "2026-11-17T13:44:42.437035+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -84,7 +84,7 @@
       "firm": "Schroders",
       "official_url_candidates": 197,
       "tested": 5,
-      "extracted": 0,
+      "extracted": 2,
       "error": null
     },
     {
@@ -140,7 +140,7 @@
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "ゴールドマン・サックスの社長兼最高執行責任者（COO）のジョン・ウォルドロン氏は、顧客は慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れだと語る。 Exchanges のポッドキャストでは、資産および資産管理の機会と、AI が企業の顧客サービス向上にどのように役立つかについても説明しています。 M&Aの勢いは今後も続くはず: 企業のM&Aは、取引成立と企業向けの強力なパイプラインに支えられ、2026年には30%から35%増加する可能性がある",
+      "excerpt_ja": "ゴールドマン・サックスの社長兼最高執行責任者（COO）のジョン・ウォルドロン氏は、顧客は慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れだと語る。また、Exchanges のポッドキャストでは、資産および資産管理における機会と、AI が企業の顧客サービス向上にどのように役立つかについても説明しています。 M&Aの勢いは続くはず：企業のM&Aは、取引成立と企業向けの強力なパイプラインに支えられ、2026年には30%から35%増加する可能性がある",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -323,7 +323,7 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "ヘルスケア消費主義の台頭 |モルガン・スタンレー",
+      "title_ja": "ヘルスケア消費者主義の台頭 |モルガン・スタンレー",
       "translation_provider": {
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
@@ -366,7 +366,7 @@
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "AI エージェントが消費者に代わって意思決定や購入を行う能力が高まるにつれ、モルガン・スタンレー・リサーチはどの業界が恩恵を受ける可能性があるのか​​、またどの業界が競争圧力の増大に直面しているのかを調査しています。強力な消費者向け AI エージェントの最近の発売により、人工知能が小売、保険から運輸、ライブ エンターテイメントに至るまでの業界にどのような変革をもたらす可能性があるかについての議論が再燃しています。従来とは異なり",
+      "excerpt_ja": "AI エージェントが消費者に代わって意思決定や購入を行う能力が高まるにつれ、モルガン・スタンレー・リサーチはどの業界が恩恵を受ける可能性があるのか​​、またどの業界が競争圧力の増大に直面しているのかを調査しています。強力な消費者向け AI エージェントの最近の発売により、人工知能が小売業や保険から運輸業やライブエンターテイメントに至るまでの業界にどのような変革をもたらす可能性があるかについての議論が再燃しています。従来とは異なり",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -547,7 +547,7 @@
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "ボラティリティの中で積極的なミュン投資が価値を引き出す方法",
+      "title_ja": "ボラティリティの中で積極的なミュン投資がどのように価値を引き出すことができるか",
       "translation_provider": {
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
@@ -621,9 +621,9 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "週次マーケット・コメンタリー | BlackRock Investment Institute",
+      "title_ja": "週間市場解説 |ブラックロック投資研究所",
       "translation_provider": {
-        "title_ja": "mymemory_public",
+        "title_ja": "google_public",
         "excerpt_ja": "google_public"
       },
       "excerpt_ja": "このビデオを表示するには、JavaScript を有効にして、HTML5 ビデオをサポートする Web ブラウザにアップグレードすることを検討してください。最近のハイテク株の変動のさなか、当社は長期的な AI の確信（資本市場の想定の最新の更新で明らかなように、戦略的なオーバーウェイトである）を、短期的な警戒を伴い調整中です。当社の戦術的な 6 ～ 12 か月の期間見通しは中立です。米国株の全体像はあなたの考え方次第",
@@ -703,7 +703,7 @@
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "利回りの上昇により債券の機会が変化しました。持続的なインフレテストが債券の伝統的な多様化の役割を果たし、経済サイクルの分岐が市場全体で異なる投資条件を生み出しているにもかかわらず、ポートフォリオの潜在的なリターンの多くは収入から得られる可能性があります。課題はもはや単に利回りを見つけることではなく、投資家がどのようなリスクを取るために報酬を得ているのかを理解することです。収入は豊富かもしれませんが、"
+      "excerpt_ja": "利回りの上昇により債券の機会が変化しました。持続的なインフレテストが債券の伝統的な多様化の役割を果たし、経済サイクルの分岐が市場全体で異なる投資条件を生み出しているにもかかわらず、ポートフォリオの潜在的なリターンの多くは収入から得られる可能性があります。課題はもはや単に利回りを見つけることではなく、投資家がどのようなリスクを取るために報酬を得ているのかを理解することです。収入は豊富かもしれないが、"
     },
     {
       "firm": "BlackRock",
@@ -1716,9 +1716,36 @@
       "published_candidate": "2021-12-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "Schroders",
+      "official_url": "https://www.schroders.com/zh-cn/cn/intermediary/insights/income-s-appeal-broadens-beyond-income-alone/",
+      "link_title": "Income S Appeal Broadens Beyond Income Alone",
+      "title": "施罗德投资：收益类资产配置价值不止现金流",
+      "published": null,
+      "categories": [],
+      "excerpt": "施罗德投资《2026 全球投资者洞察调查》显示，投资者配置收益类资产的原因呈现多元化特征。其中，“实现投资组合分散化”和“获取稳定现金流”并列成为最主要的配置动因；此外，“降低组合波动、控制回撤”也位列投资者关注重点。 调查报告指出，收益类资产的定位正在发生转变。它不再是独立的收益工具，而是灵活的组合构建模块，在投资者愈发重视稳定、可持续回报的当下，发挥着越来越重要的作用。 当被要求选出配置收益类资产的三大原因时，53% 的受访者将 “脱离纯成长资产、实现组合分散化” 列为首要诉求，同等比例的受访者看重 “稳定现金流以满足支出需求”。而“降低波动、控制回撤” 位列第三。 当前全球市场分化特征显著，投资者通过多元收益资产应对复杂环境，这一趋势不难理解。例如，部分发达市场的财政赤字、债务可持续性问题引发担忧，但新兴市场受相关影响较小。经历十余年低利率时代后，资本成本持续维持在较高水平，重新拉大了行业、企业资产负债表以及国家之间的收益差距。中东等地缘政治风险可能进一步放大上述趋势，并为能源价格与通胀带来新的额外压力。在此背景下，亚太投资者将 “对冲通胀、获取跑赢CPI的实际收益” 纳入配置收益资产的三大核心诉求之一。 这也解释了投资者为何拓宽收益类资产布局范围。大家不再单一依赖传统债券，而是在更广阔的投资机会中寻找收益来源，以满足投资组合中的多元化配置需求，并发挥不同的组合功能。",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2026-07-09",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 52,
+  "archive_count": 53,
   "archive_note": "first_seen is a GMI tracking date, never a publication date; historical first discovery may be unknown. Unverified dates are kept as published_candidate, never displayed as published. Excerpts are partial machine translations."
 }
