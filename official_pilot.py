@@ -17,7 +17,7 @@ from urllib.request import Request, urlopen
 ROOT = pathlib.Path(__file__).resolve().parent
 OUT = ROOT / 'data' / 'official_pilot.json'
 PREVIEW = ROOT / 'data' / 'official_pilot_preview.html'
-TRANSLATION_LIMIT = 12  # total text fields per run; no paid API
+TRANSLATION_LIMIT = 30  # total text fields per run; no paid API
 
 SITES = [
     ('Goldman Sachs', 'https://www.goldmansachs.com/insights/', 'goldmansachs.com'),
