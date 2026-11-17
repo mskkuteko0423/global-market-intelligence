@@ -15,11 +15,11 @@ sites = '''SITES = [
     ('Capital Group', 'https://www.capitalgroup.com/institutional/insights.html', 'capitalgroup.com'),
     ('BlackRock', 'https://www.blackrock.com/us/individual/insights', 'blackrock.com'),
     ('J.P. Morgan Research', 'https://www.jpmorgan.com/insights', 'jpmorgan.com'),
-    ('Vanguard', 'https://investor.vanguard.com/investor-resources-education', 'vanguard.com'),
+    ('Vanguard', 'https://investor.vanguard.com/resources-education/news-perspectives', 'vanguard.com'),
     ('Fidelity', 'https://www.fidelity.com/learning-center/trading-investing', 'fidelity.com'),
     ('PIMCO', 'https://www.pimco.com/us/en/insights', 'pimco.com'),
-    ('UBS', 'https://www.ubs.com/global/en/wealth-management/insights.html', 'ubs.com'),
-    ('BNP Paribas', 'https://group.bnpparibas/en/news', 'group.bnpparibas'),
+    ('UBS', 'https://www.ubs.com/us/en/wealth-management/insights.html', 'ubs.com'),
+    ('BNP Paribas', 'https://group.bnpparibas/en/all-news', 'group.bnpparibas'),
     ('Schroders', 'https://www.schroders.com/en/global/individual/insights/', 'schroders.com'),
     ('Amundi', 'https://research-center.amundi.com/', 'amundi.com'),
     ('State Street', 'https://www.ssga.com/us/en/individual/insights', 'ssga.com'),
@@ -39,9 +39,10 @@ def discover_links(firm, index, domain):
     from urllib.parse import urljoin, urlparse
 
     fallback = {
-        'Vanguard': [
-    'https://investor.vanguard.com/investor-resources-education',
-],
+        'Vanguard': ['https://investor.vanguard.com/investor-resources-education',
+                     'https://investor.vanguard.com/resources-education/news-perspectives',
+                     'https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles.html',
+                     'https://investor.vanguard.com/investor-resources-education/news'],
         'Fidelity': ['https://www.fidelity.com/viewpoints',
                      'https://www.fidelity.com/learning-center/trading-investing',
                      'https://www.fidelity.com/learning-center/markets-sectors'],
@@ -49,6 +50,10 @@ def discover_links(firm, index, domain):
                   'https://www.pimco.com/us/en/insights/economic-and-market-commentary'],
         'Schroders': ['https://www.schroders.com/en/global/individual/insights/'],
         'Amundi': ['https://research-center.amundi.com/'],
+        'UBS': ['https://www.ubs.com/us/en/wealth-management/insights.html'],
+        'BNP Paribas': ['https://group.bnpparibas/en/rss/news',
+                        'https://group.bnpparibas/en/rss/news/financial-information',
+                        'https://group.bnpparibas/en/rss/news/business'],
     }
     selected = firm in fallback or firm in ('UBS', 'BNP Paribas')
     sources = list(dict.fromkeys([index] + fallback.get(firm, [])))
@@ -66,7 +71,7 @@ def discover_links(firm, index, domain):
         if any(x in path for x in EXCLUDE_PATH):
             return
         # Restrict discovery to publication-shaped paths.
-        hints = ('/insights/', '/research/', '/articles/', '/commentary/',
+        hints = ('/insights/', '/research/', '/articles/', '/commentary/', '/news/',
                  '/outlook/', '/viewpoints/', '/publications/', '/market/',
                  '/investment-views/', '/investment-insights/', '/perspectives/')
         if not any(h in path + '/' for h in hints):
@@ -101,6 +106,8 @@ def discover_links(firm, index, domain):
         host = urlparse(index).netloc
         origin = 'https://' + host
         feeds = [origin + '/feed', origin + '/rss', origin + '/sitemap.xml']
+        if firm == 'BNP Paribas':
+            feeds.extend(fallback['BNP Paribas'])
         # Robots.txt may advertise a sitemap on a different official subdomain.
         try:
             req = Request(origin + '/robots.txt', headers={'User-Agent': 'GMIResearchPilot/3.0'})
