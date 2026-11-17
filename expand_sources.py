@@ -84,7 +84,8 @@ def discover_links(firm, index, domain):
 
     for source in sources:
         try:
-            parser = parse(get_html(source, domain))
+            page_timeout = 30 if firm == 'BNP Paribas' else 15
+            parser = parse(get_html(source, domain, timeout=page_timeout))
             if first_parser is None:
                 first_parser = parser
             for url, label in candidates(parser, source, domain):
@@ -108,7 +109,7 @@ def discover_links(firm, index, domain):
         # Robots.txt may advertise a sitemap on a different official subdomain.
         try:
             req = Request(origin + '/robots.txt', headers={'User-Agent': 'GMIResearchPilot/3.0'})
-            with urlopen(req, timeout=8) as response:
+            with urlopen(req, timeout=10 if firm == 'BNP Paribas' else 8) as response:
                 robots = response.read(250_000).decode('utf-8', 'replace')
             for line in robots.splitlines():
                 if line.lower().startswith('sitemap:'):
@@ -127,7 +128,7 @@ def discover_links(firm, index, domain):
             visited.add(feed)
             try:
                 req = Request(feed, headers={'User-Agent': 'GMIResearchPilot/3.0'})
-                with urlopen(req, timeout=9) as response:
+                with urlopen(req, timeout=15 if firm == 'BNP Paribas' else 9) as response:
                     if not official(response.geturl(), domain):
                         raise ValueError('Redirect outside official domain')
                     raw = response.read(1_500_001)
@@ -205,6 +206,25 @@ if old in src:
     src = src.replace(old, new, 1)
 elif new not in src:
     raise RuntimeError('Collector discovery call not found')
+
+# BNP Paribas pages are slow from the hosted runner; allow a longer read window
+# for its own pages while keeping the existing limits for every other source.
+if 'def get_html(url, domain, timeout=15):' not in src:
+    src, n = re.subn(r'(?m)^def get_html\(url, domain\):$',
+                     'def get_html(url, domain, timeout=15):', src, count=1)
+    if n != 1:
+        raise RuntimeError('get_html signature not found; refusing timeout update')
+if 'with urlopen(req, timeout=timeout) as resp:' not in src:
+    src, n = re.subn(r'with urlopen\(req, timeout=15\) as resp:',
+                     'with urlopen(req, timeout=timeout) as resp:', src, count=1)
+    if n != 1:
+        raise RuntimeError('get_html timeout call not found; refusing timeout update')
+article_fetch = 'article_html, _ = get_html(url, domain)'
+article_fetch_long = "article_html, _ = get_html(url, domain, timeout=30 if firm == 'BNP Paribas' else 15)"
+if article_fetch in src:
+    src = src.replace(article_fetch, article_fetch_long, 1)
+elif article_fetch_long not in src:
+    raise RuntimeError('article fetch call not found; refusing timeout update')
 compile(src, str(p), 'exec')
 p.write_text(src, encoding='utf-8')
 print('SOURCE_EXPANSION sources=15; HTML + bounded RSS/sitemap fallback; official URLs only', flush=True)
