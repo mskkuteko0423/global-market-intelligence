@@ -215,7 +215,7 @@ if 'def get_html(url, domain, timeout=15):' not in src:
     if n != 1:
         raise RuntimeError('get_html signature not found; refusing timeout update')
 if 'with urlopen(req, timeout=timeout) as resp:' not in src:
-    src, n = re.subn(r'with urlopen\(req, timeout=15\) as resp:',
+    src, n = re.subn(r'with urlopen\(\s*req(?:\s*,\s*timeout\s*=\s*[^)]*)?\s*\)\s+as\s+resp:',
                      'with urlopen(req, timeout=timeout) as resp:', src, count=1)
     if n != 1:
         raise RuntimeError('get_html timeout call not found; refusing timeout update')
