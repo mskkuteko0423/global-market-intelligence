@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T22:28:49.307535+00:00",
+  "updated": "2026-11-17T22:36:06.711099+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -76,7 +76,7 @@
     {
       "firm": "Schroders",
       "official_url_candidates": 197,
-      "tested": 5,
+      "tested": 10,
       "extracted": 0,
       "error": null
     },
