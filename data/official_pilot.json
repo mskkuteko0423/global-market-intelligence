@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T13:44:42.437035+00:00",
+  "updated": "2026-11-17T14:08:56.873122+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -67,24 +67,17 @@
       "error": null
     },
     {
-      "firm": "UBS",
-      "official_url_candidates": 0,
-      "tested": 0,
-      "extracted": 0,
-      "error": "RuntimeError: All discovery methods failed: HTML https://www.ubs.com/us/en/wealth-management/insights.html: HTTPError HTTP Error 403: Forbidden | ROBOTS: HTTPError | XML https://ww"
-    },
-    {
       "firm": "BNP Paribas",
       "official_url_candidates": 0,
       "tested": 0,
       "extracted": 0,
-      "error": "RuntimeError: All discovery methods failed: HTML https://group.bnpparibas/en/all-news: HTTPError HTTP Error 403: Forbidden | HTML https://group.bnpparibas/en/rss/news: HTTPError HT"
+      "error": "RuntimeError: All discovery methods failed: HTML https://globalmarkets.cib.bnpparibas/markets-360/: TimeoutError The read operation timed out | HTML https://cib.bnpparibas/formats/"
     },
     {
       "firm": "Schroders",
       "official_url_candidates": 197,
       "tested": 5,
-      "extracted": 2,
+      "extracted": 0,
       "error": null
     },
     {
@@ -688,8 +681,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "run_limit_reached",
-        "excerpt_ja": "run_limit_reached"
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
@@ -1743,9 +1736,36 @@
       "published_candidate": "2026-07-09",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "PIMCO",
+      "official_url": "https://www.pimco.com/us/en/insights/the-aftershock-economy",
+      "link_title": "The Aftershock Economy",
+      "title": "Secular Outlook: The Aftershock Economy | PIMCO",
+      "published": null,
+      "categories": [],
+      "excerpt": "The first few years of the 2020s have seen a number of acute economic, financial, and geopolitical disruptions on a worldwide scale, and it will take time for the ultimate consequences of these shocks to be fully felt. At PIMCO’s latest Secular Forum, we discussed how recent short-term cyclical dynamics are likely to have longer-lasting secular consequences. The global economy is exiting a period of massive fiscal and monetary policy interventions that are unlikely to be repeated over our secular horizon. After the post-pandemic surge in global inflation, central bankers are starting to recognize that unconventional monetary policies bear costs as well as deliver benefits, while surging sovereign debt levels will likely limit fiscal capacity to address future downturns. With the era of volatility-suppressing policies possibly over, markets are likely in for a period of heightened volatility, with an unusually large array of potential aftershocks. We believe the risks to global growth are skewed to the downside over our five-year secular horizon, and that returns across asset classes are likely to be more differentiated in this new era. We expect central banks to maintain their existing inflation targets and to prioritize keeping longer-term inflation expectations anchored at those target levels. We believe that neutral long-run real policy rates in advanced economies will remain anchored in a range of 0% to 1%. With rising government debt and the possible return of an inflation risk premium, we expect the yield curve to steepen as investors demand more compensation on longer-term bonds over the secular horizon. Our expectations of low neutral rates and a return to near-target inflation reinforce a positive outlook for core and high quality fixed income. After rising sha",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2023-06-06",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 53,
+  "archive_count": 54,
   "archive_note": "first_seen is a GMI tracking date, never a publication date; historical first discovery may be unknown. Unverified dates are kept as published_candidate, never displayed as published. Excerpts are partial machine translations."
 }
