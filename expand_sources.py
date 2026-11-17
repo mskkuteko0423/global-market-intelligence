@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-"""GMI: expand official article discovery without changing the archive.
-
-Run before official_pilot.py. No paid APIs. Failed discovery is recorded,
-not treated as proof that an institution published no articles.
+"""GMI source expansion: HTML + bounded official sitemap/RSS discovery.
+Run before official_pilot.py. Does not change reports.json or archives.
 """
 from pathlib import Path
 import re
@@ -10,15 +8,15 @@ import re
 p = Path(__file__).with_name('official_pilot.py')
 src = p.read_text(encoding='utf-8')
 
-replacement = '''SITES = [
+sites = '''SITES = [
     ('Goldman Sachs', 'https://www.goldmansachs.com/insights/', 'goldmansachs.com'),
     ('J.P. Morgan Asset Management', 'https://am.jpmorgan.com/us/en/asset-management/adv/insights/', 'jpmorgan.com'),
     ('Morgan Stanley', 'https://www.morganstanley.com/insights', 'morganstanley.com'),
     ('Capital Group', 'https://www.capitalgroup.com/institutional/insights.html', 'capitalgroup.com'),
     ('BlackRock', 'https://www.blackrock.com/us/individual/insights', 'blackrock.com'),
     ('J.P. Morgan Research', 'https://www.jpmorgan.com/insights', 'jpmorgan.com'),
-    ('Vanguard', 'https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles.html', 'vanguard.com'),
-    ('Fidelity', 'https://www.fidelity.com/viewpoints', 'fidelity.com'),
+    ('Vanguard', 'https://investor.vanguard.com/investor-resources-education/news', 'vanguard.com'),
+    ('Fidelity', 'https://www.fidelity.com/learning-center/trading-investing', 'fidelity.com'),
     ('PIMCO', 'https://www.pimco.com/us/en/insights', 'pimco.com'),
     ('UBS', 'https://www.ubs.com/global/en/wealth-management/insights.html', 'ubs.com'),
     ('BNP Paribas', 'https://group.bnpparibas/en/news', 'group.bnpparibas'),
@@ -27,101 +25,164 @@ replacement = '''SITES = [
     ('State Street', 'https://www.ssga.com/us/en/individual/insights', 'ssga.com'),
     ('Invesco', 'https://www.invesco.com/us/en/insights.html', 'invesco.com'),
 ]'''
-src, n = re.subn(r'(?ms)^SITES\s*=\s*\[.*?^\]', lambda _: replacement, src, count=1)
+src, n = re.subn(r'(?ms)^SITES\s*=\s*\[.*?^\]', lambda m: sites, src, count=1)
 if n != 1:
-    raise RuntimeError('SITES block missing; nothing written')
+    raise RuntimeError('SITES not found; refusing to modify collector')
 
-helper = '''
-# Index URLs are discovery attempts, not claims that they currently work.
-DISCOVERY_INDEXES = {
-    'Vanguard': [
-        'https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles.html',
-        'https://investor.vanguard.com/investor-resources-education',
-    ],
-    'Fidelity': [
-        'https://www.fidelity.com/viewpoints',
-        'https://www.fidelity.com/learning-center/trading-investing',
-        'https://www.fidelity.com/learning-center/trading-investing/market-outlook',
-    ],
-    'PIMCO': [
-        'https://www.pimco.com/us/en/insights',
-        'https://www.pimco.com/us/en/insights/economic-and-market-commentary',
-        'https://www.pimco.com/us/en/insights/blog',
-    ],
-}
-DISCOVERY_PATH_HINTS = {
-    'Vanguard': ('/articles/', '/investor-resources-education/', '/insights/'),
-    'Fidelity': ('/viewpoints/', '/learning-center/trading-investing/', '/learning-center/personal-finance/'),
-    'PIMCO': ('/insights/',),
-}
-SECTION_SLUGS = {'insights', 'viewpoints', 'market-outlook', 'blog',
-                 'economic-and-market-commentary', 'trading-investing',
-                 'personal-finance', 'articles', 'research', 'news'}
-
+helper = r'''
+# Conservative alternate discovery. URLs from feeds/sitemaps are CANDIDATES,
+# never verified publications until the article page passes existing checks.
 def discover_links(firm, index, domain):
-    indexes = DISCOVERY_INDEXES.get(firm, [index])
-    found, seen, diagnostics = [], set(), []
-    first_parser = None
-    successful_indexes = 0
-    for source in indexes:
+    import xml.etree.ElementTree as ET
+    import gzip
+    from urllib.request import Request, urlopen
+    from urllib.parse import urljoin, urlparse
+
+    fallback = {
+        'Vanguard': ['https://investor.vanguard.com/investor-resources-education',
+                     'https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles.html'],
+        'Fidelity': ['https://www.fidelity.com/viewpoints',
+                     'https://www.fidelity.com/learning-center/trading-investing'],
+        'PIMCO': ['https://www.pimco.com/us/en/insights',
+                  'https://www.pimco.com/us/en/insights/economic-and-market-commentary'],
+        'Schroders': ['https://www.schroders.com/en/global/individual/insights/'],
+        'Amundi': ['https://research-center.amundi.com/'],
+    }
+    selected = firm in fallback or firm in ('UBS', 'BNP Paribas')
+    sources = list(dict.fromkeys([index] + fallback.get(firm, [])))
+    found, seen, diagnostics, first_parser = [], set(), [], None
+
+    def add(url, label):
+        url = urldefrag(url)[0]
+        if not official(url, domain) or url in seen:
+            return
+        path = urlparse(url).path.lower().rstrip('/')
+        slug = path.rsplit('/', 1)[-1]
+        if not slug or len(slug) < 12 or slug in ('insights', 'research', 'articles', 'news'):
+            return
+        if any(x in path for x in EXCLUDE_PATH):
+            return
+        # Restrict discovery to publication-shaped paths.
+        hints = ('/insights/', '/research/', '/articles/', '/commentary/',
+                 '/outlook/', '/viewpoints/', '/publications/', '/market/',
+                 '/investment-views/', '/investment-insights/', '/perspectives/')
+        if not any(h in path + '/' for h in hints):
+            return
+        label = re.sub(r'\s+', ' ', label).strip()
+        if not 18 <= len(label) <= 220:
+            return
+        if any(x in label.lower() for x in EXCLUDE_TITLE):
+            return
+        seen.add(url)
+        found.append((url, label))
+
+    for source in sources:
         try:
             parser = parse(get_html(source, domain))
-            successful_indexes += 1
             if first_parser is None:
                 first_parser = parser
-            links = candidates(parser, source, domain)
-            if firm in DISCOVERY_PATH_HINTS:
+            for url, label in candidates(parser, source, domain):
+                add(url, label)
+            # Existing path filters can be too narrow for certain official sites.
+            if selected:
                 for href, label in parser.links:
-                    url = urldefrag(urljoin(source, href))[0]
-                    path = urlparse(url).path.lower().rstrip('/')
-                    low = label.lower().strip()
-                    if not official(url, domain) or not 18 <= len(label) <= 220:
-                        continue
-                    if any(x in path for x in EXCLUDE_PATH) or any(x in low for x in EXCLUDE_TITLE):
-                        continue
-                    if not any(x in path + '/' for x in DISCOVERY_PATH_HINTS[firm]):
-                        continue
-                    if url.rstrip('/') == source.rstrip('/'):
-                        continue
-                    slug = path.rsplit('/', 1)[-1]
-                    if slug in SECTION_SLUGS or len(slug) < 12 or '-' not in slug:
-                        continue
-                    links.append((url, label))
-            new_count = 0
-            for url, label in links:
-                if url not in seen:
-                    seen.add(url)
-                    found.append((url, label))
-                    new_count += 1
-            diagnostics.append(f'{source}: {new_count} new candidates')
+                    add(urljoin(source, href), label)
+            diagnostics.append(f'HTML {source}: OK')
         except Exception as exc:
-            diagnostics.append(f'{source}: {type(exc).__name__}: {str(exc)[:100]}')
-    if firm in DISCOVERY_INDEXES:
+            diagnostics.append(f'HTML {source}: {type(exc).__name__} {str(exc)[:80]}')
+
+    # Keep the successful HTML discovery fast. Use structured sources only
+    # when HTML yielded no candidates, or fewer than the normal per-firm cap.
+    if selected and len(found) < MAX_PER_FIRM:
+        host = urlparse(index).netloc
+        origin = 'https://' + host
+        feeds = [origin + '/feed', origin + '/rss', origin + '/sitemap.xml']
+        # Robots.txt may advertise a sitemap on a different official subdomain.
+        try:
+            req = Request(origin + '/robots.txt', headers={'User-Agent': 'GMIResearchPilot/3.0'})
+            with urlopen(req, timeout=8) as response:
+                robots = response.read(250_000).decode('utf-8', 'replace')
+            for line in robots.splitlines():
+                if line.lower().startswith('sitemap:'):
+                    candidate = line.split(':', 1)[1].strip()
+                    if official(candidate, domain):
+                        feeds.append(candidate)
+        except Exception as exc:
+            diagnostics.append(f'ROBOTS: {type(exc).__name__}')
+
+        queue = list(dict.fromkeys(feeds))
+        visited = set()
+        while queue and len(visited) < 7 and len(found) < MAX_PER_FIRM:
+            feed = queue.pop(0)
+            if feed in visited or not official(feed, domain):
+                continue
+            visited.add(feed)
+            try:
+                req = Request(feed, headers={'User-Agent': 'GMIResearchPilot/3.0'})
+                with urlopen(req, timeout=9) as response:
+                    if not official(response.geturl(), domain):
+                        raise ValueError('Redirect outside official domain')
+                    raw = response.read(1_500_001)
+                if len(raw) > 1_500_000:
+                    raise ValueError('XML size limit')
+                if raw[:2] == b'\x1f\x8b':
+                    raw = gzip.decompress(raw)
+                    if len(raw) > 3_000_000:
+                        raise ValueError('Decompressed XML size limit')
+                root = ET.fromstring(raw)
+                tag = root.tag.rsplit('}', 1)[-1].lower()
+                if tag == 'sitemapindex':
+                    for item in root:
+                        loc = next((el.text for el in item if el.tag.rsplit('}', 1)[-1] == 'loc'), None)
+                        if loc and official(loc, domain) and loc not in visited and len(queue) < 12:
+                            queue.append(loc)
+                elif tag == 'urlset':
+                    for item in root:
+                        loc = next((el.text for el in item if el.tag.rsplit('}', 1)[-1] == 'loc'), None)
+                        if loc:
+                            slug = urlparse(loc).path.rstrip('/').split('/')[-1]
+                            add(loc, slug.replace('-', ' ').replace('_', ' ').title())
+                elif tag in ('rss', 'feed'):
+                    for item in root.iter():
+                        if item.tag.rsplit('}', 1)[-1] not in ('item', 'entry'):
+                            continue
+                        title, link = '', ''
+                        for el in item:
+                            name = el.tag.rsplit('}', 1)[-1]
+                            if name == 'title':
+                                title = ''.join(el.itertext()).strip()
+                            if name == 'link':
+                                link = el.get('href') or (el.text or '')
+                        if link:
+                            add(urljoin(feed, link.strip()), title)
+                diagnostics.append(f'XML {feed}: OK')
+            except Exception as exc:
+                diagnostics.append(f'XML {feed}: {type(exc).__name__} {str(exc)[:70]}')
+
+    if selected:
         print(f'DISCOVERY_DETAIL {firm}: ' + ' | '.join(diagnostics), flush=True)
-        print(f'DISCOVERY_STATUS firm={firm} indexes_ok={successful_indexes}/{len(indexes)} candidates={len(found)}', flush=True)
     if first_parser is None:
-        raise RuntimeError('All discovery indexes failed: ' + ' | '.join(diagnostics))
-    if not found:
-        print(f'DISCOVERY_WARNING {firm}: no candidate URLs; not evidence of zero publications', flush=True)
+        # An inaccessible landing page is not evidence of zero publications.
+        raise RuntimeError('All HTML discovery indexes failed: ' + ' | '.join(diagnostics))
     return found, first_parser
 '''
 
-# Remove any previously injected helper, so repeated runs remain idempotent.
-start_marker = '# Multi-index discovery for selected institutions.'
-end_marker = 'def main():'
-if start_marker in src:
-    start = src.index(start_marker)
-    end = src.index(end_marker, start)
-    src = src[:start] + src[end:]
-if src.count(end_marker) != 1:
-    raise RuntimeError('main() anchor missing; nothing written')
-src = src.replace(end_marker, helper + '\n' + end_marker, 1)
+if 'def discover_links(firm, index, domain):' in src:
+    src, n = re.subn(r'(?ms)^# Multi-index discovery for selected institutions\..*?(?=^def main\(\):)', lambda m: helper + '\n', src, count=1)
+    if not n:
+        src, n = re.subn(r'(?ms)^def discover_links\(firm, index, domain\):.*?(?=^def main\(\):)', lambda m: helper + '\n', src, count=1)
+    if not n:
+        raise RuntimeError('Existing discovery helper could not be safely replaced')
+else:
+    if src.count('def main():') != 1:
+        raise RuntimeError('main() anchor not found')
+    src = src.replace('def main():', helper + '\ndef main():', 1)
 old = 'index_parser = parse(get_html(index, domain))\n            links = candidates(index_parser, index, domain)'
 new = 'links, index_parser = discover_links(firm, index, domain)'
 if old in src:
     src = src.replace(old, new, 1)
 elif new not in src:
-    raise RuntimeError('discovery call anchor missing; nothing written')
+    raise RuntimeError('Collector discovery call not found')
 compile(src, str(p), 'exec')
 p.write_text(src, encoding='utf-8')
-print('SOURCE_EXPANSION sources=15; multi-index discovery; failures diagnosed; URLs not independently verified', flush=True)
+print('SOURCE_EXPANSION sources=15; HTML + bounded RSS/sitemap fallback; official URLs only', flush=True)
