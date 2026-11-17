@@ -19,12 +19,16 @@ OUT = ROOT / 'data' / 'official_pilot.json'
 PREVIEW = ROOT / 'data' / 'official_pilot_preview.html'
 TRANSLATION_LIMIT = 30  # total text fields per run; no paid API
 
+
 SITES = [
     ('Goldman Sachs', 'https://www.goldmansachs.com/insights/', 'goldmansachs.com'),
     ('J.P. Morgan Asset Management', 'https://am.jpmorgan.com/us/en/asset-management/adv/insights/', 'jpmorgan.com'),
     ('Morgan Stanley', 'https://www.morganstanley.com/insights', 'morganstanley.com'),
     ('Capital Group', 'https://www.capitalgroup.com/institutional/insights.html', 'capitalgroup.com'),
+    ('BlackRock', 'https://www.blackrock.com/us/individual/insights', 'blackrock.com'),
+    ('J.P. Morgan Research', 'https://www.jpmorgan.com/insights', 'jpmorgan.com'),
 ]
+
 
 MAX_PER_FIRM = 5
 MAX_BYTES = 2_500_000
