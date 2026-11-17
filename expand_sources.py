@@ -18,8 +18,7 @@ sites = '''SITES = [
     ('Vanguard', 'https://investor.vanguard.com/resources-education/news-perspectives', 'vanguard.com'),
     ('Fidelity', 'https://www.fidelity.com/learning-center/trading-investing', 'fidelity.com'),
     ('PIMCO', 'https://www.pimco.com/us/en/insights', 'pimco.com'),
-    ('UBS', 'https://www.ubs.com/us/en/wealth-management/insights.html', 'ubs.com'),
-    ('BNP Paribas', 'https://cib.bnpparibas/formats/insight/', 'cib.bnpparibas'),
+    ('BNP Paribas', 'https://globalmarkets.cib.bnpparibas/markets-360/', 'cib.bnpparibas'),
     ('Schroders', 'https://www.schroders.com/en/global/individual/insights/', 'schroders.com'),
     ('Amundi', 'https://research-center.amundi.com/', 'amundi.com'),
     ('State Street', 'https://www.ssga.com/us/en/individual/insights', 'ssga.com'),
@@ -49,11 +48,11 @@ def discover_links(firm, index, domain):
         'PIMCO': ['https://www.pimco.com/us/en/insights',
                   'https://www.pimco.com/us/en/insights/economic-and-market-commentary'],
         'Schroders': ['https://www.schroders.com/en/global/individual/insights/'],
-        'Amundi': ['https://research-center.amundi.com/'],
-        'UBS': ['https://www.ubs.com/us/en/wealth-management/insights.html'],
+        'Amundi': ['https://research-center.amundi.com/',
+                   'https://www.amundi.com/globaldistributor/all-news'],
         'BNP Paribas': ['https://cib.bnpparibas/formats/insight/'],
     }
-    selected = firm in fallback or firm in ('UBS', 'BNP Paribas')
+    selected = firm in fallback
     sources = list(dict.fromkeys([index] + fallback.get(firm, [])))
     found, seen, diagnostics, first_parser = [], set(), [], None
     source_rank = {}
@@ -69,7 +68,7 @@ def discover_links(firm, index, domain):
         if any(x in path for x in EXCLUDE_PATH):
             return
         # Restrict discovery to publication-shaped paths.
-        hints = ('/insights/', '/research/', '/articles/', '/commentary/', '/news/',
+        hints = ('/insights/', '/research/', '/article/', '/articles/', '/commentary/', '/news/',
                  '/outlook/', '/viewpoints/', '/publications/', '/market/',
                  '/investment-views/', '/investment-insights/', '/perspectives/')
         if not any(h in path + '/' for h in hints) and firm != 'BNP Paribas':
@@ -105,7 +104,7 @@ def discover_links(firm, index, domain):
         origin = 'https://' + host
         feeds = [origin + '/feed', origin + '/rss', origin + '/sitemap.xml']
         if firm == 'BNP Paribas':
-            feeds = [origin + '/formats/insight/', origin + '/sitemap.xml']
+            feeds = [origin + '/sitemap.xml', 'https://cib.bnpparibas/sitemap.xml']
         # Robots.txt may advertise a sitemap on a different official subdomain.
         try:
             req = Request(origin + '/robots.txt', headers={'User-Agent': 'GMIResearchPilot/3.0'})
