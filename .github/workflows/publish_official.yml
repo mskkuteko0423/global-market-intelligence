@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: gmi-official-publish
+  cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -23,19 +27,31 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Collect and translate articles
+      - name: Backup previous articles
+        run: |
+          if [ -f data/official_pilot.json ]; then
+            cp data/official_pilot.json /tmp/gmi_previous_official.json
+          fi
+
+      - name: Collect and translate
         run: python official_pilot.py
 
-      - name: Verify output
+      - name: Merge article history
+        run: python archive_official.py
+
+      - name: Verify archive
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
 
-          p = Path('data/official_pilot.json')
-          d = json.loads(p.read_text(encoding='utf-8'))
-          assert isinstance(d.get('articles'), list)
-          print('Records:', len(d['articles']))
+          p = Path("data/official_pilot.json")
+          data = json.loads(p.read_text(encoding="utf-8"))
+
+          assert data.get("archive_enabled") is True
+          assert len(data["articles"]) > 0
+
+          print("Archive count:", len(data["articles"]))
           PY
 
       - name: Publish data
@@ -46,7 +62,7 @@ jobs:
           git add data/official_pilot.json data/official_pilot_preview.html
 
           if ! git diff --cached --quiet; then
-            git commit -m 'Update official article data'
+            git commit -m 'Update official article archive'
             git push
           else
             echo 'No changes'
