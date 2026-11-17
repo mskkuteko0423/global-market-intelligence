@@ -176,26 +176,80 @@ def candidates(parser, index, domain):
     return found
 
 
+
 def find_date(page_html, meta, anchor_title):
-    for key in ('article:published_time', 'datepublished', 'date', 'publishdate',
-                'dc.date', 'dc.date.issued', 'parsely-pub-date'):
-        value = meta.get(key)
-        if value:
-            m = re.search(r'20\d{2}-\d{2}-\d{2}', value)
-            if m:
-                return m.group()
-    # JSON-LD datePublished; HTML entities are decoded before matching.
+    """Extract publication date only; never substitute modified date."""
+
+    def normalize_date(value):
+        if not value:
+            return None
+
+        value = str(value).strip()
+
+        # ISO format: 2026-11-17 or 2026-11-17T09:00:00
+        match = re.search(r'(?<!\d)(20\d{2}-\d{2}-\d{2})(?!\d)', value)
+        if match:
+            try:
+                return dt.date.fromisoformat(match.group(1)).isoformat()
+            except ValueError:
+                pass
+
+        # English format: November 17, 2026
+        match = re.search(
+            r'\b(January|February|March|April|May|June|July|'
+            r'August|September|October|November|December|'
+            r'Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)'
+            r'\.?\s+\d{1,2},?\s+20\d{2}\b',
+            value,
+            re.I
+        )
+        if match:
+            text = match.group(0).replace(',', '').replace('.', '')
+            for fmt in ('%B %d %Y', '%b %d %Y'):
+                try:
+                    return dt.datetime.strptime(text, fmt).date().isoformat()
+                except ValueError:
+                    continue
+
+        return None
+
+    # 1. Explicit publication metadata
+    publication_keys = (
+        'article:published_time',
+        'datepublished',
+        'publishdate',
+        'publication_date',
+        'dc.date.issued',
+        'parsely-pub-date',
+        'citation_publication_date',
+        'citation_date',
+    )
+
+    for key in publication_keys:
+        result = normalize_date(meta.get(key))
+        if result:
+            return result
+
+    # 2. Structured data: JSON-LD datePublished
+    # Supports normal and escaped JSON quotation marks.
     decoded = html_lib.unescape(page_html)
-    m = re.search(r'["\\]datePublished["\\]\s*:\s*["\\](20\d{2}-\d{2}-\d{2})', decoded, re.I)
-    if m:
-        return m.group(1)
-    m = re.search(r'\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},?\s+20\d{2}\b', anchor_title, re.I)
-    if m:
-        try:
-            return dt.datetime.strptime(m.group().replace(',', ''), '%b %d %Y').date().isoformat()
-        except ValueError:
-            pass
+    pattern = (
+        r'\\?"datePublished\\?"\s*:\s*'
+        r'\\?"([^"\\<>]{8,60})'
+    )
+
+    for match in re.finditer(pattern, decoded, re.I):
+        result = normalize_date(match.group(1))
+        if result:
+            return result
+
+    # 3. Date explicitly included in the article link title
+    result = normalize_date(anchor_title)
+    if result:
+        return result
+
     return None
+
 
 
 def is_topic_page(url, title, meta, paragraphs):
