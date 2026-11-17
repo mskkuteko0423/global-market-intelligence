@@ -1,195 +1,22 @@
-
 <!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GMI | 公式記事</title>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#10213c"><title>GMI | 公式記事</title>
 <style>
-*{box-sizing:border-box}
-body{margin:0;background:#f4f6fa;color:#18263e;font-family:-apple-system,BlinkMacSystemFont,sans-serif}
-header{background:#10213c;color:white;padding:22px 18px}
-header h1{font-size:22px;margin:10px 0 5px}
-header a{color:#dceaff}
-main{max-width:1000px;margin:auto;padding:16px}
-.notice,.panel,article{background:white;border:1px solid #dfe6ef;border-radius:12px;padding:15px;margin-bottom:12px}
-.notice{background:#fff7df;font-size:13px;line-height:1.7}
-.controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:8px}
-input,select{padding:11px;border:1px solid #ccd5e3;border-radius:8px;min-width:0;width:100%;font:inherit}
-article h2{font-size:17px;line-height:1.5}
-article p{font-size:14px;line-height:1.8;white-space:pre-wrap}
-.meta{font-size:12px;color:#66748a}
-.tag{display:inline-block;background:#eef3fa;border-radius:5px;padding:4px 7px;margin:3px}
-a{color:#1357a5;overflow-wrap:anywhere}
-@media(max-width:650px){
-.controls{grid-template-columns:1fr 1fr}
-.controls input{grid-column:1/-1}
-}
-</style>
-</head>
-<body>
-<header>
-<a href="./index.html">← GMIホーム</a>
-<h1>公式記事・日本語ビュー</h1>
-<p>世界の金融機関の公開記事</p>
-</header>
-<main>
-<div class="notice">
-日本語本文は取得した記事の一部を機械翻訳したものです。
-記事全体の要約ではありません。
-公開日・分類は未検証の場合があります。
-投資判断は必ず原文をご確認ください。
-現在は3社の試験運用です。
-</div>
-<div class="panel controls">
-<input id="q" placeholder="記事・金融機関・本文を検索">
-<select id="category">
-<option value="">全テーマ</option>
-</select>
-<select id="firm">
-<option value="">全機関</option>
-</select>
-</div>
-<p id="count">読み込み中…</p>
-<div id="items"></div>
-</main>
-<script>
-const $=id=>document.getElementById(id);
-
-const esc=s=>String(s??'').replace(
-  /[&<>"']/g,
-  c=>({
-    '&':'&amp;',
-    '<':'&lt;',
-    '>':'&gt;',
-    '"':'&quot;',
-    "'":'&#39;'
-  }[c])
-);
-
-let records=[];
-
-function safeUrl(u){
-  try{
-    const x=new URL(u);
-    return x.protocol==='https:'?x.href:null;
-  }catch{
-    return null;
-  }
-}
-
-function render(){
-  const q=$('q').value.trim().toLowerCase();
-  const cat=$('category').value;
-  const firm=$('firm').value;
-
-  const selected=records.filter(r=>
-    (!q||[
-      r.title,
-      r.title_ja,
-      r.excerpt,
-      r.excerpt_ja,
-      r.firm,
-      (r.categories||[]).join(' ')
-    ].join(' ').toLowerCase().includes(q))&&
-    (!cat||(r.categories||[]).includes(cat))&&
-    (!firm||r.firm===firm)
-  );
-
-  $('count').textContent=selected.length+'件の記事';
-
-  $('items').innerHTML=selected.map(r=>{
-    const url=safeUrl(r.official_url);
-    const title=r.title_ja||r.title||'タイトル未取得';
-    const body=r.excerpt_ja||r.excerpt||'';
-    const status=r.excerpt_ja
-      ?'日本語機械翻訳・本文の一部'
-      :'英語原文・翻訳未取得';
-
-    const tags=(r.categories||[])
-      .map(c=>'<span class="tag">'+esc(c)+'</span>')
-      .join('');
-
-    return '<article>'+
-      '<div class="meta">'+
-      '<span class="tag">'+esc(r.firm)+'</span>'+
-      tags+
-      '<span>公開日: '+esc(r.published||'未確認')+'</span>'+
-      '</div>'+
-      '<h2>'+esc(title)+'</h2>'+
-      '<div class="meta">原題: '+esc(r.title||'')+'</div>'+
-      '<p><b>'+status+'</b></p>'+
-      '<p>'+esc(body)+'</p>'+
-      (url
-        ?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">公式記事を開く ↗</a>'
-        :'')+
-      '</article>';
-  }).join('')||
-    '<div class="panel">該当記事はありません。</div>';
-}
-
-for(const id of ['q','category','firm']){
-  $(id).addEventListener(
-    id==='q'?'input':'change',
-    render
-  );
-}
-
-async function load(){
-  try{
-    const response=await fetch(
-      './data/official_pilot.json?ts='+Date.now(),
-      {cache:'no-store'}
-    );
-
-    if(!response.ok){
-      throw Error('公式記事データが未公開です');
-    }
-
-    const data=await response.json();
-
-    records=(
-      Array.isArray(data.articles)
-        ?data.articles
-        :[]
-    ).filter(r=>
-      r.page_type==='article_candidate'&&
-      r.excerpt&&
-      safeUrl(r.official_url)
-    );
-
-    const cats=[...new Set(
-      records.flatMap(r=>
-        Array.isArray(r.categories)?r.categories:[]
-      )
-    )].sort();
-
-    const firms=[...new Set(
-      records.map(r=>r.firm).filter(Boolean)
-    )].sort();
-
-    $('category').innerHTML=
-      '<option value="">全テーマ</option>'+
-      cats.map(c=>
-        '<option value="'+esc(c)+'">'+esc(c)+'</option>'
-      ).join('');
-
-    $('firm').innerHTML=
-      '<option value="">全機関</option>'+
-      firms.map(f=>
-        '<option value="'+esc(f)+'">'+esc(f)+'</option>'
-      ).join('');
-
-    render();
-
-  }catch(e){
-    $('count').textContent='読み込み失敗';
-    $('items').innerHTML=
-      '<div class="panel">'+esc(e.message)+'</div>';
-  }
-}
-
-load();
-</script>
-</body>
-</html>
+*{box-sizing:border-box}body{margin:0;background:#f4f6fa;color:#17253b;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header{background:#10213c;color:#fff;padding:24px 18px}header>div,main{max-width:920px;margin:auto}header h1{font-size:23px;margin:0 0 8px}header p{margin:0;color:#cbd5e5;font-size:13px}main{padding:18px 14px 70px}.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:15px}.metric,.panel,.article{background:white;border:1px solid #dce4ee;border-radius:13px;padding:14px}.metric strong{display:block;font-size:23px}.metric span,.subtle{font-size:12px;color:#66758a}.panel{margin-bottom:13px}.notice{font-size:13px;line-height:1.7;color:#664f20;background:#fff8e7;border:1px solid #f3e3b9;border-radius:12px;padding:12px;margin:12px 0}.filters{display:grid;grid-template-columns:1fr 1fr;gap:8px}.filters input{grid-column:1/-1}input,select{width:100%;padding:11px;font:inherit;border:1px solid #c9d3e0;border-radius:9px;background:white}.tabs{display:flex;gap:8px;overflow-x:auto;margin:14px 0}.tabs button{white-space:nowrap;border:1px solid #c9d3e0;background:#fff;border-radius:9px;padding:10px 13px;font:inherit;font-size:13px}.tabs button.active{background:#173f77;color:#fff;border-color:#173f77}.article{margin-bottom:12px}.article h2{font-size:17px;line-height:1.5;margin:11px 0}.meta{display:flex;gap:6px;flex-wrap:wrap}.tag{background:#edf2f9;color:#42536d;font-size:11px;padding:5px 7px;border-radius:6px}.date{font-size:12px;color:#54647a;margin-top:9px}.article p{font-size:13px;line-height:1.85;white-space:pre-wrap;overflow-wrap:anywhere}.article a{color:#1459a3;font-weight:600;font-size:13px}.empty{padding:28px;text-align:center;color:#68758a}.subtle{line-height:1.6}#count{font-size:12px;color:#66758a;margin:12px 0}@media(max-width:420px){.metric{padding:10px}.metric strong{font-size:20px}}
+</style></head><body><header><div><h1>Global Market Intelligence</h1><p>金融機関の公式記事・日本語抜粋</p></div></header><main>
+<div class="summary"><div class="metric"><strong id="total">—</strong><span>収録記事</span></div><div class="metric"><strong id="dated">—</strong><span>公開日検出</span></div><div class="metric"><strong id="undated">—</strong><span>公開日未確認</span></div></div>
+<div class="notice">公開日は公式ページのメタデータやリンク文言から機械的に検出した日付です。独立した確認が済んだ日付とは限りません。「新着」は公開日が検出できた記事のうち直近7日以内のものを指し、公開日未確認の記事は含みません。翻訳は本文の一部であり、要約ではありません。</div>
+<div class="panel"><div class="filters"><input id="search" type="search" placeholder="記事・金融機関・テーマで検索"><select id="firm"><option value="">すべての金融機関</option></select><select id="category"><option value="">すべてのテーマ</option></select></div><div class="tabs"><button class="active" data-mode="all">すべて</button><button data-mode="recent">直近7日（暫定）</button><button data-mode="unknown">公開日未確認</button></div><div class="subtle">初回収集日が記録されている記事のみ、その日付を表示します。過去記事への後付け日付は実際の初回収集日とは限りません。</div></div>
+<div id="count"></div><div id="articles" aria-live="polite"><div class="empty">読み込み中です…</div></div>
+</main><script>
+'use strict';const el=id=>document.getElementById(id);let articles=[],mode='all';const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const iso=s=>typeof s==='string'&&/^20\d{2}-\d{2}-\d{2}$/.test(s)&&!Number.isNaN(Date.parse(s+'T00:00:00Z'))?s:null;
+const pub=r=>iso(r.published);const firstSeen=r=>iso(r.first_seen)||iso(r.first_seen_date)||iso(r.first_seen_at);
+const categories=r=>Array.isArray(r.categories)?r.categories.filter(x=>typeof x==='string'):[];
+const safeLink=u=>{try{const x=new URL(u);return x.protocol==='https:'?x.href:null}catch{return null}};
+const isGate=r=>{const t=String(r.excerpt||'').toLowerCase();return /this website is intended for institutional investors|you must attest that you meet the qualifications|please update your user type|to access another blackrock site|javascript to view this video/.test(t)};
+function renderArticle(r){const link=safeLink(r.official_url);const gate=isGate(r);const title=r.title_ja||r.title||'無題';const date=pub(r);const seen=firstSeen(r);const tags=[r.firm||'出典不明',...categories(r)].map(x=>`<span class="tag">${escapeHtml(x)}</span>`).join('');const excerpt=gate?'公式ページの利用条件・アクセス案内が抽出されたため、本文抜粋を表示していません。公式記事をご確認ください。':(r.excerpt_ja||r.excerpt||'本文を取得できませんでした。');const label=gate?'本文の確認が必要':r.excerpt_ja?'日本語機械翻訳・本文の一部':'英語原文・本文の一部';return `<article class="article"><div class="meta">${tags}</div><div class="date">公開日：${date?escapeHtml(date)+'（自動検出・未検証）':'未確認'}${seen?' ／ GMI初回記録日：'+escapeHtml(seen):''}</div><h2>${escapeHtml(title)}</h2><div class="subtle">原題：${escapeHtml(r.title||'')}</div><p><b>${escapeHtml(label)}</b></p><p>${escapeHtml(excerpt)}</p>${link?`<a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">公式記事を開く ↗</a>`:''}</article>`}
+function draw(){const query=el('search').value.trim().toLowerCase(),firm=el('firm').value,cat=el('category').value;const now=new Date(),today=Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate());let shown=articles.filter(r=>{const d=pub(r);if(mode==='unknown'&&d)return false;if(mode==='recent'&&(!d||today-Date.parse(d+'T00:00:00Z')<0||today-Date.parse(d+'T00:00:00Z')>6*86400000))return false;if(firm&&r.firm!==firm)return false;if(cat&&!categories(r).includes(cat))return false;return !query||[r.firm,r.title,r.title_ja,r.excerpt_ja,...categories(r)].join(' ').toLowerCase().includes(query)});shown.sort((a,b)=>(pub(b)||'').localeCompare(pub(a)||''));el('count').textContent=`表示：${shown.length}件 ／ 全${articles.length}件`;el('articles').innerHTML=shown.length?shown.map(renderArticle).join(''):'<div class="empty">条件に一致する記事はありません。</div>'}
+function fill(id,values,label){el(id).innerHTML=`<option value="">${label}</option>`+[...new Set(values.filter(Boolean))].sort().map(v=>`<option value="${escapeHtml(v)}">${escapeHtml(v)}</option>`).join('')}
+document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>{mode=b.dataset.mode;document.querySelectorAll('[data-mode]').forEach(x=>x.classList.toggle('active',x===b));draw()}));['search','firm','category'].forEach(id=>el(id).addEventListener(id==='search'?'input':'change',draw));
+async function load(){try{const response=await fetch('./data/official_pilot.json?ts='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('記事データを取得できません（HTTP '+response.status+'）');const data=await response.json();if(!Array.isArray(data.articles))throw Error('記事データの形式が不正です');articles=data.articles.filter(r=>r&&r.page_type==='article_candidate'&&r.excerpt&&safeLink(r.official_url));el('total').textContent=articles.length;el('dated').textContent=articles.filter(pub).length;el('undated').textContent=articles.filter(r=>!pub(r)).length;fill('firm',articles.map(r=>r.firm),'すべての金融機関');fill('category',articles.flatMap(categories),'すべてのテーマ');draw()}catch(e){el('articles').innerHTML=`<div class="empty">${escapeHtml(e.message)}</div>`}}load();
+</script></body></html>
