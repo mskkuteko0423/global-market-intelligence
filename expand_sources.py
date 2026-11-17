@@ -220,6 +220,17 @@ if old in src:
 elif new not in src:
     raise RuntimeError('Collector discovery call not found')
 
+# Try up to 10 Schroders candidates while keeping the established limit for
+# every other firm. Scope the edit to main() so discovery limits stay unchanged.
+main_prefix, main_body = src.split('def main():', 1)
+main_body, schroders_limit_changed = re.subn(
+    r'(?m)^(\s*)if found >= MAX_PER_FIRM:\s*$',
+    r"\1if found >= (10 if firm == 'Schroders' else MAX_PER_FIRM):",
+    main_body,
+    count=1,
+)
+src = main_prefix + 'def main():' + main_body
+
 # Surface per-article Schroders failures after collection. Source-level stats
 # can show "error: None" even when individual pages cannot be extracted.
 diagnostic = '''    for article in articles:
@@ -234,4 +245,5 @@ if 'SCHRODERS_ARTICLE title=' not in src:
 
 compile(src, str(p), 'exec')
 p.write_text(src, encoding='utf-8')
-print('SOURCE_EXPANSION sources=15; HTML + bounded RSS/sitemap fallback; official URLs only', flush=True)
+limit_status = 'Schroders test cap=10' if schroders_limit_changed else 'Schroders test cap unchanged'
+print(f'SOURCE_EXPANSION sources=15; HTML + bounded RSS/sitemap fallback; official URLs only; {limit_status}', flush=True)
