@@ -317,9 +317,20 @@ def main():
                     record['primary_categories'] = primary
                     record['secondary_categories'] = secondary
                     record['categories'] = primary + secondary
-                    boilerplate = ('we harness every resource', 'goldman sachs’ weekly newsletter',
-                                   'our weekly newsletter delivers', 'we invest the power of goldman sachs',
-                                   'subscribe now', 'privacy policy', 'cookie preferences')
+                    
+                    boilerplate = (
+                        'we harness every resource',
+                        'goldman sachs’ weekly newsletter',
+                        'our weekly newsletter delivers',
+                        'we invest the power of goldman sachs',
+                        'subscribe now',
+                        'privacy policy',
+                        'cookie preferences',
+                        'to access another blackrock site',
+                        'please update your user type',
+                        'update your user type',
+                    )
+
                     clean = [p for p in page.paragraphs if not any(b in p.lower() for b in boilerplate)]
                     if record['page_type'] == 'topic_or_index':
                         record['categories'] = []
