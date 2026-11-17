@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T03:39:22.029537+00:00",
+  "updated": "2026-11-17T05:16:53.876226+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -74,7 +74,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ゴールドマン・サックスのジョン・ウォルドロン社長兼COOは、クライアントは慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れであると述べています。Exchangesポッドキャストでは、資産運用およびウェルスマネジメントにおける機会や、AIがどのように企業が顧客により良いサービスを提供することに役立つかについても語っています。M&Aの勢いは続くはずです。企業M&Aは、M&A取引の強力なパイプラインと企業合併に支えられ、2026年には30%から35%増加する可能性があります。",
+      "excerpt_ja": "ゴールドマン・サックスのジョン・ウォルドロン社長兼COOは、クライアントは慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れであると述べています。Exchangesポッドキャストでは、資産運用とウェルスマネジメントにおける機会や、AIがクライアントへのサービス向上にどのように役立つかについても語っています。M&Aの勢いは続くはずです。企業M&Aは、強力なM&A案件のパイプラインと企業合併の支援を受けて、2026年には30%から35%増加する可能性があります。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
     },
     {
@@ -102,7 +102,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "設立から2年半が経過し、企業価値が10億ドルに達したスタートアップ企業Aaruは、マルチエージェントAIシミュレーションを活用して人間の意思決定を予測することで、市場調査と消費者インテリジェンスのあり方を刷新しています。共同創業者兼CEOのカム・フィンク氏と、共同創業者兼プレジデントのネッド・コー氏が、Aaruの創業の経緯と、高度な行動シミュレーションが従来の消費者調査の限界をどのように克服するかについて語ります。この対談では、",
+      "excerpt_ja": "設立から2年半が経過し、企業価値が10億ドルに達したスタートアップAaruは、マルチエージェントAIシミュレーションを活用して人間の意思決定を予測することで、市場調査と消費者インテリジェンスのあり方を刷新しています。共同創業者兼CEOのCam Fink氏と、共同創業者兼プレジデントのNed Koh氏が、Aaruの創業ストーリーと、高度な行動シミュレーションが従来の消費者調査の限界をどのように克服するかについて語ります。この対談では、",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
     },
     {
@@ -130,7 +130,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "サブスクリプションストリーミングの見通しが改善する中、世界の音楽業界の収益は2035年までに年間約2,000億ドルに達すると見込まれています。ゴールドマン・サックス・リサーチによると、新しいサブスクリプションモデル、AI、D2C（ダイレクト・トゥ・コンシューマー）サービスにより、業界が新たな方法でオーディエンスにリーチする機会が生まれています。音楽市場は、過去数年間にわたって成長の期待を下回ってきました。新しい予測は",
+      "excerpt_ja": "サブスクリプションストリーミングの見通しが改善する中、世界の音楽業界の収益は2035年までに年間約2,000億ドルに達すると見込まれています。ゴールドマン・サックス・リサーチによると、新しいサブスクリプションモデル、AI、D2C（ダイレクト・トゥ・コンシューマー）サービスにより、業界が新しい方法でオーディエンスにリーチする機会が生まれています。音楽市場は、ここ数年、成長の期待を下回ってきました。新しい予測は",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
     },
     {
@@ -153,7 +153,7 @@
       ],
       "secondary_categories": [],
       "translation_errors": {},
-      "title_ja": "エネルギーショックの中、レジリエンスを示す新興市場国クレジット",
+      "title_ja": "エネルギーショックの中、レジリエンスを示す新興市場国債券",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
@@ -166,7 +166,7 @@
       "official_url": "https://www.morganstanley.com/insights/articles/healthcare-leaders-discuss-reshaping-industry-global-healthcare-conference-2026",
       "link_title": "Macro photo showing scientist s gloved hands adjusting optical microscope for analysis",
       "title": "Healthcare's Next Growth Drivers | Morgan Stanley",
-      "published": null,
+      "published": "2026-10-05",
       "categories": [
         "その他の産業テーマ",
         "AI・半導体"
@@ -176,7 +176,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Market-related candidate; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "metadata_or_link_detected_not_independently_verified",
       "primary_categories": [
         "その他の産業テーマ"
       ],
@@ -184,7 +184,7 @@
         "AI・半導体"
       ],
       "translation_errors": {},
-      "title_ja": "ヘルスケアの次の成長要因 | モルガン・スタンレー",
+      "title_ja": "ヘルスケアの次の成長ドライバー | モルガン・スタンレー",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
@@ -197,7 +197,7 @@
       "official_url": "https://www.morganstanley.com/insights/articles/healthcare-consumerism-drives-26-b-opportunity-2026",
       "link_title": "Pharmacist, woman and medicine for customer in clinic of product care, advice and information for prescription. Healthcare, person and patient with pills for pharmaceutical, instructions and safety",
       "title": "The Rise of Healthcare Consumerism | Morgan Stanley",
-      "published": null,
+      "published": "2026-09-29",
       "categories": [
         "その他の産業テーマ"
       ],
@@ -206,7 +206,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Market-related candidate; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "metadata_or_link_detected_not_independently_verified",
       "primary_categories": [
         "その他の産業テーマ"
       ],
@@ -217,7 +217,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "米国の消費者は、医療サービスへのアクセス方法や支払い方法においてますます主導権を握るようになり、バイオ医薬品および医療サービス全体にわたって潜在的な機会が生まれています。複雑で高額な米国の医療システムにおいて、患者はもはや「かかりつけの医師に相談してください」という医薬品の広告に耳を傾けるだけではなく、直接情報源にアクセスしています。政策の変更と技術の進歩により、消費者は直接医療を選択する方法をより多く持つようになりました。",
+      "excerpt_ja": "米国の消費者は、医療サービスへのアクセス方法や支払い方法においてますます主導権を握るようになり、バイオ医薬品および医療サービス全体にわたって潜在的な機会が生まれています。複雑で高額な米国の医療システムにおいて、患者はもはや「かかりつけの医師に相談してください」という医薬品の広告に耳を傾けるだけではなく、直接情報源にアクセスしています。政策の変更と技術の進歩により、消費者は医療サービスを直接選択する方法をより多く持つようになりました。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
     },
     {
@@ -225,7 +225,7 @@
       "official_url": "https://www.morganstanley.com/insights/articles/agentic-commerce-ai-agents-30-trillion-consumer-spending",
       "link_title": "How AI Agents Could Disrupt Consumer Industries",
       "title": "Winners and Losers From AI Agents | Morgan Stanley",
-      "published": null,
+      "published": "2026-11-09",
       "categories": [
         "AI・半導体"
       ],
@@ -234,7 +234,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Market-related candidate; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "metadata_or_link_detected_not_independently_verified",
       "primary_categories": [
         "AI・半導体"
       ],
@@ -249,7 +249,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "AIエージェントが消費者に代わって意思決定や購入を行う能力を高めるにつれて、モルガン・スタンレー・リサーチは、どの業界が恩恵を受ける可能性があるか、またどの業界が競争圧力の高まりに直面するかを調査しています。高性能な消費者向けAIエージェントが最近登場したことで、人工知能が小売業や保険業から、運輸業やライブエンターテイメントに至るまで、さまざまな業界にどのような変革をもたらす可能性があるかについて、議論が再燃しています。従来の"
+      "excerpt_ja": "AIエージェントが消費者に代わって意思決定や購入を行う能力をますます高めるにつれ、モルガン・スタンレー・リサーチは、どの業界が恩恵を受ける可能性があり、どの業界が競争圧力の高まりに直面しているかを調査しています。高性能な消費者向けAIエージェントが最近登場したことで、人工知能が小売業や保険業から、運輸業やライブエンターテイメントに至るまで、さまざまな業界にどのような変革をもたらす可能性があるかについて、議論が再燃しています。従来の"
     },
     {
       "firm": "Capital Group",
@@ -280,7 +280,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。"
+      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。"
     },
     {
       "firm": "Capital Group",
@@ -347,7 +347,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。"
+      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。"
     },
     {
       "firm": "Capital Group",
@@ -378,7 +378,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。"
+      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。"
     },
     {
       "firm": "Capital Group",
@@ -405,14 +405,14 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。"
+      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。"
     },
     {
       "firm": "BlackRock",
       "official_url": "https://www.blackrock.com/us/individual/insights/blackrock-investment-institute/outlook",
       "link_title": "Investment outlook Latest Global Investment Outlook",
       "title": "Q4 Global Investment Outlook | BlackRock",
-      "published": null,
+      "published": "2026-09-15",
       "categories": [
         "投資戦略・資金フロー",
         "マクロ経済",
@@ -423,7 +423,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Market-related candidate; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "metadata_or_link_detected_not_independently_verified",
       "primary_categories": [
         "投資戦略・資金フロー"
       ],
@@ -437,7 +437,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "AIの構築が加速し、制約要因が顕在化しています。当社は引き続き米国株式をオーバーウェイトとし、新興市場株式をオーバーウェイトに引き上げますが、ボトルネックによって生じる機会に引き続き注目します。世界の国債利回りは夏にかけて急上昇しました。利回りの上昇によりインカムゲインの機会が復活しましたが、それは柔軟なアプローチを通じてのみ可能です。私たちは、感度の高い長期債よりも短期債を好みます。",
+      "excerpt_ja": "AIの構築が加速し、制約要因が顕在化しています。当社は引き続き米国株式をオーバーウエイトとし、新興市場株式をオーバーウエイトに引き上げますが、ボトルネックによって生じる機会に引き続き注目しています。世界の国債利回りは夏を通じて急上昇しました。利回りの上昇によりインカムゲインの機会が復活しましたが、それは柔軟なアプローチを通じてのみ実現しています。私たちは、感度の高い長期債よりも短期債を好みます。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
     },
     {
@@ -445,14 +445,14 @@
       "official_url": "https://www.blackrock.com/us/individual/insights/blackrock-investment-institute/weekly-commentary",
       "link_title": "Global Weekly Commentary AI: looking beyond the buildout",
       "title": "Weekly market commentary | BlackRock Investment Institute",
-      "published": null,
+      "published": "2026-11-16",
       "categories": [],
       "excerpt": "To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video. Amid recent tech stock swings, we’re reconciling our longer-term AI conviction – which is a strategic overweight, as evidenced in our latest update to our capital market assumptions – with nearer-term caution – our tactical 6–12 month horizon view is neutral. The picture for U.S. stocks depends on how you measure valuations. One measure suggests stocks are almost as expensive as they were during the dot-com bubble. Another paints a less extreme picture. But that's because investors are counting on strong earnings growth. Whether AI can deliver that growth is still an open question. For one, cheaper computing could squeeze profits for AI suppliers. Meanwhile, bottlenecks could slow how quickly businesses adopt AI. But while both could weigh on the AI theme in the near term, they don’t necessarily undermine the longer-term opportunity.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "metadata_or_link_detected_not_independently_verified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -461,7 +461,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "この動画を視聴するには、JavaScriptを有効にしてください。また、HTML5動画に対応したウェブブラウザへのアップグレードをご検討ください。最近のテクノロジー株の変動の中、当社は長期的なAIへの確信（これは当社の資本市場に関する仮定の最新の更新で示されているように、戦略的なオーバーウェイトです）と、より短期的な慎重さ（当社の戦術的な6～12ヵ月の見通しは中立です）を両立させています。米国株式の見通しは、どのように捉えるかによって異なります。",
+      "excerpt_ja": "この動画を視聴するには、JavaScriptを有効にしてください。また、HTML5動画に対応したウェブブラウザへのアップグレードをご検討ください。最近のテクノロジー株の変動の中、当社は長期的なAIへの確信（資本市場の前提条件に関する最新のアップデートで示されているように、戦略的なオーバーウェイト）と、より短期的な慎重さ（戦術的な6～12ヵ月の見通しはニュートラル）を両立させています。米国株式の見通しは、どのように捉えるかによって異なります。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
     },
     {
@@ -469,14 +469,14 @@
       "official_url": "https://www.blackrock.com/us/individual/insights/active-investor-series",
       "link_title": "VIDEO SERIES 3+1 Active Investor Series",
       "title": "3+1 Active Investor Series | BlackRock",
-      "published": null,
+      "published": "2026-05-06",
       "categories": [],
       "excerpt": "To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video. Good morning. I’m Evy Hambro, Head of the Global Resources and Real Assets Team. It’s the week of November 16th. Here are three things you need to know, and one you don’t. First up.Commodities, can’t build anything without them. For too many years commodities have been forgotten about. And, as a result of that, not enough attention has been applied to supply chains of the commodities relative to their use. There are opportunities here for all stakeholders, not just investors. Normally, when you go into a commodity cycle you have many years of positive returns. We think we are in the first quarter a new commodity cycle. Number two.Commodity companies deliver exposure to commodity prices. The second element is, what does the company do with the money it makes from producing a commodity? What the companies have got right since the bottom in 2016 is rebalancing and sharing returns with their investors. Commodity equities come with higher volatility, but the advantages in our views outweigh the disadvantages. The prospect for dividends, growth, exploration success, and M&A brings an element of upside other forms of commodity exposure do not. Which brings us to.People are turning back to gold as a source of diversification and wealth preservation. Think about it tangibly. Somebody who had a wallet full of European currency 24 years ago. Looking at that wallet today, those paper currencies, those Portuguese escudos and German marks, are worthless. If they had the same amount of money in gold coins, they probably would be worth more than what they could have bought back then. And that is one of the best examples of how gold can hold its purchasing power through time.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "metadata_or_link_detected_not_independently_verified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
