@@ -220,6 +220,15 @@ if old in src:
 elif new not in src:
     raise RuntimeError('Collector discovery call not found')
 
+# Surface per-article Schroders failures in Actions logs. Source-level stats can
+# show "error: None" even when every individual article lacks extractable text.
+diagnostic = "                if firm == 'Schroders':\n                    print(f\"SCHRODERS_ARTICLE title={title[:100]!r} url={url} extracted={bool(excerpt)} note={note!r}\", flush=True)\n"
+anchor = '                if found >= MAX_PER_FIRM:'
+if diagnostic.strip() not in src:
+    if src.count(anchor) != 1:
+        raise RuntimeError('Schroders article diagnostic anchor not found uniquely')
+    src = src.replace(anchor, diagnostic + anchor, 1)
+
 compile(src, str(p), 'exec')
 p.write_text(src, encoding='utf-8')
 print('SOURCE_EXPANSION sources=15; HTML + bounded RSS/sitemap fallback; official URLs only', flush=True)
