@@ -33,8 +33,13 @@ if count != 1:
 # The fallback URLs are discovery candidates, not assertions of live availability.
 # Keep a tight publication-path and title filter for these two institutions.
 helper = '''
-# Multi-index discovery, intentionally limited to two institutions.
+# Multi-index discovery for selected institutions.
 DISCOVERY_INDEXES = {
+    'Vanguard': [
+        'https://investor.vanguard.com/investor-resources-education',
+        'https://investor.vanguard.com/investor-resources-education/news',
+        'https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles.html',
+    ],
     'Fidelity': [
         'https://www.fidelity.com/learning-center/trading-investing',
         'https://www.fidelity.com/viewpoints',
@@ -47,6 +52,7 @@ DISCOVERY_INDEXES = {
     ],
 }
 DISCOVERY_PATH_HINTS = {
+    'Vanguard': ('/investor-resources-education/', '/articles/', '/insights/'),
     'Fidelity': ('/viewpoints/', '/learning-center/trading-investing/', '/learning-center/personal-finance/'),
     'PIMCO': ('/insights/',),
 }
@@ -111,4 +117,4 @@ elif new not in src:
     raise RuntimeError('Discovery call anchor missing; collector not modified')
 compile(src, str(p), 'exec')
 p.write_text(src, encoding='utf-8')
-print('SOURCE_EXPANSION sources=15; Fidelity/PIMCO multi-index discovery enabled; URLs unverified', flush=True)
+print('SOURCE_EXPANSION sources=15; Vanguard/Fidelity/PIMCO multi-index discovery enabled; URLs unverified', flush=True)
