@@ -1,14 +1,13 @@
-name: Test Official Articles
 
+name: Test Official Articles
 on:
   workflow_dispatch:
-
 permissions:
   contents: read
-
 jobs:
   test-official-articles:
     runs-on: ubuntu-latest
+    timeout-minutes: 8
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,6 +17,23 @@ jobs:
           python-version: '3.11'
       - name: Run official article pilot
         run: python official_pilot.py
+      - name: Validate and summarize results
+        run: |
+          python - <<'PYCODE'
+          import json
+          from pathlib import Path
+          p=Path('data/official_pilot.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          articles=d.get('articles', [])
+          translated=sum(bool(x.get('excerpt_ja')) for x in articles)
+          extracted=sum(bool(x.get('excerpt')) for x in articles)
+          print(f'PILOT_RESULT records={len(articles)} extracted={extracted} translated_excerpts={translated}')
+          for x in articles:
+              if x.get('excerpt'):
+                  print(f"TRANSLATION_DETAIL {x['firm']} status={x.get('japanese_status')} errors={x.get('translation_errors', {})}")
+          with open(__import__('os').environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as f:
+              f.write(f'## GMI pilot\n\n- Records: {len(articles)}\n- Extracted: {extracted}\n- Japanese excerpts: {translated}\n')
+          PYCODE
       - name: Upload pilot results
         if: always()
         uses: actions/upload-artifact@v4
