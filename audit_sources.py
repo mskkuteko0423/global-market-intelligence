@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-"""Read-only official-source discovery audit; never modifies production data."""
 import json
 from datetime import datetime, timezone
 from pathlib import Path
