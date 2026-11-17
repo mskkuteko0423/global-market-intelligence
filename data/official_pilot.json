@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T06:13:38.594250+00:00",
+  "updated": "2026-11-17T06:25:16.402109+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -47,16 +47,16 @@
     },
     {
       "firm": "Vanguard",
-      "official_url_candidates": 270,
-      "tested": 5,
-      "extracted": 5,
-      "error": null
-    },
-    {
-      "firm": "Fidelity",
       "official_url_candidates": 0,
       "tested": 0,
       "extracted": 0,
+      "error": "RuntimeError: All discovery indexes failed: https://investor.vanguard.com/investor-resources-education/news: HTTPError HTTP Error 404: Not Found"
+    },
+    {
+      "firm": "Fidelity",
+      "official_url_candidates": 2,
+      "tested": 2,
+      "extracted": 2,
       "error": null
     },
     {
@@ -71,14 +71,14 @@
       "official_url_candidates": 0,
       "tested": 0,
       "extracted": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "error": "RuntimeError: All discovery indexes failed: https://www.ubs.com/global/en/wealth-management/insights.html: HTTPError HTTP Error 403: Forbidden"
     },
     {
       "firm": "BNP Paribas",
       "official_url_candidates": 0,
       "tested": 0,
       "extracted": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "error": "RuntimeError: All discovery indexes failed: https://group.bnpparibas/en/news: HTTPError HTTP Error 403: Forbidden"
     },
     {
       "firm": "Schroders",
@@ -132,12 +132,12 @@
       ],
       "secondary_categories": [],
       "translation_errors": {},
-      "title_ja": "ジョン・ウォルドロン氏が語るGDP成長、AI、M&Aの見通し",
+      "title_ja": "ジョン・ウォルドロン氏が語るGDP成長率、AI、M&Aの見通し",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ゴールドマン・サックスのジョン・ウォルドロン社長兼COOは、クライアントは慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れであると述べています。Exchangesポッドキャストでは、資産運用とウェルスマネジメントにおける機会や、AIがどのように企業が顧客により良いサービスを提供することに役立つかについても語っています。M&Aの勢いは続くはずです。企業M&Aは、M&A取引の強力なパイプラインと企業合併に支えられ、2026年には30%から35%増加する可能性があります。",
+      "excerpt_ja": "ゴールドマン・サックスのジョン・ウォルドロン社長兼COOは、顧客の見通しは慎重ながらも楽観的であり、M&Aの急増はその自信の表れであると述べています。Exchangesポッドキャストでは、資産運用およびウェルスマネジメントにおける機会や、AIがどのように企業がクライアントにより良いサービスを提供することに役立つかについても語っています。M&Aの勢いは続くはずです。企業M&Aは、強力なM&A案件のパイプラインと企業合併の支援を受けて、2026年には30%から35%増加する可能性があります。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -171,7 +171,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "設立から2年半が経過し、企業価値が10億ドルに達したスタートアップAaruは、マルチエージェントAIシミュレーションを活用して人間の意思決定を予測することで、市場調査と消費者インテリジェンスのあり方を刷新しています。共同創業者兼CEOのカム・フィンク氏と、共同創業者兼プレジデントのネッド・コー氏が、Aaruの創業の経緯と、高度な行動シミュレーションが従来の消費者調査の限界をどのように克服するかについて語ります。この対談では、",
+      "excerpt_ja": "設立から2年半が経過し、企業価値が10億ドルに達したスタートアップAaruは、マルチエージェントAIシミュレーションを導入することで、人間がどのように意思決定を行うかを予測し、市場調査と消費者インテリジェンスを再定義しています。共同創業者兼CEOのカム・フィンク氏と、共同創業者兼プレジデントのネッド・コー氏が、Aaruの創業の経緯と、高度な行動シミュレーションが従来の消費者調査の限界をどのように克服するかについて語ります。この対談では、",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -200,12 +200,12 @@
         "その他の産業テーマ"
       ],
       "translation_errors": {},
-      "title_ja": "サブスクリプション会員数の増加が予想を上回る中、世界の音楽収益は増加すると予測されています",
+      "title_ja": "サブスクリプション会員数の増加が予想を上回る中、世界の音楽収益は増加すると予測されています。",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "サブスクリプションストリーミングの見通しが改善する中、世界の音楽業界の収益は2035年までに年間約2,000億ドルに達すると見込まれています。ゴールドマン・サックス・リサーチによると、新しいサブスクリプションモデル、AI、D2C（ダイレクト・トゥ・コンシューマー）サービスにより、業界が新たな方法でオーディエンスにリーチする機会が生まれています。音楽市場は、ここ数年、成長の期待を下回ってきました。新しい予測は",
+      "excerpt_ja": "サブスクリプションストリーミングの見通しが改善する中、世界の音楽業界の収益は2035年までに年間約2,000億ドルに達すると見込まれています。ゴールドマン・サックス・リサーチによると、新しいサブスクリプションモデル、AI、D2C（ダイレクト・トゥ・コンシューマー）サービスにより、業界が新たな方法でオーディエンスにリーチする機会が生まれています。音楽市場は、過去数年間、成長の期待を下回ってきました。新しい予測は",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -234,12 +234,12 @@
       ],
       "secondary_categories": [],
       "translation_errors": {},
-      "title_ja": "エネルギーショックの中、レジリエンスを示す新興市場国債券",
+      "title_ja": "エネルギーショックの中、レジリエンスを示す新興市場国クレジット",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "今年、イラン戦争が原油価格の高騰を引き起こした際、多くの投資家は発展途上国のクレジット市場が売り圧力にさらされると予想したかもしれません。しかし実際には、新興市場国の国債および社債は、新たに得られた安定性と投資家にとっての堅調なパフォーマンスにより、このショックを乗り越えました。この動きは、新興市場国のクレジットが強靭な資産クラスへと成熟していることを示す重要な兆候であると、アヌパム・ダマ氏は述べています。",
+      "excerpt_ja": "今年、イラン戦争が原油価格の上昇を引き起こした際、多くの投資家は発展途上国のクレジット市場が売り圧力にさらされると予想したかもしれません。しかし実際には、新興市場国の国債と社債は、新たに得られた安定性と投資家にとっての堅調なパフォーマンスにより、このショックを乗り越えました。この動きは、新興市場国のクレジットが強靭な資産クラスへと成熟していることを示す重要な兆候であると、アヌパム・ダマ氏は述べています。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -305,12 +305,12 @@
       ],
       "secondary_categories": [],
       "translation_errors": {},
-      "title_ja": "ヘルスケア・コンシューメリズムの台頭 | モルガン・スタンレー",
+      "title_ja": "ヘルスケア・コンシューマリズムの台頭 | モルガン・スタンレー",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "米国の消費者は、医療サービスへのアクセス方法や支払い方法においてますます主導権を握るようになり、バイオ医薬品および医療サービス全体にわたって潜在的な機会を生み出しています。複雑でコストのかかる米国の医療システムでは、患者はもはや「かかりつけの医師に相談してください」という医薬品の広告に耳を傾けるだけではなくなり、直接情報源にアクセスするようになっています。政策の変更と技術の進歩により、消費者は直接医療サービスを選択する方法をより多く持つようになりました。",
+      "excerpt_ja": "米国の消費者は、医療サービスへのアクセス方法や支払い方法においてますます主導権を握るようになり、バイオ医薬品および医療サービス全体にわたって潜在的な機会が生まれています。複雑で高コストな米国の医療システムでは、患者はもはや「かかりつけの医師に相談してください」という医薬品の広告に耳を傾けるだけではなくなり、直接情報源にアクセスするようになっています。政策の変更と技術の進歩により、消費者は直接医療サービスを選択する方法をより多く持つようになりました。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -348,7 +348,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "AIエージェントが消費者に代わって意思決定や購入を行う能力をますます高める中、モルガン・スタンレー・リサーチは、どの業界が恩恵を受ける可能性があり、どの業界が競争圧力の高まりに直面しているかを調査しています。高性能な消費者向けAIエージェントが最近登場したことで、人工知能が小売業や保険業から、運輸業やライブエンターテイメントに至るまで、さまざまな業界にどのような変革をもたらす可能性があるかについての議論が再燃しています。従来の",
+      "excerpt_ja": "AIエージェントが消費者に代わって意思決定や購入を行う能力をますます高める中、モルガン・スタンレー・リサーチは、どの業界が恩恵を受ける可能性があり、どの業界が競争圧力の高まりに直面しているかを調査しています。高性能な消費者向けAIエージェントが最近登場したことで、小売業や保険業から、運輸業やライブエンターテイメントに至るまで、さまざまな業界が人工知能によってどのように変革される可能性があるかについての議論が再燃しています。従来の",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -385,7 +385,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -422,7 +422,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国機関投資家向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -464,7 +464,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -496,12 +496,12 @@
         "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "AIブームか破滅か？みなさまの疑問にお答えします",
+      "title_ja": "AIブームか破滅か？皆さんの質問にお答えします",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -534,7 +534,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスや配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -574,7 +574,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "AIの構築が加速し、制約要因が顕在化しています。当社は引き続き米国株式をオーバーウェイトとし、新興市場株式をオーバーウェイトに引き上げますが、ボトルネックによって生じる機会に引き続き注目します。世界の国債利回りは夏にかけて急上昇しました。利回りの上昇によりインカムゲインの機会が復活しましたが、それは柔軟なアプローチを通じてのみ実現しています。私たちは、感度の高い長期債よりも短期債を好みます。",
+      "excerpt_ja": "AIの構築が加速し、制約要因が顕在化しています。当社は引き続き米国株式をオーバーウェイトとし、新興市場株式をオーバーウェイトに引き上げますが、ボトルネックによって生じる機会に引き続き注目します。世界の国債利回りは夏にかけて急上昇しました。利回りの上昇によりインカムゲインの機会が復活しましたが、それは柔軟なアプローチを通じてのみ可能です。私たちは、高感度の長期債よりも短期債を好みます。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -604,7 +604,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "この動画を視聴するには、JavaScriptを有効にしてください。また、HTML5動画に対応したウェブブラウザへのアップグレードをご検討ください。最近のテクノロジー株の変動の中、当社は長期的なAIへの確信（これは、当社の資本市場に関する仮定の最新の更新で示されているように、戦略的なオーバーウェイトです）と、より短期的な慎重さ（当社の戦術的な6～12ヵ月の見通しは中立的です）を両立させています。米国株式の状況は、どのように見るかによって異なります。",
+      "excerpt_ja": "この動画を視聴するには、JavaScriptを有効にしてください。また、HTML5動画に対応したウェブブラウザへのアップグレードをご検討ください。最近のテクノロジー株の変動の中、当社は長期的なAIへの確信（資本市場の前提条件に関する最新の更新で示されているように、戦略的なオーバーウェイト）と、より短期的な慎重さ（戦術的な6～12ヵ月の見通しはニュートラル）を両立させています。米国株式の見通しは、どのように捉えるかによって異なります。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -634,7 +634,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "このビデオを視聴するには、JavaScriptを有効にし、HTML5ビデオをサポートするWebブラウザにアップグレードすることをご検討ください。おはようございます。グローバルリソース＆リアルアセットチームの責任者を務めるエヴィ・ハムブロです。11月16日の週です。皆さんが知っておくべきことが3つ、そして知らなくてもよいことが1つあります。まず最初に。コモディティです。これなしでは何も作れません。あまりにも長い間、コモディティは忘れられてきました。そして、その結果として、",
+      "excerpt_ja": "このビデオを視聴するには、JavaScriptを有効にし、HTML5ビデオをサポートするウェブブラウザにアップグレードすることをご検討ください。おはようございます。グローバルリソース＆リアルアセットチームの責任者を務めるエヴィ・ハムブロです。11月16日の週です。ここで、知っておくべきことを3つ、そして知らなくてもよいことを1つお伝えします。まず最初に。コモディティです。これなしでは何も作れません。あまりにも長い間、コモディティは忘れられてきました。そして、その結果として、",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -1034,9 +1034,65 @@
       "published_candidate": "2026-10-06",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "Fidelity",
+      "official_url": "https://www.fidelity.com/viewpoints/market-and-economic-insights/market-volatility-overview",
+      "link_title": "Strategies for uncertain times",
+      "title": "Market volatility: Investing strategies for volatile markets | Fidelity",
+      "published": null,
+      "categories": [
+        "株式"
+      ],
+      "excerpt": "Fidelity leaders dig into the election results and what it means for economic policy and your money. When markets get choppy, it pays to have an investing plan and to stick to it. We'll meet you where you are on your financial journey and help you get to where you want to be. Get our industry-leading investment analysis, and put our research to work. This information is intended to be educational and is not tailored to the investment needs of any specific investor.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "株式"
+      ],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Fidelity",
+      "official_url": "https://www.fidelity.com/learning-center/personal-finance/women-talk-money",
+      "link_title": "Get ready to unleash your inner investor",
+      "title": "Women Talk Money: Personal Finance for Women | Fidelity",
+      "published": null,
+      "categories": [],
+      "excerpt": "Missed a link in the chat? Explore all the additional tools and resources shared during our latest Women Talk Money event. Use this tool to browse different account types and the benefits of each based on your goals and what you're saving for. Keep in mind that investing involves risk. The value of your investment will fluctuate over time, and you may gain or lose money. This information is intended to be educational and is not tailored to the investment needs of any specific investor. Links to third-party web sites may be shared on this page. Those sites are unaffiliated with Fidelity. Fidelity has not been involved in the preparation of the content supplied at the unaffiliated site and does not guarantee or assume any responsibility for its content.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 29,
+  "archive_count": 31,
   "archive_note": "first_seen is a GMI tracking date, never a publication date; historical first discovery may be unknown. Unverified dates are kept as published_candidate, never displayed as published. Excerpts are partial machine translations."
 }
