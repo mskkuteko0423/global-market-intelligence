@@ -19,7 +19,7 @@ sites = '''SITES = [
     ('Fidelity', 'https://www.fidelity.com/learning-center/trading-investing', 'fidelity.com'),
     ('PIMCO', 'https://www.pimco.com/us/en/insights', 'pimco.com'),
     ('BNP Paribas', 'https://economic-research.bnpparibas.com/Thematics/Artificial-intelligence/en-US', 'bnpparibas.com'),
-    ('Schroders', 'https://www.schroders.com/en/global/individual/', 'schroders.com'),
+    ('Schroders', 'https://www.schroders.com/en/global/individual/insights/', 'schroders.com'),
     ('Amundi', 'https://research-center.amundi.com/', 'amundi.com'),
     ('State Street', 'https://www.ssga.com/us/en/individual/insights', 'ssga.com'),
     ('Invesco', 'https://www.invesco.com/us/en/insights.html', 'invesco.com'),
@@ -62,20 +62,8 @@ def discover_links(firm, index, domain):
         if not official(url, domain) or url in seen:
             return
         path = urlparse(url).path.lower().rstrip('/')
-        parts = [part for part in path.split('/') if part]
-        slug = parts[-1] if parts else ''
-        # BNP Economic Research article URLs end in a short date/id segment,
-        # e.g. /html/en-US/Deployment-AI-initial-feedback-3/9/2026,53293.
-        # Validate the descriptive title segment instead of the trailing ID.
-        bnp_article = (
-            firm == 'BNP Paribas'
-            and len(parts) >= 5
-            and parts[0:2] == ['html', 'en-us']
-            and len(parts[2]) >= 12
-            and re.fullmatch(r'20\d{2},\d+', parts[-1]) is not None
-        )
-        if (not slug or (len(slug) < 12 and not bnp_article)
-                or slug in ('insights', 'research', 'articles', 'news')):
+        slug = path.rsplit('/', 1)[-1]
+        if not slug or len(slug) < 12 or slug in ('insights', 'research', 'articles', 'news'):
             return
         if any(x in path for x in EXCLUDE_PATH):
             return
@@ -96,7 +84,8 @@ def discover_links(firm, index, domain):
 
     for source in sources:
         try:
-            parser = parse(get_html(source, domain))
+            page_timeout = 30 if firm == 'BNP Paribas' else 15
+            parser = parse(get_html(source, domain, timeout=page_timeout))
             if first_parser is None:
                 first_parser = parser
             for url, label in candidates(parser, source, domain):
@@ -120,7 +109,7 @@ def discover_links(firm, index, domain):
         # Robots.txt may advertise a sitemap on a different official subdomain.
         try:
             req = Request(origin + '/robots.txt', headers={'User-Agent': 'GMIResearchPilot/3.0'})
-            with urlopen(req, timeout=8) as response:
+            with urlopen(req, timeout=10 if firm == 'BNP Paribas' else 8) as response:
                 robots = response.read(250_000).decode('utf-8', 'replace')
             for line in robots.splitlines():
                 if line.lower().startswith('sitemap:'):
@@ -139,7 +128,7 @@ def discover_links(firm, index, domain):
             visited.add(feed)
             try:
                 req = Request(feed, headers={'User-Agent': 'GMIResearchPilot/3.0'})
-                with urlopen(req, timeout=9) as response:
+                with urlopen(req, timeout=15 if firm == 'BNP Paribas' else 9) as response:
                     if not official(response.geturl(), domain):
                         raise ValueError('Redirect outside official domain')
                     raw = response.read(1_500_001)
@@ -189,9 +178,7 @@ def discover_links(firm, index, domain):
         dates = re.findall(r'(?<!\d)(20\d{2})[-/](0[1-9]|1[0-2])[-/](0[1-9]|[12]\d|3[01])(?!\d)', path)
         date_hint = ''.join(dates[-1]) if dates else ''
         origin_score = {'feed': 3, 'html': 2, 'sitemap': 1}.get(source_rank.get(url), 0)
-        # Prefer direct article links and feeds over generic sitemap entries;
-        # use URL dates only to order items within the same discovery source.
-        return (origin_score, bool(date_hint), date_hint)
+        return (bool(date_hint), date_hint, origin_score)
     found.sort(key=rank, reverse=True)
     if first_parser is None:
         # RSS/sitemap discovery may work even if HTML is blocked.
@@ -220,38 +207,24 @@ if old in src:
 elif new not in src:
     raise RuntimeError('Collector discovery call not found')
 
-# Raise the per-run article-test cap only while main() processes Schroders.
-# This avoids depending on the collector's exact break-condition spelling.
-main_prefix, main_body = src.split('def main():', 1)
-limit_marker = "MAX_PER_FIRM = 10 if firm == 'Schroders' else MAX_PER_FIRM_BASE"
-schroders_limit_changed = 0
-if limit_marker in main_body:
-    schroders_limit_changed = 1
-else:
-    loop_pattern = r'(?m)^(\s*)for firm,\s*index,\s*domain in SITES:\s*$'
-    match = re.search(loop_pattern, main_body)
-    if match:
-        indent = match.group(1)
-        loop_line = match.group(0)
-        base_line = indent + "MAX_PER_FIRM_BASE = globals()['MAX_PER_FIRM']\n"
-        cap_line = indent + '    ' + limit_marker + '\n'
-        main_body = main_body.replace(loop_line, base_line + loop_line + '\n' + cap_line, 1)
-        schroeders_limit_changed = 1
-src = main_prefix + 'def main():' + main_body
-
-# Surface per-article Schroders failures after collection. Source-level stats
-# can show "error: None" even when individual pages cannot be extracted.
-diagnostic = '''    for article in articles:
-        if article.get('firm') == 'Schroders':
-            print(f"SCHRODERS_ARTICLE title={article.get('title', '')[:100]!r} url={article.get('official_url', '')} extracted={bool(article.get('excerpt'))} note={article.get('error')!r}", flush=True)
-'''
-anchor = '    OUT.parent.mkdir(parents=True, exist_ok=True)'
-if 'SCHRODERS_ARTICLE title=' not in src:
-    if src.count(anchor) != 1:
-        raise RuntimeError('Collector output anchor not found uniquely')
-    src = src.replace(anchor, diagnostic + anchor, 1)
-
+# BNP Paribas pages are slow from the hosted runner; allow a longer read window
+# for its own pages while keeping the existing limits for every other source.
+if 'def get_html(url, domain, timeout=15):' not in src:
+    src, n = re.subn(r'(?m)^def get_html\(url, domain\):$',
+                     'def get_html(url, domain, timeout=15):', src, count=1)
+    if n != 1:
+        raise RuntimeError('get_html signature not found; refusing timeout update')
+if 'with urlopen(req, timeout=timeout) as resp:' not in src:
+    src, n = re.subn(r'with urlopen\(\s*req(?:\s*,\s*timeout\s*=\s*[^)]*)?\s*\)\s+as\s+resp:',
+                     'with urlopen(req, timeout=timeout) as resp:', src, count=1)
+    if n != 1:
+        raise RuntimeError('get_html timeout call not found; refusing timeout update')
+article_fetch = 'article_html, _ = get_html(url, domain)'
+article_fetch_long = "article_html, _ = get_html(url, domain, timeout=30 if firm == 'BNP Paribas' else 15)"
+if article_fetch in src:
+    src = src.replace(article_fetch, article_fetch_long, 1)
+elif article_fetch_long not in src:
+    raise RuntimeError('article fetch call not found; refusing timeout update')
 compile(src, str(p), 'exec')
 p.write_text(src, encoding='utf-8')
-limit_status = 'Schroders test cap=10' if schroders_limit_changed else 'Schroders test cap unchanged'
-print(f'SOURCE_EXPANSION sources=15; HTML + bounded RSS/sitemap fallback; official URLs only; {limit_status}', flush=True)
+print('SOURCE_EXPANSION sources=15; HTML + bounded RSS/sitemap fallback; official URLs only', flush=True)
