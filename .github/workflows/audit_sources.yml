@@ -1,0 +1,30 @@
+
+name: Audit 15 Official Sources
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Audit official sources
+        run: python audit_sources.py
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gmi-source-audit
+          path: data/source_audit.json
+          if-no-files-found: warn
