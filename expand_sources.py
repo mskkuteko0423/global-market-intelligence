@@ -19,7 +19,7 @@ sites = '''SITES = [
     ('Fidelity', 'https://www.fidelity.com/learning-center/trading-investing', 'fidelity.com'),
     ('PIMCO', 'https://www.pimco.com/us/en/insights', 'pimco.com'),
     ('BNP Paribas', 'https://economic-research.bnpparibas.com/Thematics/Artificial-intelligence/en-US', 'bnpparibas.com'),
-    ('Schroders', 'https://www.schroders.com/en/global/individual/insights/', 'schroders.com'),
+    ('Schroders', 'https://www.schroders.com/en/global/individual/', 'schroders.com'),
     ('Amundi', 'https://research-center.amundi.com/', 'amundi.com'),
     ('State Street', 'https://www.ssga.com/us/en/individual/insights', 'ssga.com'),
     ('Invesco', 'https://www.invesco.com/us/en/insights.html', 'invesco.com'),
@@ -62,8 +62,20 @@ def discover_links(firm, index, domain):
         if not official(url, domain) or url in seen:
             return
         path = urlparse(url).path.lower().rstrip('/')
-        slug = path.rsplit('/', 1)[-1]
-        if not slug or len(slug) < 12 or slug in ('insights', 'research', 'articles', 'news'):
+        parts = [part for part in path.split('/') if part]
+        slug = parts[-1] if parts else ''
+        # BNP Economic Research article URLs end in a short date/id segment,
+        # e.g. /html/en-US/Deployment-AI-initial-feedback-3/9/2026,53293.
+        # Validate the descriptive title segment instead of the trailing ID.
+        bnp_article = (
+            firm == 'BNP Paribas'
+            and len(parts) >= 5
+            and parts[0:2] == ['html', 'en-us']
+            and len(parts[2]) >= 12
+            and re.fullmatch(r'20\d{2},\d+', parts[-1]) is not None
+        )
+        if (not slug or (len(slug) < 12 and not bnp_article)
+                or slug in ('insights', 'research', 'articles', 'news')):
             return
         if any(x in path for x in EXCLUDE_PATH):
             return
@@ -177,7 +189,9 @@ def discover_links(firm, index, domain):
         dates = re.findall(r'(?<!\d)(20\d{2})[-/](0[1-9]|1[0-2])[-/](0[1-9]|[12]\d|3[01])(?!\d)', path)
         date_hint = ''.join(dates[-1]) if dates else ''
         origin_score = {'feed': 3, 'html': 2, 'sitemap': 1}.get(source_rank.get(url), 0)
-        return (bool(date_hint), date_hint, origin_score)
+        # Prefer direct article links and feeds over generic sitemap entries;
+        # use URL dates only to order items within the same discovery source.
+        return (origin_score, bool(date_hint), date_hint)
     found.sort(key=rank, reverse=True)
     if first_parser is None:
         # RSS/sitemap discovery may work even if HTML is blocked.
