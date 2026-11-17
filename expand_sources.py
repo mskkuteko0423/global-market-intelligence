@@ -220,15 +220,23 @@ if old in src:
 elif new not in src:
     raise RuntimeError('Collector discovery call not found')
 
-# Try up to 10 Schroders candidates while keeping the established limit for
-# every other firm. Scope the edit to main() so discovery limits stay unchanged.
+# Raise the per-run article-test cap only while main() processes Schroders.
+# This avoids depending on the collector's exact break-condition spelling.
 main_prefix, main_body = src.split('def main():', 1)
-main_body, schroders_limit_changed = re.subn(
-    r'(?m)^(\s*)if found >= MAX_PER_FIRM:\s*$',
-    r"\1if found >= (10 if firm == 'Schroders' else MAX_PER_FIRM):",
-    main_body,
-    count=1,
-)
+limit_marker = "MAX_PER_FIRM = 10 if firm == 'Schroders' else MAX_PER_FIRM_BASE"
+schroders_limit_changed = 0
+if limit_marker in main_body:
+    schroders_limit_changed = 1
+else:
+    loop_pattern = r'(?m)^(\s*)for firm,\s*index,\s*domain in SITES:\s*$'
+    match = re.search(loop_pattern, main_body)
+    if match:
+        indent = match.group(1)
+        loop_line = match.group(0)
+        base_line = indent + "MAX_PER_FIRM_BASE = globals()['MAX_PER_FIRM']\n"
+        cap_line = indent + '    ' + limit_marker + '\n'
+        main_body = main_body.replace(loop_line, base_line + loop_line + '\n' + cap_line, 1)
+        schroeders_limit_changed = 1
 src = main_prefix + 'def main():' + main_body
 
 # Surface per-article Schroders failures after collection. Source-level stats
