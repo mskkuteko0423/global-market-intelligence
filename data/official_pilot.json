@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T12:19:10.703899+00:00",
+  "updated": "2026-11-17T12:25:02.364443+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -26,44 +26,44 @@
     },
     {
       "firm": "Capital Group",
-      "official_url_candidates": 6,
+      "official_url_candidates": 5,
       "tested": 5,
       "extracted": 5,
       "error": null
     },
     {
       "firm": "BlackRock",
-      "official_url_candidates": 9,
+      "official_url_candidates": 7,
       "tested": 5,
       "extracted": 5,
       "error": null
     },
     {
       "firm": "J.P. Morgan Research",
-      "official_url_candidates": 14,
+      "official_url_candidates": 12,
       "tested": 5,
       "extracted": 5,
       "error": null
     },
     {
       "firm": "Vanguard",
-      "official_url_candidates": 8,
-      "tested": 5,
-      "extracted": 5,
+      "official_url_candidates": 0,
+      "tested": 0,
+      "extracted": 0,
       "error": null
     },
     {
       "firm": "Fidelity",
-      "official_url_candidates": 2,
-      "tested": 2,
-      "extracted": 2,
+      "official_url_candidates": 1,
+      "tested": 1,
+      "extracted": 1,
       "error": null
     },
     {
       "firm": "PIMCO",
-      "official_url_candidates": 0,
-      "tested": 0,
-      "extracted": 0,
+      "official_url_candidates": 293,
+      "tested": 5,
+      "extracted": 5,
       "error": null
     },
     {
@@ -71,19 +71,19 @@
       "official_url_candidates": 0,
       "tested": 0,
       "extracted": 0,
-      "error": "RuntimeError: All discovery indexes failed: https://www.ubs.com/global/en/wealth-management/insights.html: HTTPError: HTTP Error 403: Forbidden"
+      "error": "RuntimeError: All HTML discovery indexes failed: HTML https://www.ubs.com/global/en/wealth-management/insights.html: HTTPError HTTP Error 403: Forbidden | ROBOTS: HTTPError | XML h"
     },
     {
       "firm": "BNP Paribas",
       "official_url_candidates": 0,
       "tested": 0,
       "extracted": 0,
-      "error": "RuntimeError: All discovery indexes failed: https://group.bnpparibas/en/news: HTTPError: HTTP Error 403: Forbidden"
+      "error": "RuntimeError: All HTML discovery indexes failed: HTML https://group.bnpparibas/en/news: HTTPError HTTP Error 403: Forbidden | ROBOTS: HTTPError | XML https://group.bnpparibas/feed:"
     },
     {
       "firm": "Schroders",
-      "official_url_candidates": 0,
-      "tested": 0,
+      "official_url_candidates": 197,
+      "tested": 5,
       "extracted": 0,
       "error": null
     },
@@ -140,7 +140,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ゴールドマン・サックスのジョン・ウォルドロン社長兼COOは、クライアントは慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れであると述べています。Exchangesポッドキャストでは、資産運用およびウェルスマネジメントにおける機会や、AIがどのように当社のクライアントサービス向上に役立つかについても語っています。M&Aの勢いは続くはずです。企業M&Aは、M&A取引の強力なパイプラインと企業合併に支えられ、2026年には30%から35%増加する可能性があります。",
+      "excerpt_ja": "ゴールドマン・サックスのジョン・ウォルドロン社長兼COOは、クライアントは慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れであると述べています。Exchangesポッドキャストでは、資産運用およびウェルスマネジメントにおける機会や、AIがクライアントへのより良いサービス提供にどのように役立つかについても語っています。M&Aの勢いは続くはずです。企業M&Aは、M&A取引の強力なパイプラインと企業合併に支えられ、2026年には30%から35%増加する可能性があります。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -177,7 +177,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "設立2年半で企業価値10億ドルに達したスタートアップAaruは、マルチエージェントAIシミュレーションを活用して人間の意思決定を予測することで、市場調査と消費者インテリジェンスのあり方を刷新しています。共同創業者兼CEOのカム・フィンク氏と、共同創業者兼プレジデントのネッド・コー氏が、Aaruの創業の経緯と、高度な行動シミュレーションが従来の消費者調査の限界をどのように克服するかについて語ります。この対談では、",
+      "excerpt_ja": "設立から2年半が経過し、企業価値10億ドルに達したスタートアップAaruは、マルチエージェントAIシミュレーションを導入することで、人間がどのように意思決定を行うかを予測し、市場調査と消費者インテリジェンスを再定義しています。共同創業者兼CEOのCam Fink氏と、共同創業者兼プレジデントのNed Koh氏が、Aaruの創業の経緯と、高度な行動シミュレーションが従来の消費者調査の限界をどのように克服するかについて語ります。この対談では、",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -209,7 +209,7 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "サブスクリプション会員数の増加が予想を上回る中、世界の音楽収益は増加すると予測されています",
+      "title_ja": "サブスクリプション会員数の増加が予想を上回る中、世界の音楽収益は増加すると予測されています。",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
@@ -246,12 +246,12 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "エネルギーショックの中、堅調さを維持する新興市場国クレジット",
+      "title_ja": "エネルギーショックの中、レジリエンスを示す新興市場国クレジット",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "今年のイラン戦争が原油価格の高騰を引き起こした際、多くの投資家は発展途上国のクレジット市場が売り圧力にさらされると予想したかもしれません。しかし実際には、新興市場国の国債と社債は、新たに得られた安定性と投資家にとっての堅調なパフォーマンスにより、このショックを乗り越えました。この動きは、新興市場国のクレジットが強靭な資産クラスへと成熟しつつあることを示す重要な兆候であると、アヌパム・ダマ氏は述べています。",
+      "excerpt_ja": "今年、イラン戦争が原油価格の高騰を引き起こした際、多くの投資家は発展途上国のクレジット市場が売り圧力にさらされると予想したかもしれません。しかし実際には、新興市場国の国債と社債は、新たに得られた安定性と投資家にとっての堅調なパフォーマンスにより、このショックを乗り越えました。この動きは、新興市場国のクレジットが強靭な資産クラスへと成熟しつつあることを示す重要な兆候であると、アヌパム・ダマ氏は述べています。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -286,7 +286,7 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "ヘルスケアの次の成長要因 | モルガン・スタンレー",
+      "title_ja": "ヘルスケアの次の成長ドライバー | モルガン・スタンレー",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
@@ -323,12 +323,12 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "ヘルスケア・コンシューマリズムの台頭 | モルガン・スタンレー",
+      "title_ja": "ヘルスケアの消費者主義の高まり | モルガン・スタンレー",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "米国の消費者は、医療サービスへのアクセス方法や支払い方法においてますます主導権を握るようになり、バイオ医薬品および医療サービス全体にわたって潜在的な機会を生み出しています。複雑でコストのかかる米国の医療システムでは、患者はもはや「かかりつけの医師に相談してください」という医薬品の広告に耳を傾けるだけではなく、直接情報源にアクセスしています。政策の変更と技術の進歩により、消費者は医療サービスを直接選択できる方法が増えました。",
+      "excerpt_ja": "米国の消費者は、医療サービスへのアクセス方法や支払い方法においてますます主導権を握るようになり、バイオ医薬品および医療サービス全体にわたって潜在的な機会が生まれています。複雑でコストのかかる米国の医療システムでは、患者はもはや「かかりつけの医師に相談してください」という医薬品の広告に耳を傾けるだけではなくなり、直接情報源にアクセスするようになっています。政策の変更と技術の進歩により、消費者は医療サービスを直接選択する方法をより多く持つようになりました。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -366,7 +366,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "AIエージェントが消費者に代わって意思決定や購入を行う能力をますます高める中、モルガン・スタンレー・リサーチは、どの業界が恩恵を受ける可能性があるか、そしてどの業界が競争圧力の高まりに直面しているかを調査しています。高性能な消費者向けAIエージェントが最近登場したことで、人工知能が小売業や保険業から、運輸業やライブエンターテイメントに至るまで、さまざまな業界にどのような変革をもたらす可能性があるかについて、議論が再燃しています。従来の",
+      "excerpt_ja": "AIエージェントが消費者に代わって意思決定や購入を行う能力をますます高めるにつれて、Morgan Stanley Researchは、どの業界が恩恵を受ける可能性があるか、またどの業界が競争圧力の高まりに直面しているかを調査しています。最近、高性能な消費者向けAIエージェントが発表されたことで、人工知能が小売業や保険業から、運輸業やライブエンターテイメントに至るまで、さまざまな業界にどのような変革をもたらす可能性があるかについての議論が再燃しています。従来の",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -403,7 +403,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -440,7 +440,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -482,7 +482,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -514,12 +514,12 @@
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "AIブームか破滅か？皆さんの質問にお答えします",
+      "title_ja": "AIブームか破滅か？みなさまの疑問にお答えします",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスや配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -552,7 +552,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
@@ -626,7 +626,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "この動画を視聴するには、JavaScriptを有効にしてください。また、HTML5動画に対応したウェブブラウザへのアップグレードをご検討ください。最近のテクノロジーストックの変動の中で、当社は長期的なAIへの確信（資本市場の前提条件に関する最新の更新で示されているように、戦略的なオーバーウェイト）と、より短期的な慎重さ（戦術的な6～12ヵ月の見通しはニュートラル）を両立させています。米国株式の状況は、どのように見るかによって異なります。",
+      "excerpt_ja": "この動画を視聴するには、JavaScriptを有効にしてください。また、HTML5動画に対応したウェブブラウザにアップグレードすることをご検討ください。最近のテクノロジー株の変動の中、当社は長期的なAIへの確信（これは、当社の資本市場見通しの最新の更新で示されているように、戦略的なオーバーウェイトです）と、より短期的な慎重さ（当社の戦術的な6～12ヵ月の見通しは中立的です）を両立させています。米国株式の状況は、どのように見るかによって異なります。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -659,7 +659,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "このビデオを視聴するには、JavaScriptを有効にし、HTML5ビデオをサポートするWebブラウザにアップグレードすることをご検討ください。おはようございます。グローバル・リソース＆リアル・アセット・チームの責任者を務めるエヴィ・ハムブロです。11月16日の週です。ここで、知っておくべきことが3つと、知らなくてもよいことが1つあります。まず最初に。コモディティです。これなしでは何も作れません。あまりにも長い間、コモディティは忘れられてきました。そして、その結果として、",
+      "excerpt_ja": "このビデオを視聴するには、JavaScriptを有効にし、HTML5ビデオをサポートするウェブブラウザにアップグレードすることをご検討ください。おはようございます。グローバルリソース＆リアルアセットチームの責任者を務めるエヴィ・ハンブロです。11月16日の週です。ここで、知っておくべきことが3つと、知らなくてもよいことが1つあります。まず最初に、コモディティです。コモディティがなければ何も作れません。あまりにも長い間、コモディティは忘れられてきました。そして、その結果として、",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -691,13 +691,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "published_candidate": "2026-10-21"
+      "published_candidate": "2026-10-21",
+      "title_ja": "2026年第4四半期 固定金利資産の見通し | BlackRock",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "利回りの上昇により、固定収益の機会が変わりました。持続的なインフレが債券の伝統的な分散投資の役割を試す中、また経済サイクルの乖離が市場間で異なる投資環境を生み出す中においても、ポートフォリオの潜在的なリターンの多くはインカムから得られる可能性があります。課題はもはや単に利回りを求めることではなく、投資家が引き受けるリスクに対してどのような報酬が支払われているかを理解することです。インカムは豊富かもしれませんが、"
     },
     {
       "firm": "BlackRock",
@@ -1246,9 +1252,221 @@
       "last_seen": "2026-11-17",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "BlackRock",
+      "official_url": "https://www.blackrock.com/us/individual/insights/municipal-monthly",
+      "link_title": "2026 Muni Outlook: Selectivity drives alpha in 2026 Portfolio Management Views 2026 Muni Outlook: Selectivity drives alpha in 2026 Jan 20, 2026 | By BlackRock Market update from BlackRock's municipal bond team.",
+      "title": "Municipal market quarterly update",
+      "published": null,
+      "categories": [
+        "債券・金利"
+      ],
+      "excerpt": "BlackRock’s municipal bond experts share their market outlook and the actions you can take to raise your portfolio’s potential in 2026. BlackRock’s purpose is to help more and more people experience financial well-being. As a fiduciary to investors and a leading provider of financial technology, we help millions of people build savings that serve them throughout their lives by making investing easier and more affordable. For additional information on BlackRock, please visit our Corporate Website | Twitter | LinkedIn This material is provided for educational purposes only and is not intended to constitute investment advice or an investment recommendation within the meaning of federal, state or local law. You are solely responsible for evaluating and acting upon the education and information contained in this material. BlackRock will not be liable for direct or incidental loss resulting from applying any of the information obtained from these materials or from any other source mentioned. BlackRock does not render any legal, tax or accounting advice and the education and information contained in this material should not be construed as such. Please consult with a qualified professional for these types of advice. Fixed income risks include interest-rate and credit risk. Typically, when interest rates rise, there is a corresponding decline in bond values. Credit risk refers to the possibility that the bond issuer will not be able to make principal and interest payments. Principal of mortgage- or asset-backed securities normally may be prepaid at any time, reducing the yield and market value of those securities. Obligations of US govt. agencies are supported by varying degrees of credit but generally are not backed by the full faith and credit of the US govt. There may be les",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "債券・金利"
+      ],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2026-01-20",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "J.P. Morgan Research",
+      "official_url": "https://www.jpmorgan.com/insights/banking/mergers-and-acquisitions/four-forces-shaping-m-and-a",
+      "link_title": "Four forces shaping M&A heading into year-end",
+      "title": "4 Forces Shaping M&A Heading Into Year-End",
+      "published": null,
+      "categories": [
+        "AI・半導体"
+      ],
+      "excerpt": "Putting our long-tenured investment teams on the line to earn the trust of institutional investors. Direct access to market leading liquidity harnessed through world-class research, tools, data, and analytics. Helping institutional investors, traditional and alternative asset and fund managers, broker dealers and equity issuers meet the demands of a rapidly evolving market. Leveraging cutting-edge technology and innovative tools to bring clients industry-leading analysis and investment advice. Helping hedge funds, asset managers and institutional investors meet the demands of a rapidly evolving market.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "AI・半導体"
+      ],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2026-10-26",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "PIMCO",
+      "official_url": "https://www.pimco.com/us/en/insights/income-fund-update-standout-returns-powered-by-active-management",
+      "link_title": "Income Fund Update Standout Returns Powered By Active Management",
+      "title": "Income Fund Update: Standout Returns, Powered by Active Management | PIMCO",
+      "published": null,
+      "categories": [
+        "債券・金利"
+      ],
+      "excerpt": "Fixed income investments had a strong year in 2025, and the backdrop heading into 2026 continues to look very constructive. Attractive starting yields, diverging global economic conditions, and changing markets have created what PIMCO believes is one of the best opportunities for active fixed income in over a decade. Here, Dan Ivascyn, who manages PIMCO Income Fund with Alfred Murata and Josh Anderson, answers questions from Esteban Burbano, fixed income strategist. They discuss the macroeconomic landscape and how the investment team is positioning the Income Fund in the current environment. A: We live in a world with less correlated growth paths and policies globally, which presents an exciting backdrop for active investment management. At the same time, equity valuations remain elevated and cash rates across many markets are moving lower, while intermediate- to longer‑maturity fixed income continues to offer attractive value. In the U.S., we expect strong absolute and relative growth supported by solid fundamentals for middle- and upper-income households, locked in low mortgage rates, and broad tailwinds from artificial intelligence (AI), technology, and energy infrastructure capital expenditures. Fiscal stimulus from last year is still filtering through as well. While inflation will likely stay above the Fed’s target and remain bumpy, we expect it to trend lower over the year. Outside the U.S., many economies appear more fragile as they lack several of these factors supporting the U.S. economy. The global divergence in growth trajectories and shifting policy trends are creating significant opportunities as markets become less correlated. A: There are meaningful risks to keep in mind. We’ve already seen substantial geopolitical tension year‑to‑date – developments in V",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "債券・金利"
+      ],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2026-02-10",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "PIMCO",
+      "official_url": "https://www.pimco.com/us/en/insights/a-systematic-lens-on-global-equity-opportunities-within-multi-asset-portfolios",
+      "link_title": "A Systematic Lens On Global Equity Opportunities Within Multi Asset Portfolios",
+      "title": "A Systematic Lens on Global Equity Opportunities Within Multi-Asset Portfolios | PIMCO",
+      "published": null,
+      "categories": [
+        "株式",
+        "投資戦略・資金フロー"
+      ],
+      "excerpt": "Systematic equity investing is a way to invest in the stock market using clear rules and data, rather than guesswork or hunches. Instead of trying to pick stocks based on trends or headlines, this approach uses research, data, and technology to systematically identify opportunities across global markets. The goal? To help investors in PIMCO’s multi-asset strategies grow their investments more steadily, avoid over concentrations in big-name stocks, and help mitigate the volatility that often comes from following the “crowd”. Over the past several years, global equity markets have been defined by concentration, with a handful of mega-cap technology companies accounting for an outsized share of returns. This has led to a narrow bull market and pushed valuations higher, particularly in the U.S. Yet, as we enter 2026, the broad perception of “expensive equities” masks pockets of value and a growing opportunity set, supported by solid economic growth and improving earnings. For more than two decades, PIMCO has designed and managed global asset allocation strategies in which equities play a pivotal role. Within these multi-asset portfolios, equity exposures are implemented through a disciplined, data-driven and repeatable approach to pursuing equity alpha that is designed to help complement broader portfolio objectives rather than operate in isolation. In this context, we believe our systematic equity approach is well positioned for navigating toward more balanced and broader market participation. Our rules-based, systematic equity investment process focuses on identifying well-rounded companies across regions and sectors, helping our multi-asset portfolios remain broadly diversified while accessing sources of return potential that more traditional approaches may overlook.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "株式"
+      ],
+      "secondary_categories": [
+        "投資戦略・資金フロー"
+      ],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2026-04-01",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "PIMCO",
+      "official_url": "https://www.pimco.com/us/en/insights/5-themes-defining-bond-etf-investing-today",
+      "link_title": "5 Themes Defining Bond Etf Investing Today",
+      "title": "5 Themes Defining Bond ETF Investing Today | PIMCO",
+      "published": null,
+      "categories": [
+        "債券・金利"
+      ],
+      "excerpt": "Assessing both top-down macroeconomic and market-defining trends and bottom-up developments, flows, and risks, we’ve identified several key themes that characterize fixed income ETFs today and are likely to drive future opportunities. In the ever-evolving investment landscape, flexibility is becoming a watchword for fixed income investors. The surge in active core and multisector fixed income ETFs is evidence of this shift. Multisector ETFs – which barely registered two years ago – have ballooned recently, with over $20 billion in net inflows since mid-2023. Active core and core-plus ETF strategies now have more than $88 billion in assets, according to Morningstar. This rapid growth is not merely a function of product innovation, but a response to the demands of an uncertain market. The appeal is clear: In an environment marked by volatility and shifting macroeconomic signals, the agility of flexible, active strategies offers investors access to a broader opportunity set with the ability to pivot as conditions change. Elevated starting yields make fixed income attractive. Plus the negative correlation of fixed income – particularly short- to intermediate-maturity bonds – versus equity returns has reasserted itself, providing an important buffer against equity market drawdowns. As a result, active fixed income ETFs now account for nearly 40% of overall fixed income ETF flows, despite representing just 17% of total fixed income ETF assets, according to Bloomberg.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "債券・金利"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2025-06-17",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "PIMCO",
+      "official_url": "https://www.pimco.com/us/en/insights/ecb-remains-attentive-and-focused",
+      "link_title": "Ecb Remains Attentive And Focused",
+      "title": "ECB Remains Attentive and Focused | PIMCO",
+      "published": null,
+      "categories": [],
+      "excerpt": "The European Central Bank (ECB) left its policy rate unchanged at 4% in December. As interest rates have presumably reached peak level, the focus has shifted towards when the ECB might start to cut. While recent inflation developments have been encouraging, the market is now fully pricing swift disinflation back to the central bank target, with the first rate cut around March next year. Although economic momentum in the euro area remains weak and recent inflation prints surprised to the downside, labour markets remain in good shape and the medium-term inflation trajectory uncertain. Underlying inflation is still at 3.6%, well above the 2% headline target. For inflation to evolve in line with ECB projections, growth in unit labour costs needs to falls back to levels consistent with 2% inflation, and firms need to use their profit margins as a buffer to limit the pass-through of the current strong wage increases to consumer prices. More clarity is needed for the ECB to change course. While the new staff macroeconomic projections include the inaugural estimates for 2026, the ECB has made clear that it aims to achieve its inflation target no later than in 2025. Overall, activity and inflation data have been softening since the last projection round in September, so there have been downward revisions in December. For headline inflation, the projections show the harmonised index of consumer prices (HICP) in 2024 revised down to 2.7%, unchanged at 2.1% in 2025, and at 1.9% from Q1 2026 onwards. President Lagarde stressed that financial conditions are currently easier than embedded in the projections. The ECB terminated asset purchase programme (APP) reinvestments in July. At its December meeting, the ECB decided to communicate an earlier cutback in pandemic emergency purchase ",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2023-12-14",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "PIMCO",
+      "official_url": "https://www.pimco.com/us/en/insights/feds-dovish-pivot-reflects-lessons-from-history",
+      "link_title": "Feds Dovish Pivot Reflects Lessons From History",
+      "title": "Fed’s Dovish Pivot Reflects Lessons From History | PIMCO",
+      "published": null,
+      "categories": [],
+      "excerpt": "Following its December meeting, Federal Reserve officials underscored a growing confidence in their ability to guide the U.S. economy toward a soft landing, and therefore begin the process of cutting rates. As Fed Chair Jerome Powell himself stated in a 2018 speech, monetary policy strategy is an exercise in risk management. By softening the hiking bias embedded in previous Federal Open Market Committee (FOMC) statements, and lowering the projected path of the federal funds rate, FOMC participants signaled they believe the balance of risks has shifted squarely in favor of achieving sustainably lower inflation. Thus, chances of further rate hikes have diminished, and FOMC discussion is quickly shifting toward the economic conditions that would warrant rate cuts. Because Chair Powell told reporters afterward that the FOMC had discussed the prospect of rate cuts at this meeting, markets have begun to focus on how soon and how many cuts could come. However, with the economy still proving resilient, Fed officials will likely want to hold off until additional evidence shows inflation is continuing to moderate back to the central bank’s 2% target. Still, history suggests that once the Fed does begin to cut, the pace could be more rapid than that implied by the FOMC’s projected median interest rate path through 2025. Both forecasters and markets have tended to underestimate the speed and magnitude of the central bank cutting cycle when rates are at their peak. The central bank held its policy rate steady at 5.25%–5.5%. It also released updated economic projections that we view as consistent with growing confidence that the U.S. economy will achieve a soft landing. These projections include a median outlook for 75 basis points (bps) of net rate cuts in 2024 – up from 50 bps prev",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2023-12-14",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 36,
+  "archive_count": 43,
   "archive_note": "first_seen is a GMI tracking date, never a publication date; historical first discovery may be unknown. Unverified dates are kept as published_candidate, never displayed as published. Excerpts are partial machine translations."
 }
