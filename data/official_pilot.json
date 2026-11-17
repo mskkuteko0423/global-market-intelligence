@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T06:25:16.402109+00:00",
+  "updated": "2026-11-17T06:30:07.689204+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -47,10 +47,10 @@
     },
     {
       "firm": "Vanguard",
-      "official_url_candidates": 0,
-      "tested": 0,
-      "extracted": 0,
-      "error": "RuntimeError: All discovery indexes failed: https://investor.vanguard.com/investor-resources-education/news: HTTPError HTTP Error 404: Not Found"
+      "official_url_candidates": 8,
+      "tested": 5,
+      "extracted": 5,
+      "error": null
     },
     {
       "firm": "Fidelity",
@@ -131,7 +131,10 @@
         "AI・半導体"
       ],
       "secondary_categories": [],
-      "translation_errors": {},
+      "translation_errors": {
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+      },
       "title_ja": "ジョン・ウォルドロン氏が語るGDP成長率、AI、M&Aの見通し",
       "translation_provider": {
         "title_ja": "mymemory_public",
@@ -165,7 +168,10 @@
         "AI・半導体"
       ],
       "secondary_categories": [],
-      "translation_errors": {},
+      "translation_errors": {
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+      },
       "title_ja": "Aaruが高度なAIシミュレーションを使用して人間の行動を予測する方法",
       "translation_provider": {
         "title_ja": "mymemory_public",
@@ -199,7 +205,10 @@
       "secondary_categories": [
         "その他の産業テーマ"
       ],
-      "translation_errors": {},
+      "translation_errors": {
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+      },
       "title_ja": "サブスクリプション会員数の増加が予想を上回る中、世界の音楽収益は増加すると予測されています。",
       "translation_provider": {
         "title_ja": "mymemory_public",
@@ -233,7 +242,10 @@
         "クレジット"
       ],
       "secondary_categories": [],
-      "translation_errors": {},
+      "translation_errors": {
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+      },
       "title_ja": "エネルギーショックの中、レジリエンスを示す新興市場国クレジット",
       "translation_provider": {
         "title_ja": "mymemory_public",
@@ -270,7 +282,10 @@
       "secondary_categories": [
         "AI・半導体"
       ],
-      "translation_errors": {},
+      "translation_errors": {
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+      },
       "title_ja": "ヘルスケアの次の成長要因 | モルガン・スタンレー",
       "translation_provider": {
         "title_ja": "mymemory_public",
@@ -304,7 +319,10 @@
         "その他の産業テーマ"
       ],
       "secondary_categories": [],
-      "translation_errors": {},
+      "translation_errors": {
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+      },
       "title_ja": "ヘルスケア・コンシューマリズムの台頭 | モルガン・スタンレー",
       "translation_provider": {
         "title_ja": "mymemory_public",
@@ -339,8 +357,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "run_limit_reached",
-        "excerpt_ja": "run_limit_reached"
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "AIエージェントの勝者と敗者 | モルガン・スタンレー",
@@ -376,8 +394,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "run_limit_reached",
-        "excerpt_ja": "run_limit_reached"
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "AIデータセンター、関税、イランに対する中期的な影響",
@@ -413,8 +431,8 @@
         "債券・金利"
       ],
       "translation_errors": {
-        "title_ja": "run_limit_reached",
-        "excerpt_ja": "run_limit_reached"
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "金利上昇を懸念する場合に考慮すべき5つのチャート",
@@ -455,8 +473,8 @@
         "投資戦略・資金フロー"
       ],
       "translation_errors": {
-        "title_ja": "run_limit_reached",
-        "excerpt_ja": "run_limit_reached"
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "債券投資家が債務の波に乗る方法",
@@ -492,8 +510,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "run_limit_reached",
-        "excerpt_ja": "run_limit_reached"
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "AIブームか破滅か？皆さんの質問にお答えします",
@@ -525,8 +543,8 @@
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "run_limit_reached",
-        "excerpt_ja": "run_limit_reached"
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "ボラティリティのなかでアクティブな市政債投資が価値を引き出す方法",
@@ -567,7 +585,8 @@
         "AI・半導体"
       ],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:TimeoutError"
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
       "title_ja": "第4四半期 グローバル投資見通し | ブラックロック",
       "translation_provider": {
@@ -598,7 +617,10 @@
       "date_status": "unverified",
       "primary_categories": [],
       "secondary_categories": [],
-      "translation_errors": {},
+      "translation_errors": {
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+      },
       "title_ja": "週次マーケット・コメンタリー | BlackRock Investment Institute",
       "translation_provider": {
         "title_ja": "mymemory_public",
@@ -628,7 +650,10 @@
       "date_status": "unverified",
       "primary_categories": [],
       "secondary_categories": [],
-      "translation_errors": {},
+      "translation_errors": {
+        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
+        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+      },
       "title_ja": "3+1アクティブ投資家シリーズ | BlackRock",
       "translation_provider": {
         "title_ja": "mymemory_public",
@@ -1090,9 +1115,140 @@
       "last_seen": "2026-11-17",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "Vanguard",
+      "official_url": "https://investor.vanguard.com/investor-resources-education/retirement/rmd-rules-for-inherited-iras",
+      "link_title": "Inherited IRA RMD rules",
+      "title": "Inherited IRA RMD Rules & SECURE Act 2.0 | Vanguard",
+      "published": null,
+      "categories": [],
+      "excerpt": "Learn inherited IRA RMD rules, including SECURE Act 2.0 changes, 10-year distribution rules, Roth IRA requirements, and how beneficiaries must take withdrawals. The IRS requires that most owners of IRAs withdraw part of their tax-deferred savings each year, starting at age 731 or after inheriting any IRA account for certain individual beneficiaries.2 That withdrawal is known as a required minimum distribution (RMD). RMDs are designed to ensure that investments in IRAs don't grow tax-deferred forever, and this carries over to the beneficiary of the IRA. The rules for how IRA beneficiaries must take RMDs will depend on when the original account owner passed away. The Setting Every Community Up for Retirement Enhancement (SECURE) Act of 2019, followed by SECURE 2.0 in 2022, brought changes to the rules for inherited IRAs—most notably, by changing the \"stretch IRA\" strategy for most nonspouse beneficiaries. This allowed nonspouse beneficiaries to \"stretch\" RMDs over their own life expectancy; by introducing the 10‑year rule, most nonspouse beneficiaries are now required to fully withdraw the inherited IRA balance by the end of the 10th year following the original account owner's death. These changes affect beneficiaries of account owners who passed away on or after January 1, 2020. Beneficiaries of account owners who passed away before 2020 may continue to use the lifetime distribution rules.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Vanguard",
+      "official_url": "https://investor.vanguard.com/investor-resources-education/article/how-to-set-up-backdoor-ira",
+      "link_title": "Backdoor Roth IRA: what it is and how to set it up",
+      "title": "Backdoor Roth IRA: What it is and how to set it up | Vanguard",
+      "published": null,
+      "categories": [],
+      "excerpt": "What is a backdoor Roth IRA? Explore the process, benefits, and steps to utilize backdoor Roth IRAs for maximizing your retirement savings. A backdoor Roth IRA is a strategy that some higher-income investors use to contribute to a Roth IRA by first making a nondeductible contribution to a traditional IRA and then converting those assets to a Roth IRA. Investors whose income exceeds the limits for direct Roth IRA contributions may consider a backdoor Roth IRA because Roth conversions are not subject to income restrictions. The strategy generally involves contributing after-tax dollars to a traditional IRA and then converting those assets to a Roth IRA. Existing pre-tax assets in traditional IRAs can affect the tax treatment of a conversion because of the pro-rata rule, which may reduce some of the tax benefits investors seek through a Backdoor Roth strategy.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "published_candidate": "2025-12-31",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Vanguard",
+      "official_url": "https://investor.vanguard.com/investor-resources-education/iras/roth-vs-traditional-ira",
+      "link_title": "Roth vs. traditional IRAs: A comparison",
+      "title": "Roth IRA vs. Traditional IRA: Rules & Tax Benefits\t| Vanguard",
+      "published": null,
+      "categories": [],
+      "excerpt": "Compare Roth IRAs vs traditional IRAs to learn the key differences in income requirements, rules for contributions and withdrawals, and tax implications. Make the most of your savings by understanding the key differences between Roth and traditional IRAs: There are two types of IRAs, and choosing between a Roth IRA and a traditional IRA often depends on your current financial situation and your anticipated tax bracket in retirement. Roth IRAs offer tax-free growth and tax-free withdrawals in retirement, making them an attractive option for those who expect to be in a higher tax bracket in the future. Traditional IRAs provide tax-deferred growth with pre-tax contributions, which can be helpful for those seeking a tax break in the current tax year. Eligibility requirements for traditional and Roth IRAs differ primarily based on income levels and tax filing status. Traditional IRAs generally allow anyone with earned income to contribute, but tax deductibility is phased out at higher income levels if the contributor or their spouse has access to a workplace retirement plan. In contrast, Roth IRAs have income caps beyond which individuals cannot contribute at all. Determining eligibility is important before choosing which IRA to open because it ensures that contributors select the type that maximizes their tax advantages and aligns with their financial situation and retirement goals. Yes, a minor with earned income can own and contribute to an IRA. The IRA is controlled by a parent or another adult, referred to as the custodian, until the minor reaches a certain age, typically 18 or 21. Income limits are based on the minor’s income, not the parent’s.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Vanguard",
+      "official_url": "https://investor.vanguard.com/investor-resources-education/education-college-savings",
+      "link_title": "Explore education savings",
+      "title": "Your guide to saving for college and 529 plans | Vanguard",
+      "published": null,
+      "categories": [],
+      "excerpt": "Maybe saving for education is your top financial priority right now. But more likely, it’s not. We’re here to talk about education savings, and maybe even help you open an account, when the time is right for you. We’re ready when you are. You can use the money you save to pay for qualified education expenses in any state, or even internationally. Education expenses include: tuition and fees for K–12,* college, grad school, and trade school; books and supplies; technology costs; and even student loan repayments.** Federal tax benefits include tax-deferred growth and tax-free withdrawals for qualified education expenses.† You may also be able to deduct your 529 contributions from your state income tax (or get a state tax credit) depending on where you live.†† 529 plans are sponsored by states, but you can save in any state's plan (just make sure to check your state’s tax rules first). You can choose your own asset mix or enroll in a target-enrollment portfolio that becomes more conservative as your beneficiary’s first day of school approaches.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Vanguard",
+      "official_url": "https://investor.vanguard.com/investor-resources-education/emergency-fund",
+      "link_title": "Explore emergency funds",
+      "title": "Comprehensive Guide to Building an Emergency Fund | Vanguard",
+      "published": null,
+      "categories": [],
+      "excerpt": "Learn what an emergency fund is, review the simple steps to build a fund that’s tailored to your needs, and explore additional resources to help maximize your savings. An emergency fund is an amount of money set aside in a dedicated savings account to help provide a financial safety net for life’s unexpected challenges. Common emergencies like unexpected medical bills, car troubles, or job loss can be overwhelming—but with an emergency fund, you can face these challenges with peace of mind. When is $2,000 as powerful as $1,000,000? Our research shows, $2,000 in an emergency fund can be just as powerful as having $1M in assets when it comes to your financial well-being. Think about it: If you’re lost in the desert and fighting heat and thirst, it only takes a small amount of water to keep you going. You could have all the water in the world back home, but you would get immediate relief from a much smaller amount that’s available right then and there. Your emergency fund is like water in the desert. Just $2,000 can give you a buffer against many of the things life can throw at you. Spending shocks are unplanned expenses like a broken windshield or a root canal. Saving enough to cover at least half a month’s worth of living expenses can help you prepare for potential spending shocks. Income shocks are the unplanned loss of income. While these events may happen less frequently, they can be a significant setback to your financial plan. Over time, you should aim to build three to six months' worth of living expenses in your emergency fund to prepare for potential income shocks.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-17",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-17",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 31,
+  "archive_count": 36,
   "archive_note": "first_seen is a GMI tracking date, never a publication date; historical first discovery may be unknown. Unverified dates are kept as published_candidate, never displayed as published. Excerpts are partial machine translations."
 }
