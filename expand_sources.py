@@ -15,7 +15,7 @@ sites = '''SITES = [
     ('Capital Group', 'https://www.capitalgroup.com/institutional/insights.html', 'capitalgroup.com'),
     ('BlackRock', 'https://www.blackrock.com/us/individual/insights', 'blackrock.com'),
     ('J.P. Morgan Research', 'https://www.jpmorgan.com/insights', 'jpmorgan.com'),
-    ('Vanguard', 'https://investor.vanguard.com/investor-resources-education/news', 'vanguard.com'),
+    ('Vanguard', 'https://investor.vanguard.com/investor-resources-education', 'vanguard.com'),
     ('Fidelity', 'https://www.fidelity.com/learning-center/trading-investing', 'fidelity.com'),
     ('PIMCO', 'https://www.pimco.com/us/en/insights', 'pimco.com'),
     ('UBS', 'https://www.ubs.com/global/en/wealth-management/insights.html', 'ubs.com'),
@@ -39,9 +39,9 @@ def discover_links(firm, index, domain):
     from urllib.parse import urljoin, urlparse
 
     fallback = {
-        'Vanguard': ['https://investor.vanguard.com/investor-resources-education',
-                     'https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles.html',
-                     'https://investor.vanguard.com/investor-resources-education/news'],
+        'Vanguard': [
+    'https://investor.vanguard.com/investor-resources-education',
+],
         'Fidelity': ['https://www.fidelity.com/viewpoints',
                      'https://www.fidelity.com/learning-center/trading-investing',
                      'https://www.fidelity.com/learning-center/markets-sectors'],
