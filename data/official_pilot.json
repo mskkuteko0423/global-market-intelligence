@@ -1,0 +1,276 @@
+{
+  "updated": "2026-11-17T02:50:19.966764+00:00",
+  "pilot": true,
+  "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
+  "stats": [
+    {
+      "firm": "Goldman Sachs",
+      "official_url_candidates": 5,
+      "tested": 5,
+      "extracted": 4,
+      "error": null
+    },
+    {
+      "firm": "J.P. Morgan Asset Management",
+      "official_url_candidates": 0,
+      "tested": 0,
+      "extracted": 0,
+      "error": null
+    },
+    {
+      "firm": "Morgan Stanley",
+      "official_url_candidates": 15,
+      "tested": 5,
+      "extracted": 3,
+      "error": null
+    }
+  ],
+  "articles": [
+    {
+      "firm": "Goldman Sachs",
+      "official_url": "https://www.goldmansachs.com/insights/artificial-intelligence",
+      "link_title": "Artificial Intelligence",
+      "title": "Artificial Intelligence",
+      "published": null,
+      "categories": [],
+      "excerpt": "",
+      "excerpt_status": "Topic/index page; not an article",
+      "page_type": "topic_or_index",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": []
+    },
+    {
+      "firm": "Goldman Sachs",
+      "official_url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook",
+      "link_title": "hero-card-gridExchangesJohn Waldron on GDP Growth, AI, and the M&A Outlook Podcast|Nov 4, 2026",
+      "title": "John Waldron on GDP Growth, AI, and the M&A Outlook",
+      "published": "2026-11-04",
+      "categories": [
+        "マクロ経済",
+        "AI・半導体"
+      ],
+      "excerpt": "Goldman Sachs President and COO John Waldron says clients have a cautiously optimistic outlook and the surge in M&A is a sign of that confidence. In the Exchanges podcast, he also discusses opportunities in asset and wealth management and how AI can help the firm serve clients better. The momentum in M&A should continue: Corporate M&A could rise 30% to 35% in 2026, supported by strong pipelines for dealmaking and companies pursuing both scale and sharper strategic focus. Investors are optimistic about economic growth in the US and Asia: While economic expansion in Europe is more muted, Waldron says the environment there is constructive and may be better than “the narrative suggests.” Recent acquisitions and AI are an important part of the firm’s strategy: Waldron says targeted acquisitions are building strength and capabilities in asset management, and discusses AI use at the firm Allison Nathan: Markets are navigating an unusual mix of resilient growth, shifting rate expectations, and rapid technological change. Against that backdrop, how is Goldman Sachs reading the moment and positioning the firm for what comes next? I'm Allison Nathan, and this is Goldman Sachs Exchanges. Today, I'm joined by John Waldron, President and Chief Operating Officer of Goldman Sachs.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "metadata_or_link_detected_not_independently_verified",
+      "primary_categories": [
+        "マクロ経済",
+        "AI・半導体"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "ジョン・ウォルドロン氏が語るGDP成長率、AI、M&Aの見通し",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "ゴールドマン・サックスのジョン・ウォルドロン社長兼COOは、クライアントは慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れであると述べています。Exchangesポッドキャストでは、資産運用およびウェルスマネジメントにおける機会や、AIがどのように企業がクライアントに質の高いサービスを提供することに役立つかについても語っています。M&Aの勢いは続くはずです。企業M&Aは、強力なM&A案件のパイプラインと企業合併に支えられ、2026年には30%から35%増加する可能性があります。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
+    },
+    {
+      "firm": "Goldman Sachs",
+      "official_url": "https://www.goldmansachs.com/insights/talks-at-gs/how-aaru-uses-advanced-ai-simulations-to-predict-human-behavior-",
+      "link_title": "hero-card-grid19:58Talks at GSHow Aaru Uses Advanced AI Simulations to Predict Human Behavior Video|Nov 5, 2026",
+      "title": "How Aaru Uses Advanced AI Simulations to Predict Human Behavior",
+      "published": "2026-11-05",
+      "categories": [
+        "AI・半導体"
+      ],
+      "excerpt": "Aaru, a two-and-a-half-year-old startup valued at $1 billion, is redefining market research and consumer intelligence by deploying multi-agent AI simulations to predict how humans will make decisions. Cam Fink, co-founder and CEO, and Ned Koh, co-founder and president, discuss Aaru's founding story and how advanced behavioral simulation overcomes the limitations of traditional consumer polling. In this conversation with Goldman Sachs Chief Information Officer Marco Argenti, they also explore the real-world enterprise applications of such predictive simulations across retail, financial services, and utilities, which are driving Aaru's rapid rise. Cam Fink: We help you understand the composition of any population on the globe, and what decisions they make. What marketing campaigns they're going to click on, what subway lines they're going to ride. Marco Argenti: Welcome to Talks at GS. And also welcome to Ned and Cam from Aaru. Nowadays with AI almost like anything is possible, including being 19 and then, you know, having a $1 billion valuation startup, which is pretty incredible. So, since then, Aaru has become one of the most closely watched companies in the research and intelligence space. Thank you for being here. Cam Fink: Thank you, Marco, for hosting us. We're really glad to have the opportunity today to talk a bit more about what we do. Marco Argenti: The first question I'm going to ask you is, when was the first time you kind of realized that AI was something big?",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "metadata_or_link_detected_not_independently_verified",
+      "primary_categories": [
+        "AI・半導体"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "Aaruが高度なAIシミュレーションを使用して人間の行動を予測する方法",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "設立から2年半が経過し、企業価値が10億ドルに達したスタートアップAaruは、マルチエージェントAIシミュレーションを展開して人間の意思決定を予測することで、市場調査と消費者インテリジェンスを再定義しています。共同創業者兼CEOのCam Fink氏と、共同創業者兼プレジデントのNed Koh氏が、Aaruの創業の経緯と、高度な行動シミュレーションが従来の消費者調査の限界をどのように克服するかについて語ります。この対談では、",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
+    },
+    {
+      "firm": "Goldman Sachs",
+      "official_url": "https://www.goldmansachs.com/insights/articles/global-music-revenues-are-forecast-to-rise-as-subscriber-growth-beats-expectations",
+      "link_title": "hero-card-gridMarketsGlobal Music Revenues Are Forecast to Rise as Subscriber Growth Beats ExpectationsNov 5, 2026",
+      "title": "Global Music Revenues Are Forecast to Rise as Subscriber Growth Beats Expectations",
+      "published": "2026-11-05",
+      "categories": [
+        "その他の産業テーマ"
+      ],
+      "excerpt": "Global music industry revenues are expected to reach approximately $200 billion annually by 2035 amid an improving outlook for subscription streaming. New subscription models, AI, and direct-to-consumer offerings are creating opportunities for the industry to reach audiences in new ways, according to Goldman Sachs Research. The music market undershot growth expectations over the last several years. The new forecast represents the first time in three years that Goldman Sachs Research has raised its long-term outlook for the industry, Stephen Laszczyk and Eric Sheridan write in the team’s 2026 edition of the annual “Music in the Air” report. Goldman Sachs Research expects global music revenues to increase at 6.7% year-on-year in 2026 and at a compound rate of 5.8% per year between 2025 and 2035. “While growth is likely to moderate from the pace observed during the industry's streaming adoption phase, we continue to see a long runway for industry expansion supported by favorable consumer behavior and an increasingly diversified monetization model,” Laszczyk and Sheridan write. Paid streaming subscriptions are helping to shore up the outlook for recorded music. After three consecutive downgrades to its forecast for 2030 recorded music revenues, Goldman Sachs Research’s outlook for the segment this year reflects improvements in streaming revenue, physical revenue, and download and other digital revenue. Subscription streaming revenue is growing faster, mainly because subscriber numbers are increasing more quickly than expected and revenue per user is rising in developed markets. Our analysts are factoring in more consistent price increases from streaming platforms as music labels increasingly incorporate higher royalties into their contracts and streaming platforms introduce",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "metadata_or_link_detected_not_independently_verified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "その他の産業テーマ"
+      ],
+      "translation_errors": {},
+      "title_ja": "サブスクリプション会員数の増加が予想を上回る中、世界の音楽収益は増加すると予測されています。",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "サブスクリプションストリーミングの見通しが改善する中、世界の音楽業界の収益は2035年までに年間約2,000億ドルに達すると見込まれています。ゴールドマン・サックス・リサーチによると、新しいサブスクリプションモデル、AI、D2C（ダイレクト・トゥ・コンシューマー）サービスにより、業界が新たな方法でオーディエンスにリーチする機会が生まれています。音楽市場は、ここ数年、成長の期待を下回ってきました。新しい予測は",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
+    },
+    {
+      "firm": "Goldman Sachs",
+      "official_url": "https://www.goldmansachs.com/insights/articles/emerging-market-credit-shows-resilience-amid-energy-shock",
+      "link_title": "hero-card-gridMarketsEmerging Market Credit Shows Resilience amid Energy ShockNov 5, 2026",
+      "title": "Emerging Market Credit Shows Resilience amid Energy Shock",
+      "published": "2026-11-05",
+      "categories": [
+        "クレジット"
+      ],
+      "excerpt": "When the Iran war triggered a surge in oil prices this year, many investors may have expected credit markets in the developing world to slide into a selloff. Instead, emerging market sovereign and corporate bonds weathered the shock with a newfound stability and solid performance for investors. The development is a key sign that emerging market credit is maturing into a resilient asset class, according to Anupam Damani, co-head and senior portfolio manager of emerging market debt at Goldman Sachs Asset Management. At the same time, investors are rethinking their approach to the market, which has trillions of dollars in outstanding debt. “Emerging market credit is now unrecognizable, and I mean that in a good way,” Damani says. “These bonds used to come with a crisis label, but this market is no longer monolithic. In my view, it has become a more diverse and resilient asset class, though risks remain.” To be sure, emerging market bonds run the gamut in terms of risk, and investors must be selective about what they trade in a marketplace with myriad issuers, she adds.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "metadata_or_link_detected_not_independently_verified",
+      "primary_categories": [
+        "クレジット"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "エネルギーショックの中、レジリエンスを示す新興市場国クレジット",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "今年のイラン戦争が原油価格の高騰を引き起こした際、多くの投資家は発展途上国のクレジット市場が売り圧力にさらされると予想したかもしれません。しかし実際には、新興市場国の国債と社債は、新たに得られた安定性と投資家にとっての堅調なパフォーマンスにより、このショックを乗り越えました。この動きは、新興市場国のクレジットが強靭な資産クラスへと成熟しつつあることを示す重要な兆候であると、アヌパム・ダマ氏は述べています。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
+    },
+    {
+      "firm": "Morgan Stanley",
+      "official_url": "https://www.morganstanley.com/insights/articles/healthcare-leaders-discuss-reshaping-industry-global-healthcare-conference-2026",
+      "link_title": "Macro photo showing scientist s gloved hands adjusting optical microscope for analysis",
+      "title": "Healthcare's Next Growth Drivers | Morgan Stanley",
+      "published": null,
+      "categories": [
+        "その他の産業テーマ",
+        "AI・半導体"
+      ],
+      "excerpt": "How healthcare leaders are navigating patent expirations, healthcare M&A and AI adoption to shape the future of the industry. As healthcare leaders and investors gathered at the 2026 Morgan Stanley Global Healthcare Conference, conversations centered on an industry balancing innovation, growth and disruption. Morgan Stanley bankers highlighted a stronger financing environment in biotech, robust demand for differentiated therapies and technologies and the growing importance of data and AI across healthcare. Executives also discussed advances in oncology and obesity, the outlook for healthcare M&A and the growing role of Chinese biotech in the global innovation ecosystem. Kalli Dircks: One of my takeaways at Morgan Stanley's Global Healthcare Conference is that biotech equity markets are at a really compelling place. The pace of innovation across oncology, I&I, and rare disease is truly astonishing. Ultimately, that's the goal of the biotech equity financing market: to fund trials, to deliver care for patients. The capital is flowing to companies that have clear, differentiated clinical data, and assets that are important to large pharma. Matthew Strom: We've been having bunch of great conversations centered around proprietary data. Healthcare has always done a really great job of collecting imaging, genomic, longitudinal clinical data, but only recently as AI tools and technology have advanced, have we really been able to start making good use of that data.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "その他の産業テーマ"
+      ],
+      "secondary_categories": [
+        "AI・半導体"
+      ],
+      "translation_errors": {},
+      "title_ja": "ヘルスケアの次の成長要因 | モルガン・スタンレー",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "ヘルスケア業界のリーダーたちが、特許の満了、ヘルスケア業界におけるM&A、そしてAIの導入にどのように対処し、業界の未来を形作っているか。2026年のモルガン・スタンレー・グローバル・ヘルスケア・カンファレンスにヘルスケア業界のリーダーや投資家が集まり、イノベーション、成長、変革のバランスを取る業界について議論が交わされました。モルガン・スタンレーのバンカーたちは、バイオテクノロジー分野における資金調達環境の強化、差別化された製品・サービスに対する堅調な需要を強調しました。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
+    },
+    {
+      "firm": "Morgan Stanley",
+      "official_url": "https://www.morganstanley.com/insights/articles/healthcare-consumerism-drives-26-b-opportunity-2026",
+      "link_title": "Pharmacist, woman and medicine for customer in clinic of product care, advice and information for prescription. Healthcare, person and patient with pills for pharmaceutical, instructions and safety",
+      "title": "The Rise of Healthcare Consumerism | Morgan Stanley",
+      "published": null,
+      "categories": [
+        "その他の産業テーマ"
+      ],
+      "excerpt": "U.S. consumers are increasingly taking the lead in how they access and pay for healthcare, creating potential opportunities across biopharma and healthcare services. In the complex and costly U.S. healthcare system, patients are no longer just heeding drug ads to “Ask Your Doctor”—they’re going straight to the source. Policy changes and technological advances have given consumers more ways to directly choose the healthcare products and services that best suit their needs—including care, testing and medicines—as well as how they pay for them. The healthcare industry is adapting to this trend, potentially creating new opportunities for investors. In biopharma alone, the total direct-to-consumer cash-pay market could reach $26 billion at its peak. Eyeing that opportunity, many large-cap biopharma companies now offer direct-to-consumer platforms. Healthcare consumerism took root with the creation of Health Savings Accounts (HSAs) in 2003, followed by the growth of high-deductible health plans (HDHPs). These changes gave consumers more control over healthcare spending—but also shifted more of the costs and decisions to them.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "その他の産業テーマ"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "ヘルスケア・コンシューマリズムの台頭 | モルガン・スタンレー",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "米国の消費者は、医療サービスへのアクセス方法や支払い方法においてますます主導権を握るようになり、バイオ医薬品および医療サービス全体にわたって潜在的な機会が生まれています。複雑で高額な米国の医療システムでは、患者はもはや「かかりつけの医師に相談してください」という医薬品の広告に耳を傾けるだけではなくなり、直接情報源にアクセスするようになっています。政策の変更と技術の進歩により、消費者は直接医療サービスを選択できる方法が増えました。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary"
+    },
+    {
+      "firm": "Morgan Stanley",
+      "official_url": "https://www.morganstanley.com/insights/articles/agentic-commerce-ai-agents-30-trillion-consumer-spending",
+      "link_title": "How AI Agents Could Disrupt Consumer Industries",
+      "title": "Winners and Losers From AI Agents | Morgan Stanley",
+      "published": null,
+      "categories": [
+        "AI・半導体"
+      ],
+      "excerpt": "As AI agents become more capable of making decisions and purchases on consumers’ behalf, Morgan Stanley Research examines which industries could benefit—and which face growing competitive pressure. The recent launch of powerful consumer AI agents has reignited debate over how artificial intelligence could disrupt industries ranging from retail and insurance to transportation and live entertainment. Unlike traditional AI tools that primarily answer questions, these agents can browse websites, complete forms, compare prices, make purchases and even help negotiate bills. Morgan Stanley Research estimates that roughly $30 trillion in consumer spending could be digitized through AI agents across online advertising, e-commerce, travel, food delivery, ridesharing, logistics, wearables and other sectors. The extent of the disruption will depend on how quickly consumers adopt AI agents and how effectively companies make money from agent-driven activity and transactions.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Market-related candidate; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "AI・半導体"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated"
+    },
+    {
+      "firm": "Morgan Stanley",
+      "official_url": "https://www.morganstanley.com/insights/topics/artificial-intelligence",
+      "link_title": "Artificial Intelligence",
+      "title": "Artificial Intelligence | Morgan Stanley",
+      "published": null,
+      "categories": [],
+      "excerpt": "",
+      "excerpt_status": "Topic/index page; not an article",
+      "page_type": "topic_or_index",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": []
+    },
+    {
+      "firm": "Morgan Stanley",
+      "official_url": "https://www.morganstanley.com/insights/topics/mergers-and-acquisitions",
+      "link_title": "Mergers & Acquisitions",
+      "title": "Mergers and Acquisitions | Morgan Stanley",
+      "published": null,
+      "categories": [],
+      "excerpt": "",
+      "excerpt_status": "Topic/index page; not an article",
+      "page_type": "topic_or_index",
+      "market_relevance": "Unclear; review required",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": []
+    }
+  ]
+}
