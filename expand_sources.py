@@ -40,9 +40,11 @@ def discover_links(firm, index, domain):
 
     fallback = {
         'Vanguard': ['https://investor.vanguard.com/investor-resources-education',
-                     'https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles.html'],
+                     'https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles.html',
+                     'https://investor.vanguard.com/investor-resources-education/news'],
         'Fidelity': ['https://www.fidelity.com/viewpoints',
-                     'https://www.fidelity.com/learning-center/trading-investing'],
+                     'https://www.fidelity.com/learning-center/trading-investing',
+                     'https://www.fidelity.com/learning-center/markets-sectors'],
         'PIMCO': ['https://www.pimco.com/us/en/insights',
                   'https://www.pimco.com/us/en/insights/economic-and-market-commentary'],
         'Schroders': ['https://www.schroders.com/en/global/individual/insights/'],
@@ -51,8 +53,9 @@ def discover_links(firm, index, domain):
     selected = firm in fallback or firm in ('UBS', 'BNP Paribas')
     sources = list(dict.fromkeys([index] + fallback.get(firm, [])))
     found, seen, diagnostics, first_parser = [], set(), [], None
+    source_rank = {}
 
-    def add(url, label):
+    def add(url, label, origin='html'):
         url = urldefrag(url)[0]
         if not official(url, domain) or url in seen:
             return
@@ -75,6 +78,7 @@ def discover_links(firm, index, domain):
             return
         seen.add(url)
         found.append((url, label))
+        source_rank[url] = origin
 
     for source in sources:
         try:
@@ -82,17 +86,17 @@ def discover_links(firm, index, domain):
             if first_parser is None:
                 first_parser = parser
             for url, label in candidates(parser, source, domain):
-                add(url, label)
+                add(url, label, 'html')
             # Existing path filters can be too narrow for certain official sites.
             if selected:
                 for href, label in parser.links:
-                    add(urljoin(source, href), label)
+                    add(urljoin(source, href), label, 'html')
             diagnostics.append(f'HTML {source}: OK')
         except Exception as exc:
             diagnostics.append(f'HTML {source}: {type(exc).__name__} {str(exc)[:80]}')
 
-    # Keep the successful HTML discovery fast. Use structured sources only
-    # when HTML yielded no candidates, or fewer than the normal per-firm cap.
+    # Keep successful HTML discovery fast; structured sources are a fallback.
+    # Do not confuse sitemap modification timestamps with publication dates.
     if selected and len(found) < MAX_PER_FIRM:
         host = urlparse(index).netloc
         origin = 'https://' + host
@@ -141,7 +145,7 @@ def discover_links(firm, index, domain):
                         loc = next((el.text for el in item if el.tag.rsplit('}', 1)[-1] == 'loc'), None)
                         if loc:
                             slug = urlparse(loc).path.rstrip('/').split('/')[-1]
-                            add(loc, slug.replace('-', ' ').replace('_', ' ').title())
+                            add(loc, slug.replace('-', ' ').replace('_', ' ').title(), 'sitemap')
                 elif tag in ('rss', 'feed'):
                     for item in root.iter():
                         if item.tag.rsplit('}', 1)[-1] not in ('item', 'entry'):
@@ -154,16 +158,30 @@ def discover_links(firm, index, domain):
                             if name == 'link':
                                 link = el.get('href') or (el.text or '')
                         if link:
-                            add(urljoin(feed, link.strip()), title)
+                            add(urljoin(feed, link.strip()), title, 'feed')
                 diagnostics.append(f'XML {feed}: OK')
             except Exception as exc:
                 diagnostics.append(f'XML {feed}: {type(exc).__name__} {str(exc)[:70]}')
 
     if selected:
         print(f'DISCOVERY_DETAIL {firm}: ' + ' | '.join(diagnostics), flush=True)
+    # A feed entry is a stronger discovery signal than a generic sitemap URL.
+    # A date in a URL is only a ranking hint, NEVER the publication date.
+    def rank(item):
+        url, label = item
+        path = urlparse(url).path.lower()
+        dates = re.findall(r'(?<!\d)(20\d{2})[-/](0[1-9]|1[0-2])[-/](0[1-9]|[12]\d|3[01])(?!\d)', path)
+        date_hint = ''.join(dates[-1]) if dates else ''
+        origin_score = {'feed': 3, 'html': 2, 'sitemap': 1}.get(source_rank.get(url), 0)
+        return (bool(date_hint), date_hint, origin_score)
+    found.sort(key=rank, reverse=True)
     if first_parser is None:
-        # An inaccessible landing page is not evidence of zero publications.
-        raise RuntimeError('All HTML discovery indexes failed: ' + ' | '.join(diagnostics))
+        # RSS/sitemap discovery may work even if HTML is blocked.
+        # Return a neutral parser for the existing diagnostics logic.
+        if found:
+            first_parser = parse('')
+        else:
+            raise RuntimeError('All discovery methods failed: ' + ' | '.join(diagnostics))
     return found, first_parser
 '''
 
