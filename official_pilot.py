@@ -437,7 +437,24 @@ def main():
                                 r'articleBody|article-body|article_content',
                                 page_html, re.I
                             )),
+                           
                             "meta_keys": list(page.meta.keys())[:15],
+                            "html_title": (
+                                re.search(r'<title[^>]*>(.*?)</title>', page_html, re.I | re.S).group(1)[:160]
+                                if re.search(r'<title[^>]*>(.*?)</title>', page_html, re.I | re.S)
+                                else "NOT_FOUND"
+                            ),
+                            "html_start": re.sub(r'\s+', ' ', page_html[:500])[:300],
+                            "html_end": re.sub(r'\s+', ' ', page_html[-500:])[-300:],
+                            "access_markers": [
+                                word for word in (
+                                    "Access Denied", "Forbidden", "captcha",
+                                    "Cloudflare", "Akamai", "enable JavaScript",
+                                    "bot detection", "Request blocked"
+                                )
+                                if word.lower() in page_html.lower()
+                            ],
+
                         }, ensure_ascii=False), flush=True)
                     m = page.meta
                     record['title'] = m.get('og:title') or m.get('twitter:title') or anchor_title
