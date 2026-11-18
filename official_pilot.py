@@ -179,6 +179,14 @@ def classify(text):
     return [name for name, terms in CATEGORIES.items() if any(re.search(r'(?<![a-z])' + re.escape(term.strip()) + r'(?![a-z])', normalized) for term in terms)]
 
 
+NON_ENGLISH_LOCALE_SEGMENTS = {'zh', 'zh-cn', 'zh-hk', 'zh-tw', 'zh-sg'}
+
+
+def is_non_english_locale(url):
+    segments = [part.lower() for part in urlparse(url).path.split('/') if part]
+    return any(part in NON_ENGLISH_LOCALE_SEGMENTS for part in segments)
+
+
 def candidates(parser, index, domain):
     seen = set()
     found = []
@@ -186,7 +194,8 @@ def candidates(parser, index, domain):
         url = urldefrag(urljoin(index, href))[0]
         path = urlparse(url).path.lower().rstrip('/')
         low_label = label.lower()
-        if not official(url, domain) or url.rstrip('/') == index.rstrip('/') or url in seen:
+        if (not official(url, domain) or is_non_english_locale(url)
+                or url.rstrip('/') == index.rstrip('/') or url in seen):
             continue
         seen.add(url)
         if len(label) < 18 or len(label) > 220:
@@ -384,6 +393,11 @@ def main():
         try:
             index_parser = parse(get_html(index, domain))
             links = candidates(index_parser, index, domain)
+            links = [
+                (candidate_url, candidate_title)
+                for candidate_url, candidate_title in links
+                if not is_non_english_locale(candidate_url)
+            ]
             if not links:
                 # Diagnostic only: do not publish unverified links as articles.
                 samples = []
