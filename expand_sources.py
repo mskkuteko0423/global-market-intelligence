@@ -85,7 +85,9 @@ def discover_links(firm, index, domain):
                 return
         path = urlparse(url).path.lower().rstrip('/')
         slug = path.rsplit('/', 1)[-1]
-        if not slug or len(slug) < 12 or slug in ('insights', 'research', 'articles', 'news'):
+        if not slug or (
+            len(slug) < 12 and firm != 'BNP Paribas'
+        ) or slug in ('insights', 'research', 'articles', 'news'):
             return
         if any(x in path for x in EXCLUDE_PATH):
             return
