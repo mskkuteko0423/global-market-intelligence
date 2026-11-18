@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T05:04:19.351692+00:00",
+  "updated": "2026-11-18T05:12:15.593234+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -75,9 +75,9 @@
     },
     {
       "firm": "Schroders",
-      "official_url_candidates": 197,
-      "tested": 5,
-      "extracted": 3,
+      "official_url_candidates": 0,
+      "tested": 0,
+      "extracted": 0,
       "error": null
     },
     {
@@ -133,7 +133,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ゴールドマン・サックスのジョン・ウォルドロン社長兼COOは、クライアントは慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れであると述べています。Exchangesポッドキャストでは、資産運用およびウェルスマネジメントにおける機会や、AIがクライアントへのより良いサービス提供にどのように役立つかについても語っています。M&Aの勢いは続くはずです。企業M&Aは、強力なM&A案件のパイプラインと企業合併の支援を受けて、2026年には30%から35%増加する可能性があります。",
+      "excerpt_ja": "ゴールドマン・サックスのジョン・ウォルドロン社長兼COOは、クライアントは慎重ながらも楽観的な見通しを持っており、M&Aの急増はその自信の表れであると述べています。Exchangesポッドキャストでは、資産運用およびウェルスマネジメントにおける機会や、AIがクライアントへのより良いサービス提供にどのように役立つかについても語っています。M&Aの勢いは続くはずです。企業M&Aは、M&Aの強力なパイプラインと企業合併に支えられ、2026年には30%から35%増加する可能性があります。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -170,7 +170,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "設立から2年半が経過し、企業価値が10億ドルに達したスタートアップAaruは、マルチエージェントAIシミュレーションを展開することで、消費者がどのように意思決定を行うかを予測し、市場調査と消費者インテリジェンスを再定義しています。共同創業者兼CEOのカム・フィンク氏と、共同創業者兼プレジデントのネッド・コー氏が、Aaruの創業ストーリーと、高度な行動シミュレーションが従来の消費者調査の限界をどのように克服するかについて語ります。この対談では、",
+      "excerpt_ja": "設立から2年半が経過し、企業価値が10億ドルに達したスタートアップ企業Aaruは、マルチエージェントAIシミュレーションを活用して人間の意思決定を予測することで、市場調査と消費者インテリジェンスのあり方を刷新しています。共同創業者兼CEOのカム・フィンク氏と、共同創業者兼プレジデントのネッド・コー氏が、Aaruの創業ストーリーと、高度な行動シミュレーションが従来の消費者調査の限界をどのように克服するかについて語ります。この対談では、",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -202,12 +202,12 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "サブスクリプション会員数の増加が予想を上回る中、世界の音楽収益は増加すると予測されています。",
+      "title_ja": "サブスクリプション会員数の増加が予想を上回る中、世界の音楽収益は増加すると予測されています",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "サブスクリプションストリーミングの見通しが改善する中、世界の音楽業界の収益は2035年までに年間約2,000億ドルに達すると見込まれています。ゴールドマン・サックス・リサーチによると、新しいサブスクリプションモデル、AI、D2C（ダイレクト・トゥ・コンシューマー）サービスにより、業界が新たな方法でオーディエンスにリーチする機会が生まれています。音楽市場は、ここ数年、成長の期待を下回っています。新しい予測は",
+      "excerpt_ja": "サブスクリプションストリーミングの見通しが改善する中、世界の音楽業界の収益は2035年までに年間約2,000億ドルに達すると予想されています。ゴールドマン・サックス・リサーチによると、新しいサブスクリプションモデル、AI、D2C（ダイレクト・トゥ・コンシューマー）サービスにより、業界が新たな方法でオーディエンスにリーチする機会が生まれています。音楽市場は、過去数年間、成長期待を下回ってきました。新しい予測は",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -244,7 +244,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "今年、イラン戦争が原油価格の高騰を引き起こした際、多くの投資家は発展途上国のクレジット市場が売り圧力にさらされると予想したかもしれません。しかし実際には、新興市場国の国債および社債は、新たに得られた安定性と投資家にとっての堅調なパフォーマンスにより、このショックを乗り越えました。この動きは、新興市場国のクレジットが強靭な資産クラスへと成熟しつつあることを示す重要な兆候であると、アヌパム・ダマ氏は述べています。",
+      "excerpt_ja": "今年のイラン戦争が原油価格の高騰を引き起こした際、多くの投資家は発展途上国のクレジット市場が売り圧力にさらされると予想したかもしれません。しかし実際には、新興市場国の国債および社債は、新たに得られた安定性と投資家にとっての堅調なパフォーマンスにより、このショックを乗り切りました。この動きは、新興市場国のクレジットが強靭な資産クラスへと成熟しつつあることを示す重要な兆候であると、アヌパム・ダマ氏は述べています。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -279,7 +279,7 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "ヘルスケアの次の成長要因 | モルガン・スタンレー",
+      "title_ja": "ヘルスケアの次の成長ドライバー | モルガン・スタンレー",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
@@ -316,12 +316,12 @@
         "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
         "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
       },
-      "title_ja": "ヘルスケアの消費者主義の台頭 | モルガン・スタンレー",
+      "title_ja": "ヘルスケア・コンシューマリズムの台頭 | モルガン・スタンレー",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "米国の消費者は、医療サービスへのアクセス方法や支払い方法においてますます主導権を握るようになり、バイオ医薬品および医療サービス全体にわたって潜在的な機会を生み出しています。複雑で高額な米国の医療システムでは、患者はもはや「医師に相談してください」という医薬品の広告に耳を傾けるだけではなく、直接情報源にアクセスしています。政策の変更と技術の進歩により、消費者は直接医療を選択する方法をより多く持つようになりました。",
+      "excerpt_ja": "米国の消費者は、医療サービスへのアクセス方法や支払い方法においてますます主導権を握るようになり、バイオ医薬品および医療サービス全体にわたって潜在的な機会を生み出しています。複雑でコストのかかる米国の医療システムでは、患者はもはや「かかりつけの医師に相談してください」という医薬品の広告に耳を傾けるだけではなく、直接情報源にアクセスしています。政策の変更と技術の進歩により、消費者は直接医療を選択する方法をより多く持つようになりました。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -359,7 +359,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "AIエージェントが消費者に代わって意思決定や購入を行う能力をますます高める中、モルガン・スタンレー・リサーチは、どの業界が恩恵を受ける可能性があり、どの業界が競争圧力の高まりに直面しているかを調査しています。高性能な消費者向けAIエージェントが最近登場したことで、小売業や保険業界から、運輸業やライブエンターテイメント業界に至るまで、人工知能がさまざまな業界にどのような変革をもたらす可能性があるかについて、議論が再燃しています。従来の",
+      "excerpt_ja": "AIエージェントが消費者に代わって意思決定や購入を行う能力をますます高める中、モルガン・スタンレー・リサーチは、どの業界が恩恵を受ける可能性があり、どの業界が競争圧力の高まりに直面しているかを調査しています。高性能な消費者向けAIエージェントが最近登場したことで、小売業や保険業界から、運輸業界やライブエンターテイメント業界に至るまで、さまざまな業界が人工知能によってどのように変革される可能性があるかについての議論が再燃しています。従来の",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
@@ -396,7 +396,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスや配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
@@ -433,7 +433,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
@@ -475,7 +475,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、「同意する」ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
@@ -545,7 +545,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
@@ -619,7 +619,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "この動画を視聴するには、JavaScriptを有効にしてください。また、HTML5動画に対応したウェブブラウザへのアップグレードをご検討ください。最近のテクノロジー株の変動の中、当社は長期的なAIへの確信（これは、当社の資本市場見通しの最新の更新で示されているように、戦略的なオーバーウェイトです）と、より短期的な慎重さ（当社の戦術的な6～12ヵ月の見通しは中立です）を両立させています。米国株式の見通しは、どのように捉えるかによって異なります。",
+      "excerpt_ja": "この動画を視聴するには、JavaScriptを有効にしてください。また、HTML5動画に対応したウェブブラウザにアップグレードすることをご検討ください。最近のテクノロジーストックの変動の中、当社は長期的なAIへの確信（これは、資本市場の仮定に関する最新の更新で示されているように、戦略的なオーバーウェイトです）と、より短期的な慎重さ（当社の戦術的な6～12ヵ月の見通しは中立です）を両立させています。米国株式の状況は、どのように見るかによって異なります。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -652,7 +652,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "このビデオを視聴するには、JavaScriptを有効にし、HTML5ビデオをサポートするウェブブラウザにアップグレードすることをご検討ください。おはようございます。グローバル・リソース＆リアル・アセット・チームの責任者を務めるエヴィ・ハンブロです。11月16日の週です。皆さんが知っておくべきことが3つ、そして知らなくてもよいことが1つあります。まず最初に。コモディティです。これなしでは何も作れません。あまりにも長い間、コモディティは忘れられてきました。そして、その結果として、",
+      "excerpt_ja": "このビデオを視聴するには、JavaScriptを有効にし、HTML5ビデオをサポートするウェブブラウザにアップグレードすることをご検討ください。おはようございます。グローバルリソース＆リアルアセットチームの責任者を務めるエヴィ・ハムブロです。11月16日の週です。ここで、知っておくべきことが3つと、知らなくてもよいことが1つあります。まず最初に。コモディティです。これなしでは何も作れません。あまりにも長い間、コモディティは忘れられてきました。そして、その結果として、",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -691,12 +691,12 @@
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-10-21",
-      "title_ja": "2026年第4四半期 固定収益の見通し | BlackRock",
+      "title_ja": "2026年第4四半期 固定収益見通し | BlackRock",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "利回りの上昇により、債券投資の機会が変わりました。持続的なインフレが債券の伝統的な分散投資の役割を試す中、また経済サイクルの乖離が市場間で異なる投資環境を生み出す中においても、ポートフォリオの潜在的なリターンの多くはインカムから得られる可能性があります。課題はもはや単に利回りを求めることではなく、投資家が引き受けるリスクに対してどのような報酬が支払われているかを理解することです。インカムは豊富かもしれませんが、"
+      "excerpt_ja": "利回りの上昇により、債券投資の機会が変わりました。持続的なインフレが債券の伝統的な分散投資としての役割を試す中、また経済サイクルの乖離が市場間で異なる投資環境を生み出す中においても、ポートフォリオの潜在的なリターンの多くはインカムから得られる可能性があります。課題はもはや単に利回りを求めることではなく、投資家が引き受けるリスクに対してどのような報酬が支払われているかを理解することです。インカムは豊富かもしれませんが、"
     },
     {
       "firm": "BlackRock",
@@ -1783,7 +1783,7 @@
       "excerpt": "The first few years of the 2020s have seen a number of acute economic, financial, and geopolitical disruptions on a worldwide scale, and it will take time for the ultimate consequences of these shocks to be fully felt. At PIMCO’s latest Secular Forum, we discussed how recent short-term cyclical dynamics are likely to have longer-lasting secular consequences. The global economy is exiting a period of massive fiscal and monetary policy interventions that are unlikely to be repeated over our secular horizon. After the post-pandemic surge in global inflation, central bankers are starting to recognize that unconventional monetary policies bear costs as well as deliver benefits, while surging sovereign debt levels will likely limit fiscal capacity to address future downturns. With the era of volatility-suppressing policies possibly over, markets are likely in for a period of heightened volatility, with an unusually large array of potential aftershocks. We believe the risks to global growth are skewed to the downside over our five-year secular horizon, and that returns across asset classes are likely to be more differentiated in this new era. We expect central banks to maintain their existing inflation targets and to prioritize keeping longer-term inflation expectations anchored at those target levels. We believe that neutral long-run real policy rates in advanced economies will remain anchored in a range of 0% to 1%. With rising government debt and the possible return of an inflation risk premium, we expect the yield curve to steepen as investors demand more compensation on longer-term bonds over the secular horizon. Our expectations of low neutral rates and a return to near-target inflation reinforce a positive outlook for core and high quality fixed income. After rising sha",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
-      "market_relevance": "Unclear; review required",
+      "market_relevance": "Needs human review",
       "error": null,
       "date_status": "unverified",
       "primary_categories": [],
