@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T14:45:44.572573+00:00",
+  "updated": "2026-11-18T15:07:34.672670+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -77,7 +77,7 @@
       "firm": "Schroders",
       "official_url_candidates": 7,
       "tested": 5,
-      "extracted": 0,
+      "extracted": 1,
       "error": null
     },
     {
@@ -1118,12 +1118,12 @@
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "市場のボラティリティ: 不安定な市場に対する投資戦略 |忠実度",
+      "title_ja": "市場のボラティリティ：ボラティリティの高い市場における投資戦略 | Fidelity",
       "translation_provider": {
-        "title_ja": "google_public",
-        "excerpt_ja": "google_public"
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "フィデリティのリーダーが選挙結果と、それが経済政策とお金に与える影響について詳しく掘り下げます。市場が不安定になったときは、投資計画を立ててそれを守ることが大切です。私たちは、あなたが経済的な旅の途中にいるところに会い、あなたが目指す場所に到達するのをお手伝いします。業界をリードする当社の投資分析を入手し、調査を活用してください。この情報は教育を目的としており、カスタマイズされたものではありません"
+      "excerpt_ja": "フィデリティのリーダーたちが選挙結果を掘り下げ、それが経済政策やあなたのお金にどのような影響を及ぼすかを解説します。市場が不安定になると、投資計画を立ててそれに従うことが重要になります。私たちは、お客様が財務面で現在どの段階にいらっしゃるかに応じてお迎えし、目標とする段階に到達できるようお手伝いします。業界をリードする当社の投資分析を入手し、当社の調査を活用してください。この情報は教育を目的としており、個別対応ではありません。"
     },
     {
       "firm": "Fidelity",
@@ -1392,12 +1392,12 @@
       "published_candidate": "2026-02-10",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "インカムファンドの最新情報: アクティブ運用による傑出した収益 |ピムコ",
+      "title_ja": "インカムファンド最新情報：アクティブ運用による優れたリターン | PIMCO",
       "translation_provider": {
-        "title_ja": "google_public",
-        "excerpt_ja": "google_public"
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "債券投資は 2025 年に好調であり、2026 年に向けての背景は引き続き非常に前向きに見えます。魅力的な開始利回り、世界経済状況の相違、市場の変化により、PIMCOは、過去10年以上でアクティブ債券の最高の機会の1つであると考えています。ここでは、アルフレッド・ムラタ氏とジョシュ・アンダーソン氏とともにPIMCOインカム・ファンドを運用するダン・アイヴァシン氏が質問に答えています。"
+      "excerpt_ja": "2025年の固定収益投資は好調な年となり、2026年に向けての背景も引き続き非常に建設的なものとなっています。魅力的な初期利回り、世界経済情勢の分化、市場の変化により、PIMCOが10年以上ぶりのアクティブな債券投資の絶好の機会と考える状況が生まれています。ここでは、アルフレッド・ムラタ氏、ジョシュ・アンダーソン氏とともにPIMCOインカムファンドを運用するダン・イヴァシン氏が質問にお答えします。"
     },
     {
       "firm": "PIMCO",
@@ -1432,12 +1432,12 @@
       "published_candidate": "2026-04-01",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "マルチアセットポートフォリオにおけるグローバル株式の機会に対する体系的な視点 | PIMCO",
+      "title_ja": "マルチアセットポートフォリオにおけるグローバル株式投資機会への体系的な視点 | PIMCO",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "システマティック株式投資とは、憶測や勘ではなく、明確なルールとデータを用いて株式市場に投資する方法です。このアプローチでは、トレンドやニュースの見出しに基づいて株式を選ぼうとするのではなく、リサーチ、データ、テクノロジーを活用して、世界の市場における機会を体系的に特定します。その目的は？PIMCOのマルチアセット戦略の投資家が、より安定的に投資を成長させ、過剰な集中を回避できるようにすることです。"
+      "excerpt_ja": "システマティック株式投資とは、憶測や勘ではなく、明確なルールとデータを用いて株式市場に投資する方法です。このアプローチでは、トレンドやニュースの見出しに基づいて株式を選ぼうとするのではなく、リサーチ、データ、テクノロジーを活用して、世界の市場における機会を体系的に特定します。その目標とは？PIMCOのマルチアセット戦略の投資家が、より安定的に投資を成長させ、過剰な集中を回避できるようにすることです。"
     },
     {
       "firm": "PIMCO",
@@ -1469,12 +1469,12 @@
       "published_candidate": "2025-06-17",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "今日の債券ETF投資を定義する5つのテーマ |ピムコ",
+      "title_ja": "今日の債券ETF投資を特徴づける5つのテーマ | PIMCO",
       "translation_provider": {
-        "title_ja": "google_public",
-        "excerpt_ja": "google_public"
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "トップダウンのマクロ経済と市場を定義するトレンドとボトムアップの展開、フロー、リスクの両方を評価し、今日の債券ETFを特徴づけ、将来の機会を促進する可能性が高いいくつかの重要なテーマを特定しました。進化し続ける投資環境において、債券投資家にとって柔軟性が合言葉になりつつあります。アクティブなコアETFとマルチセクター債券ETFの急増はこの証拠です。"
+      "excerpt_ja": "トップダウンのマクロ経済および市場を規定するトレンドと、ボトムアップの動向、フロー、リスクの両方を評価することで、現在、債券ETFを特徴づけ、将来の機会を推進する可能性が高いいくつかの主要なテーマを特定しました。絶えず変化する投資環境において、柔軟性は固定収益投資家にとってのキーワードになりつつあります。アクティブコアおよびマルチセクターの固定収益ETFの急増がその証拠です。"
     },
     {
       "firm": "PIMCO",
@@ -1502,12 +1502,12 @@
       "published_candidate": "2023-12-14",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "ECBは引き続き注視し、注力している | PIMCO",
+      "title_ja": "ECBは引き続き警戒し、注視している | PIMCO",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "欧州中央銀行（ECB）は12月、政策金利を4%のまま据え置きました。金利はおそらくピークに達しているため、焦点はECBがいつ利下げを開始するかへと移っています。最近のインフレの動きは好ましいものでしたが、市場は現在、中央銀行の目標に向けて急速なデフレーションを完全に織り込んでおり、来年3月頃に最初の利下げが行われると見込んでいます。ユーロ圏の経済モメンタムは"
+      "excerpt_ja": "欧州中央銀行（ECB）は12月、政策金利を4%のまま据え置きました。金利はおそらくピークに達したと思われるため、焦点はECBがいつ利下げを開始するかへと移っています。最近のインフレの動きは好ましいものでしたが、市場は現在、中央銀行の目標に向けて迅速なデフレが進むことを完全に織り込んでおり、来年3月頃に最初の利下げが行われると見込んでいます。ユーロ圏の経済モメンタムは"
     },
     {
       "firm": "PIMCO",
@@ -1853,12 +1853,12 @@
       "published_candidate": "2023-06-06",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "長期見通し：余震経済 |ピムコ",
+      "title_ja": "長期見通し：余震経済 | PIMCO",
       "translation_provider": {
-        "title_ja": "google_public",
-        "excerpt_ja": "google_public"
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "2020年代の最初の数年間は、世界規模で多くの深刻な経済、金融、地政学的混乱が発生しており、これらの衝撃の最終的な影響が完全に感じられるまでには時間がかかるでしょう。 PIMCOの最新の長期フォーラムでは、最近の短期的な景気循環がどのように長期にわたる長期的な影響を与える可能性があるかについて議論しました。世界経済は大規模な財政再建の時期を脱しつつあります。"
+      "excerpt_ja": "2020年代の最初の数年間には、世界規模で深刻な経済的、財政的、地政学的な混乱が数多く発生しており、これらのショックの最終的な影響が完全に現れるまでには時間がかかるでしょう。PIMCOの最新のセキュラーフォーラムでは、最近の短期的な景気循環の動きが、より長期的な構造的影響をもたらす可能性について議論しました。世界経済は、大規模な財政政策と"
     },
     {
       "firm": "Vanguard",
@@ -2026,13 +2026,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-06-29",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "2026年中間投資見通し",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "世界経済は転換点にあります。成長の減速は地域によってばらつきがあり、財政政策がより顕著な制約となりつつあることが見て取れます。一方、地政学的なショックがエネルギー価格、食料や肥料のコスト、海上輸送ルートにますます影響を及ぼすにつれ、インフレリスクが高まっています。それでも、人工知能（AI）は地域全体、そしてますます多くのセクターにおいて、強力な収益の原動力であり続けています。今後6か月間は"
     },
     {
       "firm": "Amundi",
@@ -2059,13 +2065,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-11-09",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "グローバル投資の見通し - 2026年11月",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "ここ数週間、エネルギー市場、財政余地、人工知能（AI）関連株、新興市場におけるリスクの再評価が行われています。投資家は、堅牢なバランスシート、価格決定力、構造的な供給制約へのエクスポージャーを持つ企業をますます好むようになっています。エネルギー市場では、地政学的プレミアムがより顕著に見られ、これは供給ルートの逼迫と高騰を反映しており、"
     },
     {
       "firm": "Amundi",
@@ -2092,13 +2104,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-10-22",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "クロスアセット投資戦略 - 2026年10月",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "米国のThe midterm elections（中間選挙）により、下院の過半数と上院の3分の1が決定されます。下院の全435議席と、上院の通常議席33議席が選挙の対象となります。現在、共和党が両院を支配しています。下院は共和党220議席に対し、民主党215議席、上院は共和党53議席、民主党45議席、そして民主党と連携する無所属議員が2議席となっています。最も多数派が入れ替わる可能性が高いのは"
     },
     {
       "firm": "Amundi",
@@ -2125,13 +2143,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-08-19",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "資産クラスリターンの予測（2026年下半期）",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "断絶の体制がさらに確固たるものとなっています。2026年のCMAでは、今後数年間を地政学的、技術的、エネルギー関連の構造的断絶が重なり合う時期として特定しました。このような環境では、インフレはより粘着性があり、財政赤字はより拡大し、マクロ経済の不確実性はより高くなります。2026年の上半期は、この見方をさらに強化しました。イラン戦争とホルムズ海峡の封鎖により、"
     },
     {
       "firm": "Amundi",
@@ -2185,12 +2209,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "エコノミック・リサーチによるナウキャスト、更新されたシナリオ、および予測 - 2026年11月16日",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "ユーロ圏の成長に関する当社のナウキャストは、第4四半期に緩やかな減速を示すものの、依然として堅調な0.3%の前期比成長率（第3四半期は0.4%の前期比成長率）となる見込みです。これは、好調な調査データと鉱工業生産の回復が予想されることに裏打ちされています。当社のナウキャストによると、フランスのGDP成長率は第4四半期に前期比0.2%まで回復すると見込まれています。この成長は、工業生産（特に航空産業）の回復に牽引されると見込まれています。"
     },
     {
       "firm": "BNP Paribas",
@@ -2211,12 +2241,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "EcoCharts | 企業の設立と倒産 - 2026年9月時点の月次データによる部分的な更新",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "• 2026年第3四半期時点の企業設立数は前年比16%増加し、2025年の成長率（前年比5.3%）と比較して加速しました。• この増加は、新たな情報通信技術に関連するセクターが牽引しており、この傾向は勢いを増しています。• 一方、フランス銀行のデータによると、2026年第3四半期時点の企業倒産件数は前年比1.7%増加しました（2025年は前年比3.6%）。より積極的な"
     },
     {
       "firm": "BNP Paribas",
@@ -2241,12 +2277,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "エネルギーショック：ダッシュボード2026年 vs. 2022年 - 2026年11月",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "同じ原因が同じ結果をもたらすでしょうか？言い換えれば、イランにおける戦争とそれに伴う原油・天然ガス価格の高騰は、2022年に見られたようなインフレショックにつながるでしょうか？それらの成長に対する悪影響は、ウクライナ戦争とその後のエネルギーショックによるものと同じでしょうか？私たちは、中東における戦争に起因するこの新たなエネルギーショックの影響を追跡するために、一連の指標を選定しました。"
     },
     {
       "firm": "BNP Paribas",
@@ -2274,12 +2316,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "AIは、米国と欧州の両方で起業を促進しています",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "2025年半ば以降、米国、フランス、ドイツ、そしてある程度英国において、事業設立数が大幅に増加しており、この傾向は継続しています。全体的に、この傾向は情報通信部門、主にAIによって推進されています。この傾向は他のビジネスサービスにも波及していますが、消費者サービス、産業、建設の動向はよりまちまちです。しかし、いずれの場合も、"
     },
     {
       "firm": "Vanguard",
@@ -2812,9 +2860,46 @@
       "published_candidate": "2026-09-11",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "Schroders",
+      "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2026-global-bond-market-conditions-will-demand-an-active-management-approach/",
+      "link_title": "Outlook 2026 Global Bond Market Conditions Will Demand An Active Management Approach",
+      "title": "Outlook 2026: Global bond market conditions will demand an active management approach",
+      "published": null,
+      "categories": [
+        "債券・金利",
+        "マクロ経済"
+      ],
+      "excerpt": "Julien Houdain, Lisa Hornby and Abdallah Guezour examine central bank policy divergence, inflation risks, valuation dynamics and emerging opportunities across global fixed income markets. As global fixed income investors look toward 2026, the landscape is shaped by cycles that are increasingly out of sync across major economies, with the trajectories for inflation, monetary policy and economic growth diverging across regions. The leaders of our fixed income teams share their views on how these markets can be navigated in the new year. 2025 has been a year of differentiation in bond markets, with very large divergences in yield moves, both between geographies and at different maturities of the curve. We expect this to continue as we head into 2026. Why? Simply because growth, labour market and inflation outlooks are desynchronised by country, and major central banks are at different stages of their policy cycle. The US Federal Reserve (Fed) and Bank of England remain in the easing phase, the European Central Bank looks to be happily on hold, and the Bank of Japan is not yet done hiking rates. This provides huge opportunity – but only to those who are active in their bond allocation and capable of taking advantage of fast-changing and disparate economic conditions globally. Passive management in this environment could leave portfolios overallocated to the relative “losers” as yield moves diverge, and that could lead to underwhelming returns and greater risks.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "債券・金利"
+      ],
+      "secondary_categories": [
+        "マクロ経済"
+      ],
+      "translation_errors": {},
+      "title_ja": "2026年の見通し：世界の債券市場の状況は、アクティブ運用のアプローチを必要とする",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "ジュリアン・ウダン、リサ・ホーンビー、アブダラ・ゲズールが、中央銀行の政策の乖離、インフレリスク、評価の動き、および世界の債券市場における新たな機会について考察します。世界の債券投資家が2026年を見据える中、主要国間の景気循環のずれがますます大きくなっており、インフレ、金融政策、経済成長の軌道が各国間で異なる状況となっています。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2025-11-24",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 85,
+  "archive_count": 86,
   "archive_note": "first_seen is a GMI tracking date, never a publication date; historical first discovery may be unknown. Unverified dates are kept as published_candidate, never displayed as published. Excerpts are partial machine translations."
 }
