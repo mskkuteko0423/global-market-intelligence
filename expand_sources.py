@@ -207,24 +207,6 @@ if old in src:
 elif new not in src:
     raise RuntimeError('Collector discovery call not found')
 
-# BNP Paribas pages are slow from the hosted runner; allow a longer read window
-# for its own pages while keeping the existing limits for every other source.
-if 'def get_html(url, domain, timeout=15):' not in src:
-    src, n = re.subn(r'(?m)^def get_html\(url, domain\):$',
-                     'def get_html(url, domain, timeout=15):', src, count=1)
-    if n != 1:
-        raise RuntimeError('get_html signature not found; refusing timeout update')
-if 'with urlopen(req, timeout=timeout) as resp:' not in src:
-    src, n = re.subn(r'with urlopen\(\s*req(?:\s*,\s*timeout\s*=\s*[^)]*)?\s*\)\s+as\s+resp:',
-                     'with urlopen(req, timeout=timeout) as resp:', src, count=1)
-    if n != 1:
-        raise RuntimeError('get_html timeout call not found; refusing timeout update')
-article_fetch = 'article_html, _ = get_html(url, domain)'
-article_fetch_long = "article_html, _ = get_html(url, domain, timeout=30 if firm == 'BNP Paribas' else 15)"
-if article_fetch in src:
-    src = src.replace(article_fetch, article_fetch_long, 1)
-elif article_fetch_long not in src:
-    raise RuntimeError('article fetch call not found; refusing timeout update')
 compile(src, str(p), 'exec')
 p.write_text(src, encoding='utf-8')
 print('SOURCE_EXPANSION sources=15; HTML + bounded RSS/sitemap fallback; official URLs only', flush=True)
