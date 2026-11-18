@@ -578,7 +578,29 @@ def main():
                       'error': error})
         print(f'{firm}: candidates {len(links)}; tested {min(len(links), MAX_PER_FIRM)}; '
               f'extracted {extracted}; error {error or "none"}', flush=True)
+    
+    # Reuse existing translations before spending translation requests.
+    if OUT.exists():
+        try:
+            previous_data = json.loads(OUT.read_text(encoding='utf-8'))
+            previous_by_url = {
+                item['official_url'].rstrip('/'): item
+                for item in previous_data.get('articles', [])
+                if isinstance(item, dict) and item.get('official_url')
+            }
+            reused = 0
+            for record in articles:
+                old = previous_by_url.get(record['official_url'].rstrip('/'), {})
+                for field in ('title_ja', 'excerpt_ja'):
+                    if old.get(field):
+                        record[field] = old[field]
+                        reused += 1
+            print(f'TRANSLATION_REUSED fields={reused}', flush=True)
+        except (OSError, ValueError, TypeError) as exc:
+            print(f'TRANSLATION_REUSE_ERROR {type(exc).__name__}: {exc}', flush=True)
+
     add_japanese(articles)
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     make_preview(articles)
     OUT.write_text(json.dumps({'updated': dt.datetime.now(dt.timezone.utc).isoformat(),
