@@ -92,10 +92,15 @@ class PageParser(HTMLParser):
         self.p_depth = 0
         self.paragraph_text = []
         self.paragraphs = []
+        self.body_depth = 0
+        self.body_text = []
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         self.tag_stack.append(tag)
+                if tag in ('main', 'article') and not self.body_depth and not self.skip_stack:
+        self.body_depth = len(self.tag_stack)
+        self.body_text = []
         if tag in ('script', 'style', 'nav', 'footer', 'header', 'aside'):
             self.skip_stack.append(len(self.tag_stack))
         if tag == 'meta':
