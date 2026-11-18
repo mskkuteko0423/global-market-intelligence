@@ -156,6 +156,8 @@ def discover_links(firm, index, domain):
         while queue and len(visited) < 20 and len(found) < MAX_PER_FIRM:
             queue.sort(key=sitemap_priority)
             queue = [u for u in queue if sitemap_priority(u) != 2]
+            if not queue:
+                break
             feed = queue.pop(0)
             if feed in visited or not official(feed, domain):
                 continue
