@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T14:08:51.587387+00:00",
+  "updated": "2026-11-18T14:17:03.624172+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -279,12 +279,12 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "title_ja": "ヘルスケアの次の成長要因 | モルガン・スタンレー",
+      "title_ja": "ヘルスケアの次の成長ドライバー |モルガン・スタンレー",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "ヘルスケア業界のリーダーたちが、特許の満了、ヘルスケア業界におけるM&A、そしてAIの導入にどのように対処し、業界の未来を形作っているか。2026年のモルガン・スタンレー・グローバル・ヘルスケア・カンファレンスにヘルスケア業界のリーダーや投資家が集まり、イノベーション、成長、変革のバランスを取る業界について議論が交わされました。モルガン・スタンレーのバンカーは、バイオテクノロジー分野における資金調達環境の強化、差別化された製品・サービスに対する堅調な需要を強調しました。",
+      "excerpt_ja": "ヘルスケアのリーダーは、業界の未来を形作るために、特許期限切れ、ヘルスケアの M&A、AI 導入をどのように乗り越えているのか。 2026 年モルガン・スタンレー グローバル ヘルスケア カンファレンスにヘルスケアのリーダーと投資家が集まり、会話の中心は業界のイノベーション、成長、破壊的バランスにありました。モルガン・スタンレーの銀行関係者らは、バイオテクノロジー分野のより強力な資金調達環境と差別化に対する旺盛な需要を強調した",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -316,12 +316,12 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "title_ja": "ヘルスケア・コンシューメリズムの台頭 | モルガン・スタンレー",
+      "title_ja": "ヘルスケア消費主義の台頭 |モルガン・スタンレー",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "米国の消費者は、医療サービスへのアクセス方法や支払い方法においてますます主導権を握るようになり、バイオ医薬品および医療サービス全体にわたって潜在的な機会を生み出しています。複雑で高額な米国の医療システムでは、患者はもはや「医師に相談してください」という医薬品の広告に耳を傾けるだけではなくなり、直接情報源にアクセスするようになっています。政策の変更と技術の進歩により、消費者は医療サービスを直接選択する方法をより多く持つようになりました。",
+      "excerpt_ja": "米国の消費者はヘルスケアへのアクセスと支払い方法においてますます主導権を握るようになり、バイオ医薬品とヘルスケアサービス全体に潜在的な機会を生み出しています。複雑で費用のかかる米国の医療制度では、患者はもはや「医師に相談してください」という医薬品の広告に耳を傾けるだけではなく、情報源に直接アクセスしています。政策の変更と技術の進歩により、消費者が治療法を直接選択する方法が増えました。",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -354,12 +354,12 @@
         "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "AIエージェントの勝者と敗者 | モルガン・スタンレー",
+      "title_ja": "AI エージェントの勝者と敗者 |モルガン・スタンレー",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "AIエージェントが消費者に代わって意思決定や購入を行う能力をますます高めるにつれて、Morgan Stanley Researchは、どの業界が恩恵を受ける可能性があるか、そしてどの業界が競争圧力の高まりに直面しているかを調査しています。高性能な消費者向けAIエージェントが最近登場したことで、人工知能が小売業や保険業から、運輸業やライブエンターテイメントに至るまで、さまざまな業界にどのような変革をもたらす可能性があるかについて、議論が再燃しています。従来の",
+      "excerpt_ja": "AI エージェントが消費者に代わって意思決定や購入を行う能力が高まるにつれ、モルガン・スタンレー・リサーチはどの業界が恩恵を受ける可能性があるのか​​、またどの業界が競争圧力の増大に直面しているのかを調査しています。強力な消費者向け AI エージェントの最近の発売により、人工知能が小売、保険から運輸、ライブ エンターテイメントに至るまでの業界にどのような変革をもたらす可能性があるかについての議論が再燃しています。従来とは異なり",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
@@ -391,12 +391,12 @@
         "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "AIデータセンター、関税、イランに対する中期的な影響",
+      "title_ja": "AI データセンター、関税、イランへの中期的な影響",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。Capital Group U.S. Institutionalのウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
@@ -428,12 +428,12 @@
         "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "金利上昇が懸念される場合に考慮すべき5つのチャート",
+      "title_ja": "金利上昇が心配な場合に考慮すべき5つのチャート",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
@@ -470,12 +470,12 @@
         "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "債券投資家が債務の波に乗る方法",
+      "title_ja": "債券投資家は債務の波にどう乗り切るか",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
@@ -507,12 +507,12 @@
         "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "AIブームか破滅か？皆さんの質問にお答えします",
+      "title_ja": "AI ブームか、それとも破滅か?あなたの質問が解決されました",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者である機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報をお読みになり、「同意する」ボタンをクリックして、提供された情報を読み、理解したことをご確認ください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
@@ -540,12 +540,12 @@
         "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
-      "title_ja": "ボラティリティのなかでアクティブな市政債投資が価値を引き出す方法",
+      "title_ja": "ボラティリティの中で積極的なミュン投資が価値を引き出す方法",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "本ウェブサイトは、米国居住者の機関投資家のみを対象としており、個人投資家によるアクセスまたは配布を意図したものではありません。キャピタル・グループ米国法人向けウェブサイト（以下「本サイト」）にアクセスするには、以下の情報を読み、[同意する]ボタンをクリックして、提供された情報を読み、理解したことを確認してください。あなたは、機関投資家の資格を満たしていることを証明する必要があります。",
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
@@ -614,12 +614,12 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "title_ja": "週次マーケット・コメンタリー | BlackRock Investment Institute",
+      "title_ja": "週間市場解説 |ブラックロック投資研究所",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "この動画を視聴するには、JavaScriptを有効にしてください。また、HTML5動画に対応したウェブブラウザへのアップグレードをご検討ください。最近のテクノロジー株の変動の中、当社は長期的なAIへの確信（これは、当社の資本市場見通しの最新の更新で示されているように、戦略的なオーバーウェイトです）と、より短期的な慎重さ（当社の戦術的な6～12ヵ月の見通しはニュートラルです）を両立させています。米国株式の状況は、どのように見るかによって異なります。",
+      "excerpt_ja": "このビデオを表示するには、JavaScript を有効にして、HTML5 ビデオをサポートする Web ブラウザにアップグレードすることを検討してください。最近のハイテク株の変動のさなか、当社は長期的な AI の確信（資本市場の想定の最新の更新で明らかなように、戦略的なオーバーウェイトである）を、短期的な警戒を伴い調整中です。当社の戦術的な 6 ～ 12 か月の期間見通しは中立です。米国株の全体像はあなたの考え方次第",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -647,12 +647,12 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "title_ja": "3+1アクティブ投資家シリーズ | BlackRock",
+      "title_ja": "3+1 アクティブ投資家シリーズ |ブラックロック",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "このビデオを視聴するには、JavaScriptを有効にし、HTML5ビデオをサポートするウェブブラウザにアップグレードすることをご検討ください。おはようございます。グローバルリソース＆リアルアセットチームの責任者を務めるエヴィ・ハムブロです。11月16日の週です。皆さんが知っておくべきことが3つ、そして知らなくてもよいことが1つあります。まず最初に。コモディティです。これなしでは何も作れません。あまりにも長い間、コモディティは忘れられてきました。そして、その結果として、",
+      "excerpt_ja": "このビデオを表示するには、JavaScript を有効にして、HTML5 ビデオをサポートする Web ブラウザにアップグレードすることを検討してください。おはよう。私は、グローバル リソースおよび不動産チームの責任者である Evy Hambro です。 11月16日の週です。ここでは、知っておくべき 3 つのことと、知ってはいけない 1 つのことを紹介します。まず、商品です。商品なしでは何も構築できません。あまりにも長い間、商品は忘れ去られてきました。そして、その結果、",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -691,12 +691,12 @@
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-10-21",
-      "title_ja": "2026年第4四半期 固定金利資産の見通し | ブラックロック",
+      "title_ja": "2026 年第 4 四半期債券収入の見通し |ブラックロック",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "利回りの上昇により、債券投資の機会が変わりました。持続的なインフレが債券の伝統的な分散投資の役割を試す中、また経済サイクルの乖離が市場間で異なる投資環境を生み出す中においても、ポートフォリオの潜在的なリターンの多くはインカムから得られる可能性があります。課題はもはや単に利回りを求めることではなく、投資家が引き受けるリスクに対してどのような報酬が支払われているかを理解することです。インカムは豊富かもしれませんが、"
+      "excerpt_ja": "利回りの上昇により債券の機会が変化しました。持続的なインフレテストが債券の伝統的な多様化の役割を果たし、経済サイクルの分岐が市場全体で異なる投資条件を生み出しているにもかかわらず、ポートフォリオの潜在的なリターンの多くは収入から得られる可能性があります。課題はもはや単に利回りを見つけることではなく、投資家がどのようなリスクを取るために報酬を得ているのかを理解することです。収入は豊富かもしれませんが、"
     },
     {
       "firm": "BlackRock",
@@ -2646,12 +2646,12 @@
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "ファンドバナーページ2",
+      "title_ja": "基金バナー ページ 2",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "そのため、J.P. モルガンのマルチインカム戦略は、魅力的なインカム機会を求めるために、さまざまな資産クラスや市場に柔軟に投資しています。"
+      "excerpt_ja": "JP モルガンのマルチインカム戦略が、さまざまな資産クラスや市場に柔軟に投資して、魅力的な収益機会を追求するのはこのためです。"
     },
     {
       "firm": "J.P. Morgan Asset Management",
@@ -2681,9 +2681,9 @@
       "title_ja": "GTA株式市場相関利回り",
       "translation_provider": {
         "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "このスライドでは、公開市場と非公開市場の相関関係を見ていきます。オルタナティブ資産は、緑色で示されているように、非相関または負の相関関係にあるリターンを通じて、ポートフォリオの分散効果を高めることができます。不動産、実物資産、および厳選されたヘッジファンド戦略は、株式と債券のポートフォリオをさらに分散させるのに役立ちます。プライベートエクイティなど、プライベートマーケットの他の分野は、上場株式と類似の相関関係を持つ可能性があります。"
+      "excerpt_ja": "このスライドは、公的市場と私的市場の相関関係を示しています。オルタナティブ資産は、緑色の網掛けで示された無相関または負相関のリターンを通じてポートフォリオの多様化を強化できます。不動産、実物資産、厳選されたヘッジファンド戦略は、株式と債券のポートフォリオをさらに多様化するのに役立ちます。プライベート・エクイティなどのプライベート・マーケットの他の分野も、パブリック・エクイティと同様の相関関係を持っている可能性があります。"
     },
     {
       "firm": "J.P. Morgan Asset Management",
@@ -2710,12 +2710,12 @@
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "GTAマネージャー分散",
+      "title_ja": "GTA 管理分散",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "左側では、「コア・オルタナティブ」のポートフォリオにおける資産クラスの分散がはるかに大きいことを示しています。これは、オルタナティブ資産の配分と運用のバランスを取ることが、オルタナティブ資産を含む成功するポートフォリオを構築する上で不可欠であることを示しています。右側では、オルタナティブ資産における運用会社間の分散を示し、コア・オルタナティブが非コア・オルタナティブよりも分散が著しく少ないことを示しています。"
+      "excerpt_ja": "左側では、「コア・オルタナティブ」のポートフォリオで資産クラスの分散がどのようにはるかに大きいかを示しており、オルタナティブで成功したポートフォリオを構築するには、オルタナティブの資産配分と導入のバランスをとることが不可欠であることを示しています。右側には、オルタナティブ資産間のマネージャーの分散が示されており、中核となるオルタナティブ資産の分散が非コマーシャル資産よりも大幅に小さいことが示されています。"
     },
     {
       "firm": "J.P. Morgan Asset Management",
@@ -2742,12 +2742,12 @@
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "GTAベンチャーキャピタル",
+      "title_ja": "GTA ベンチャーキャピタル",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "2000年代後半以降、VC投資はハードウェアやエネルギーから、サービス、ソフトウェア、インフラストラクチャ指向の投資へとシフトしています。さらに、VC投資のイグジットにも変化が見られます。株式公開が大幅に増加し、現在はVCエクジット総数の87%を占めています。これは、長期平均の44%と比較したものです。"
+      "excerpt_ja": "2000 年代後半以降、VC の投資はハードウェアやエネルギーからサービス、ソフトウェア、インフラストラクチャ指向の投資へと移行してきました。さらに、VC の投資撤退にも変化が見られます。上場は大幅に進み、現在ではVCの退出全体の87％を占めています（長期平均は44％）。"
     },
     {
       "firm": "Schroders",
