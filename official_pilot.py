@@ -411,12 +411,18 @@ def main():
                         record['primary_categories'] = []
                         record['secondary_categories'] = []
                         record['excerpt_status'] = 'Topic/index page; not an article'
-                    elif len(clean) >= 2:
-                        record['excerpt'] = ' '.join(clean[:5])[:1800]
-                        record['excerpt_status'] = 'Cleaned candidate excerpt; editorial verification required'
-                        extracted += 1
-                    else:
-                        record['error'] = 'Fewer than 2 substantial non-boilerplate paragraphs'
+                    elif clean:
+    record['excerpt'] = ' '.join(clean[:5])[:1800]
+    record['excerpt_status'] = 'Cleaned candidate excerpt; editorial verification required'
+    extracted += 1
+elif len(description.strip()) >= 75 and not any(
+    b in description.lower() for b in boilerplate
+):
+    record['excerpt'] = description.strip()[:1800]
+    record['excerpt_status'] = 'Metadata description excerpt; editorial verification required'
+    extracted += 1
+else:
+    record['error'] = 'No substantial paragraph or usable metadata description'
                     # Classify as candidate only: automated classification is not editorial verification.
                     record['market_relevance'] = ('Market-related candidate; review required'
                                                   if record['categories'] else 'Unclear; review required')
