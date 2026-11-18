@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:32:12.266243+00:00",
+  "updated": "2026-11-18T22:44:31.285090+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -77,7 +77,7 @@
       "firm": "Schroders",
       "official_url_candidates": 7,
       "tested": 5,
-      "extracted": 0,
+      "extracted": 3,
       "error": null
     },
     {
@@ -647,12 +647,12 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "title_ja": "3+1 アクティブ投資家シリーズ |ブラックロック",
+      "title_ja": "3+1アクティブ投資家シリーズ | BlackRock",
       "translation_provider": {
-        "title_ja": "google_public",
-        "excerpt_ja": "google_public"
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "このビデオを表示するには、JavaScript を有効にして、HTML5 ビデオをサポートする Web ブラウザにアップグレードすることを検討してください。おはよう。私はグローバル リソースおよび不動産チームの責任者、エヴィ ハンブロです。 11月16日の週です。ここでは、知っておくべき 3 つのことと、知ってはいけない 1 つのことを紹介します。まず、商品です。商品なしでは何も構築できません。あまりにも長い間、商品は忘れ去られてきました。そして、その結果、",
+      "excerpt_ja": "このビデオを視聴するには、JavaScriptを有効にし、HTML5ビデオをサポートするウェブブラウザにアップグレードすることをご検討ください。おはようございます。グローバル・リソース＆リアル・アセット・チームの責任者を務めるエヴィ・ハムブロです。11月16日の週です。ここで、知っておくべきことが3つと、知らなくてもよいことが1つあります。まず最初に。コモディティです。これなしでは何も作れません。あまりにも長い間、コモディティは忘れられてきました。そして、その結果として、",
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
@@ -691,12 +691,12 @@
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-10-21",
-      "title_ja": "2026 年第 4 四半期債券収入の見通し |ブラックロック",
+      "title_ja": "2026年第4四半期 固定収益の見通し | ブラックロック",
       "translation_provider": {
-        "title_ja": "google_public",
-        "excerpt_ja": "google_public"
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "利回りの上昇により債券の機会が変化しました。持続的なインフレテストが債券の伝統的な多様化の役割を果たし、経済サイクルの分岐が市場全体で異なる投資条件を生み出しているにもかかわらず、ポートフォリオの潜在的なリターンの多くは収入から得られる可能性があります。課題はもはや単に利回りを見つけることではなく、投資家がどのようなリスクを取るために報酬を得ているのかを理解することです。収入は豊富かもしれませんが、"
+      "excerpt_ja": "利回りの上昇により、債券投資の機会が変わりました。持続的なインフレが債券の伝統的な分散投資の役割を試す中、また経済サイクルの乖離が市場間で異なる投資環境を生み出す中においても、ポートフォリオの潜在的なリターンの多くはインカムから得られる可能性があります。課題はもはや単に利回りを求めることではなく、投資家が引き受けるリスクに対してどのような報酬が支払われているかを理解することです。インカムは豊富かもしれませんが、"
     },
     {
       "firm": "BlackRock",
@@ -728,12 +728,12 @@
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-10-19",
-      "title_ja": "地方市場四半期 |ブラックロック",
+      "title_ja": "市政市場四半期レポート | ブラックロック",
       "translation_provider": {
-        "title_ja": "google_public",
-        "excerpt_ja": "google_public"
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "地方債の税相当利回りは、米国債や IG 社債を約 200 ～ 300 ベーシス ポイント上回ります。 出典: Bloomberg Indices、BlackRock、2026 年 9 月 30 日時点*税相当利回りを達成するための実効税率は 40.8% ブラックロックの目的は、より多くの人々が経済的幸福を体験できるよう支援することです。投資家の受託者として、また金融テクノロジーの大手プロバイダーとして、当社は何百万人もの人々が有益な貯蓄を構築できるよう支援しています。"
+      "excerpt_ja": "地方債の税引後利回りは、国債や投資適格社債を約200～300ベーシスポイント上回っています。出典：ブルームバーグ指数、ブラックロック、2026年9月30日現在。*税引後利回りを達成するための実効税率は40.8%です。ブラックロックの目的は、より多くの人々が経済的豊かさを実感できるよう支援することです。投資家の受託者であり、金融テクノロジーの主要プロバイダーである当社は、何百万人もの人々が、"
     },
     {
       "firm": "J.P. Morgan Research",
@@ -760,12 +760,12 @@
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "企業の責任に関する記事と洞察 | J.P. Morgan",
+      "title_ja": "コーポレート・レスポンシビリティに関する記事と洞察 | J.P. Morgan",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "長期にわたる投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行体が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
+      "excerpt_ja": "長期にわたって活躍してきた当社の投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセスできます。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行体が急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
     },
     {
       "firm": "J.P. Morgan Research",
@@ -823,7 +823,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "長期にわたる投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセスできます。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行体が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
+      "excerpt_ja": "長期にわたって活躍してきた当社の投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセスできます。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行者が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
     },
     {
       "firm": "J.P. Morgan Research",
@@ -855,7 +855,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "長期にわたって活躍してきた当社の投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセスできます。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、証券会社、株式発行会社が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
+      "excerpt_ja": "長期にわたって活躍する当社の投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行者が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
     },
     {
       "firm": "J.P. Morgan Research",
@@ -882,12 +882,12 @@
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "市場および経済に関する洞察 | J.P. Morgan",
+      "title_ja": "市場と経済に関する洞察 | J.P. Morgan",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "長期にわたって活躍してきた当社の投資チームを前面に押し出し、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを活用し、市場をリードする流動性に直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行体が急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
+      "excerpt_ja": "長期にわたって活躍してきた当社の投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行会社が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
     },
     {
       "firm": "Vanguard",
@@ -1123,7 +1123,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "このエピソードでは、分散投資につながる可能性のあるカナダの投資機会について探ります。市場が不安定になると、投資計画を立ててそれに従うことが重要になります。当社は、お客様が現在おられる財務上の状況からサポートし、お客様が目指す場所に到達できるようお手伝いします。業界をリードする当社の投資分析を入手し、当社の調査を活用してください。この情報は情報提供を目的としており、特定の投資家向けに作成されたものではありません。"
+      "excerpt_ja": "このエピソードでは、分散投資につながる可能性のあるカナダの投資機会について探ります。市場が不安定になると、投資計画を立ててそれに忠実であることが重要になります。当社は、お客様が財務面で現在どの段階にいらっしゃるかに応じて対応し、お客様が目指す場所に到達できるようお手伝いいたします。業界をリードする当社の投資分析を入手し、当社の調査を活用してください。この情報は情報提供を目的としており、投資家向けにカスタマイズされたものではありません。"
     },
     {
       "firm": "Fidelity",
@@ -1208,7 +1208,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "バックドア・ロスIRAとは？バックドア・ロスIRAを活用して退職金を最大化するためのプロセス、メリット、手順について見ていきましょう。バックドア・ロスIRAとは、一部の高所得投資家がロスIRAに拠出するために用いる戦略で、まず従来のIRAに非控除拠出を行い、その後その資産をロスIRAに転換します。所得が直接のRoth IRA拠出の制限を超える投資家は、"
+      "excerpt_ja": "バックドア・ロスIRAとは？バックドアRoth IRAを活用して退職金を最大化するためのプロセス、メリット、手順について見ていきましょう。バックドア・ロスIRAとは、高所得の投資家の一部が、まず従来のIRAに非控除拠出を行い、その後その資産をロスIRAに転換することで、ロスIRAに拠出するために用いる戦略です。所得が直接のRoth IRA拠出の制限を超える投資家は、"
     },
     {
       "firm": "Vanguard",
@@ -1318,12 +1318,12 @@
       "published_candidate": "2026-01-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "地方債市場の四半期ごとの最新情報",
+      "title_ja": "地方債市場の四半期別最新情報",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ブラックロックの市政債券のエキスパートが、市場の見通しと、2026年にポートフォリオの可能性を高めるために講じることができる措置についてお話しします。ブラックロックの目的は、より多くの人々に経済的な豊かさを実感してもらうことです。投資家の受託者であり、金融テクノロジーの主要プロバイダーである当社は、投資をより簡単で手頃なものにすることで、何百万人もの人々が生涯にわたって役立つ貯蓄を築くお手伝いをしています。"
+      "excerpt_ja": "ブラックロックの市政債券のエキスパートが、市場の見通しと、2026年にポートフォリオの可能性を高めるために講じることができる措置についてお話しします。ブラックロックの目的は、より多くの人々に経済的な豊かさを実感してもらうことです。投資家の受託者であり、金融テクノロジーの大手プロバイダーである当社は、投資をより簡単かつ手頃なものにすることで、何百万人もの人々が生涯にわたって役立つ貯蓄を築くお手伝いをしています。"
     },
     {
       "firm": "J.P. Morgan Research",
@@ -1360,7 +1360,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "長期にわたる当社の投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセスできます。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行者が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
+      "excerpt_ja": "長期にわたる投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行者が急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
     },
     {
       "firm": "PIMCO",
@@ -1886,12 +1886,12 @@
       "published_candidate": "2026-09-04",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "新しく親になった方々のためのファイナンシャルプランニング：費用の管理 | Vanguard",
+      "title_ja": "新しく親になる方々のためのファイナンシャルプランニング：費用の管理 | Vanguard",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "共感と思いやりをもって、新しく親になった方々のためのファイナンシャルプランニングを明確にご案内します。このガイドでは、主要なお金の動きをわかりやすく説明し、すべての段階で準備ができてサポートされていると感じられるようにお手伝いします。ファイナンシャルプランニングの目標に優先順位を付け、トレードオフを管理し、ご自身の状況に合ったプランを立てる方法を学びましょう。出産にかかる費用は、お住まいの地域、医療保険の適用範囲、保育の選択肢、ご家族のニーズによって大きく異なります。"
+      "excerpt_ja": "共感と思いやりをもって、新しく親となった方々のためのファイナンシャルプランニングを明確にご案内します。このガイドでは、主要なお金の動きをわかりやすく説明し、すべての段階で準備が整い、サポートされていると感じられるようにお手伝いします。ファイナンシャルプランニングの目標に優先順位をつけ、トレードオフを管理し、ご自身の状況に合ったプランを立てる方法を学びましょう。出産にかかる費用は、お住まいの地域、医療保険の適用範囲、保育の選択肢、ご家族のニーズによって大きく異なります。もし"
     },
     {
       "firm": "Vanguard",
@@ -1930,7 +1930,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ポートフォリオに適切なプライベートエクイティの割合を学びましょう。配分範囲、リスク、流動性のトレードオフ、そして20%が多すぎるかどうかについて検討しましょう。プライベートエクイティは、株式公開市場では利用できない企業や機会へのエクスポージャーを提供できます。プライベートエクイティがポートフォリオで果たす役割と、それがお客様の目標に合致しているかどうかを見ていきましょう。プライベートエクイティは、世界の株式市場において成長を続けるセグメントです。"
+      "excerpt_ja": "ポートフォリオに適切なプライベートエクイティの割合を学びましょう。配分範囲、リスク、流動性のトレードオフ、そして20%が多すぎる可能性について検討しましょう。プライベートエクイティは、株式公開市場では得られない企業や機会へのエクスポージャーを提供することができます。プライベートエクイティがポートフォリオで果たす役割と、それがお客様の目標に合致しているかどうかを見ていきましょう。プライベートエクイティは、世界の株式市場において成長を続けるセグメントです。"
     },
     {
       "firm": "Vanguard",
@@ -1958,7 +1958,7 @@
       "published_candidate": "2026-01-26",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "2026年の新年財務計画チェックリスト | Vanguard",
+      "title_ja": "2026年の新年の財務計画チェックリスト | Vanguard",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
@@ -1996,7 +1996,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "詐欺師は感情につけ込み、経験豊富な投資家さえも危険にさらします。バンガードのエキスパートが、文化的規範が詐欺のリスクを高める仕組みを解説します。ジョン・ジネッリ氏は、バンガードの投資家保護部門の責任者であり、バンガードの高齢者および脆弱な投資家を保護するための戦略と業務の開発および指揮を担当しています。ジネリ氏は、リテールクライアントにサービスを提供し、金銭的搾取から保護する分野を監督しています。"
+      "excerpt_ja": "詐欺師は感情につけ込み、経験豊富な投資家さえも危険にさらします。バンガードの専門家が、文化的規範がいかに詐欺のリスクを高めるかを示します。ジョン・ジネリ氏は、Vanguardの投資家保護部門の責任者であり、Vanguardの高齢者および脆弱な投資家保護戦略と業務の開発および指揮を担当しています。ジネリ氏は、リテールクライアントにサービスを提供し、金銭的搾取から保護する分野を監督しています。"
     },
     {
       "firm": "Amundi",
@@ -2883,7 +2883,10 @@
       "secondary_categories": [
         "マクロ経済"
       ],
-      "translation_errors": {},
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
       "title_ja": "2026年の見通し：世界の債券市場の状況は、アクティブ運用のアプローチを必要とする",
       "translation_provider": {
         "title_ja": "mymemory_public",
@@ -3024,9 +3027,67 @@
       "published_candidate": "2026-11-13",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "Schroders",
+      "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2026-take-an-active-approach-to-valuation-risk-and-seek-opportunities-to-diversify/",
+      "link_title": "Outlook 2026 Take An Active Approach To Valuation Risk And Seek Opportunities To Diversify",
+      "title": "Take an active approach to valuation risk and seek opportunities to diversify",
+      "published": null,
+      "categories": [
+        "株式"
+      ],
+      "excerpt": "Equity markets remain supported but, given the concentration of the index, it’s critical to manage risk and opportunity at a stock-specific level. This means taking deliberate positions backed by fundamental analysis. As we head into 2026 there is a lot of concern about equity market valuations. Comparisons are being drawn with the dotcom bubble of 1999-2000 due to significant investments being made by the hyperscalers into data centres and cloud infrastructure. At the same time many AI start-ups are loss making, with their valuations being boosted by vendor financing. Against this backdrop we’ve heard talk about canaries in coal mines, cockroaches (where one emerges there are usually many) and staying at the party for one last dance. Firstly, equity valuations are expensive. They have been more expensive in the past and are not at extremes yet, but you could argue for taking some risk off the table. For example, if you run a mature defined benefit pension plan, you might be able to accept a lower rate of return at this point and bank some profit. Most investors are not in this camp, however. There are costs to sitting on your hands: inflation needs to be outrun to preserve the value of savings and, with limits on how much one can save, money has to be worked hard to deliver the funds required for retirement and other goals. You need a plan for the possibility that you could be waiting a long time for a correction and the golden buying opportunity. The passive option is to stay invested in an equity index. Over the long term (20 years), history shows that equities deliver a decent return, particularly if fees are kept as low as possible to aid the compounding of those returns. The challenge with this approach is that, due to the concentration of equity indices in a smal",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "株式"
+      ],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2025-11-24",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Schroders",
+      "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2026-decoupling-driving-resilient-opportunities/",
+      "link_title": "Outlook 2026 Decoupling Driving Resilient Opportunities",
+      "title": "Outlook 2026: Decoupling driving resilient opportunities",
+      "published": null,
+      "categories": [],
+      "excerpt": "Amid continued macroeconomic and geopolitical volatility, private markets benefit from both cyclical and structural tailwinds that allow them to play a key role in diversified, resilient portfolios. Resilience has become the key watch word for investors in an era shaped by persistent uncertainty. In fact, in Schroders’ Global Investor Insights Survey for 2025, published in June, portfolio resilience was selected as by far the highest priority for investors over for the remainder of 2025 and into 2026. The surface calm of markets today – reflected in strong public equity market performance and benign bond yields – masks a complex backdrop. Inflation remains sticky, fiscal pressures are building, and geopolitical flashpoints continue to test global stability. Even the enthusiasm around artificial intelligence, while transformative, risks fuelling new valuation imbalances.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2025-11-24",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 90,
+  "archive_count": 92,
   "archive_note": "first_seen is a GMI tracking date, never a publication date; historical first discovery may be unknown. Unverified dates are kept as published_candidate, never displayed as published. Excerpts are partial machine translations."
 }
