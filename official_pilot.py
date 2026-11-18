@@ -9,7 +9,6 @@ import html as html_escape
 import html as html_lib
 import pathlib
 import re
-from html import unescape
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse, urldefrag
 from urllib.request import Request, urlopen
@@ -79,7 +78,7 @@ def get_html(url, domain):
         return raw.decode(response.headers.get_content_charset() or 'utf-8', errors='replace')
 
 
-class class PageParser(HTMLParser):
+class PageParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.links = []
@@ -168,36 +167,6 @@ class class PageParser(HTMLParser):
         self.tag_stack = self.tag_stack[:depth - 1]
 
 
-    def handle_data(self, data):
-        if self.href is not None and not self.skip_stack:
-            self.anchor_text.append(data)
-        if self.p_depth and not self.skip_stack:
-            self.paragraph_text.append(data)
-
-    def handle_endtag(self, tag):
-        # Close the nearest matching tag; nested markup must not prematurely close anchors.
-        if tag in self.tag_stack:
-            depth = len(self.tag_stack) - self.tag_stack[::-1].index(tag)
-        else:
-            return
-        if tag == 'a' and self.href is not None and depth == self.anchor_depth:
-            title = re.sub(r'\s+', ' ', ''.join(self.anchor_text)).strip()
-            if self.href and title:
-                self.links.append((self.href, title))
-            self.href = None
-            self.anchor_text = []
-            self.anchor_depth = 0
-        if tag == 'p' and self.p_depth == depth:
-            p = re.sub(r'\s+', ' ', ''.join(self.paragraph_text)).strip()
-            if len(p) >= 75 and p not in self.paragraphs:
-                self.paragraphs.append(p)
-            self.p_depth = 0
-            self.paragraph_text = []
-        if self.skip_stack and self.skip_stack[-1] >= depth:
-            self.skip_stack.pop()
-        self.tag_stack = self.tag_stack[:depth - 1]
-
-
 def parse(html):
     p = PageParser()
     p.feed(html)
@@ -230,7 +199,6 @@ def candidates(parser, index, domain):
             continue
         found.append((url, label))
     return found
-
 
 
 def find_date(page_html, meta, anchor_title):
@@ -299,7 +267,6 @@ def find_date(page_html, meta, anchor_title):
         if result:
             return result
 
-   
     # 3. Publication date in HTML time elements
     for match in re.finditer(
         r'<time\b[^>]*\bdatetime\s*=\s*["\']([^"\']+)["\']',
@@ -321,13 +288,12 @@ def find_date(page_html, meta, anchor_title):
             if result:
                 return result
 
-    # 3. Date explicitly included in the article link title
+    # 5. Date explicitly included in the article link title
     result = normalize_date(anchor_title)
     if result:
         return result
 
     return None
-
 
 
 def is_topic_page(url, title, meta, paragraphs):
@@ -382,6 +348,7 @@ def add_japanese(articles):
         record['japanese_status'] = ('machine_translation_of_partial_excerpt_not_summary'
                                      if record.get('excerpt_ja') else 'not_translated')
     print(f'TRANSLATION_RESULT attempts={attempts} success={succeeded} failed={attempts-succeeded} limit={TRANSLATION_LIMIT}', flush=True)
+
 
 def make_preview(articles):
     # Standalone HTML preview.
@@ -447,7 +414,7 @@ def main():
                     record['primary_categories'] = primary
                     record['secondary_categories'] = secondary
                     record['categories'] = primary + secondary
-                    
+
                     boilerplate = (
                         'we harness every resource',
                         'goldman sachs’ weekly newsletter',
@@ -502,3 +469,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
