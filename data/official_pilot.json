@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:44:31.285090+00:00",
+  "updated": "2026-11-18T22:54:29.894866+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -77,7 +77,7 @@
       "firm": "Schroders",
       "official_url_candidates": 7,
       "tested": 5,
-      "extracted": 3,
+      "extracted": 1,
       "error": null
     },
     {
@@ -2182,13 +2182,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-11-16",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "金利が高ければ、利払いも高くなる",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "政府債務の高さがFRBの政策を左右するわけではありませんが、マクロ経済におけるリスクを高めることになります。金利の上昇により、すでに高い債務返済コストがさらに増大するからです。高いインフレ率と相まって、債券市場のボラティリティが続く可能性が高く、分散投資アプローチの必要性が強調されます。債券市場は、財政赤字の高さや高い債務水準などの要因に起因する高い不確実性に直面しています。"
     },
     {
       "firm": "BNP Paribas",
@@ -2382,13 +2388,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-01-12",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "米国の労働市場は低迷しているものの、深刻なストレスはない | ステート・ストリート",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "労働市場のデータは、米国とカナダで引き続き低迷していることを示しており、一方、オーストラリアのインフレ率は低下しています。来週は、米国のインフレ率が安定し、EUの産業が回復する可能性がある点に注目してください。長期にわたる政府機関閉鎖により、米国経済を覆っていた厚いデータの霧がようやく晴れ始めています。今週の新たな労働市場の最新情報によると、深刻な弱さはないものの、低迷傾向が続いていることが確認されました。非農業部門の雇用者数"
     },
     {
       "firm": "State Street",
@@ -2413,13 +2425,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-09-28",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "体系的なアクティブ型固定収益資産の気候変動戦略",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "当社の分析によると、気候基準をSAFIフレームワークに組み込んでも、過去の主要なポートフォリオ特性やリスク調整後リターンへの影響は限定的であると考えられます。詳しくは、固定収益部門のシニアクライアントポートフォリオマネージャーであるナタリヤ・イワノワ氏にお尋ねください。動画コンテンツは、お客様のCookie設定に従ってブロックされています。すべてのCookieを承認するか、Cookieの設定を変更することで、この機能にアクセスできます。"
     },
     {
       "firm": "State Street",
@@ -2440,13 +2458,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-01-23",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "長期資産クラス予測：2026年第1四半期 | ステート・ストリート",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "当社の長期的な資産クラス予測は、現在の評価指標、経済成長、インフレ見通し、利回り状況、過去の価格パターンを総合的に評価することで導き出される、トータルリターンとリスクプレミアムの将来予測です。また、マルチファクターのタクティカル・アセットアロケーションモデルの出力結果を組み込んだ、より短期的なリターン予測も含まれています。最新の予測は現在"
     },
     {
       "firm": "State Street",
@@ -2474,13 +2498,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-03-10",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "アジア債券市場が多様な機会を提供する理由",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "アジア債券は時に単一のセクターと見なされることがありますが、よく見てみると、この地域とその債券市場は非常に多様であることがわかります。アジアの市場は、経済発展の過程において異なる段階にあります。シンガポールのような国は先進的ですが、ベトナムのような国は発展段階がそれよりも早い段階にあります。当然のことながら、これはこれらの地域におけるファンダメンタルズの違いに反映されており、"
     },
     {
       "firm": "State Street",
@@ -2501,13 +2531,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-04-29",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "連邦準備制度における権力の移行",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "FRBの移行に関する懸念は、制度的な回復力が維持され、地政学が政策を形作る中で、大したことのない問題のように見えます。議会の状況は、ジェローム・パウエル氏の議長任期が終了する5月15日までに、ケビン・ウォルシュ氏が次期FRB議長として承認される方向に向かっているようです。また、パウエル氏は2028年初頭まで任期が続くにもかかわらず、理事会からも退任すると予想しています。また、私たちはステファン・ムーア総裁が"
     },
     {
       "firm": "Invesco",
@@ -2532,12 +2568,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "インベスコ・グローバル・トータル・リターン・ボンド・ファンドのご紹介",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "指示：選択を変更すると、すぐに同じページ内の下にある一致する見出しにフォーカスが移ります。史上最大の利回りの調整を経て、再び固定金利市場が魅力的なリターンポテンシャルを提供しています。債券市場のボラティリティも上昇しており、柔軟な債券商品を扱うアクティブ型ファンドマネージャーにとって、より多くの機会が生まれる可能性があります。柔軟な債券ファンドは通常、より多くの柔軟性を持っています。"
     },
     {
       "firm": "Invesco",
@@ -2558,13 +2600,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2025-04-25",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "欧州ETFのスナップショット",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "欧州のETF市場は、フローの面で最高の四半期を記録しました。第1四半期のNNAは930億米ドルとなり、2024年第4四半期の910億米ドルを上回りました。四半期末時点の総運用資産額2兆3,800億米ドルは、堅調なコモディティリターン（特に金）と、債券市場の堅調な上昇に支えられました。株式の収益率は、この四半期は概ね横ばいでした。株式への資金流入の割合（80%）は、"
     },
     {
       "firm": "Invesco",
@@ -2589,12 +2637,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "資産配分に関する洞察 | Invesco",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "インサイト資産配分当社のマーケットストラテジーチームとグローバルソリューションチームによる、実用的なインサイトをお読みください。短期、中期、長期で最大の機会はどこにあると見ているのでしょうか？資本市場の前提条件 | 2026年第3四半期Invesco Solutionsは、世界の主要資産クラスの動向に関する長期的な予測を提供する資本市場の前提条件（CMA）を作成しています。2026年10月12日四半期グローバル資産配分2"
     },
     {
       "firm": "Invesco",
@@ -2615,12 +2669,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "ロシア・ウクライナ危機",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "ロシア・ウクライナ危機の経済的・地政学的影響ウクライナ戦争に関する当社の解説記事を読み、紛争の経済学に関する洞察を得てください。そして、それが国際的な地政学的秩序と金融市場にどのような影響を与えたのでしょうか？ETF ナスダック100の長期的な強さの原動力は何でしょうか？クリス・メラーイノベーションを推進し、変化に適応する企業を中心に構成されているナスダック100は、指標となるのに適した位置にある可能性があります。"
     },
     {
       "firm": "Invesco",
@@ -2641,13 +2701,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-10-12",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "資本市場の前提条件 | 2026年第3四半期",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "Invesco Solutionsは、世界の主要資産クラスの動向に関する長期的な予測を提供する資本市場仮定（CMA）を作成しています。これらの仮定は、10年の投資期間を前提としており、戦略的な資産配分の指針となることを目的としています。選択された各資産クラスについて、予想リターン、リターンの標準偏差（ボラティリティ）、および他の資産クラスとの相関に関する仮定を作成します。"
     },
     {
       "firm": "J.P. Morgan Asset Management",
@@ -2926,13 +2992,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-11-13",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "原油価格の下落により、2027年の世界経済は2.8%成長すると予測されている",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。ゴールドマン・サックス・リサーチは、2027年の世界経済の着実な成長を予測しています。エネルギー価格の下落と人工知能（AI）への依然として力強い設備投資が、金融環境の引き締めやより中立的な財政政策の影響を上回るためです。世界のGDPは、2027年に2.8%増加すると予測されており、2026年の2%から上昇します。"
     },
     {
       "firm": "Goldman Sachs",
@@ -2953,13 +3025,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-11-10",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "規模を狙う：スポーツ投資の未来",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。ゴールドマン・サックス・プライベート・ウェルスマネジメントのスポーツ＆エンターテイメント・ソリューション部門の責任者であるニコル・プーレン・ロス氏は、Exchangesポッドキャストで、メディア権市場が急成長し、チームの評価額が上昇する中、投資家がスポーツ分野で機会を見出していると説明しています。関連レポートを読む。スポーツの価値"
     },
     {
       "firm": "Goldman Sachs",
@@ -2989,13 +3067,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-11-13",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "予想を上回るインフレデータがFRBの次回利上げ決定に与える影響",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。小幅な利上げがより可能性が高いものの、10月の予想を上回るインフレデータにより、12月のFRB会合で50ベーシスポイントの利上げが行われる可能性が出てきたと、ゴールドマン・サックスFICCおよびエクイティ部門の北米金利商品セールス＆トレーディング共同責任者であるムハンマド・クバジ氏は述べています。"
     },
     {
       "firm": "Goldman Sachs",
@@ -3085,9 +3169,39 @@
       "published_candidate": "2025-11-24",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "Schroders",
+      "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2025-income-returns-and-resilience---opportunities-in-public-and-private-markets/",
+      "link_title": "Outlook 2025 Income Returns And Resilience Opportunities In Public And Private Markets",
+      "title": "Outlook 2025: Income, returns and resilience - opportunities in public and private markets",
+      "published": null,
+      "categories": [],
+      "excerpt": "The economic backdrop is still conducive for returns, but diversification will be essential for building resilient portfolios. News of Donald Trump’s conclusive US election win has led to endless speculation about what his policies might be. In this environment, it is always useful to step back and focus on the bigger picture trends. We have written before about the changing investment regime: a shift to a multipolar world, more proactive fiscal policies, and higher interest rates compared to the last decade. The post-Global Financial Crisis environment of tight fiscal policy, zero interest rates and liberalised global trade was not working for the average person in the West, leading to support for more populist policies. In this context Trump is more of a symptom than a cause of the political environment. His second term will represent an intensification of trends that were already in place: loose fiscal policy and an ongoing reaction against globalisation in the form of higher tariffs (note that Biden did not reverse the tariffs imposed by Trump in his previous term). What does this mean for markets in 2025? Leaving aside political risks, the economic backdrop remains benign. Inflation has moved in the right direction and interest rates are falling in the US and Europe. We expect a soft landing, and our expectation is that growth will reaccelerate as we move through 2025.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "2025年の見通し：インカム、リターン、レジリエンス - パブリックおよびプライベート市場における機会",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "経済環境は依然としてリターンに適していますが、レジリエントなポートフォリオを構築するには分散投資が不可欠です。ドナルド・トランプ氏が米大統領選挙で勝利を確実にしたというニュースを受け、彼の政策がどのようなものになるのかについて、際限のない憶測が飛び交っています。このような状況では、常に一歩下がって、より大きな視点でのトレンドに注目することが有益です。私たちは以前、変化する投資体制について記しました。それは多極化への移行です。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2024-12-01",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 92,
+  "archive_count": 93,
   "archive_note": "first_seen is a GMI tracking date, never a publication date; historical first discovery may be unknown. Unverified dates are kept as published_candidate, never displayed as published. Excerpts are partial machine translations."
 }
