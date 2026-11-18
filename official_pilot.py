@@ -17,6 +17,7 @@ ROOT = pathlib.Path(__file__).resolve().parent
 OUT = ROOT / 'data' / 'official_pilot.json'
 PREVIEW = ROOT / 'data' / 'official_pilot_preview.html'
 TRANSLATION_LIMIT = 30  # total text fields per run; no paid API
+UNCONFIRMED_DATE = '\u672a\u78ba\u8a8d'
 
 
 SITES = [
@@ -365,7 +366,7 @@ def make_preview(articles):
         if not url.startswith('https://'):
             continue
         cats = ' / '.join(r.get('primary_categories', []) + r.get('secondary_categories', [])) or '\u5206\u985e\u672a\u78ba\u5b9a'
-        items.append(f'''<article><small>{esc(r.get('firm'))} \u00b7 \u516c\u958b\u65e5: {esc(r.get('published') or '\u672a\u78ba\u8a8d')} \u00b7 {esc(cats)}</small>
+        items.append(f'''<article><small>{esc(r.get('firm'))} \u00b7 \u516c\u958b\u65e5: {esc(r.get('published') or UNCONFIRMED_DATE)} \u00b7 {esc(cats)}</small>
 <h2>{title}</h2><p class="muted">\u539f\u984c: {original}</p><p><b>{lang}</b></p><p>{excerpt}</p>
 <p><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">\u516c\u5f0f\u8a18\u4e8b\u3092\u958b\u304f</a></p></article>''')
     page = '''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
