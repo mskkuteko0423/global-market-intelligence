@@ -525,7 +525,21 @@ def main():
                             flush=True
                         )
 
-                    if record['page_type'] == 'topic_or_index':
+                    
+                    schroders_interstitial = (
+                        firm == 'Schroders'
+                        and not page.meta
+                        and not re.search(r'<(?:main|article)\b', page_html, re.I)
+                        and 'useInterstitial()' in page_html
+                    )
+
+                    if schroders_interstitial:
+                        record['page_type'] = 'access_verification'
+                        record['excerpt_status'] = 'Article body unavailable: access verification page'
+                        record['error'] = 'Schroders returned access-verification HTML, not an article'
+                        print('SCHRODERS_ACCESS_VERIFICATION ' + url, flush=True)
+                    elif record['page_type'] == 'topic_or_index':
+
                         record['categories'] = []
                         record['primary_categories'] = []
                         record['secondary_categories'] = []
