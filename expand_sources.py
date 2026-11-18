@@ -35,7 +35,7 @@ def discover_links(firm, index, domain):
     import xml.etree.ElementTree as ET
     import gzip
     from urllib.request import Request, urlopen
-    from urllib.parse import urljoin, urlparse
+    from urllib.parse import urldefrag, urljoin, urlparse
 
     fallback = {
         'Vanguard': ['https://investor.vanguard.com/investor-resources-education',
@@ -84,6 +84,7 @@ def discover_links(firm, index, domain):
 
     for source in sources:
         try:
+            # Use the existing get_html signature and its configured timeout.
             parser = parse(get_html(source, domain))
             if first_parser is None:
                 first_parser = parser
@@ -206,6 +207,7 @@ if old in src:
 elif new not in src:
     raise RuntimeError('Collector discovery call not found')
 
+# Leave the collector's get_html signature and timeout unchanged.
 compile(src, str(p), 'exec')
 p.write_text(src, encoding='utf-8')
 print('SOURCE_EXPANSION sources=15; HTML + bounded RSS/sitemap fallback; official URLs only', flush=True)
