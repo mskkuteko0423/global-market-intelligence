@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T09:27:26.214855+00:00",
+  "updated": "2026-11-18T12:36:57.903858+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -61,7 +61,7 @@
     },
     {
       "firm": "PIMCO",
-      "official_url_candidates": 293,
+      "official_url_candidates": 295,
       "tested": 5,
       "extracted": 5,
       "error": null
@@ -125,8 +125,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "title_ja": "ジョン・ウォルドロン氏がGDP成長、AI、M&Aの見通しについて語る",
       "translation_provider": {
@@ -162,8 +162,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "title_ja": "Aaru が高度な AI シミュレーションを使用して人間の行動を予測する方法",
       "translation_provider": {
@@ -721,13 +721,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "published_candidate": "2026-10-19"
+      "published_candidate": "2026-10-19",
+      "title_ja": "地方市場四半期 |ブラックロック",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "地方債の税相当利回りは、米国債や IG 社債を約 200 ～ 300 ベーシス ポイント上回ります。 出典: Bloomberg Indices、BlackRock、2026 年 9 月 30 日時点*税相当利回りを達成するための実効税率は 40.8% ブラックロックの目的は、より多くの人々が経済的幸福を体験できるよう支援することです。投資家の受託者として、また金融テクノロジーの大手プロバイダーとして、当社は何百万人もの人々が有益な貯蓄を構築できるよう支援しています。"
     },
     {
       "firm": "J.P. Morgan Research",
@@ -1269,13 +1275,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-01-20",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "地方市場の四半期ごとの最新情報",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "ブラックロックの地方債専門家が、市場の見通しと、2026 年にポートフォリオの可能性を高めるために実行できるアクションを共有します。ブラックロックの目的は、より多くの人々が経済的な幸福を体験できるよう支援することです。投資家の受託者として、また金融テクノロジーの大手プロバイダーとして、当社は投資をより容易にし、より余裕のあるものにすることで、何百万人もの人々が生涯を通じて役立つ貯蓄を構築できるよう支援しています。"
     },
     {
       "firm": "J.P. Morgan Research",
