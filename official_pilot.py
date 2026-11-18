@@ -276,19 +276,17 @@ def find_date(page_html, meta, anchor_title):
 
 def is_topic_page(url, title, meta, paragraphs):
     path = urlparse(url).path.lower().rstrip('/')
-    # Known landing paths observed in the prior pilot artifact.
-    known = ('/insights/artificial-intelligence', '/insights/mergers-and-acquisitions',
-             '/ideas/artificial-intelligence', '/ideas/mergers-and-acquisitions')
-    if path in known or path.endswith('/artificial-intelligence') or path.endswith('/mergers-and-acquisitions'):
-        return True
-    # Explicit webpage metadata, if present, is stronger than paragraph count.
-    ogtype = (meta.get('og:type') or '').lower()
-    if ogtype == 'website' and not any(meta.get(k) for k in ('article:published_time', 'datepublished')) and len(paragraphs) < 4:
-        return True
-    # Do not reject genuine short articles merely because their date is missing.
-    if len(paragraphs) < 2 and not any(meta.get(k) for k in ('article:published_time', 'datepublished')):
-        return True
-    return False
+    known = (
+        '/insights/artificial-intelligence',
+        '/insights/mergers-and-acquisitions',
+        '/ideas/artificial-intelligence',
+        '/ideas/mergers-and-acquisitions',
+    )
+    return (
+        path in known
+        or path.endswith('/artificial-intelligence')
+        or path.endswith('/mergers-and-acquisitions')
+    )
 
 
 def classify_focus(title, description):
