@@ -33,16 +33,16 @@ MAX_PER_FIRM = 5
 MAX_BYTES = 2_500_000
 # Market-wide coverage: AI is just one topic, never a prerequisite.
 CATEGORIES = {
-    'æ ªå¼': ('equity', 'equities', 'stock', 'earnings', 's&p', 'nasdaq'),
-    'åµå¸ã»éå©': ('bond', 'fixed income', 'treasury', 'yield', 'interest rate', 'duration'),
-    'çºæ¿': ('currency', 'currencies', 'forex', 'fx market', 'dollar', 'yen'),
-    'ãã¯ã­çµæ¸': ('macro', 'econom', 'inflation', 'gdp', 'recession', 'central bank'),
-    'ã¯ã¬ã¸ãã': ('credit', 'spread', 'high yield', 'private debt'),
-    'ã³ã¢ãã£ãã£': ('commodity', 'commodities', 'oil price', 'gold price', 'energy market'),
-    'æè³æ¦ç¥ã»è³éãã­ã¼': ('portfolio', 'asset allocation', 'market outlook', 'investment outlook', 'capital flow', 'liquidity'),
-    'æ¿ç­ã»å°æ¿å­¦': ('geopolit', 'tariff', 'trade policy', 'fiscal policy', 'election'),
-    'AIã»åå°ä½': ('artificial intelligence', ' ai ', 'semiconductor', 'chipmaker', 'data center'),
-    'ãã®ä»ã®ç£æ¥­ãã¼ã': ('healthcare', 'technology', 'infrastructure', 'industry', 'sector'),
+    '\u682a\u5f0f': ('equity', 'equities', 'stock', 'earnings', 's&p', 'nasdaq'),
+    '\u50b5\u5238\u30fb\u91d1\u5229': ('bond', 'fixed income', 'treasury', 'yield', 'interest rate', 'duration'),
+    '\u70ba\u66ff': ('currency', 'currencies', 'forex', 'fx market', 'dollar', 'yen'),
+    '\u30de\u30af\u30ed\u7d4c\u6e08': ('macro', 'econom', 'inflation', 'gdp', 'recession', 'central bank'),
+    '\u30af\u30ec\u30b8\u30c3\u30c8': ('credit', 'spread', 'high yield', 'private debt'),
+    '\u30b3\u30e2\u30c7\u30a3\u30c6\u30a3': ('commodity', 'commodities', 'oil price', 'gold price', 'energy market'),
+    '\u6295\u8cc7\u6226\u7565\u30fb\u8cc7\u91d1\u30d5\u30ed\u30fc': ('portfolio', 'asset allocation', 'market outlook', 'investment outlook', 'capital flow', 'liquidity'),
+    '\u653f\u7b56\u30fb\u5730\u653f\u5b66': ('geopolit', 'tariff', 'trade policy', 'fiscal policy', 'election'),
+    'AI\u30fb\u534a\u5c0e\u4f53': ('artificial intelligence', ' ai ', 'semiconductor', 'chipmaker', 'data center'),
+    '\u305d\u306e\u4ed6\u306e\u7523\u696d\u30c6\u30fc\u30de': ('healthcare', 'technology', 'infrastructure', 'industry', 'sector'),
 }
 # Exclude clear non-publication destinations, not articles lacking an AI angle.
 EXCLUDE_PATH = ('/privacy', '/contact', '/terms', '/login', '/cookie', '/careers', '/about-us',
@@ -360,16 +360,16 @@ def make_preview(articles):
         title = esc(r.get('title_ja') or r.get('title'))
         original = esc(r.get('title'))
         excerpt = esc(r.get('excerpt_ja') or r.get('excerpt'))
-        lang = 'æ¥æ¬èªæ©æ¢°ç¿»è¨³ï¼æ¬æã®ä¸é¨ã»è¦ç´ã§ã¯ããã¾ããï¼' if r.get('excerpt_ja') else 'è±èªåææç²ï¼ç¿»è¨³æªåå¾ï¼'
+        lang = '\u65e5\u672c\u8a9e\u6a5f\u68b0\u7ffb\u8a33\uff08\u672c\u6587\u306e\u4e00\u90e8\u30fb\u8981\u7d04\u3067\u306f\u3042\u308a\u307e\u305b\u3093\uff09' if r.get('excerpt_ja') else '\u82f1\u8a9e\u539f\u6587\u629c\u7c8b\uff08\u7ffb\u8a33\u672a\u53d6\u5f97\uff09'
         url = r.get('official_url', '')
         if not url.startswith('https://'):
             continue
-        cats = ' / '.join(r.get('primary_categories', []) + r.get('secondary_categories', [])) or 'åé¡æªç¢ºå®'
-        items.append(f'''<article><small>{esc(r.get('firm'))} Â· å¬éæ¥: {esc(r.get('published') or 'æªç¢ºèª')} Â· {esc(cats)}</small>
-<h2>{title}</h2><p class="muted">åé¡: {original}</p><p><b>{lang}</b></p><p>{excerpt}</p>
-<p><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">å¬å¼è¨äºãéã</a></p></article>''')
+        cats = ' / '.join(r.get('primary_categories', []) + r.get('secondary_categories', [])) or '\u5206\u985e\u672a\u78ba\u5b9a'
+        items.append(f'''<article><small>{esc(r.get('firm'))} \u00b7 \u516c\u958b\u65e5: {esc(r.get('published') or '\u672a\u78ba\u8a8d')} \u00b7 {esc(cats)}</small>
+<h2>{title}</h2><p class="muted">\u539f\u984c: {original}</p><p><b>{lang}</b></p><p>{excerpt}</p>
+<p><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">\u516c\u5f0f\u8a18\u4e8b\u3092\u958b\u304f</a></p></article>''')
     page = '''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GMI å¬å¼è¨äº æ¥æ¬èªãã¬ãã¥ã¼</title><style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#f5f6f8;color:#17202a;margin:0;padding:20px;max-width:860px;margin:auto}article{background:white;border:1px solid #ddd;border-radius:12px;padding:18px;margin:14px 0;line-height:1.7}h1{font-size:1.5rem}h2{font-size:1.15rem}small,.muted{color:#626d78}a{color:#155db3}header{line-height:1.6}</style><header><h1>Global Market Intelligence Â· å¬å¼è¨äºãã¬ãã¥ã¼</h1><p>å¯¾è±¡ã¯å¸å ´å¨è¬ãè¡¨ç¤ºæç« ã¯åå¾ããæ¬æã®ä¸é¨ã®æ©æ¢°ç¿»è¨³ã§ãããè¨äºå¨ä½ã®è¦ç´ãæè³å¤æ­ã§ã¯ããã¾ãããæ¥ä»ã»åé¡ã¯æªæ¤è¨¼ã®å¯è½æ§ãããã¾ããç¡æå¬éç¿»è¨³ãµã¼ãã¹ã®å¤±ææã¯è±èªåæãè¡¨ç¤ºãã¾ãã</p></header>''' + '\n'.join(items) + '</html>'
+<title>GMI \u516c\u5f0f\u8a18\u4e8b \u65e5\u672c\u8a9e\u30d7\u30ec\u30d3\u30e5\u30fc</title><style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#f5f6f8;color:#17202a;margin:0;padding:20px;max-width:860px;margin:auto}article{background:white;border:1px solid #ddd;border-radius:12px;padding:18px;margin:14px 0;line-height:1.7}h1{font-size:1.5rem}h2{font-size:1.15rem}small,.muted{color:#626d78}a{color:#155db3}header{line-height:1.6}</style><header><h1>Global Market Intelligence \u00b7 \u516c\u5f0f\u8a18\u4e8b\u30d7\u30ec\u30d3\u30e5\u30fc</h1><p>\u5bfe\u8c61\u306f\u5e02\u5834\u5168\u822c\u3002\u8868\u793a\u6587\u7ae0\u306f\u53d6\u5f97\u3057\u305f\u672c\u6587\u306e\u4e00\u90e8\u306e\u6a5f\u68b0\u7ffb\u8a33\u3067\u3042\u308a\u3001\u8a18\u4e8b\u5168\u4f53\u306e\u8981\u7d04\u3084\u6295\u8cc7\u5224\u65ad\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u65e5\u4ed8\u30fb\u5206\u985e\u306f\u672a\u691c\u8a3c\u306e\u53ef\u80fd\u6027\u304c\u3042\u308a\u307e\u3059\u3002\u7121\u6599\u516c\u958b\u7ffb\u8a33\u30b5\u30fc\u30d3\u30b9\u306e\u5931\u6557\u6642\u306f\u82f1\u8a9e\u539f\u6587\u3092\u8868\u793a\u3057\u307e\u3059\u3002</p></header>''' + '\n'.join(items) + '</html>'
     PREVIEW.write_text(page, encoding='utf-8')
     print(f'Preview saved {PREVIEW} ({len(items)} article candidates)', flush=True)
 
@@ -417,7 +417,7 @@ def main():
 
                     boilerplate = (
                         'we harness every resource',
-                        'goldman sachsâ weekly newsletter',
+                        'goldman sachs\u2019 weekly newsletter',
                         'our weekly newsletter delivers',
                         'we invest the power of goldman sachs',
                         'subscribe now',
@@ -469,3 +469,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
