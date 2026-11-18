@@ -120,7 +120,7 @@ def discover_links(firm, index, domain):
             diagnostics.append(f'ROBOTS: {type(exc).__name__}')
 
         queue = list(dict.fromkeys(feeds))
-            visited = set()
+        visited = set()
 
         def sitemap_priority(url):
             path = urlparse(url).path.lower()
