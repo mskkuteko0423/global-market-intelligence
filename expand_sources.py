@@ -120,8 +120,20 @@ def discover_links(firm, index, domain):
             diagnostics.append(f'ROBOTS: {type(exc).__name__}')
 
         queue = list(dict.fromkeys(feeds))
-        visited = set()
-        while queue and len(visited) < 7 and len(found) < MAX_PER_FIRM:
+            visited = set()
+
+        def sitemap_priority(url):
+            path = urlparse(url).path.lower()
+            parts = path.strip('/').split('/')
+            if any(x in ('zh', 'zh-cn', 'zh-hk', 'zh-tw') for x in parts):
+                return 2
+            if any(x in ('en', 'en-us', 'en-gb', 'global') for x in parts):
+                return 0
+            return 1
+
+        while queue and len(visited) < 20 and len(found) < MAX_PER_FIRM:
+            queue.sort(key=sitemap_priority)
+            queue = [u for u in queue if sitemap_priority(u) != 2]
             feed = queue.pop(0)
             if feed in visited or not official(feed, domain):
                 continue
