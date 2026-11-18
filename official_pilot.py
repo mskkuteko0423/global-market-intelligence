@@ -464,7 +464,50 @@ def main():
                         'update your user type',
                     )
 
+                    
                     clean = [p for p in page.paragraphs if not any(b in p.lower() for b in boilerplate)]
+
+                    if firm == 'Schroders' and not clean:
+                        for match in re.finditer(
+                            r'<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+                            page_html, re.I | re.S
+                        ):
+                            try:
+                                structured = json.loads(html_lib.unescape(match.group(1)))
+                            except (ValueError, TypeError):
+                                continue
+
+                            pending = [structured]
+                            while pending:
+                                item = pending.pop()
+                                if isinstance(item, list):
+                                    pending.extend(item)
+                                elif isinstance(item, dict):
+                                    pending.extend(
+                                        v for k, v in item.items()
+                                        if k in ('@graph', 'mainEntity')
+                                        and isinstance(v, (dict, list))
+                                    )
+                                    types = item.get('@type', [])
+                                    if isinstance(types, str):
+                                        types = [types]
+                                    body = item.get('articleBody')
+                                    if (
+                                        any('Article' in str(t) for t in types)
+                                        and isinstance(body, str)
+                                        and len(body.strip()) >= 75
+                                    ):
+                                        body = re.sub(r'\s+', ' ', body).strip()
+                                        if not any(b in body.lower() for b in boilerplate):
+                                            clean = [body]
+                                            break
+                            if clean:
+                                break
+                        print(
+                            f'SCHRODERS_JSONLD_EXTRACT chars={len(clean[0]) if clean else 0}',
+                            flush=True
+                        )
+
                     if record['page_type'] == 'topic_or_index':
                         record['categories'] = []
                         record['primary_categories'] = []
