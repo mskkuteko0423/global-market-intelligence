@@ -79,7 +79,7 @@ def get_html(url, domain):
         return raw.decode(response.headers.get_content_charset() or 'utf-8', errors='replace')
 
 
-class PageParser(HTMLParser):
+class class PageParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.links = []
@@ -98,24 +98,75 @@ class PageParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         self.tag_stack.append(tag)
-                if tag in ('main', 'article') and not self.body_depth and not self.skip_stack:
-        self.body_depth = len(self.tag_stack)
-        self.body_text = []
+
         if tag in ('script', 'style', 'nav', 'footer', 'header', 'aside'):
             self.skip_stack.append(len(self.tag_stack))
+
+        if tag in ('main', 'article') and not self.body_depth and not self.skip_stack:
+            self.body_depth = len(self.tag_stack)
+            self.body_text = []
+
         if tag == 'meta':
             key = (a.get('property') or a.get('name') or '').lower()
             if key and a.get('content') and key not in self.meta:
                 self.meta[key] = a['content'].strip()
+
         if tag == 'a' and self.href is None:
             self.href = a.get('href')
             self.anchor_depth = len(self.tag_stack)
             self.anchor_text = []
+
         if tag == 'img' and self.href is not None and a.get('alt'):
             self.anchor_text.append(a['alt'])
+
         if tag == 'p' and not self.skip_stack and not self.p_depth:
             self.p_depth = len(self.tag_stack)
             self.paragraph_text = []
+
+    def handle_data(self, data):
+        if self.href is not None and not self.skip_stack:
+            self.anchor_text.append(data)
+
+        if self.p_depth and not self.skip_stack:
+            self.paragraph_text.append(data)
+
+        if self.body_depth and not self.skip_stack:
+            self.body_text.append(data)
+
+    def handle_endtag(self, tag):
+        # Close the nearest matching tag; nested markup must not prematurely close anchors.
+        if tag in self.tag_stack:
+            depth = len(self.tag_stack) - self.tag_stack[::-1].index(tag)
+        else:
+            return
+
+        if tag == 'a' and self.href is not None and depth == self.anchor_depth:
+            title = re.sub(r'\s+', ' ', ''.join(self.anchor_text)).strip()
+            if self.href and title:
+                self.links.append((self.href, title))
+            self.href = None
+            self.anchor_text = []
+            self.anchor_depth = 0
+
+        if tag == 'p' and self.p_depth == depth:
+            p = re.sub(r'\s+', ' ', ''.join(self.paragraph_text)).strip()
+            if len(p) >= 75 and p not in self.paragraphs:
+                self.paragraphs.append(p)
+            self.p_depth = 0
+            self.paragraph_text = []
+
+        if self.body_depth == depth:
+            body = re.sub(r'\s+', ' ', ''.join(self.body_text)).strip()
+            if len(body) >= 75 and not self.paragraphs:
+                self.paragraphs.append(body)
+            self.body_depth = 0
+            self.body_text = []
+
+        if self.skip_stack and self.skip_stack[-1] >= depth:
+            self.skip_stack.pop()
+
+        self.tag_stack = self.tag_stack[:depth - 1]
+
 
     def handle_data(self, data):
         if self.href is not None and not self.skip_stack:
