@@ -47,10 +47,17 @@ def discover_links(firm, index, domain):
                      'https://www.fidelity.com/learning-center/markets-sectors'],
         'PIMCO': ['https://www.pimco.com/us/en/insights',
                   'https://www.pimco.com/us/en/insights/economic-and-market-commentary'],
-        'Schroders': ['https://www.schroders.com/en/global/individual/insights/'],
-        'Amundi': ['https://research-center.amundi.com/',
-                   'https://www.amundi.com/globaldistributor/all-news'],
-        'BNP Paribas': [],
+        'Schroders': [
+            'https://www.schroders.com/en/global/individual/insights/',
+            'https://www.schroders.com/en/global/individual/',
+        ],
+        'Amundi': [
+            'https://research-center.amundi.com/',
+            'https://www.amundi.com/globaldistributor/all-news',
+        ],
+        'BNP Paribas': [
+            'https://economic-research.bnpparibas.com/',
+        ],
     }
     selected = True
     sources = list(dict.fromkeys([index] + fallback.get(firm, [])))
