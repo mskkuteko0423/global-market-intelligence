@@ -411,7 +411,7 @@ def main():
                         record['primary_categories'] = []
                         record['secondary_categories'] = []
                         record['excerpt_status'] = 'Topic/index page; not an article'
-                                        elif clean:
+                    elif clean:
                         record['excerpt'] = ' '.join(clean[:5])[:1800]
                         record['excerpt_status'] = 'Cleaned candidate excerpt; editorial verification required'
                         extracted += 1
