@@ -52,7 +52,7 @@ def discover_links(firm, index, domain):
                    'https://www.amundi.com/globaldistributor/all-news'],
         'BNP Paribas': [],
     }
-    selected = firm in fallback
+    selected = True
     sources = list(dict.fromkeys([index] + fallback.get(firm, [])))
     found, seen, diagnostics, first_parser = [], set(), [], None
     source_rank = {}
