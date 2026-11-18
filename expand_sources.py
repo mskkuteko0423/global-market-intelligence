@@ -61,6 +61,20 @@ def discover_links(firm, index, domain):
         url = urldefrag(url)[0]
         if not official(url, domain) or url in seen:
             return
+
+        if is_non_english_locale(url):
+            return
+
+        if firm == 'Schroders':
+            parts = [
+                p.lower() for p in urlparse(url).path.split('/') if p
+            ]
+            if any(p in (
+                'id-id', 'de-de', 'fr-fr', 'es-es',
+                'it-it', 'pt-br', 'ja-jp', 'ko-kr',
+                'zh-cn', 'zh-hk', 'zh-tw'
+            ) for p in parts):
+                return
         path = urlparse(url).path.lower().rstrip('/')
         slug = path.rsplit('/', 1)[-1]
         if not slug or len(slug) < 12 or slug in ('insights', 'research', 'articles', 'news'):
