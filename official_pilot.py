@@ -467,7 +467,17 @@ def main():
                         record['error'] = 'No substantial paragraph or usable metadata description'
                 except Exception as exc:
                     record['error'] = f'{type(exc).__name__}: {exc}'[:180]
-                print("ARTICLE_RESULT " + json.dumps({"firm": firm, "url": url, "title": record.get("title"), "page_type": record.get("page_type"), "excerpt_chars": len(record.get("excerpt") or ""), "error": record.get("error")}, ensure_ascii=False), flush=True)
+                print("ARTICLE_RESULT " + json.dumps({
+                    "firm": firm,
+                    "url": url,
+                    "title": record.get("title"),
+                    "page_type": record.get("page_type"),
+                    "excerpt_chars": len(record.get("excerpt") or ""),
+                    "error": record.get("error"),
+                    "paragraph_count": len(page.paragraphs) if 'page' in locals() else None,
+                    "description_chars": len(description) if 'description' in locals() else None,
+                    "html_chars": len(page_html) if 'page_html' in locals() else None,
+                }, ensure_ascii=False), flush=True)      
                 articles.append(record)
         except Exception as exc:
             error = f'{type(exc).__name__}: {exc}'[:180]
