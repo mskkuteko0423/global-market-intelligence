@@ -346,7 +346,8 @@ def add_japanese(articles):
         record['translation_errors'] = {}
         for field, source in (('title_ja', record.get('title', '')),
                               ('excerpt_ja', record.get('excerpt', '')[:420])):
-            if attempts >= TRANSLATION_LIMIT:
+            if record.get(field):
+                continue
                 record['translation_errors'][field] = 'run_limit_reached'
                 continue
             if not source.strip():
