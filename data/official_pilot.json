@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:54:29.894866+00:00",
+  "updated": "2026-11-18T23:22:13.339662+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -77,7 +77,7 @@
       "firm": "Schroders",
       "official_url_candidates": 7,
       "tested": 5,
-      "extracted": 1,
+      "extracted": 2,
       "error": null
     },
     {
@@ -2734,12 +2734,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "ファンドバナーページ1",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "そのため、J.P. Morganのインカム戦略は、金利や市場の変化に応じて、時間の経過とともにデュレーションやその他のリスクを積極的に管理しながら、最適なインカムポテンシャルを得るために、世界中の債券セクターに機会を見ながら投資しています。"
     },
     {
       "firm": "J.P. Morgan Asset Management",
@@ -3104,13 +3110,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-11-13",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "欧州企業が堅調な利益成長を遂げると予測される理由",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。欧州企業の収益は急速に伸びており、ユーロ圏経済よりも速いペースで成長しています。ゴールドマン・サックスの欧州株式担当シニアストラテジストであるシャロン・ベル氏は、堅調な収益が株式市場において、債券利回りの上昇、エネルギー価格の高騰、および国内経済成長の低迷を吸収するのに役立ったと述べています。"
     },
     {
       "firm": "Schroders",
@@ -3135,13 +3147,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2025-11-24",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "評価リスクに積極的に取り組み、分散の機会を模索する",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "株式市場は引き続き堅調に推移していますが、指数の集中度を考えると、銘柄固有のレベルでリスクと機会を管理することが重要です。つまり、ファンダメンタルズ分析に基づいた慎重なポジションを取るということです。2026年を迎えるにあたり、株式市場の評価額について多くの懸念があります。ハイパースケール企業による多額の投資が行われていることから、1999～2000年のドットコムバブルと比較されています。"
     },
     {
       "firm": "Schroders",
@@ -3162,13 +3180,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2025-11-24",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "2026年の見通し：デカップリングがもたらすレジリエントな機会",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "マクロ経済と地政学的な変動が続く中、プライベートマーケットは景気循環的および構造的な追い風の恩恵を受けており、分散化されたレジリエントなポートフォリオにおいて重要な役割を果たすことができます。レジリエンスは、持続的な不確実性に支配される時代において、投資家にとって重要なキーワードとなっています。実際、6月に発表されたシュローダーの2025年グローバル投資家インサイト調査では、ポートフォリオのレジリエンスがbとして選ばれました。"
     },
     {
       "firm": "Schroders",
