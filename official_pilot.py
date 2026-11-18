@@ -336,9 +336,13 @@ def add_japanese(articles):
     from translation_fallback import translate_public_text
     attempts = 0
     succeeded = 0
-    for record in articles:
-        if record.get('page_type') != 'article_candidate' or not record.get('excerpt'):
-            continue
+    eligible = [
+        r for r in articles
+        if r.get('page_type') == 'article_candidate' and r.get('excerpt')
+    ]
+    offset = dt.date.today().toordinal() % len(eligible) if eligible else 0
+
+    for record in eligible[offset:] + eligible[:offset]:
         record['translation_errors'] = {}
         for field, source in (('title_ja', record.get('title', '')),
                               ('excerpt_ja', record.get('excerpt', '')[:420])):
