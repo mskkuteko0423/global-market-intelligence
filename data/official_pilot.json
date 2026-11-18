@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T12:36:57.903858+00:00",
+  "updated": "2026-11-18T13:34:14.173457+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -33,7 +33,7 @@
     },
     {
       "firm": "BlackRock",
-      "official_url_candidates": 7,
+      "official_url_candidates": 8,
       "tested": 5,
       "extracted": 5,
       "error": null
@@ -89,16 +89,16 @@
     },
     {
       "firm": "State Street",
-      "official_url_candidates": 0,
-      "tested": 0,
-      "extracted": 0,
+      "official_url_candidates": 362,
+      "tested": 5,
+      "extracted": 5,
       "error": null
     },
     {
       "firm": "Invesco",
-      "official_url_candidates": 0,
-      "tested": 0,
-      "extracted": 0,
+      "official_url_candidates": 34,
+      "tested": 5,
+      "extracted": 5,
       "error": null
     }
   ],
@@ -199,8 +199,8 @@
         "その他の産業テーマ"
       ],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "title_ja": "加入者数の増加が予想を上回るため、世界の音楽収益は増加すると予測",
       "translation_provider": {
@@ -236,8 +236,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "title_ja": "新興市場の信用はエネルギーショックの中でも回復力を示す",
       "translation_provider": {
@@ -276,8 +276,8 @@
         "AI・半導体"
       ],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "title_ja": "ヘルスケアの次の成長ドライバー |モルガン・スタンレー",
       "translation_provider": {
@@ -313,8 +313,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "title_ja": "ヘルスケア消費主義の台頭 |モルガン・スタンレー",
       "translation_provider": {
@@ -350,8 +350,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "AI エージェントの勝者と敗者 |モルガン・スタンレー",
@@ -387,8 +387,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "AI データセンター、関税、イランへの中期的な影響",
@@ -424,8 +424,8 @@
         "債券・金利"
       ],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "金利上昇が心配な場合に考慮すべき5つのチャート",
@@ -466,8 +466,8 @@
         "投資戦略・資金フロー"
       ],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "債券投資家は債務の波にどう乗り切るか",
@@ -503,8 +503,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "AI ブームか、それとも破滅か?あなたの質問が解決されました",
@@ -536,8 +536,8 @@
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "title_ja": "ボラティリティの中で積極的なミュニ投資がどのように価値を引き出すことができるか",
@@ -611,8 +611,8 @@
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "title_ja": "週間市場解説 |ブラックロック投資研究所",
       "translation_provider": {
@@ -644,8 +644,8 @@
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "title_ja": "3+1 アクティブ投資家シリーズ |ブラックロック",
       "translation_provider": {
@@ -681,8 +681,8 @@
       ],
       "secondary_categories": [],
       "translation_errors": {
-        "title_ja": "google_public:HTTP_429;mymemory_public:HTTP_429",
-        "excerpt_ja": "google_public:HTTP_429;mymemory_public:HTTP_429"
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
       },
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
@@ -806,12 +806,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "証券サービス",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "長期にわたる投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行体が急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
     },
     {
       "firm": "J.P. Morgan Research",
@@ -832,12 +838,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "セキュリティとレジリエンスのイニシアティブ",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "長期にわたって活躍してきた当社の投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行体が急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
     },
     {
       "firm": "J.P. Morgan Research",
@@ -858,12 +870,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "市場と経済に関する洞察 | J.P. Morgan",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "長期にわたって活躍する当社の投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行体が急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
     },
     {
       "firm": "Vanguard",
@@ -1088,12 +1106,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "市場のボラティリティ：ボラティリティの高い市場における投資戦略 | Fidelity",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "フィデリティのリーダーたちが選挙結果を掘り下げ、それが経済政策やあなたのお金にどのような影響を及ぼすかを解説します。市場が乱高下するようなときには、投資計画を立ててそれに忠実であることが重要です。当社は、お客様が現在おられる財務上の状況からスタートし、お客様が望む状況に到達できるようお手伝いします。業界をリードする当社の投資分析を入手し、当社の調査を活用してください。この情報は教育を目的としており、個別対応ではありません。"
     },
     {
       "firm": "Fidelity",
@@ -1166,13 +1190,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2025-12-31",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "バックドア・ロスIRA：その概要と設定方法 | Vanguard",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "バックドア・ロスIRAとは？バックドアRoth IRAを活用して退職金を最大化するためのプロセス、メリット、手順について見ていきましょう。バックドア・ロスIRAとは、高所得の投資家の一部が、まず従来のIRAに非控除対象の拠出を行い、その後その資産をロスIRAに転換することで、ロスIRAに拠出する戦略のことです。所得が直接のRoth IRA拠出の制限を超える投資家は、"
     },
     {
       "firm": "Vanguard",
@@ -1312,13 +1342,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-10-26",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "年末に向けてM&Aを形作る4つの要因",
+      "translation_provider": {
+        "title_ja": "mymemory_public",
+        "excerpt_ja": "mymemory_public"
+      },
+      "excerpt_ja": "長期にわたる当社の投資チームを前面に押し出し、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行会社が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
     },
     {
       "firm": "PIMCO",
@@ -1350,12 +1386,12 @@
       "published_candidate": "2026-02-10",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "インカムファンド最新情報：アクティブ運用による優れたリターン | PIMCO",
+      "title_ja": "インカムファンド最新情報：アクティブ運用による際立ったリターン | PIMCO",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "2025年は固定収益資産にとって好調な年となり、2026年に向けての環境も引き続き非常に良好に見えます。魅力的な初期利回り、世界経済情勢の分化、市場の変化により、PIMCOが10年以上ぶりのアクティブな債券投資の絶好の機会と考える状況が生まれています。ここでは、アルフレッド・ムラタ氏、ジョシュ・アンダーソン氏とともにPIMCOインカムファンドを運用するダン・イヴァシン氏が質問にお答えします。"
+      "excerpt_ja": "2025年は債券投資にとって好調な年となり、2026年に向けての環境も引き続き非常に良好に見えます。魅力的な初期利回り、世界経済情勢の分化、市場の変化により、PIMCOが10年以上ぶりのアクティブな債券投資の絶好の機会と考える状況が生まれています。ここでは、アルフレッド・ムラタ氏、ジョシュ・アンダーソン氏とともにPIMCOインカムファンドを運用するダン・イヴァシン氏が質問にお答えします。"
     },
     {
       "firm": "PIMCO",
@@ -1390,12 +1426,12 @@
       "published_candidate": "2026-04-01",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "マルチアセットポートフォリオにおけるグローバル株式投資機会への体系的な視点 | PIMCO",
+      "title_ja": "マルチアセットポートフォリオにおけるグローバル株式投資機会への体系的なアプローチ | PIMCO",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "システマティック株式投資とは、憶測や勘ではなく、明確なルールとデータを用いて株式市場に投資する方法です。このアプローチでは、トレンドやニュースの見出しに基づいて株式を選ぼうとするのではなく、リサーチ、データ、テクノロジーを活用して、世界の市場における機会を体系的に特定します。その目標とは？PIMCOのマルチアセット戦略の投資家が、より安定的に投資を成長させ、過剰な集中を回避できるようにすることです。"
+      "excerpt_ja": "システマティック株式投資とは、憶測や直感ではなく、明確なルールとデータを用いて株式市場に投資する方法です。このアプローチでは、トレンドやニュースの見出しに基づいて株式を選ぼうとするのではなく、リサーチ、データ、テクノロジーを活用して、世界の市場における機会を体系的に特定します。その目的は？PIMCOのマルチアセット戦略の投資家が、より安定的に投資を成長させ、過剰な集中を回避できるようにすることです。"
     },
     {
       "firm": "PIMCO",
@@ -1432,7 +1468,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "トップダウンのマクロ経済および市場を規定するトレンドと、ボトムアップの動向、フロー、リスクの両方を評価することで、現在、債券ETFを特徴づけ、将来の機会を推進する可能性が高いいくつかの主要なテーマを特定しました。絶えず変化する投資環境において、柔軟性は、固定収益投資家にとっての合い言葉になりつつあります。アクティブコアおよびマルチセクターの固定収益ETFの急増がその証拠です。"
+      "excerpt_ja": "トップダウンのマクロ経済および市場を規定するトレンドと、ボトムアップの動向、フロー、リスクの両方を評価することで、現在、債券ETFを特徴づけ、将来の機会を推進する可能性が高いいくつかの主要なテーマを特定しました。絶えず変化する投資環境において、柔軟性は固定収益投資家にとってのキーワードになりつつあります。アクティブコアおよびマルチセクターの固定収益ETFの急増が、その証拠です。"
     },
     {
       "firm": "PIMCO",
@@ -1460,12 +1496,12 @@
       "published_candidate": "2023-12-14",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "ECBは引き続き警戒し、注視している | PIMCO",
+      "title_ja": "ECBは引き続き注視し、注力している | PIMCO",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "欧州中央銀行（ECB）は12月、政策金利を4%のまま据え置きました。金利はおそらくピークに達しているため、焦点はECBがいつ利下げを開始するかへと移っています。最近のインフレの動きは好ましいものとなっていますが、市場は現在、中央銀行の目標に向けて急速なデフレーションを完全に織り込んでおり、来年3月頃に最初の利下げが行われると見込んでいます。ユーロ圏の経済モメンタムは"
+      "excerpt_ja": "欧州中央銀行（ECB）は12月、政策金利を4%のまま据え置きました。金利はおそらくピークに達したと思われるため、焦点はECBがいつ利下げを開始するかへと移っています。最近のインフレの動向は好ましいものとなっていますが、市場は現在、中央銀行の目標に向けて急速なデフレが進むことを完全に織り込んでおり、来年3月頃に最初の利下げが行われると見込んでいます。ユーロ圏の経済モメンタムは"
     },
     {
       "firm": "PIMCO",
@@ -1498,7 +1534,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "12月の会合後、米連邦準備制度理事会（FRB）の当局者は、米国経済をソフトランディングに導く能力に対する自信が高まっていることを強調し、そのため利下げのプロセスを開始すると述べました。2018年の講演でジェローム・パウエルFRB議長自身が述べたように、金融政策戦略はリスク管理の演習です。これまでの連邦公開市場委員会（FOMC）の声明に組み込まれていた利上げ傾向を緩和することで、"
+      "excerpt_ja": "12月の会合の後、米連邦準備制度理事会（FRB）の当局者は、米国経済をソフトランディングに導き、それによって利下げのプロセスを開始する能力に対する自信が高まっていることを強調しました。2018年の演説でジェローム・パウエルFRB議長自身が述べたように、金融政策戦略はリスク管理の一環です。これまでの連邦公開市場委員会（FOMC）の声明に組み込まれていた利上げ傾向を緩和することで、"
     },
     {
       "firm": "Schroders",
@@ -1843,7 +1879,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "共感と明確さをもって、新しく親になった方々のためのファイナンシャルプランニングを進めましょう。このガイドでは、主要なお金の動きをわかりやすく説明し、すべての段階で準備が整い、サポートされていると感じられるようにお手伝いします。ファイナンシャルプランニングの目標に優先順位をつけ、トレードオフを管理し、ご自身の状況に合ったプランを立てる方法を学びましょう。出産にかかる費用は、お住まいの地域、医療保険の適用範囲、保育の選択肢、ご家族のニーズによって大きく異なります。もし"
+      "excerpt_ja": "共感と思いやりをもって、新しく親となった方々のためのファイナンシャルプランニングを明確にご案内します。このガイドでは、主要なお金の動きをわかりやすく説明し、すべての段階で準備が整い、サポートされていると感じられるようにお手伝いします。ファイナンシャルプランニングの目標に優先順位をつけ、トレードオフを管理し、ご自身の状況に合ったプランを立てる方法を学びましょう。出産にかかる費用は、お住まいの地域、医療保険の適用範囲、保育の選択肢、ご家族のニーズによって大きく異なります。"
     },
     {
       "firm": "Vanguard",
@@ -1882,7 +1918,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ポートフォリオにどの程度のプライベートエクイティが適切かを学びましょう。配分範囲、リスク、流動性のトレードオフ、そして20%が多すぎる可能性がないかを探ります。プライベートエクイティは、株式公開市場では得られない企業や機会へのエクスポージャーを提供できます。プライベートエクイティがポートフォリオで果たすことができる役割と、それがお客様の目標に合致しているかどうかを見ていきましょう。プライベートエクイティは、世界の株式市場において成長を続けるセグメントです。"
+      "excerpt_ja": "ポートフォリオにどの程度のプライベートエクイティが適切かを学びましょう。アロケーションの範囲、リスク、流動性のトレードオフ、そして20%が多すぎるかどうかを検討しましょう。プライベートエクイティは、株式公開市場では得られない企業や機会へのエクスポージャーを提供することができます。プライベートエクイティがポートフォリオで果たすことができる役割と、それがお客様の目標に合致しているかどうかを見ていきましょう。プライベートエクイティは、世界の株式市場において成長を続けるセグメントです。"
     },
     {
       "firm": "Vanguard",
@@ -1915,7 +1951,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "当社の新年の財務計画チェックリストを活用すれば、効率的に借金を処理し、セーフティネットを構築し、自信と明確さを持って財務計画を立てることができます。新年は、ご自身の財務状況を把握し、目標達成に向けた計画を立てるのに最適な時期です。年間財務計画をスタートさせるためにできる5つのことをご紹介します。家計を簡単に把握できるだけでも、大きな違いが生まれます。"
+      "excerpt_ja": "当社の新年の財務計画チェックリストを活用すれば、効率的に借金を処理し、セーフティネットを構築し、自信と明確さを持って財務計画を立てることができます。新年は、ご自身の財務状況を把握し、目標を達成するための計画を立てるのに最適な時期です。年間財務計画をスタートさせるためにできる5つのことをご紹介します。家計を簡単に把握できるだけでも、大きな違いが生まれます。"
     },
     {
       "firm": "Vanguard",
@@ -1948,7 +1984,7 @@
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "詐欺師は感情につけ込み、経験豊富な投資家さえも危険にさらします。バンガードの専門家が、文化的規範が詐欺のリスクを高める仕組みを解説します。ジョン・ジネリ氏は、バンガードの投資家保護部門の責任者であり、バンガードの高齢者および脆弱な投資家を保護するための戦略と業務の開発および指揮を担当しています。ジネリ氏は、リテールクライアントにサービスを提供し、金銭的搾取から保護する分野を監督しています。"
+      "excerpt_ja": "詐欺師は感情につけ込み、経験豊富な投資家さえも危険にさらします。バンガードの専門家が、文化的規範が詐欺のリスクを高める仕組みを解説します。ジョン・ジネリ氏は、バンガードの投資家保護部門の責任者であり、バンガードの高齢者および脆弱な投資家を保護するための戦略と業務の開発および指揮を担当しています。ジネッリ氏は、リテールクライアントにサービスを提供し、金銭的搾取から保護する分野を監督しています。"
     },
     {
       "firm": "Amundi",
@@ -2262,9 +2298,299 @@
       "published_candidate": "2026-03-04",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "State Street",
+      "official_url": "https://www.ssga.com/hk/en/institutional/insights/weekly-economic-perspectives-12-january-2026",
+      "link_title": "Weekly Economic Perspectives 12 January 2026",
+      "title": "US labor soft, but no acute stress | State Street",
+      "published": null,
+      "categories": [
+        "マクロ経済"
+      ],
+      "excerpt": "Labor market data show continued softness in the US and Canada, while Australia’s inflation eases. Next week, watch for steady US inflation and a potential rebound in EU industry. The dense data fog that had descended upon the US economy due to the prolonged government shutdown is finally starting to lift. New labor market updates this week confirm a backdrop of softness without acute weakness. Nonfarm payroll employment rose a weaker-than-expected 50k in December, but the bigger story perhaps was the big downward revision to the October estimate, which now indicates a net loss of 173k jobs that month, compared with the 105k decline reported previously. While this is water under the bridge to some extent, it does better match our own estimates of the ultimate impact of the DOGE deferred layoffs announced in the spring but effective in October. The latest data point to job losses averaging 22k per month in Q4 2025. Performance is poised to improve from here, if for no other reason that there is no DOGE 2.0 on the horizon, but the trend of soft labor demand is here to stay, as evidenced by another drop in job openings. Without a pickup in labor demand, there can be no pickup in hiring. Constraints to labor supply (mostly via immigration) will likely be the factor keeping the unemployment rate in check, although we believe risks are clearly to the upside. The unemployment rate ticked down a tenth to 4.4% in December (November was also revised down by a tenth to 4.5%) but hours worked remain weak and imply more vulnerability under the surface. Wage data was somewhat mixed, with overall average hourly earnings (AHE) inflation up two tenths to 3.8% YoY but AHE for production and non-supervisory employees down to 3.6% YoY, an almost four-year low. The takeaway here confirms Ch",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "マクロ経済"
+      ],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2026-01-12",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "State Street",
+      "official_url": "https://www.ssga.com/hk/en/institutional/insights/fixed-income-safi-climate-a-framework",
+      "link_title": "Fixed Income Safi Climate A Framework",
+      "title": "Systematic Active Fixed Income Climate Strategies",
+      "published": null,
+      "categories": [
+        "債券・金利"
+      ],
+      "excerpt": "Our analysis suggests that climate criteria can be incorporated into the SAFI framework with limited impact on historical key portfolio characteristics and risk-adjusted returns. Learn more from Nataliya Ivanova, Senior Client Portfolio Manager, Fixed Income. Video content has been blocked in accordance with your cookie settings. You can access this feature by accepting all cookies or adjusting your cookie settings below. SAFI Climate allows investors access to the same diversification relative to fundamental actively-managed portfolios as the SAFI strategies, while allowing investors to incorporate specified sustainability criteria into their portfolios. In this paper, we compare two of the systematic active fixed income (SAFI) strategies we offer: a climate- and sustainability aware-themed investment grade (IG) corporate bond strategy (“SAFI Climate”), and a standard SAFI investment grade corporate bond strategy that does not incorporate any sustainability objectives (“SAFI”). Performance differential between the SAFI Climate and SAFI standard strategies (typical) 1",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "債券・金利"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2026-09-28",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "State Street",
+      "official_url": "https://www.ssga.com/hk/en/institutional/insights/long-term-asset-class-forecasts-q1-2026",
+      "link_title": "Long Term Asset Class Forecasts Q1 2026",
+      "title": "Long-Term Asset Class Forecasts: Q1 2026 | State Street",
+      "published": null,
+      "categories": [],
+      "excerpt": "Our longer-term asset class forecasts are forward-looking estimates of total return and risk premia, generated through a combined assessment of current valuation measures, economic growth, inflation prospects, yield conditions as well as historical price patterns. We also include shorter-term return forecasts that incorporate output from our multi-factor tactical asset allocation models. Our latest forecasts are now available. Read more to learn about the process we use to arrive at our return forecasts for the major asset classes. For a copy of the latest quarterly investment commentary from the Investment Solutions Group, please reach out to your State Street representative. The starting point for our nominal asset class return projections is an inflation forecast. We incorporate both estimates of long-term inflation and the inflation expectations implied in current bond yields. US Treasury Inflation-Protected Securities (TIPS) provide a market observation of the real yields that are available to investors. The difference between the nominal bond yield and the real bond yield at longer maturities furnishes a marketplace assessment of long-term inflation expectations. Our long-term forecasts for global cash returns incorporate what we view as the normal real return that investors can expect to earn over time. Historically, cash investors have earned a modest premium over inflation but we also take current and forward-looking global central bank policy rates into consideration in formulating our cash forecast. Our return forecasts for fixed income are derived from current yield conditions together with expectations as to how real and nominal yield curves will evolve relative to historical precedent. We then build our benchmark forecasts from discrete analysis of relevan",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2026-01-23",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "State Street",
+      "official_url": "https://www.ssga.com/hk/en/institutional/insights/why-asian-bond-markets-offer-diverse-opportunities",
+      "link_title": "Why Asian Bond Markets Offer Diverse Opportunities",
+      "title": "Why Asian bond markets offer diverse opportunities",
+      "published": null,
+      "categories": [
+        "債券・金利",
+        "その他の産業テーマ"
+      ],
+      "excerpt": "While Asian bonds are sometimes viewed as a single sector, a closer look reveals that the region and its fixed-income markets are highly varied. Asian markets lie at different points along their economic paths. Some, such as Singapore, are advanced, while others, like Vietnam, are at an earlier stage of development. Unsurprisingly, this is reflected in the differing fundamentals across these territories, as well as in their policy paths and central bank settings. In this article, we examine how these markets differ and assess their medium-term economic outlooks. China has been grappling with relatively high youth unemployment, weak domestic consumption, and a troubled real-estate sector. Property in China was long viewed as a store of wealth, and when it rose in value, people felt more affluent and more inclined to spend. Unfortunately, this ‘wealth effect’ can also go into reverse when property values decline. The International Monetary Fund (IMF) estimated in December 2025 that to fix the property sector in China, the government would need to intervene to remove economically unviable developers from the market. They projected that this would take about three years and cost about 5% of China’s gross domestic product (GDP).1 A further issue is that China’s welfare safety net is less generous than in more developed markets. This makes people more inclined to save money for the future rather than consume more goods and services now. In contrast to domestic problems, the export sector in China has grown strongly despite recent tariff tensions with the US. In response, policymakers in China have announced further measures in their most recent five-year plan to boost domestic consumption. This may assist China’s transition from an export-led to a more balanced economy, in wh",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "債券・金利"
+      ],
+      "secondary_categories": [
+        "その他の産業テーマ"
+      ],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2026-03-10",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "State Street",
+      "official_url": "https://www.ssga.com/hk/en/institutional/insights/the-transition-of-power-at-the-federal-reserve",
+      "link_title": "The Transition Of Power At The Federal Reserve",
+      "title": "The transition of power at the Federal Reserve",
+      "published": null,
+      "categories": [],
+      "excerpt": "Fed transition worries look like a tempest in a teapot as institutional resilience holds and geopolitics shape policy. The congressional stars appear to be aligning for Kevin Warsh to be confirmed as the next Fed chair by May 15, when Jerome Powell’s term as chair ends. We expect Powell to step down from the Board of Governors as well, despite his term running through early 2028. Separately, we expect Governor Stephen Miran to be renominated for a full term and to remain on the Federal Open Market Committee (FOMC). What are the implications of these permutations? Simmering worries about the erosion of Fed’s independence amid perceived political pressure to lower interest rates have been a recurrent theme in client conversations over the past year. We have repeatedly argued (last September and again in January) that these concerns were overblown given systemic guardrails and institutional resilience that favor policy continuity. That view has been reinforced by recent developments. The end of the Department of Justice’s investigation into Fed renovation cost overruns strikes us as (perhaps forced) recognition on the part of the administration that overly aggressive tactics can backfire—not unlike what has transpired with immigration enforcement. The broader and encouraging message here is that the system overall is more stable and resilient than what appears on the surface. While investors are right to worry about the potential erosion of that stability, overreacting to those concerns is unwise.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2026-04-29",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Invesco",
+      "official_url": "https://www.invesco.com/ae/en/insights/invesco-global-total-return-bond-fund.html",
+      "link_title": "Invesco Global Total Return Bond Fund.Html",
+      "title": "Introducing the Invesco Global Total Return Bond Fund",
+      "published": null,
+      "categories": [
+        "債券・金利"
+      ],
+      "excerpt": "Instruction: Change of selection promptly shifts the focus to a matching heading further down, on the same page. Following some of the largest ever adjustments in yields, fixed income markets are once again offering attractive return potential. Bond market volatility has also risen, potentially creating more opportunities for active fund managers with flexible bond products. Flexible bond funds typically have more flexibility to change asset allocation than traditional fixed income funds. We align risk and reward through our adaptable and opportunistic bond market allocations. This fund’s broad remit gives us the flexibility to take advantage of opportunities on both a short-term tactical and long-term strategic basis.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "債券・金利"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Invesco",
+      "official_url": "https://www.invesco.com/ae/en/insights/european-etf-snapshot.html",
+      "link_title": "European Etf Snapshot.Html",
+      "title": "European ETF Snapshot",
+      "published": null,
+      "categories": [],
+      "excerpt": "The European ETF market had its best quarter in terms of flows, with US$93 billion of NNA in Q1 eclipsing the US$91 billion in Q4 2024. The total AUM of US$2.38 trillion at the end of the quarter was helped by strong commodity returns (particularly from gold) and solid gains in fixed income markets. Equity returns were broadly flat in the quarter. The percentage of flows going into equities (80%) was in-line with the average in 2024, but we saw a shift away from the US towards Europe as the quarter progressed. This included broad European exposures, country-specific (namely Germany) and sectors. Global equities took top spot in the quarter, while smart beta continued to see increased demand. Equal weight, low volatility, value and high dividends were among the more defensive strategies that gathered interest as equity markets came under pressure. Investors' risk-off attitude was also reflected in fixed income and commodity flows. Cash management was the only fixed income category that made it into the top 10 for net inflows although Euro government bonds also saw healthy demand. Sentiment towards US Treasuries waned in March, but net flows remained positive for the quarter. Gold was the big winner in the commodity asset class. Flows into gold ETPs have been positive for the past four months after being largely absent for most of the gold price rally before then. Gold was the best-performing asset in Q1 with a 19% return, driven by the allure of its perceived \"safe haven\" characteristics as equity markets fell and the economic outlook became increasingly uncertain. In our latest ETF Snapshot, we’ve highlighted opportunities across asset classes that might be worth considering in the current market environment, including a few spotlight ETFs that may be of interest.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2025-04-25",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Invesco",
+      "official_url": "https://www.invesco.com/ae/en/insights/topic/asset-allocation.html",
+      "link_title": "Asset Allocation.Html",
+      "title": "Asset Allocation Insights | Invesco",
+      "published": null,
+      "categories": [
+        "投資戦略・資金フロー"
+      ],
+      "excerpt": "Insights Asset Allocation Read actionable insights from our market strategy and global solutions teams. Where do they see the greatest opportunities in the short-, medium- and long-term? Capital market assumptions | Q3 2026 Invesco Solutions develops capital market assumptions (CMAs) that provide long-term estimates for the behaviour of major asset classes globally. 12 October 2026 Quarterly Global Asset Allocation 2026 Outlook Explore Paul Jackson’s Invesco Big Picture report, covering 2026 themes, markets and asset allocation 1 April 2026 Global Fixed Income Strategy Monthly Report | October 2026 Discover our Global Fixed Income Strategy Monthly Report, we offer an outlook for interest rates and currencies and look at which fixed income assets are favoured across a range of market environments. 9 October 2026 Q3 Alternative Opportunities report Get an in-depth outlook on private credit and equity, real assets, and hedge funds from our alts experts, including positioning and insight on valuations, fundamentals, and trends. 11 September 2026 Email Phone About Opens in a new tab Show transcript Transcript Explore all insights Asset allocation ETFs and ETCs Markets and economy Alternatives Equity Fixed income View all insights Please help us get you to the page you requested by following the steps below. I confirm that I am a Professional Client within Dubai International Financial Centre, U.A.E. and I agree and will comply with the Terms and Conditions of this site.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "投資戦略・資金フロー"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Invesco",
+      "official_url": "https://www.invesco.com/ae/en/insights/topic/russia-ukraine-crisis.html",
+      "link_title": "Russia Ukraine Crisis.Html",
+      "title": "Russia-Ukraine Crisis",
+      "published": null,
+      "categories": [],
+      "excerpt": "economic and geopolitical implications Russia-Ukraine crisis Read our commentary on the war in Ukraine for insights into the economics of conflict. And, how has it affected the international geopolitical order and financial markets? ETF What’s driving the Nasdaq-100’s long-term strength? Chris Mellor Built around companies driving innovation and adapting to change, the Nasdaq-100 may be well positioned to be the index of the future. 12 November 2026 Private credit Broadening the opportunity set in upper middle market Michael Craig Discover how combining lending markets can broaden credit opportunities in Europe's upper middle market as borrower needs evolve. 10 November 2026 Markets and Economy Monthly Market Roundup | Global Market Insights & Analysis Invesco Download Invesco's Monthly Market Roundup for expert analysis of global markets, including Europe, the UK, US, Asia, emerging markets and Fixed Income. 4 November 2026 Asset allocation Capital market assumptions | Q3 2026 Invesco Investment Solutions, Invesco Invesco Solutions develops capital market assumptions (CMAs) that provide long-term estimates for the behaviour of major asset classes globally. 12 October 2026 Fixed Income Global Fixed Income Strategy Monthly Report | October 2026 Invesco Discover our Global Fixed Income Strategy Monthly Report, we offer an outlook for interest rates and currencies and look at which fixed income assets are favoured across a range of market environments. 9 October 2026 ETC Quarterly Gold Insights: A review of gold in Q3 2026 and outlook for the rest of the year Sam Whitehead, Benjamin Jones, David Scales Explore the latest gold price trends, inflation and Fed rate expectations, plus our outlook for gold and how an allocation might help with portfolio diversification. 7 Octob",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Invesco",
+      "official_url": "https://www.invesco.com/ae/en/insights/capital-markets-assumptions.html",
+      "link_title": "Capital Markets Assumptions.Html",
+      "title": "Capital market assumptions | Q3 2026",
+      "published": null,
+      "categories": [],
+      "excerpt": "Invesco Solutions develops capital market assumptions (CMAs) that provide long-term estimates for the behaviour of major asset classes globally. The assumptions, which are based on a 10-year investment time horizon, are intended to guide strategic asset allocations. For each selected asset class, we develop assumptions for expected return, standard deviation of return (volatility) and correlation with other asset classes. The value of investments and any income will fluctuate (this may partly be the result of exchange rate fluctuations) and investors may not get back the full amount invested. Views and opinions are based on current market conditions and are subject to change. This is marketing material and not financial advice. It is not intended as a recommendation to buy or sell any particular asset class, security or strategy. Regulatory requirements that require impartiality of investment/investment strategy recommendations are therefore not applicable nor are any prohibitions to trade before publication. Please help us get you to the page you requested by following the steps below.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2026-10-12",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 68,
+  "archive_count": 78,
   "archive_note": "first_seen is a GMI tracking date, never a publication date; historical first discovery may be unknown. Unverified dates are kept as published_candidate, never displayed as published. Excerpts are partial machine translations."
 }
