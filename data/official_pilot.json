@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T14:31:27.197272+00:00",
+  "updated": "2026-11-18T14:36:31.706871+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -68,9 +68,9 @@
     },
     {
       "firm": "BNP Paribas",
-      "official_url_candidates": 0,
-      "tested": 0,
-      "extracted": 0,
+      "official_url_candidates": 62,
+      "tested": 5,
+      "extracted": 4,
       "error": null
     },
     {
@@ -754,12 +754,18 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "企業責任に関する記事と洞察 | JPモルガン",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "機関投資家の信頼を獲得するために、長年にわたる投資チームを投入します。世界クラスの調査、ツール、データ、分析を通じて活用された市場をリードする流動性への直接アクセス。機関投資家、従来型および代替資産およびファンドマネージャー、ブローカーディーラー、株式発行会社が急速に進化する市場の需要に応えられるよう支援します。最先端のテクノロジーとinnoを活用"
     },
     {
       "firm": "J.P. Morgan Research",
@@ -814,10 +820,10 @@
       "is_verified_new": false,
       "title_ja": "証券サービス",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "長期にわたって活躍してきた当社の投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを活用し、市場をリードする流動性に直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行体が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
+      "excerpt_ja": "機関投資家の信頼を獲得するために、長年にわたる投資チームを投入します。世界クラスの調査、ツール、データ、分析を通じて活用された市場をリードする流動性への直接アクセス。機関投資家、従来型および代替資産およびファンドマネージャー、ブローカーディーラー、株式発行会社が急速に進化する市場の需要に応えられるよう支援します。最先端のテクノロジーとinnoを活用"
     },
     {
       "firm": "J.P. Morgan Research",
@@ -844,12 +850,12 @@
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "セキュリティとレジリエンスのイニシアティブ",
+      "title_ja": "セキュリティと復元力の取り組み",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "長期にわたって活躍してきた当社の投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを活用した、市場をリードする流動性への直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行者が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
+      "excerpt_ja": "機関投資家の信頼を獲得するために、長年にわたる投資チームを投入します。世界クラスの調査、ツール、データ、分析を通じて活用された市場をリードする流動性への直接アクセス。機関投資家、従来型および代替資産およびファンドマネージャー、ブローカーディーラー、株式発行会社が急速に進化する市場の需要に応えられるよう支援します。最先端のテクノロジーとinnoを活用"
     },
     {
       "firm": "J.P. Morgan Research",
@@ -876,12 +882,12 @@
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "市場および経済に関する洞察 | J.P. Morgan",
+      "title_ja": "市場と経済に関する洞察 | JPモルガン",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "長期にわたる投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを活用した、市場をリードする流動性への直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、ブローカーディーラー、株式発行者が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
+      "excerpt_ja": "機関投資家の信頼を獲得するために、長年にわたる投資チームを投入します。世界クラスの調査、ツール、データ、分析を通じて活用された市場をリードする流動性への直接アクセス。機関投資家、従来型および代替資産およびファンドマネージャー、ブローカーディーラー、株式発行会社が急速に進化する市場の需要に応えられるよう支援します。最先端のテクノロジーとinnoを活用"
     },
     {
       "firm": "Vanguard",
@@ -1112,12 +1118,12 @@
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "市場のボラティリティ：ボラティリティの高い市場における投資戦略 | Fidelity",
+      "title_ja": "市場のボラティリティ: 不安定な市場に対する投資戦略 |忠実度",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "フィデリティのリーダーたちが選挙結果を掘り下げ、それが経済政策とあなたのお金にどのような影響を及ぼすかを解説します。市場が不安定になると、投資計画を立ててそれに従うことが重要になります。当社は、お客様の財務上の道のりの現在地でお迎えし、お客様が目指す場所に到達できるようお手伝いします。業界をリードする当社の投資分析を入手し、当社の調査を活用してください。この情報は教育を目的としており、個別対応ではありません。"
+      "excerpt_ja": "フィデリティのリーダーが選挙結果と、それが経済政策とお金に与える影響について詳しく掘り下げます。市場が不安定になったときは、投資計画を立ててそれを守ることが大切です。私たちは、あなたが経済的な旅の途中にいるところに会い、あなたが目指す場所に到達するのをお手伝いします。業界をリードする当社の投資分析を入手し、調査を活用してください。この情報は教育を目的としており、カスタマイズされたものではありません"
     },
     {
       "firm": "Fidelity",
@@ -1197,12 +1203,12 @@
       "published_candidate": "2025-12-31",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "バックドア・ロスIRA：その概要と設定方法 | Vanguard",
+      "title_ja": "バックドア Roth IRA: その概要とその設定方法 |ヴァンガード",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "バックドア・ロスIRAとは？バックドア・ロスIRAを活用して退職金を最大化するためのプロセス、メリット、手順について見ていきましょう。バックドア・ロスIRAとは、一部の高所得投資家がロスIRAに拠出するために用いる戦略で、まず従来のIRAに非控除拠出を行い、その後その資産をロスIRAに転換します。所得が直接のRoth IRA拠出の制限を超える投資家"
+      "excerpt_ja": "バックドア Roth IRA とは何ですか?退職後の貯蓄を最大化するためにバックドア Roth IRA を利用するプロセス、メリット、手順を確認してください。バックドア Roth IRA は、一部の高所得投資家が、最初に従来の IRA に控除対象外の拠出を行ってから、それらの資産を Roth IRA に変換することにより、Roth IRA に拠出するために使用する戦略です。収入が直接Roth IRAの制限を超える投資家（続き）"
     },
     {
       "firm": "Vanguard",
@@ -1349,12 +1355,12 @@
       "published_candidate": "2026-10-26",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "年末に向けてM&Aを形作る4つの要因",
+      "title_ja": "年末に向けて M&A を形成する 4 つの要因",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "長期にわたって活躍してきた当社の投資チームを前面に立て、機関投資家の信頼を獲得します。世界トップクラスのリサーチ、ツール、データ、アナリティクスを通じて、市場をリードする流動性に直接アクセス。機関投資家、伝統的およびオルタナティブな資産・ファンドマネージャー、証券会社、株式発行会社が、急速に変化する市場の要求に応えられるよう支援します。最先端のテクノロジーとイノベーションの活用"
+      "excerpt_ja": "機関投資家の信頼を獲得するために、長年にわたる投資チームを投入します。世界クラスの調査、ツール、データ、分析を通じて活用された市場をリードする流動性への直接アクセス。機関投資家、従来型および代替資産およびファンドマネージャー、ブローカーディーラー、株式発行会社が急速に進化する市場の需要に応えられるよう支援します。最先端のテクノロジーとinnoを活用"
     },
     {
       "firm": "PIMCO",
@@ -1386,12 +1392,12 @@
       "published_candidate": "2026-02-10",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "インカムファンド最新情報：アクティブ運用による際立ったリターン | PIMCO",
+      "title_ja": "インカムファンド最新情報: アクティブ運用による傑出したリターン |ピムコ",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "2025年は債券投資にとって好調な年となり、2026年に向けての環境も引き続き非常に良好に見えます。魅力的な初期利回り、世界経済情勢の分化、市場の変化により、PIMCOが10年以上ぶりのアクティブな債券投資の絶好の機会と考える状況が生まれています。ここでは、アルフレッド・ムラタ氏、ジョシュ・アンダーソン氏とともにPIMCOインカムファンドを運用するダン・イヴァシン氏が、質問にお答えします。"
+      "excerpt_ja": "債券投資は 2025 年に好調であり、2026 年に向けての背景は引き続き非常に前向きに見えます。魅力的な開始利回り、世界経済状況の相違、市場の変化により、PIMCOは、過去10年以上でアクティブ債券の最高の機会の1つであると考えています。ここでは、アルフレッド・ムラタ氏とジョシュ・アンダーソン氏とともにPIMCOインカム・ファンドを運用するダン・アイヴァシン氏が質問に答えています。"
     },
     {
       "firm": "PIMCO",
@@ -1463,12 +1469,12 @@
       "published_candidate": "2025-06-17",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "今日の債券ETF投資を特徴づける5つのテーマ | PIMCO",
+      "title_ja": "今日の債券ETF投資を定義する5つのテーマ |ピムコ",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "トップダウンのマクロ経済および市場を規定するトレンドと、ボトムアップの動向、フロー、リスクの両方を評価することで、現在、債券ETFを特徴づけ、将来の機会を推進する可能性が高いいくつかの主要なテーマを特定しました。絶えず変化する投資環境において、柔軟性は、固定収益投資家にとっての合い言葉になりつつあります。アクティブコアおよびマルチセクターの固定収益ETFの急増がその証拠です。"
+      "excerpt_ja": "トップダウンのマクロ経済と市場を定義するトレンドとボトムアップの展開、フロー、リスクの両方を評価し、今日の債券ETFを特徴づけ、将来の機会を促進する可能性が高いいくつかの重要なテーマを特定しました。進化し続ける投資環境において、債券投資家にとって柔軟性が合言葉になりつつあります。アクティブなコアETFとマルチセクター債券ETFの急増はこの証拠です。"
     },
     {
       "firm": "PIMCO",
@@ -1847,12 +1853,12 @@
       "published_candidate": "2023-06-06",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "長期見通し：余震経済 | PIMCO",
+      "title_ja": "長期見通し：余震経済 |ピムコ",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "2020年代の最初の数年間には、世界規模で深刻な経済的、財政的、地政学的な混乱が数多く発生しており、これらのショックの最終的な影響が完全に現れるまでには時間がかかるでしょう。PIMCOの最新のセキュラーフォーラムでは、最近の短期的な景気循環の動きが、より長期的な構造的影響をもたらす可能性について議論しました。世界経済は、大規模な財政政策と"
+      "excerpt_ja": "2020年代の最初の数年間は、世界規模で多くの深刻な経済、金融、地政学的混乱が発生しており、これらの衝撃の最終的な影響が完全に感じられるまでには時間がかかるでしょう。 PIMCOの最新の長期フォーラムでは、最近の短期的な景気循環がどのように長期にわたる長期的な影響を与える可能性があるかについて議論しました。世界経済は大規模な財政危機の時代を脱しつつあります。"
     },
     {
       "firm": "Vanguard",
@@ -1880,12 +1886,12 @@
       "published_candidate": "2026-09-04",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "新米親のためのファイナンシャルプランニング：費用の管理 | Vanguard",
+      "title_ja": "新しい親のための資金計画: 費用の管理 |ヴァンガード",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "共感と思いやりをもって、新しく親になった方々のためのファイナンシャルプランニングを明確に説明します。このガイドでは、主要なお金の動きをわかりやすく説明し、すべての段階で準備が整い、サポートされていると感じられるようにお手伝いします。ファイナンシャルプランニングの目標に優先順位を付け、トレードオフを管理し、ご自身の状況に合ったプランを立てる方法を学びましょう。出産にかかる費用は、お住まいの地域、医療保険の適用範囲、保育の選択肢、ご家族のニーズによって大きく異なります。"
+      "excerpt_ja": "共感と明確さをもって、新しく親になった人の資金計画を立てましょう。このガイドでは、礼金の動きについて詳しく説明しており、準備ができていて、あらゆる段階でサポートされていると感じられるようにします。財務計画の目標に優先順位を付け、トレードオフを管理し、独自の状況に合った計画を構築する方法を学びます。出産にかかる費用は、住んでいる場所、医療保険、託児所の選択、家族のニーズによって大きく異なります。もし"
     },
     {
       "firm": "Vanguard",
@@ -1919,12 +1925,12 @@
       "published_candidate": "2026-08-14",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "ポートフォリオの何パーセントをプライベートエクイティに投資すべきか？ | Vanguard",
+      "title_ja": "ポートフォリオの何パーセントをプライベート・エクイティにすべきでしょうか? |ヴァンガード",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "ポートフォリオに適切なプライベートエクイティの割合を学びましょう。配分範囲、リスク、流動性のトレードオフ、そして20%が多すぎる可能性について検討しましょう。プライベートエクイティは、株式公開市場では得られない企業や機会へのエクスポージャーを提供することができます。プライベートエクイティがポートフォリオで果たすことができる役割と、それがお客様の目標に合致しているかどうかを見ていきましょう。プライベートエクイティは、世界の株式市場において成長を続けるセグメントです。"
+      "excerpt_ja": "ポートフォリオにどの程度のプライベート・エクイティが適切であるかを学びましょう。配分範囲、リスク、流動性のトレードオフ、および 20% が多すぎるかどうかを検討します。プライベート・エクイティは、公開市場では利用できない企業へのエクスポージャーや機会を提供できます。プライベート・エクイティがあなたのポートフォリオの中で果たせる役割と、それがあなたの目標と一致しているかどうかを探ってみましょう。プライベートエクイティはグローバルエクイティの成長セグメントです"
     },
     {
       "firm": "Vanguard",
@@ -1952,12 +1958,12 @@
       "published_candidate": "2026-01-26",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "2026年の新年の財務計画チェックリスト | Vanguard",
+      "title_ja": "2026 年の新年の財務計画チェックリスト |ヴァンガード",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "当社の新年の財務計画チェックリストを活用すれば、効率的に借金を処理し、セーフティネットを構築し、自信と明確さを持って財務計画を立てることができます。新年は、ご自身の財務状況を振り返り、目標を達成するための計画を立てるのに最適な時期です。年間財務計画をスタートさせるためにできる5つのことをご紹介します。家計を簡単に把握できるだけでも、大きな違いが生まれます。"
+      "excerpt_ja": "当社の新年の財務計画チェックリストを使用すると、借金に効率的に対処し、セーフティ ネットを構築し、自信と明確さを持って財務計画を立てることができます。新年は、自分の経済状況を見直し、目標を達成するための計画を立てるのに最適な時期です。ここでは、年間財務計画を立て直すためにできる 5 つのことを紹介します。自分の財務状況を簡単に追跡できるだけでも、大きな違いが生まれます。かどうか"
     },
     {
       "firm": "Vanguard",
@@ -1985,12 +1991,12 @@
       "published_candidate": "2026-03-05",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "詐欺師が投資家の感情や直感を悪用する方法 | Vanguard",
+      "title_ja": "詐欺師は投資家の感情と本能をどのように悪用するのか |ヴァンガード",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "詐欺師は感情につけ込み、経験豊富な投資家さえも危険にさらします。バンガードの専門家が、文化的規範が詐欺のリスクを高める仕組みを解説します。ジョン・ジネリ氏は、バンガードの投資家保護部門の責任者であり、バンガードの高齢者および脆弱な投資家を保護するための戦略と業務の策定と統括を担当しています。ジネリ氏は、リテールクライアントにサービスを提供し、金銭的搾取から保護する分野を監督しています。"
+      "excerpt_ja": "詐欺師は感情を悪用し、賢明な投資家さえ危険にさらされます。バンガードの専門家は、文化的規範がいかに詐欺リスクを増大させるかを示します。ジョン・ジネリ氏はバンガードの投資家保護責任者であり、その責任にはバンガードの上級投資家および脆弱な投資家保護戦略と運営の開発と主導が含まれます。ジネリ氏は、小売顧客にサービスを提供し、金融搾取から保護する分野を監督しています。"
     },
     {
       "firm": "Amundi",
@@ -2170,7 +2176,7 @@
       "excerpt": "Our nowcast for Eurozone growth points to a moderate slowdown in Q4, albeit still robust, at 0.3% q/q (following 0.4 % q/q in Q3), underpinned by positive survey data and an expected pickup in industrial production. According to our nowcast, France GDP growth is expected to recover to 0.2% q/q in the 4th quarter. This growth is expected to be driven by a rebound in industrial production (particularly in the aeronautics sector) and continued favorable momentum in services. Our nowcast for Belgium GDP growth suggests another positive growth performance in Q4 (0.25% q/q). The range of estimates has improved as (slow) growth solidifies, with none of the models pointing to negative growth now. Despite consumer sentiment going down, manufacturing and construction post more positive sentiment and an increase in activity levels, as measured by transaction data. German growth is expected to remain stable in Q4 according to our nowcast, at +0.2% (following +0.3% in Q2 and +0.2% in Q3). The US economy is expected to grow above its potential in 2026, with an average annual growth rate of 2.2%, close to the 2025 rate (2.1%). This apparent resilience to the uncertainty, tariff and energy shocks, together with above-trend productivity growth, masks K-shaped growth, driven by investment linked to AI-optimism and consumption by the wealthiest amid a wealth effect (historically high stock market valuations). Inflation overshooting is set to continue (3.5% in 2026) at least through 2028, largely because of the rise in oil prices and tariffs – although the impact of these latter appears to be less significant than expected. The labour market is showing clear signs of improvement that should bring the unemployment rate down toward 4.0%. Given this shift in price and employment risks amid dy",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
-      "market_relevance": "Unclear; review required",
+      "market_relevance": "Needs human review",
       "error": null,
       "date_status": "unverified",
       "primary_categories": [],
@@ -2182,7 +2188,7 @@
       "japanese_status": "not_translated",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -2196,7 +2202,7 @@
       "excerpt": "• Business creations rose by 16% y/y as of Q3 2026, marking an acceleration compared with the growth seen in 2025 (5.3% y/y). • This increase was driven by sectors associated with new information and communication technologies, where the trend is gaining momentum. • Meanwhile, business bankruptcies rose by 1.7% y/y as of Q3 2026, according to the data from the Banque de France (vs. 3.6% y/y in 2025). After a more pronounced rise in the first quarter (8% y/y), this increase has since slowed. This moderation could continue, as, according to Altares, payment delays have decreased to an average of 12.3 days in the second quarter of 2026 (14.1 days a year earlier), compared with the European average of 13.1 days. • The rise in business bankruptcies is most pronounced in the services sector, which has simultaneously seen an increase in business creations. This trend is clear in the retail sector, with a 26% y/y increase in business creations as of Q3 2026, while business bankruptcies are up 3% y/y. • In construction and manufacturing, business bankruptcies have been declining since the Q2 2026.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
-      "market_relevance": "Unclear; review required",
+      "market_relevance": "Needs human review",
       "error": null,
       "date_status": "unverified",
       "primary_categories": [],
@@ -2208,7 +2214,7 @@
       "japanese_status": "not_translated",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -2224,7 +2230,7 @@
       "excerpt": "Will the same causes produce the same effects? In other words, will the war in Iran and the resulting surge in oil and gas prices lead to an inflationary shock comparable to that seen in 2022? Will their negative effects on growth be the same as those of the war in Ukraine and the subsequent energy shock? We have selected a set of indicators to track the impact of this new energy shock — caused by the war in the Middle East — on activity and prices in the Eurozone, the United States, oil and gas markets and emerging countries, and to see how much the current situation resembles that of 2022 at the outbreak of the conflict in Ukraine. Globally, based on the data available up to October 2026, the 2026 energy shock has had a less pronounced impact on activity and inflation than that of 2022: - The deterioration in business climate surveys following the outbreak of the conflict in Iran was, overall, less severe, and an improvement followed fairly quickly, driven by the positive impact of the AI boom. - Household confidence has been more affected by the rise in energy prices, without benefiting from the cushioning effect of the AI boom.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
-      "market_relevance": "Market-related candidate; review required",
+      "market_relevance": "Needs human review",
       "error": null,
       "date_status": "unverified",
       "primary_categories": [],
@@ -2238,7 +2244,7 @@
       "japanese_status": "not_translated",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -2255,7 +2261,7 @@
       "excerpt": "The significant increase in business creations since mid-2025 in the United States, France and Germany – and, to a lesser extent, in the United Kingdom – is continuing. Across the board, this trend is being driven by the information and communication sector and mostly by AI. It is spreading to other business services, while developments in consumer services, industry and construction are more mixed. However, in both the United States and France, the trend is broadening, suggesting that AI is facilitating business creation across all sectors. We have calculated the year-on-year change in the number of new business start-ups. The table categorises these results as positive (red), neutral (white) or negative (blue). The darker the colour, the larger the change. The data series are defined as follows: Germany = new entries in the companies register (start-ups) since 2008; France = business start-ups, including micro-entrepreneurs, since 2000; United Kingdom = businesses registered for VAT/PAYE since 2017; United States = business applications (tax identification number) since 2004. Sectors have been grouped together to ensure that the classification is standardised across all countries. For the third quarter, the German data only include the months of July and August. The four economies for which we have comparable data (the United States, France, Germany and the United Kingdom) have all seen, to varying degrees, an increase in the number of new business creations. While the timing varies across these countries, most of them are enjoying strong momentum. In the United States, there has been a noticeable acceleration since the second quarter of 2025, which has continued to strengthen. Germany has followed a similar trajectory, moving from slight declines at the start of 2024",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
-      "market_relevance": "Market-related candidate; review required",
+      "market_relevance": "Needs human review",
       "error": null,
       "date_status": "unverified",
       "primary_categories": [
@@ -2271,7 +2277,7 @@
       "japanese_status": "not_translated",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
