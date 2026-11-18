@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-18T15:07:34.672670+00:00",
+  "updated": "2026-11-18T22:20:22.413053+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
     {
       "firm": "Goldman Sachs",
-      "official_url_candidates": 5,
+      "official_url_candidates": 6,
       "tested": 5,
       "extracted": 4,
       "error": null
     },
     {
       "firm": "J.P. Morgan Asset Management",
-      "official_url_candidates": 643,
+      "official_url_candidates": 644,
       "tested": 5,
       "extracted": 5,
       "error": null
@@ -77,7 +77,7 @@
       "firm": "Schroders",
       "official_url_candidates": 7,
       "tested": 5,
-      "extracted": 1,
+      "extracted": 0,
       "error": null
     },
     {
@@ -1098,7 +1098,7 @@
       "categories": [
         "株式"
       ],
-      "excerpt": "Fidelity leaders dig into the election results and what it means for economic policy and your money. When markets get choppy, it pays to have an investing plan and to stick to it. We'll meet you where you are on your financial journey and help you get to where you want to be. Get our industry-leading investment analysis, and put our research to work. This information is intended to be educational and is not tailored to the investment needs of any specific investor.",
+      "excerpt": "This episode explores investing opportunities in Canada that could offer diversification. When markets get choppy, it pays to have an investing plan and to stick to it. We'll meet you where you are on your financial journey and help you get to where you want to be. Get our industry-leading investment analysis, and put our research to work. This information is intended to be educational and is not tailored to the investment needs of any specific investor.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
@@ -1118,12 +1118,12 @@
       "last_seen": "2026-11-18",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "市場のボラティリティ：ボラティリティの高い市場における投資戦略 | Fidelity",
+      "title_ja": "市場のボラティリティ: 不安定な市場に対する投資戦略 |忠実度",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "フィデリティのリーダーたちが選挙結果を掘り下げ、それが経済政策やあなたのお金にどのような影響を及ぼすかを解説します。市場が不安定になると、投資計画を立ててそれに従うことが重要になります。私たちは、お客様が財務面で現在どの段階にいらっしゃるかに応じてお迎えし、目標とする段階に到達できるようお手伝いします。業界をリードする当社の投資分析を入手し、当社の調査を活用してください。この情報は教育を目的としており、個別対応ではありません。"
+      "excerpt_ja": "このエピソードでは、多様化をもたらす可能性のあるカナダでの投資機会を探ります。市場が不安定になったときは、投資計画を立ててそれを守ることが大切です。私たちは、あなたが経済的な旅の途中にいるところに会い、あなたが目指す場所に到達するのをお手伝いします。業界をリードする当社の投資分析を入手し、調査を活用してください。この情報は教育を目的としたものであり、投資家向けに調整されたものではありません。"
     },
     {
       "firm": "Fidelity",
@@ -1392,12 +1392,12 @@
       "published_candidate": "2026-02-10",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "インカムファンド最新情報：アクティブ運用による優れたリターン | PIMCO",
+      "title_ja": "インカムファンド最新情報: アクティブ運用による傑出したリターン |ピムコ",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "2025年の固定収益投資は好調な年となり、2026年に向けての背景も引き続き非常に建設的なものとなっています。魅力的な初期利回り、世界経済情勢の分化、市場の変化により、PIMCOが10年以上ぶりのアクティブな債券投資の絶好の機会と考える状況が生まれています。ここでは、アルフレッド・ムラタ氏、ジョシュ・アンダーソン氏とともにPIMCOインカムファンドを運用するダン・イヴァシン氏が質問にお答えします。"
+      "excerpt_ja": "債券投資は 2025 年に好調であり、2026 年に向けての背景は引き続き非常に前向きに見えます。魅力的な開始利回り、世界経済状況の相違、市場の変化により、PIMCOは、過去10年以上でアクティブ債券の最高の機会の1つであると考えています。ここでは、アルフレッド・ムラタ氏とジョシュ・アンダーソン氏とともにPIMCOインカム・ファンドを運用するダン・アイヴァシン氏が質問に答えています。"
     },
     {
       "firm": "PIMCO",
@@ -1469,12 +1469,12 @@
       "published_candidate": "2025-06-17",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "今日の債券ETF投資を特徴づける5つのテーマ | PIMCO",
+      "title_ja": "今日の債券ETF投資を定義する5つのテーマ |ピムコ",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "トップダウンのマクロ経済および市場を規定するトレンドと、ボトムアップの動向、フロー、リスクの両方を評価することで、現在、債券ETFを特徴づけ、将来の機会を推進する可能性が高いいくつかの主要なテーマを特定しました。絶えず変化する投資環境において、柔軟性は固定収益投資家にとってのキーワードになりつつあります。アクティブコアおよびマルチセクターの固定収益ETFの急増がその証拠です。"
+      "excerpt_ja": "トップダウンのマクロ経済と市場を定義するトレンドとボトムアップの展開、フロー、リスクの両方を評価し、今日の債券ETFを特徴づけ、将来の機会を促進する可能性が高いいくつかの重要なテーマを特定しました。進化し続ける投資環境において、債券投資家にとって柔軟性が合言葉になりつつあります。アクティブなコアETFとマルチセクター債券ETFの急増はこの証拠です。"
     },
     {
       "firm": "PIMCO",
@@ -1853,12 +1853,12 @@
       "published_candidate": "2023-06-06",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "長期見通し：余震経済 | PIMCO",
+      "title_ja": "長期見通し：余震経済 |ピムコ",
       "translation_provider": {
-        "title_ja": "mymemory_public",
-        "excerpt_ja": "mymemory_public"
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "2020年代の最初の数年間には、世界規模で深刻な経済的、財政的、地政学的な混乱が数多く発生しており、これらのショックの最終的な影響が完全に現れるまでには時間がかかるでしょう。PIMCOの最新のセキュラーフォーラムでは、最近の短期的な景気循環の動きが、より長期的な構造的影響をもたらす可能性について議論しました。世界経済は、大規模な財政政策と"
+      "excerpt_ja": "2020年代の最初の数年間は、世界規模で多くの深刻な経済、金融、地政学的混乱が発生しており、これらの衝撃の最終的な影響が完全に感じられるまでには時間がかかるでしょう。 PIMCOの最新の長期フォーラムでは、最近の短期的な景気循環がどのように長期にわたる長期的な影響を与える可能性があるかについて議論しました。世界経済は大規模な財政危機の時代を脱しつつあります。"
     },
     {
       "firm": "Vanguard",
@@ -1891,7 +1891,7 @@
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "共感と明確さをもって、新しく親になった人の資金計画を立てましょう。このガイドでは、礼金の動きについて詳しく説明しており、準備ができていて、あらゆるステップでサポートされていると感じられるようにします。財務計画の目標に優先順位を付け、トレードオフを管理し、独自の状況に合った計画を構築する方法を学びます。出産にかかる費用は、住んでいる場所、医療保険、保育所の選択、家族のニーズによって大きく異なります。もし"
+      "excerpt_ja": "共感と明確さをもって、新しく親になった人の資金計画を立てましょう。このガイドでは、礼金の動きについて詳しく説明しており、準備ができていて、あらゆる段階でサポートされていると感じられるようにします。財務計画の目標に優先順位を付け、トレードオフを管理し、独自の状況に合った計画を構築する方法を学びます。出産にかかる費用は、住んでいる場所、医療保険、託児所の選択、家族のニーズによって大きく異なります。もし"
     },
     {
       "firm": "Vanguard",
@@ -1925,12 +1925,12 @@
       "published_candidate": "2026-08-14",
       "publication_date_status": "unknown",
       "is_verified_new": false,
-      "title_ja": "ポートフォリオの何パーセントをプライベートエクイティにすべきでしょうか? |ヴァンガード",
+      "title_ja": "ポートフォリオの何パーセントをプライベート・エクイティにすべきでしょうか? |ヴァンガード",
       "translation_provider": {
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "ポートフォリオにどの程度のプライベート・エクイティが適切であるかを学びましょう。配分範囲、リスク、流動性のトレードオフ、20% が多すぎるかどうかを検討します。プライベート・エクイティは、公開市場では利用できない企業へのエクスポージャーや機会を提供できます。プライベート・エクイティがあなたのポートフォリオの中で果たせる役割と、それがあなたの目標と一致しているかどうかを探ってみましょう。プライベートエクイティはグローバルエクイティの成長セグメントです"
+      "excerpt_ja": "ポートフォリオにどの程度のプライベート・エクイティが適切であるかを学びましょう。配分範囲、リスク、流動性のトレードオフ、および 20% が多すぎるかどうかを検討します。プライベート・エクイティは、公開市場では利用できない企業へのエクスポージャーや機会を提供できます。プライベート・エクイティがあなたのポートフォリオの中で果たせる役割と、それがあなたの目標と一致しているかどうかを探ってみましょう。プライベートエクイティはグローバルエクイティの成長セグメントです"
     },
     {
       "firm": "Vanguard",
@@ -1963,7 +1963,7 @@
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "私たちの新年の財務計画チェックリストを使用すると、借金に効率的に対処し、セーフティ ネットを構築し、自信と明確さを持って財務計画を立てることができます。新年は、自分の経済状況を見直し、目標を達成するための計画を立てるのに最適な時期です。ここでは、年間財務計画を立て直すためにできる 5 つのことを紹介します。自分の財務状況を簡単に追跡できるだけでも、大きな違いが生まれます。かどうか"
+      "excerpt_ja": "当社の新年の財務計画チェックリストを使用すると、借金に効率的に対処し、セーフティ ネットを構築し、自信と明確さを持って財務計画を立てることができます。新年は、自分の経済状況を見直し、目標を達成するための計画を立てるのに最適な時期です。ここでは、年間財務計画を立て直すためにできる 5 つのことを紹介します。自分の財務状況を簡単に追跡できるだけでも、大きな違いが生まれます。かどうか"
     },
     {
       "firm": "Vanguard",
@@ -2897,9 +2897,136 @@
       "published_candidate": "2025-11-24",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "Goldman Sachs",
+      "official_url": "https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline",
+      "link_title": "hero-card-gridOutlooksThe Global Economy Is Forecast to Grow 2.8% in 2027 as Oil Prices DeclineNov 13, 2026",
+      "title": "The Global Economy Is Forecast to Grow 2.8% in 2027 as Oil Prices Decline",
+      "published": null,
+      "categories": [
+        "マクロ経済",
+        "AI・半導体"
+      ],
+      "excerpt": "Analysis and forecasts on global economies and markets for the year ahead from economists and strategists across Goldman Sachs. Goldman Sachs Research expects steady global economic growth in 2027, as lower energy prices and still-strong capital expenditures in artificial intelligence (AI) outweigh tighter financial conditions and more neutral fiscal policy. Global GDP is predicted to increase 2.8% in 2027, up from 2.7% this year, Jan Hatzius, chief economist and head of Goldman Sachs Research, writes in a report. The economies of the US, Japan, and the UK are among those projected to grow faster than the consensus of economist estimates. As has been the case for the last several years, our economists are more optimistic than consensus on US economic expansion owing to resilient investment. They are more downbeat on the European growth outlook amid tighter financial conditions and their expectation that higher energy prices will start to bite this winter. Goldman Sachs Research also forecasts continued robust economic expansion in South Korea and Taiwan, reflecting another year of strong AI exports. While growth is expected to be solid, the risks to Goldman Sachs Research’s forecast for global GDP growth “are tilted to the downside,” Hatzius writes. Renewed escalation in the Iran war could result in another energy price surge. Large fiscal deficits could push up long-term yields more sharply, especially in France. AI capex could be lower than expected because of capacity constraints, regulation, credit market stress, or weaker demand, and Hatzius also sees early signs that AI adoption is weighing on the job market.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "マクロ経済",
+        "AI・半導体"
+      ],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2026-11-13",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Goldman Sachs",
+      "official_url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/playing-for-scale-the-future-of-sports-investing",
+      "link_title": "hero-card-gridExchangesPlaying for Scale: The Future of Sports InvestingPodcast|Nov 10, 2026",
+      "title": "Playing for Scale: The Future of Sports Investing",
+      "published": null,
+      "categories": [],
+      "excerpt": "Analysis and forecasts on global economies and markets for the year ahead from economists and strategists across Goldman Sachs. Investors are finding opportunities in sports as the media rights market surges and team valuations climb, Nicole Pullen Ross, lead of Sports and Entertainment Solutions within Goldman Sachs Private Wealth Management, explains on the Exchanges podcast. Read the related report. The value of sports media rights is soaring: The global sports media market grew 41% from 2020 through 2025 and has continued climbing to an expected $67 billion in 2026. Private equity and institutional investments are accelerating: Surging media rights are the core driver of growth, lifting sports franchise valuations to historic highs. Infrastructure and real estate are key: Modern venues and surrounding entertainment districts create benefits that go beyond game day and complement technology-driven fan personalization.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2026-11-10",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Goldman Sachs",
+      "official_url": "https://www.goldmansachs.com/insights/the-markets/how-will-higher-than-expected-inflation-data-impact-the-feds-next-rate-decisions",
+      "link_title": "hero-card-gridThe MarketsHow Will Higher-than-Expected Inflation Data Impact the Fed's Next Rate Decisions? Podcast|Nov 13, 2026",
+      "title": "How Will Higher than Expected Inflation Data Impact the Feds Next Rate Decisions",
+      "published": null,
+      "categories": [
+        "マクロ経済",
+        "株式",
+        "債券・金利"
+      ],
+      "excerpt": "Analysis and forecasts on global economies and markets for the year ahead from economists and strategists across Goldman Sachs. While a smaller hike remains more likely, October’s hotter-than-expected inflation data may open the door to a 50-basis point rate hike at the Fed’s December meeting, says Muhammad Qubbaj, co-head of North America Interest Rate Product Sales and Trading in Goldman Sachs FICC and Equities. A recent drop in oil prices is unlikely to give the Fed cover to look past the CPI number without becoming more aggressive in the inflation fight, Qubbaj says on this episode of The Markets podcast. He also explains why his base case is for the 10-Year Treasury yield to remain below recent highs. Chris Hussey: This is The Markets. I'm Chris Hussey, and today is Thursday, November 12th, and we're here on the Goldman Sachs trading floor with Muhammad Qubbaj, who is co-head of North American Interest Rate Sales and Trading within FICC and Equities. And today, we're going to talk about how a hot CPI print this week is impacting rates and bonds markets, and how that has a carryover effect to other markets around the world. Chris Hussey: Okay, Q, let's start with the CPI print. It came in hot this week. What did you make of the market's reaction? How do you think the Fed is going to respond? Muhammad Qubbaj: Well, there's no rest for the wicked when you look at the sources of volatility in the market, whether it's geopolitics, whether it's the Fed, whether it's AI.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "マクロ経済"
+      ],
+      "secondary_categories": [
+        "株式",
+        "債券・金利"
+      ],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2026-11-13",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Goldman Sachs",
+      "official_url": "https://www.goldmansachs.com/insights/articles/why-european-companies-are-forecast-to-have-robust-earnings-growth",
+      "link_title": "hero-card-gridEuropeWhy European Companies Are Forecast to Have Robust Earnings GrowthNov 13, 2026",
+      "title": "Why European Companies Are Forecast to Have Robust Earnings Growth",
+      "published": null,
+      "categories": [
+        "株式"
+      ],
+      "excerpt": "Analysis and forecasts on global economies and markets for the year ahead from economists and strategists across Goldman Sachs. European company earnings are growing rapidly—and at a faster pace than the euro area economy. The strong earnings have helped the stock market absorb higher bond yields, elevated energy prices, and subdued domestic economic growth, writes Sharon Bell, senior European equity strategist for Goldman Sachs Research, in a report. Our analysts expect earnings per share for the STOXX 600 index of European stocks to grow 18% in 2026 and 7% in 2027. Meanwhile, euro area nominal GDP is forecast to grow 3.3% in 2026 and 2.8% in 2027. “This raises an important question,” Bell writes. “Why are European earnings proving more resilient than the domestic economy would suggest?” Investors often use domestic GDP growth to gauge company earnings growth, Bell observes. “But this relationship is far from mechanical and can vary significantly over time,” she adds.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unverified",
+      "primary_categories": [
+        "株式"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {
+        "title_ja": "run_limit_reached",
+        "excerpt_ja": "run_limit_reached"
+      },
+      "japanese_status": "not_translated",
+      "first_seen": "2026-11-18",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-18",
+      "published_candidate": "2026-11-13",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 86,
+  "archive_count": 90,
   "archive_note": "first_seen is a GMI tracking date, never a publication date; historical first discovery may be unknown. Unverified dates are kept as published_candidate, never displayed as published. Excerpts are partial machine translations."
 }
