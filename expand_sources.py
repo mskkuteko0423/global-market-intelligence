@@ -93,7 +93,10 @@ def discover_links(firm, index, domain):
         hints = ('/insights/', '/research/', '/article/', '/articles/', '/commentary/', '/news/',
                  '/outlook/', '/viewpoints/', '/publications/', '/market/',
                  '/investment-views/', '/investment-insights/', '/perspectives/')
-        if not any(h in path + '/' for h in hints) and firm != 'BNP Paribas':
+        if firm == 'BNP Paribas':
+            if not path.startswith('/html/en-us/'):
+                return
+        elif not any(h in path + '/' for h in hints):
             return
         label = re.sub(r'\s+', ' ', label).strip()
         if not 18 <= len(label) <= 220:
