@@ -69,11 +69,12 @@ def discover_links(firm, index, domain):
             parts = [
                 p.lower() for p in urlparse(url).path.split('/') if p
             ]
-            if any(p in (
-                'id-id', 'de-de', 'fr-fr', 'es-es',
-                'it-it', 'pt-br', 'ja-jp', 'ko-kr',
-                'zh-cn', 'zh-hk', 'zh-tw'
-            ) for p in parts):
+            english_locales = {
+                'en', 'en-gb', 'en-us', 'en-au',
+                'en-ca', 'en-sg', 'en-hk',
+                'en-global', 'global'
+            }
+            if not any(p in english_locales for p in parts):
                 return
         path = urlparse(url).path.lower().rstrip('/')
         slug = path.rsplit('/', 1)[-1]
