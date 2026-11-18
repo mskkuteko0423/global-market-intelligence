@@ -422,6 +422,23 @@ def main():
                 try:
                     page_html = get_html(url, domain)
                     page = parse(page_html)
+
+                    if firm == 'Schroders':
+                        print("SCHRODERS_HTML_DIAG " + json.dumps({
+                            "url": url,
+                            "html_chars": len(page_html),
+                            "p_tags": len(re.findall(r'<p\b', page_html, re.I)),
+                            "article_tags": len(re.findall(r'<article\b', page_html, re.I)),
+                            "main_tags": len(re.findall(r'<main\b', page_html, re.I)),
+                            "json_ld": len(re.findall(
+                                r'application/ld\+json', page_html, re.I
+                            )),
+                            "article_body_keys": len(re.findall(
+                                r'articleBody|article-body|article_content',
+                                page_html, re.I
+                            )),
+                            "meta_keys": list(page.meta.keys())[:15],
+                        }, ensure_ascii=False), flush=True)
                     m = page.meta
                     record['title'] = m.get('og:title') or m.get('twitter:title') or anchor_title
                     record['published'] = find_date(page_html, m, anchor_title)
