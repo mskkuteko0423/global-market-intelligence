@@ -424,6 +424,7 @@ def main():
                                                   if record['categories'] else 'Unclear; review required')
                 except Exception as exc:
                     record['error'] = f'{type(exc).__name__}: {exc}'[:180]
+                print("ARTICLE_RESULT " + json.dumps({"firm": firm, "url": url, "title": record.get("title"), "page_type": record.get("page_type"), "excerpt_chars": len(record.get("excerpt") or ""), "error": record.get("error")}, ensure_ascii=False), flush=True)
                 articles.append(record)
         except Exception as exc:
             error = f'{type(exc).__name__}: {exc}'[:180]
