@@ -84,8 +84,7 @@ def discover_links(firm, index, domain):
 
     for source in sources:
         try:
-            page_timeout = 30 if firm == 'BNP Paribas' else 15
-            parser = parse(get_html(source, domain, timeout=page_timeout))
+            parser = parse(get_html(source, domain))
             if first_parser is None:
                 first_parser = parser
             for url, label in candidates(parser, source, domain):
