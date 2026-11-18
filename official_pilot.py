@@ -33,16 +33,16 @@ MAX_PER_FIRM = 5
 MAX_BYTES = 2_500_000
 # Market-wide coverage: AI is just one topic, never a prerequisite.
 CATEGORIES = {
-    '株式': ('equity', 'equities', 'stock', 'earnings', 's&p', 'nasdaq'),
-    '債券・金利': ('bond', 'fixed income', 'treasury', 'yield', 'interest rate', 'duration'),
-    '為替': ('currency', 'currencies', 'forex', 'fx market', 'dollar', 'yen'),
-    'マクロ経済': ('macro', 'econom', 'inflation', 'gdp', 'recession', 'central bank'),
-    'クレジット': ('credit', 'spread', 'high yield', 'private debt'),
-    'コモディティ': ('commodity', 'commodities', 'oil price', 'gold price', 'energy market'),
-    '投資戦略・資金フロー': ('portfolio', 'asset allocation', 'market outlook', 'investment outlook', 'capital flow', 'liquidity'),
-    '政策・地政学': ('geopolit', 'tariff', 'trade policy', 'fiscal policy', 'election'),
-    'AI・半導体': ('artificial intelligence', ' ai ', 'semiconductor', 'chipmaker', 'data center'),
-    'その他の産業テーマ': ('healthcare', 'technology', 'infrastructure', 'industry', 'sector'),
+    'æ ªå¼': ('equity', 'equities', 'stock', 'earnings', 's&p', 'nasdaq'),
+    'åµå¸ã»éå©': ('bond', 'fixed income', 'treasury', 'yield', 'interest rate', 'duration'),
+    'çºæ¿': ('currency', 'currencies', 'forex', 'fx market', 'dollar', 'yen'),
+    'ãã¯ã­çµæ¸': ('macro', 'econom', 'inflation', 'gdp', 'recession', 'central bank'),
+    'ã¯ã¬ã¸ãã': ('credit', 'spread', 'high yield', 'private debt'),
+    'ã³ã¢ãã£ãã£': ('commodity', 'commodities', 'oil price', 'gold price', 'energy market'),
+    'æè³æ¦ç¥ã»è³éãã­ã¼': ('portfolio', 'asset allocation', 'market outlook', 'investment outlook', 'capital flow', 'liquidity'),
+    'æ¿ç­ã»å°æ¿å­¦': ('geopolit', 'tariff', 'trade policy', 'fiscal policy', 'election'),
+    'AIã»åå°ä½': ('artificial intelligence', ' ai ', 'semiconductor', 'chipmaker', 'data center'),
+    'ãã®ä»ã®ç£æ¥­ãã¼ã': ('healthcare', 'technology', 'infrastructure', 'industry', 'sector'),
 }
 # Exclude clear non-publication destinations, not articles lacking an AI angle.
 EXCLUDE_PATH = ('/privacy', '/contact', '/terms', '/login', '/cookie', '/careers', '/about-us',
@@ -360,16 +360,16 @@ def make_preview(articles):
         title = esc(r.get('title_ja') or r.get('title'))
         original = esc(r.get('title'))
         excerpt = esc(r.get('excerpt_ja') or r.get('excerpt'))
-        lang = '日本語機械翻訳（本文の一部・要約ではありません）' if r.get('excerpt_ja') else '英語原文抜粋（翻訳未取得）'
+        lang = 'æ¥æ¬èªæ©æ¢°ç¿»è¨³ï¼æ¬æã®ä¸é¨ã»è¦ç´ã§ã¯ããã¾ããï¼' if r.get('excerpt_ja') else 'è±èªåææç²ï¼ç¿»è¨³æªåå¾ï¼'
         url = r.get('official_url', '')
         if not url.startswith('https://'):
             continue
-        cats = ' / '.join(r.get('primary_categories', []) + r.get('secondary_categories', [])) or '分類未確定'
-        items.append(f'''<article><small>{esc(r.get('firm'))} · 公開日: {esc(r.get('published') or '未確認')} · {esc(cats)}</small>
-<h2>{title}</h2><p class="muted">原題: {original}</p><p><b>{lang}</b></p><p>{excerpt}</p>
-<p><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">公式記事を開く</a></p></article>''')
+        cats = ' / '.join(r.get('primary_categories', []) + r.get('secondary_categories', [])) or 'åé¡æªç¢ºå®'
+        items.append(f'''<article><small>{esc(r.get('firm'))} Â· å¬éæ¥: {esc(r.get('published') or 'æªç¢ºèª')} Â· {esc(cats)}</small>
+<h2>{title}</h2><p class="muted">åé¡: {original}</p><p><b>{lang}</b></p><p>{excerpt}</p>
+<p><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">å¬å¼è¨äºãéã</a></p></article>''')
     page = '''<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GMI 公式記事 日本語プレビュー</title><style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#f5f6f8;color:#17202a;margin:0;padding:20px;max-width:860px;margin:auto}article{background:white;border:1px solid #ddd;border-radius:12px;padding:18px;margin:14px 0;line-height:1.7}h1{font-size:1.5rem}h2{font-size:1.15rem}small,.muted{color:#626d78}a{color:#155db3}header{line-height:1.6}</style><header><h1>Global Market Intelligence · 公式記事プレビュー</h1><p>対象は市場全般。表示文章は取得した本文の一部の機械翻訳であり、記事全体の要約や投資判断ではありません。日付・分類は未検証の可能性があります。無料公開翻訳サービスの失敗時は英語原文を表示します。</p></header>''' + '\n'.join(items) + '</html>'
+<title>GMI å¬å¼è¨äº æ¥æ¬èªãã¬ãã¥ã¼</title><style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#f5f6f8;color:#17202a;margin:0;padding:20px;max-width:860px;margin:auto}article{background:white;border:1px solid #ddd;border-radius:12px;padding:18px;margin:14px 0;line-height:1.7}h1{font-size:1.5rem}h2{font-size:1.15rem}small,.muted{color:#626d78}a{color:#155db3}header{line-height:1.6}</style><header><h1>Global Market Intelligence Â· å¬å¼è¨äºãã¬ãã¥ã¼</h1><p>å¯¾è±¡ã¯å¸å ´å¨è¬ãè¡¨ç¤ºæç« ã¯åå¾ããæ¬æã®ä¸é¨ã®æ©æ¢°ç¿»è¨³ã§ãããè¨äºå¨ä½ã®è¦ç´ãæè³å¤æ­ã§ã¯ããã¾ãããæ¥ä»ã»åé¡ã¯æªæ¤è¨¼ã®å¯è½æ§ãããã¾ããç¡æå¬éç¿»è¨³ãµã¼ãã¹ã®å¤±ææã¯è±èªåæãè¡¨ç¤ºãã¾ãã</p></header>''' + '\n'.join(items) + '</html>'
     PREVIEW.write_text(page, encoding='utf-8')
     print(f'Preview saved {PREVIEW} ({len(items)} article candidates)', flush=True)
 
@@ -417,7 +417,7 @@ def main():
 
                     boilerplate = (
                         'we harness every resource',
-                        'goldman sachs’ weekly newsletter',
+                        'goldman sachsâ weekly newsletter',
                         'our weekly newsletter delivers',
                         'we invest the power of goldman sachs',
                         'subscribe now',
