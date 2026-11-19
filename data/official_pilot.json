@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T03:28:09.479928+00:00",
+  "updated": "2026-11-19T03:44:36.818527+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -54,9 +54,9 @@
     },
     {
       "firm": "Fidelity",
-      "official_url_candidates": 1,
-      "tested": 1,
-      "extracted": 1,
+      "official_url_candidates": 24,
+      "tested": 7,
+      "extracted": 7,
       "error": null
     },
     {
@@ -77,7 +77,7 @@
       "firm": "Schroders",
       "official_url_candidates": 7,
       "tested": 7,
-      "extracted": 0,
+      "extracted": 1,
       "error": null
     },
     {
@@ -3946,29 +3946,256 @@
       "last_seen": "2026-11-19",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "Fidelity",
+      "official_url": "https://institutional.fidelity.com/advisors/insights/series/fidelity-market-signals-weekly/the-underappreciated-opportunity-in-todays-stock-market",
+      "link_title": "Commentary The underappreciated opportunity in today's stock market Looking beneath index returns to understand what’s really going on in the market may matter more now than it has in decades.",
+      "title": "The underappreciated opportunity in today's stock market",
+      "published": "2026-11-09",
+      "categories": [
+        "株式"
+      ],
+      "excerpt": "Why have stock correlations fallen to unusually low levels across major equity markets? This reflects an increase in the importance of company-specific fundamentals. Even as a handful of mega-cap stocks continue to drive index returns, performance beneath the surface has become increasingly differentiated. Companies with strong earnings, healthy balance sheets, and durable competitive advantages are being treated differently than those facing slowing growth or elevated debt burdens. For advisors, this may be an opportune time to look beyond headline index returns and reassess whether underperforming holdings remain supported by their underlying fundamentals. Despite solid returns for much of 2026, investors still face plenty of uncertainties. Elections, geopolitics, interest rates, elevated valuations, concentrated market leadership, and lofty earnings expectations all suggest that headline index returns may tell only part of the story. The Capital Markets Strategy Team, however, maintains a constructive outlook. We continue to see long-term tailwinds and attractive opportunities in large cap stocks, even if returns look less stellar than they have in the recent past. Our optimism is driven in part by the fact that stocks are increasingly moving on their own merits, and doing so to a greater degree than at most points over the past three decades. As Exhibit 1 shows, equity return correlations have fallen across the board over the past five quarters and are now historically low.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "publisher_declared_unverified",
+      "primary_categories": [
+        "株式"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "今日の株式市場における過小評価されている機会",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "主要株式市場全体で株価相関性が異常に低い水準に低下したのはなぜでしょうか?これは、企業固有のファンダメンタルズの重要性が高まっていることを反映しています。少数の超大型株が指数リターンを牽引し続けているにもかかわらず、水面下でのパフォーマンスはますます差別化されています。好調な収益、健全なバランスシート、永続的な競争上の優位性を持つ企業は、異なる扱いを受けています。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-19",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-19",
+      "published_candidate": "2026-11-09",
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
+    },
+    {
+      "firm": "Fidelity",
+      "official_url": "https://institutional.fidelity.com/advisors/insights/series/fidelity-market-signals-weekly/the-midterm-effect-for-markets-resolution-matters-more-than-results",
+      "link_title": "Commentary The Midterm Effect: For markets, resolution matters more than results Uncertainty leading up to elections can influence investors, but fundamentals and policy details matter more than the results at the polls.",
+      "title": "The Midterm Effect: For markets, resolution matters more than results",
+      "published": "2026-11-02",
+      "categories": [],
+      "excerpt": "With the November 3 midterms approaching, how much do election outcomes matter for markets? Historically, the resolution of election uncertainty has tended to matter more for broad equity returns rather than the specific outcomes of Congressional races. Can policy changes reshape industry prospects? And what matters beyond election outcomes? Policy changes can reshape industry prospects and create uneven effects across sectors. However, corporate earnings, economic growth, interest-rate trends, and long-term investment objectives have been more reliable anchors of market outcomes than election results alone. Midterm election years have historically brought heightened volatility. In the last 85 years, the S&P 500 has experienced an average midterm-year drawdown of approximately 18%. Yet the index posted positive returns over the 12 months following every midterm election since 1942. So far this year, despite a bout of volatility in March following the attacks in Iran, markets have remained resilient and experienced a peak-to-trough decline of only approximately 9% in March. The S&P 500 has not posted a negative return 12 months after a midterm since 1942 (21 instances). Past performance is no guarantee of future results. Provides current themes and views of the Capital Markets Specialist Group within Fidelity Institutional, as of 9/30/26. Individual views or outlooks may differ. Views are not intended to be substitutes for strategic asset allocation and reflect market views based on current economic conditions. Diversification does not ensure a profit or guarantee against a loss. The statements and opinions are subject to change at any time, based on market and other conditions. The '26 bar is an illustrative placeholder, not a forecast. Source: FactSet, as of 9/30/26. N",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "publisher_declared_unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "中期的効果: 市場にとっては結果よりも解決策が重要",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "11月3日の中間選挙が近づいているが、市場にとって選挙結果はどの程度重要なのだろうか？歴史的には、選挙の不確実性の解決は、議会選挙の特定の結果よりも、広範な株式リターンの方が重要になる傾向がありました。政策変更で業界の見通しは変わるのか？そして、選挙結果以外に何が重要なのでしょうか？政策変更は業界の見通しを再構築し、全体的に不均一な影響を引き起こす可能性があります",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-19",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-19",
+      "published_candidate": "2026-11-02",
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
+    },
+    {
+      "firm": "Fidelity",
+      "official_url": "https://institutional.fidelity.com/advisors/insights/series/fidelity-market-signals-weekly/the-asymmetric-potential-for-bonds",
+      "link_title": "Commentary The asymmetric potential for bonds Starting yields are changing the bond math, providing a larger margin for error if rates rise and meaningful upside if rates fall.",
+      "title": "The asymmetric potential for bonds",
+      "published": "2026-10-26",
+      "categories": [
+        "債券・金利"
+      ],
+      "excerpt": "Here’s a frequent question we’re getting lately from advisors: What do we think about the role of bonds in a 60/40 portfolio? We think today's higher yields have created a better risk/reward trade-off: Treasury yields do not have to fall for bonds to generate a respectable return, while higher starting income may help cushion losses if rates rise further. We are increasingly constructive on high-quality bonds, not because we have a strong conviction that Treasury yields are headed lower. Rather, today's yields provide investors more income and, therefore, a larger margin for error than they've had in years. Investors often worry that adding duration today will backfire if rates rise from here. Price gains from duration add to income, resulting in a potential double-digit return. Price declines from duration are largely offset by income, resulting in a roughly flat return.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "publisher_declared_unverified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "債券・金利"
+      ],
+      "translation_errors": {},
+      "title_ja": "結合の非対称の可能性",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "最近アドバイザーから頻繁に寄せられる質問は次のとおりです。60/40 ポートフォリオにおける債券の役割についてどう思いますか?現在の利回りの上昇により、リスクと報酬のトレードオフが改善されていると考えています。債券の場合、相当なリターンを生み出すために国債の利回りが低下する必要はありませんが、開始時の収入が高ければ、金利がさらに上昇した場合に損失を和らげることができる可能性があります。私たちは、高品質の債券に対してますます前向きになっています。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-19",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-19",
+      "published_candidate": "2026-10-26",
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
+    },
+    {
+      "firm": "Fidelity",
+      "official_url": "https://institutional.fidelity.com/advisors/insights/series/quarterly-market-update",
+      "link_title": "Series Quarterly Market Update Fidelity's Asset Allocation Research Team (AART) examines major themes in the global financial markets and presents its investment outlook for the quarter.",
+      "title": "Quarterly Market Update",
+      "published": "2026-10-26",
+      "categories": [],
+      "excerpt": "Our quarterly market outlook, presented by Fidelity's Asset Allocation Research Team (AART) uncovers major themes in the global financial markets, as well as investment insights and market forecasts for the quarter. AART conducts fundamental and quantitative research to develop asset-allocation recommendations for Fidelity's portfolio managers and investment teams. AART generates insights on macroeconomic, policy, and financial-market trends and their implications for strategic and active asset allocation Equity markets rose modestly in Q3 as strong corporate earnings, continued artificial intelligence (AI)-related capital spending, and evidence of ongoing economic expansion offset headwinds from rising oil prices amid renewed conflict between the U.S. and Iran. Bond yields increased as the U.S. Federal Reserve raised policy rates for the first time since 2023, despite efforts by the U.S. Treasury to support market liquidity through debt buybacks and foreign-exchange intervention. These developments in fixed income remain an important driver for markets in the months ahead. A constructive growth backdrop, improving labor markets, and persistent inflation increase the likelihood of additional Fed rate hikes. Globally, mid-cycle economic expansion and low recession risks still support risk assets. Looking ahead, stubborn inflation, elevated oil prices, and unsustainable sovereign debt may contribute to higher interest-rate volatility.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "publisher_declared_unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "四半期ごとの市場の最新情報",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "フィデリティのアセット・アロケーション・リサーチ・チーム（AART）が発表する当社の四半期市場見通しでは、世界の金融市場の主要テーマのほか、当四半期の投資洞察や市場予測を明らかにしています。 AART は、フィデリティのポートフォリオ マネージャーと投資チーム向けに資産配分に関する推奨事項を作成するために、基礎的かつ定量的な調査を実施しています。 AART はマクロ経済、政策、政策に関する洞察を生成します。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-19",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-19",
+      "published_candidate": "2026-10-26",
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
+    },
+    {
+      "firm": "Fidelity",
+      "official_url": "https://institutional.fidelity.com/advisors/insights/series/capital-markets-update",
+      "link_title": "Capital Markets Update A market update prepared by the FI Capital Markets Strategy Group (CMSG) on the current economic themes driving global financial markets.",
+      "title": "Capital Markets Update",
+      "published": null,
+      "categories": [],
+      "excerpt": "Explore the current economic themes that are driving global financial markets in this market outlook from the FI Capital Markets Strategy Group. Created with advisors and wealth managers in mind, the Capital Markets Update brings together the views of research teams and asset class specialists from across Fidelity. Produced by the Capital Markets Strategy Group at Fidelity Institutional, this investing outlook is supported by market data and in-depth economic analysis. You can browse a selection of our insights below. Investment professionals can log in to view the full report, including actionable outlooks and key themes for a range of traditional and alternative asset classes. Investing ideas Intermediate duration bonds Balanced domestic equities International diversification Small and mid-capitalization Get all of our current asset class views in one place, plus charts that show the data and analysis supporting our outlook.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unknown",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "資本市場の最新情報",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "FI Capital Markets Strategy Group によるこの市場展望で、世界の金融市場を動かしている現在の経済テーマを探ってください。アドバイザーやウェルスマネージャーを念頭に置いて作成されたCapital Markets Updateには、フィデリティ全体の調査チームや資産クラスの専門家の意見が集約されています。この投資見通しはフィデリティ・インスティテューショナルの資本市場戦略グループによって作成されています。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-19",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-19",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Fidelity",
+      "official_url": "https://institutional.fidelity.com/advisors/insights/series/quarterly-sector-and-investment-research-update",
+      "link_title": "Series Quarterly Sector and Investment Research Update Make informed decisions with comprehensive, data-driven investment research from Fidelity's Quantitative Market Research Team.",
+      "title": "Quarterly Sector and Investment Research Update",
+      "published": "2026-11-11",
+      "categories": [
+        "その他の産業テーマ"
+      ],
+      "excerpt": "Make informed decisions with comprehensive, data-driven investment research from Fidelity's Quantitative Market Research Team. The outlook for U.S. equities remains constructive, as interest rates appear relatively low compared with economic growth, a backdrop that has historically favored stocks. This environment may support economically sensitive sectors, particularly technology, materials, and financials, over defensive sectors such as utilities and consumer staples. Meanwhile, despite concerns about slowing technology investment, historical performance, continued earnings growth, and sharply lower valuations support a positive outlook for technology stocks. Find out how a blend of human insight, data, and technology can help uncover opportunity for your clients. Target specific segments of the economy with our full spectrum of sector funds, ETFs, and other solutions. Leverage Fidelity's extensive analytical, research, and management capabilities to level up your asset allocation approach.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "publisher_declared_unverified",
+      "primary_categories": [
+        "その他の産業テーマ"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "四半期ごとのセクターおよび投資調査の最新情報",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "フィデリティの定量的市場調査チームによる包括的なデータ主導型の投資調査により、情報に基づいた意思決定を行うことができます。金利は経済成長に比べて相対的に低いとみられ、これを背景に歴史的に株式が有利となっており、米国株の見通しは引き続き前向きだ。この環境は、経済的に敏感なセクター、特に技術、素材、金融を確実にサポートする可能性があります。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-19",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-19",
+      "published_candidate": "2026-11-11",
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
+    },
+    {
+      "firm": "PIMCO",
+      "official_url": "https://www.pimco.com/us/en/insights/income-fund-update-compelling-yields-today-potential-price-appreciation-tomorrow",
+      "link_title": "Income Fund Update Compelling Yields Today Potential Price Appreciation Tomorrow",
+      "title": "Income Fund Update: Compelling Yields Today, Potential Price Appreciation Tomorrow | PIMCO",
+      "published": "2024-02-20",
+      "categories": [],
+      "excerpt": "Today’s bond market offers the potential for equity-like returns with less risk thanks to the highest yields in recent history. Here, Dan Ivascyn, who manages the PIMCO Income Fund with Alfred Murata and Josh Anderson, talks with Esteban Burbano, fixed income strategist. They discuss how the portfolio is positioned not only for higher yields currently, but for potential resilience and price appreciation across a range of future economic scenarios. Ivascyn: It was a challenging but exciting year for fixed income. Yields ended the year about where they started, but with tremendous volatility in between. This volatility provided opportunities to tactically adjust duration (interest rate sensitivity), add exposure around the globe in areas with attractive relative value, and diversify our sources of return. Rallies can happen quickly. For investors reluctant to shift out of cash, I think 2023 offered a good example of how being patient and able to withstand a little volatility in bond markets can lead to additional return above what is already an attractive yield. Ivascyn: Our base-case forecasts anticipate inflation will continue moderating, though sticky wages may prevent it from quite reaching central bank targets. The progress on inflation means that many developed market central banks, the Fed included, will likely cut rates this year in an effort to support growth. Still, we think the markets – both equity and fixed income – appear too optimistic about how quickly central banks will cut rates. We think the market is rightly suggesting that a soft landing in the U.S. is possible. However, credit spreads and equity valuations factor in a very low probability to the risk of either a recession or of inflation reigniting. Monetary policy takes time to filter through the ec",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "publisher_declared_unverified",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "インカムファンド最新情報: 今日の魅力的な利回り、明日の価格上昇の可能性 |ピムコ",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "今日の債券市場は、近年史上最高の利回りにより、リスクを軽減しながら株式と同様のリターンを得る可能性をもたらしています。ここでは、アルフレッド・村田氏とジョシュ・アンダーソン氏とともにPIMCOインカム・ファンドを運用するダン・アイバシン氏が、債券ストラテジストのエステバン・ブルバーノ氏と対談します。彼らは、ポートフォリオが現在の高利回りだけでなく、潜在的な回復力と価格レンジ全体の上昇をどのように位置付けているかについて議論します。",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-19",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-19",
+      "published_candidate": "2024-02-20",
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
     }
   ],
   "archive_enabled": true,
-  "archive_count": 114,
+  "archive_count": 121,
   "archive_quality": {
     "previous_unique": 114,
-    "new_unique": 0,
-    "current_unique": 77,
+    "new_unique": 7,
+    "current_unique": 84,
     "duplicate_urls_previous": 0,
     "duplicate_urls_current": 0,
-    "total_unique": 114,
+    "total_unique": 121,
     "published_dates_verified": 0,
-    "translation_available": 90,
-    "published_dates_declared_unverified": 33
+    "translation_available": 97,
+    "published_dates_declared_unverified": 39
   },
   "archive_note": "first_seen is a GMI tracking date, never a publication date. Unverified dates remain published_candidate, never displayed as confirmed. Excerpts are partial and machine translations are not full-article summaries.",
   "date_verification": {
-    "examined": 114,
+    "examined": 121,
     "verified": 0,
-    "publisher_declared_unverified": 33,
-    "unknown": 81,
+    "publisher_declared_unverified": 39,
+    "unknown": 82,
     "unverified_reasons": {
-      "no_publication_metadata": 80,
+      "no_publication_metadata": 81,
       "too_large": 1
     },
     "method": "Publisher page metadata: matching HTML meta + article JSON-LD = crosschecked; single source = publisher-declared, unverified; conflicting/missing = unknown"
