@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T03:08:36.738523+00:00",
+  "updated": "2026-11-19T03:20:21.748129+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -77,7 +77,7 @@
       "firm": "Schroders",
       "official_url_candidates": 7,
       "tested": 7,
-      "extracted": 6,
+      "extracted": 7,
       "error": null
     },
     {
@@ -3219,7 +3219,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "published_candidate": "2024-12-01",
       "publication_date_status": "unknown",
       "is_verified_new": false
@@ -3649,13 +3649,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2024-12-02",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "2025 年のプライベート マーケットの見通し: 魅力的なヴィンテージの年が待っています",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "プライベートマーケットの資産クラスは、収益と収益の向上、ポートフォリオの回復力の向上、主要な世界的メガテーマへの差別化されたアクセスの可能性を提供し続けており、2025 年は投資にとって強力なヴィンテージとなりつつあります。当社は、2025 年が新たな民間市場への投資にとって魅力的な環境になると予想しており、民間市場に関連するサイクルとして収益と収入の両方を生み出す可能性を提供します。"
     },
     {
       "firm": "Schroders",
@@ -3680,13 +3686,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2024-12-02",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "2025 年の見通し: 株式",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "アレックス・テダーとトム・ウィルソンは、市場環境の進化に合わせて注目しているセクター、国、テーマを探りながら、来年の株式収益の機会を検討します。本稿執筆時点で、S&P 500指数は年初から米ドルベースで25％上昇し、MSCIオールカントリーワールド指数は18％上昇している（トータルリターン、2024年11月20日終値まで、出典：ファクトセット）。どう見ても素晴らしいリターン、そして"
     },
     {
       "firm": "Amundi",
@@ -3713,13 +3725,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-11-09",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "素晴らしい中期ローテーション",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "米国中間選挙の結果と企業の巨額の設備投資に対する投資家の厳しい監視によって促進された強力なローテーションは、地域やセクターを超えて AI テーマ以外にも多様化する必要性を思い出させます。過去数週間にわたり、巨額の設備投資と米国の中期決算の精査により、米国のテクノロジー離れが見られました。対照的に、世界の防衛セクターとインドなどの一部の地域は増加を記録した"
     },
     {
       "firm": "Amundi",
@@ -3740,13 +3758,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-11-16",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "高金利、高額な利息支払い",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "政府債務の高さがFRBの政策を左右するわけではないが、金利上昇によりすでに高騰している債務返済コストがさらに悪化するため、マクロ的なリスクは増大する。これは高インフレと相まって、債券市場のボラティリティが今後も続く可能性が高く、多様なアプローチの必要性を浮き彫りにしています。特に明記されていない限り、この文書に含まれるすべての情報は Amundi Asset Management S.A.S からのものです。そしてそれは"
     },
     {
       "firm": "State Street",
@@ -3771,13 +3795,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2025-02-28",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "社債ポートフォリオにおける将来を見据えた気候指標",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "暗黙の気温上昇、炭素リスク格付け、リスクにさらされている気候変動価値が社債戦略にどのように影響するかをご覧ください。より気候に配慮したポートフォリオの構築に関心のある投資家向けに、カバレッジ、リスク、機会に関する洞察を明らかにします。将来を見据えた気候指標（政策、技術、物理的リスクをカバーする暗黙の気温上昇（ITR）、炭素リスク評価（CRR）、気候変動価値リスク評価（CVaR）など）"
     },
     {
       "firm": "State Street",
@@ -3804,13 +3834,19 @@
         "title_ja": "run_limit_reached",
         "excerpt_ja": "run_limit_reached"
       },
-      "japanese_status": "not_translated",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-06-25",
       "publication_date_status": "unknown",
-      "is_verified_new": false
+      "is_verified_new": false,
+      "title_ja": "インフレとリスク期待がアジアの債券利回りを左右する",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "iBoxx ABF 汎アジア債券インデックスの米ドルヘッジあり指数と米ドルヘッジなしの指数は、2026 年 5 月のパフォーマンスが鈍く、それぞれ -0.05% と -0.29% のリターンとなり、為替の変動がヘッジなしのリターンの主な足かせ (-0.24%) となりました。地域債券市場では、利回りの変動が見られました。特に、10年国債利回りはフィリピン（+43ベーシスポイント）と香港（+27ベーシスポイント）で急上昇した。"
     },
     {
       "firm": "Invesco",
@@ -3882,14 +3918,24 @@
   "archive_enabled": true,
   "archive_count": 114,
   "archive_quality": {
-    "previous_unique": 93,
-    "new_unique": 21,
-    "current_unique": 83,
+    "previous_unique": 114,
+    "new_unique": 0,
+    "current_unique": 84,
     "duplicate_urls_previous": 0,
     "duplicate_urls_current": 0,
     "total_unique": 114,
     "published_dates_verified": 0,
-    "translation_available": 84
+    "translation_available": 90
   },
-  "archive_note": "first_seen is a GMI tracking date, never a publication date. Unverified dates remain published_candidate, never displayed as confirmed. Excerpts are partial and machine translations are not full-article summaries."
+  "archive_note": "first_seen is a GMI tracking date, never a publication date. Unverified dates remain published_candidate, never displayed as confirmed. Excerpts are partial and machine translations are not full-article summaries.",
+  "date_verification": {
+    "examined": 114,
+    "verified": 0,
+    "unverified_reasons": {
+      "missing_or_conflicting_independent_metadata": 45,
+      "no_publication_metadata": 68,
+      "too_large": 1
+    },
+    "method": "Official-page publication metadata cross-checked against article JSON-LD; publisher-declared, not independently fact-checked"
+  }
 }
