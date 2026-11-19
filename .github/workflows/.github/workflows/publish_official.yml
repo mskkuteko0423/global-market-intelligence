@@ -1,54 +1,69 @@
 
 name: Publish Official Articles
-
 on:
   workflow_dispatch:
   schedule:
     - cron: '35 22 * * *'
-
 permissions:
   contents: write
-
 concurrency:
   group: gmi-official-publish
   cancel-in-progress: false
-
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Collect official articles
+      - name: Backup previous articles
+        run: |
+          if [ -f data/official_pilot.json ]; then
+            cp data/official_pilot.json /tmp/gmi_previous_official.json
+          fi
+      - name: Expand sources for this run
+        run: python expand_sources.py
+      - name: Increase per-firm article inspection to 7
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('official_pilot.py')
+          source = p.read_text(encoding='utf-8')
+          old = 'MAX_PER_FIRM = 5'
+          assert source.count(old) == 1, 'Collector limit changed; stop rather than silently patching'
+          p.write_text(source.replace(old, 'MAX_PER_FIRM = 7', 1), encoding='utf-8')
+          print('Inspection limit: 7 per institution (14 institutions, at most 98 checks)')
+          PY
+      - name: Collect and translate
         run: python official_pilot.py
-
-      - name: Verify output
+      - name: Merge article history
+        run: python archive_official.py
+      - name: Verify archive and quality
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          p = Path('data/official_pilot.json')
-          d = json.loads(p.read_text(encoding='utf-8'))
-          assert isinstance(d.get('articles'), list)
-          assert Path('data/official_pilot_preview.html').exists()
-          print('Verified articles:', len(d['articles']))
+          data = json.loads(Path('data/official_pilot.json').read_text(encoding='utf-8'))
+          assert data.get('archive_enabled') is True
+          assert len(data['articles']) > 0
+          assert len({x['official_url'] for x in data['articles']}) > 0
+          print('Archive count:', len(data['articles']))
+          print('Quality:', data.get('archive_quality', {}))
+          for row in data.get('stats', []):
+              print('SOURCE_RESULT', row)
           PY
-
       - name: Publish data
         run: |
           git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github-actions[bot].noreply.github.com'
           git add data/official_pilot.json data/official_pilot_preview.html
           if ! git diff --cached --quiet; then
-            git commit -m 'Update official article data'
+            git commit -m 'Update official article archive'
             git push
           else
-            echo 'No changes to publish'
+            echo 'No changes'
           fi
