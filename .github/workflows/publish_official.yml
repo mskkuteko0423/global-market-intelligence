@@ -1,5 +1,6 @@
 
 name: Publish Official Articles
+
 on:
   workflow_dispatch:
   schedule:
@@ -34,6 +35,9 @@ jobs:
       - name: Expand sources for this run
         run: python expand_sources.py
 
+      - name: Improve Fidelity discovery and Schroders diagnostics
+        run: python improve_sources.py
+
       - name: Increase per-firm article inspection to 7
         run: |
           python - <<'PY'
@@ -43,7 +47,6 @@ jobs:
           old = 'MAX_PER_FIRM = 5'
           assert source.count(old) == 1, 'Collector limit changed; stop rather than silently patching'
           p.write_text(source.replace(old, 'MAX_PER_FIRM = 7', 1), encoding='utf-8')
-          print('Inspection limit: 7 per institution (14 institutions, at most 98 checks)')
           PY
 
       - name: Collect and translate
