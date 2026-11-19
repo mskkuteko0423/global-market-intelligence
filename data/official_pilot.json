@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T03:44:36.818527+00:00",
+  "updated": "2026-11-19T23:18:43.551069+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -47,21 +47,21 @@
     },
     {
       "firm": "Vanguard",
-      "official_url_candidates": 94,
+      "official_url_candidates": 93,
       "tested": 7,
       "extracted": 7,
       "error": null
     },
     {
       "firm": "Fidelity",
-      "official_url_candidates": 24,
+      "official_url_candidates": 25,
       "tested": 7,
       "extracted": 7,
       "error": null
     },
     {
       "firm": "PIMCO",
-      "official_url_candidates": 295,
+      "official_url_candidates": 296,
       "tested": 7,
       "extracted": 7,
       "error": null
@@ -82,14 +82,14 @@
     },
     {
       "firm": "Amundi",
-      "official_url_candidates": 28,
+      "official_url_candidates": 27,
       "tested": 7,
       "extracted": 7,
       "error": null
     },
     {
       "firm": "State Street",
-      "official_url_candidates": 363,
+      "official_url_candidates": 364,
       "tested": 7,
       "extracted": 7,
       "error": null
@@ -3159,7 +3159,7 @@
       "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2026-take-an-active-approach-to-valuation-risk-and-seek-opportunities-to-diversify/",
       "link_title": "Outlook 2026 Take An Active Approach To Valuation Risk And Seek Opportunities To Diversify",
       "title": "Take an active approach to valuation risk and seek opportunities to diversify",
-      "published": null,
+      "published": "2025-11-24",
       "categories": [
         "株式"
       ],
@@ -3168,7 +3168,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unknown",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "株式"
@@ -3182,28 +3182,29 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2025-11-24",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "評価リスクに積極的に取り組み、分散の機会を模索する",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "株式市場は引き続き堅調に推移していますが、指数の集中度を考えると、銘柄固有のレベルでリスクと機会を管理することが重要です。つまり、ファンダメンタルズ分析に基づいた慎重なポジションを取るということです。2026年を迎えるにあたり、株式市場の評価額について多くの懸念があります。ハイパースケール企業による多額の投資が行われていることから、1999～2000年のドットコムバブルと比較されています。"
+      "excerpt_ja": "株式市場は引き続き堅調に推移していますが、指数の集中度を考えると、銘柄固有のレベルでリスクと機会を管理することが重要です。つまり、ファンダメンタルズ分析に基づいた慎重なポジションを取るということです。2026年を迎えるにあたり、株式市場の評価額について多くの懸念があります。ハイパースケール企業による多額の投資が行われていることから、1999～2000年のドットコムバブルと比較されています。",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Schroders",
       "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2026-decoupling-driving-resilient-opportunities/",
       "link_title": "Outlook 2026 Decoupling Driving Resilient Opportunities",
       "title": "Outlook 2026: Decoupling driving resilient opportunities",
-      "published": null,
+      "published": "2025-11-24",
       "categories": [],
       "excerpt": "Amid continued macroeconomic and geopolitical volatility, private markets benefit from both cyclical and structural tailwinds that allow them to play a key role in diversified, resilient portfolios. Resilience has become the key watch word for investors in an era shaped by persistent uncertainty. In fact, in Schroders’ Global Investor Insights Survey for 2025, published in June, portfolio resilience was selected as by far the highest priority for investors over for the remainder of 2025 and into 2026. The surface calm of markets today – reflected in strong public equity market performance and benign bond yields – masks a complex backdrop. Inflation remains sticky, fiscal pressures are building, and geopolitical flashpoints continue to test global stability. Even the enthusiasm around artificial intelligence, while transformative, risks fuelling new valuation imbalances.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unknown",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -3215,14 +3216,15 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2025-11-24",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "2026年の見通し：デカップリングがもたらすレジリエントな機会",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "マクロ経済と地政学的な変動が続く中、プライベートマーケットは景気循環的および構造的な追い風の恩恵を受けており、分散化されたレジリエントなポートフォリオにおいて重要な役割を果たすことができます。レジリエンスは、持続的な不確実性に支配される時代において、投資家にとって重要なキーワードとなっています。実際、6月に発表されたシュローダーの2025年グローバル投資家インサイト調査では、ポートフォリオのレジリエンスがbとして選ばれました。"
+      "excerpt_ja": "マクロ経済と地政学的な変動が続く中、プライベートマーケットは景気循環的および構造的な追い風の恩恵を受けており、分散化されたレジリエントなポートフォリオにおいて重要な役割を果たすことができます。レジリエンスは、持続的な不確実性に支配される時代において、投資家にとって重要なキーワードとなっています。実際、6月に発表されたシュローダーの2025年グローバル投資家インサイト調査では、ポートフォリオのレジリエンスがbとして選ばれました。",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Schroders",
@@ -3628,7 +3630,7 @@
       "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2026-robust-earnings-and-ongoing-investment-in-new-technologies-may-continue-to-support-global-equities/",
       "link_title": "Outlook 2026 Robust Earnings And Ongoing Investment In New Technologies May Continue To Support Global Equities",
       "title": "Outlook 2026: Robust earnings and ongoing investment in new technologies may continue to support global equities",
-      "published": null,
+      "published": "2025-11-24",
       "categories": [
         "株式"
       ],
@@ -3637,7 +3639,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unknown",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "株式"
       ],
@@ -3654,8 +3656,9 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2025-11-24",
-      "publication_date_status": "unknown",
-      "is_verified_new": false
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Schroders",
@@ -4173,29 +4176,176 @@
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "publication_date_evidence": "article_jsonld"
+    },
+    {
+      "firm": "Fidelity",
+      "official_url": "https://institutional.fidelity.com/advisors/insights/series/fidelity-market-signals-weekly/rethinking-the-40-in-60-40-portfolios",
+      "link_title": "Commentary Rethinking the \"40\" in 60/40 portfolios Look beyond the headlines: The biggest portfolio construction story may not be what is happening inside the “60,” but the growing possibilities inside the “40.”",
+      "title": "Rethinking the \"40\" in 60/40 portfolios",
+      "published": "2026-09-28",
+      "categories": [
+        "投資戦略・資金フロー"
+      ],
+      "excerpt": "During much of the post-GFC period, cash yielded next to nothing, bond yields hovered near historic lows, and investors seeking meaningful income often found themselves pushed further out on the risk spectrum. Equities became the primary source of return, while fixed income frequently served one purpose: diversification. Today, the environment looks a little different. With yields substantially higher across much of the fixed income universe, and the Fed raising rates once again, advisors have an opportunity to rethink fixed income’s role in portfolio construction. For decades, the traditional balanced portfolio has been described as 60% growth assets and 40% diversifiers. Yet the \"40\" was never intended to be a static collection of bonds. Instead, its role was to help investors achieve broader portfolio objectives. Sometimes that meant reducing volatility. Sometimes that meant generating income. Sometimes that meant preserving capital. Over the last 15 years, however, many investors came to think about the “40” in a much narrower way. When yields were compressed, generating income became increasingly difficult. Bonds often provided diversification benefits but offered less support for cash-flow needs, leading many investors to shift their focus toward portfolio growth. Now that trade-off may no longer be necessary. Higher starting yields have changed the math. Rather than relying on fixed income primarily as a portfolio shock absorber, advisors may once again be able to use it to generate meaningful income while diversifying equity risk. A recent Fidelity Market Signals commentary indicated that today's higher yields may provide opportunities across multiple fixed income sectors, allowing investors to benefit from carry, income generation, and diversification without n",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "publisher_declared_unverified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "投資戦略・資金フロー"
+      ],
+      "translation_errors": {},
+      "title_ja": "60/40 ポートフォリオの「40」を再考する",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "世界金融危機後の期間の大部分において、現金の利回りはほぼゼロに近く、債券利回りは歴史的な低水準付近で推移し、有意義な収入を求める投資家はリスクの範囲からさらに押し出されていることに気づくことがよくありました。株式が主な収益源となったが、債券は分散という目的をしばしば果たした。今日、環境は少し変わったようです。ほとんどの地域で利回りが大幅に向上",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-19",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-19",
+      "published_candidate": "2026-09-28",
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
+    },
+    {
+      "firm": "Amundi",
+      "official_url": "https://research-center.amundi.com/article/2027-investment-outlook",
+      "link_title": "Global Outlook Outlook 2027 Header",
+      "title": "2027 Investment Outlook",
+      "published": "2026-11-19",
+      "categories": [
+        "投資戦略・資金フロー",
+        "株式",
+        "AI・半導体"
+      ],
+      "excerpt": "Our 2027 outlook, “The Price of Power”, focuses on the costs and trade-offs of a macro regime shaped by five powerful forces and what they mean for investors. Energy power makes reliable access to energy and critical resources a competitive advantage. Technology power is shifting the focus from AI investment to adoption, productivity and monetisation, favouring companies able to turn innovation into earnings. Capital power increases the value of strong balance sheets and sustainable financing, while policy power redirects capital towards security, sovereignty and industrial transformation. Finally, pricing power will distinguish those able to protect margins and deliver returns from those absorbing rising costs. This creates a macro backdrop of rising investment needs at a time when fiscal constraints are increasing the cost of financing. In 2027, we expect global GDP growth to reach 3.3%, with different regional drivers. US growth should remain supported by productivity gains and lower exposure to energy shocks. Europe faces headwinds from the energy shock, but German fiscal stimulus should provide support. China remains split between strong exports and weak domestic demand, while India’s growth should stay above 7%. More orthodox policies should support resilience across emerging markets, although country-specific risks persist. Inflation is set to remain above central bank targets, but to ease over the course of the year, with synchronised monetary tightening likely to peak in the first quarter. With a combined 40% probability assigned to alternative scenarios, portfolio construction should take into account different risks and drivers. A funding squeeze, supply disruptions and geopolitical escalation are key downside risks, while stronger productivity gains or a cea",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "publisher_declared_unverified",
+      "primary_categories": [
+        "投資戦略・資金フロー"
+      ],
+      "secondary_categories": [
+        "株式",
+        "AI・半導体"
+      ],
+      "translation_errors": {},
+      "title_ja": "2027 年の投資見通し",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "当社の 2027 年の見通し「The Price of Power」は、5 つの強力な勢力によって形成されるマクロ体制のコストとトレードオフ、およびそれらが投資家にとって何を意味するかに焦点を当てています。エネルギーパワーにより、エネルギーと重要なリソースへの確実なアクセスが競争上の優位性になります。テクノロジーの力により、AI への投資から導入、生産性、収益化へと焦点が移りつつあり、イノベーションを収益に変えることができる企業が有利になっています。資本",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-19",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-19",
+      "published_candidate": "2026-11-19",
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "html_meta"
+    },
+    {
+      "firm": "Amundi",
+      "official_url": "https://research-center.amundi.com/article/ai-2027-greater-scrutiny-returns",
+      "link_title": "AI in 2027 19/11/2026 Equity AI in 2027: greater scrutiny on returns AI has absorbed a disproportionate share of global capital and investor attention. Now, who captures the returns? More",
+      "title": "AI in 2027: greater scrutiny on returns",
+      "published": "2026-11-19",
+      "categories": [
+        "AI・半導体"
+      ],
+      "excerpt": "AI has absorbed a disproportionate share of global capital, earnings growth, and investor attention. The returns debate is not new, but it should sharpen in 2027: as free cash flow thins and leverage rises, every additional dollar of investment will face greater scrutiny. The narrative is shifting from who can invest the most to who can capture the highest returns. EPS leadership and market leadership may increasingly diverge as valuations and expectations become more demanding. EPS concentration will not necessarily translate into equity performance: how companies will deliver relative to expectations is more crucial than ever. Although earnings breadth is improving, with more MSCI ACWI constituents expected to deliver higher net income in 2027 than in 2026, the IT sector will account for 70% of growth in net income across the entire index, up from around 40% in 2026, led by semiconductors and hardware. Energy and communication services are expected to detract from growth, and consumer discretionary is likely to make only a modest contribution. Several major US hyperscalers sit within communication services and consumer discretionary. The cycle is past its early innings, but not overThe cycle is real, and supply constraints remain genuine, but warning signs are accumulating: leverage is rising along with huge off-balance sheet commitments, the hyperscalers’ core business results are coming under scrutinity as investors’ patience for return on investment wears thin, quality and cyclical names are starting to diverge, and the remaining funding pipeline will increasingly test capital markets’ capacity to absorb new issuance and be a real test for frontier-model economics. The risk is not an abrupt end to the cycle, but a widening gap between capital deployed and returns g",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "publisher_declared_unverified",
+      "primary_categories": [
+        "AI・半導体"
+      ],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "2027 年の AI: 収益に対する監視の強化",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "AI は世界の資本、利益の伸び、投資家の注目の不釣り合いなシェアを吸収してきました。リターンに関する議論は新しいものではありませんが、2027 年にはさらに激化するはずです。フリー キャッシュ フローが減少し、レバレッジが上昇するにつれ、投資が 1 ドル増えるごとに厳しい監視にさらされることになります。物語は、誰が最も多く投資できるかということから、誰が最も高い収益を獲得できるかへと移りつつあります。 EPSのリーダーシップと市場のリーダーシップが高まる可能性がある",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-19",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-19",
+      "published_candidate": "2026-11-19",
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "html_meta"
+    },
+    {
+      "firm": "Amundi",
+      "official_url": "https://www.amundi.com/globaldistributor/article/2027-investment-outlook-price-power",
+      "link_title": "2027 Amundi investment outlook 19/11/2027 2027 Investment Outlook: \"The Price of Power\" More",
+      "title": "2027 Investment Outlook: \"The Price of Power\"",
+      "published": null,
+      "categories": [
+        "投資戦略・資金フロー",
+        "その他の産業テーマ"
+      ],
+      "excerpt": "The Amundi Investment Institute’s 2027 Outlook explores the costs and trade-offs of a macroeconomic regime shaped by five forces: Together, these forces are creating a complex macroeconomic backdrop in which portfolio construction will need to account for a broad range of risks and return drivers. Investment needs are rising just as fiscal constraints are pushing up financing costs. In 2027, we expect global GDP growth to reach 3.3%, albeit with differing regional dynamics. Inflation should remain above central bank targets but gradually ease over the course of the year, with synchronised monetary tightening likely to peak in the first quarter. We initially see opportunities in short to intermediate dated bonds, while remaining more cautious on longer maturities. Active management and careful security selection, with a focus on quality, remain essential. We also see a greater role for emerging market bonds as a core portfolio allocation. Within corporate credit, we favour investment grade over high yield, given refinancing and dispersion risks. AI remains a key theme, but the narrative is shifting from who can invest the most to who can generate the highest returns. The next wave of opportunities should increasingly stem from technology adoption, electrification, infrastructure and industrial transformation. We see scope for market gains to broaden across Europe, Japan and selected emerging markets. In 2027, the traditional 60/40 portfolio should be strengthened through additional sources of diversification, with greater allocations to real and alternative assets, commodities, gold and liquidity. Hedging should complement asset allocation, but no single hedge will be effective across all scenarios.",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unknown",
+      "primary_categories": [
+        "投資戦略・資金フロー"
+      ],
+      "secondary_categories": [
+        "その他の産業テーマ"
+      ],
+      "translation_errors": {},
+      "title_ja": "2027 年の投資見通し:「電力の価格」",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "アムンディ投資研究所の 2027 年の見通しでは、5 つの力によって形成されるマクロ経済体制のコストとトレードオフを調査しています。これらの力が合わさって複雑なマクロ経済的背景を生み出しており、その中でポートフォリオの構築には幅広いリスクとリターン要因を考慮する必要があります。財政制約により資金調達コストが上昇すると同時に、投資ニーズも高まっています。 2027 年には世界の GDP が成長すると予想されます",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-19",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-19",
+      "published_candidate": "2027-11-19",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     }
   ],
   "archive_enabled": true,
-  "archive_count": 121,
+  "archive_count": 125,
   "archive_quality": {
-    "previous_unique": 114,
-    "new_unique": 7,
+    "previous_unique": 121,
+    "new_unique": 4,
     "current_unique": 84,
     "duplicate_urls_previous": 0,
     "duplicate_urls_current": 0,
-    "total_unique": 121,
+    "total_unique": 125,
     "published_dates_verified": 0,
-    "translation_available": 97,
-    "published_dates_declared_unverified": 39
+    "translation_available": 101,
+    "published_dates_declared_unverified": 45
   },
   "archive_note": "first_seen is a GMI tracking date, never a publication date. Unverified dates remain published_candidate, never displayed as confirmed. Excerpts are partial and machine translations are not full-article summaries.",
   "date_verification": {
-    "examined": 121,
+    "examined": 125,
     "verified": 0,
-    "publisher_declared_unverified": 39,
-    "unknown": 82,
+    "publisher_declared_unverified": 45,
+    "unknown": 80,
     "unverified_reasons": {
-      "no_publication_metadata": 81,
+      "no_publication_metadata": 79,
       "too_large": 1
     },
     "method": "Publisher page metadata: matching HTML meta + article JSON-LD = crosschecked; single source = publisher-declared, unverified; conflicting/missing = unknown"
