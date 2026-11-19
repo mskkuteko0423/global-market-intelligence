@@ -15,7 +15,7 @@
 .review button{margin-top:10px}
 .stance-chip{display:inline-block;padding:4px 7px;border-radius:6px;background:#edf3fb;font-size:12px}
 @media(max-width:650px){.review .review-grid{grid-template-columns:1fr}}
-</style></head><body>
+.evidence-hints{margin:12px 0;padding:11px;background:#f3f6fb;border-radius:10px;font-size:12px}.evidence-hints summary{cursor:pointer;font-weight:600}.hint{border-top:1px solid #dce5f1;margin-top:9px;padding-top:8px}.hint p{margin:5px 0;line-height:1.6;overflow-wrap:anywhere}</style></head><body>
 <header><div class="inner"><h1>Global Market Intelligence</h1><p>世界の金融機関による公式マーケット記事を検索・閲覧</p></div></header>
 <main class="wrap"><div class="stats"><div class="stat"><b id="n">—</b><span>収録記事</span></div><div class="stat"><b id="f">—</b><span>情報源数</span></div><div class="stat"><b id="updated">—</b><span>最終収集日（JST）</span></div></div>
 <div class="notice" id="status">公式記事データを読み込んでいます。掲載内容は本文の一部であり、記事全体の要約や投資判断ではありません。</div>
@@ -63,6 +63,24 @@ function drawAI(){
 
 const stanceLabels={bull:'強気',neutral:'中立',cautious:'慎重',bear:'弱気'};
 function validAssessment(a){return a&&stanceLabels[a.stance]&&/^\d{4}-\d{2}-\d{2}$/.test(a.date||'')&&a.evidence&&a.evidence.trim().length>=10}
+
+// キーワードに一致した原文抜粋を提示するだけで、金融機関の投資評価は判定しない。
+const evidencePatterns=[
+ {label:'需要・成長',re:/\b(demand|growth|adoption|accelerat(?:e|ion|ing)|opportunit(?:y|ies)|expansion|productivity)\b/i},
+ {label:'設備投資',re:/\b(capex|capital expenditure|investment spending|data cent(?:er|re)|infrastructure|hyperscaler)\b/i},
+ {label:'収益化・利益',re:/\b(monetiz(?:e|ation)|profitab(?:le|ility)|return on investment|ROI|revenue|cash flow|margin)\b/i},
+ {label:'リスク・慎重姿勢',re:/\b(risk|uncertain(?:ty)?|concern|slowdown|overvalu(?:ed|ation)|bubble|constraint|bottleneck|cost pressure)\b/i}
+];
+function evidenceHints(r){
+ const raw=String(r.originalExcerpt||'').replace(/\s+/g,' ').trim();
+ if(!raw)return '<p class="muted">原文抜粋がありません。</p>';
+ const sentences=raw.match(/[^.!?]+[.!?]?/g)||[raw];
+ const hits=evidencePatterns.map(group=>{
+  const match=sentences.find(x=>group.re.test(x));
+  return match?'<div class="hint"><b>'+esc(group.label)+'</b><p>'+esc(match.trim().slice(0,360))+'</p></div>':'';
+ }).filter(Boolean);
+ return hits.length?hits.join(''):'<p class="muted">キーワードに一致する記述はありません。</p>';
+}
 function assessmentForm(r){
  const a=assessments[r.id]||{}, verified=validAssessment(a);
  return `<div class="review" data-review="${esc(r.id)}"><div class="meta"><span class="tag">${esc(r.firm)}</span><span>${esc(r.published?'公表日 '+r.published:'公表日未確認')}</span><span>${esc(r.firstSeen?'GMI初回確認 '+r.firstSeen:'')}</span></div>
@@ -70,7 +88,7 @@ function assessmentForm(r){
  <p class="muted">${esc((r.description||'').slice(0,350))}</p><a href="${esc(validUrl(r.url))}" target="_blank" rel="noopener noreferrer">公式記事で根拠を確認 ↗</a>
  <div class="review-grid"><div><label>評価（原文確認後に選択）</label><select data-field="stance"><option value="">未評価</option>${Object.entries(stanceLabels).map(([k,v])=>`<option value="${k}" ${a.stance===k?'selected':''}>${v}</option>`).join('')}</select></div>
  <div><label>確認した公表日（必須）</label><input data-field="date" type="date" value="${esc(a.date||'')}"></div></div>
- <label>判断の根拠（原文の要点・10文字以上、必須）</label><textarea data-field="evidence" maxlength="1000" placeholder="公式記事のどの記述から判断したかを記録">${esc(a.evidence||'')}</textarea>
+ <details class="evidence-hints"><summary>原文から根拠候補を表示（自動抽出・未検証）</summary>${evidenceHints(r)}<p class="muted">キーワードに一致する英文の抜粋です。強気・弱気の判定ではありません。否定表現や前後の文脈を含め、必ず公式記事を確認してください。</p></details><label>判断の根拠（原文の要点・10文字以上、必須）</label><textarea data-field="evidence" maxlength="1000" placeholder="公式記事のどの記述から判断したかを記録">${esc(a.evidence||'')}</textarea>
  <button type="button" data-assess-save="${esc(r.id)}">評価を保存</button> <button type="button" class="secondary" data-assess-delete="${esc(r.id)}">記録を削除</button></div>`;
 }
 function drawStance(){
