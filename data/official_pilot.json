@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T03:20:21.748129+00:00",
+  "updated": "2026-11-19T03:28:09.479928+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -77,7 +77,7 @@
       "firm": "Schroders",
       "official_url_candidates": 7,
       "tested": 7,
-      "extracted": 7,
+      "extracted": 0,
       "error": null
     },
     {
@@ -108,7 +108,7 @@
       "official_url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/john-waldron-on-gdp-growth-ai-and-the-m-a-outlook",
       "link_title": "hero-card-gridExchangesJohn Waldron on GDP Growth, AI, and the M&A Outlook Podcast|Nov 4, 2026",
       "title": "John Waldron on GDP Growth, AI, and the M&A Outlook",
-      "published": null,
+      "published": "2026-11-04",
       "categories": [
         "マクロ経済",
         "AI・半導体"
@@ -118,7 +118,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "マクロ経済",
         "AI・半導体"
@@ -138,16 +138,17 @@
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
-      "published_candidate": "2026-11-04"
+      "published_candidate": "2026-11-04",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Goldman Sachs",
       "official_url": "https://www.goldmansachs.com/insights/talks-at-gs/how-aaru-uses-advanced-ai-simulations-to-predict-human-behavior-",
       "link_title": "hero-card-grid19:58Talks at GSHow Aaru Uses Advanced AI Simulations to Predict Human Behavior Video|Nov 5, 2026",
       "title": "How Aaru Uses Advanced AI Simulations to Predict Human Behavior",
-      "published": null,
+      "published": "2026-11-05",
       "categories": [
         "AI・半導体"
       ],
@@ -156,7 +157,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "AI・半導体"
       ],
@@ -175,16 +176,17 @@
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
-      "published_candidate": "2026-11-05"
+      "published_candidate": "2026-11-05",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Goldman Sachs",
       "official_url": "https://www.goldmansachs.com/insights/articles/global-music-revenues-are-forecast-to-rise-as-subscriber-growth-beats-expectations",
       "link_title": "hero-card-gridMarketsGlobal Music Revenues Are Forecast to Rise as Subscriber Growth Beats ExpectationsNov 5, 2026",
       "title": "Global Music Revenues Are Forecast to Rise as Subscriber Growth Beats Expectations",
-      "published": null,
+      "published": "2026-11-05",
       "categories": [
         "その他の産業テーマ"
       ],
@@ -193,7 +195,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "その他の産業テーマ"
@@ -212,16 +214,17 @@
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
-      "published_candidate": "2026-11-05"
+      "published_candidate": "2026-11-05",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Goldman Sachs",
       "official_url": "https://www.goldmansachs.com/insights/articles/emerging-market-credit-shows-resilience-amid-energy-shock",
       "link_title": "hero-card-gridMarketsEmerging Market Credit Shows Resilience amid Energy ShockNov 5, 2026",
       "title": "Emerging Market Credit Shows Resilience amid Energy Shock",
-      "published": null,
+      "published": "2026-11-05",
       "categories": [
         "クレジット"
       ],
@@ -230,7 +233,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "クレジット"
       ],
@@ -249,9 +252,10 @@
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
-      "published_candidate": "2026-11-05"
+      "published_candidate": "2026-11-05",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Morgan Stanley",
@@ -268,7 +272,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "その他の産業テーマ"
       ],
@@ -307,7 +311,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "その他の産業テーマ"
       ],
@@ -344,7 +348,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "AI・半導体"
       ],
@@ -372,7 +376,7 @@
       "official_url": "https://www.capitalgroup.com/institutional/insights/articles/midterm-impacts-AI-data-centers-tariffs-Iran.html",
       "link_title": "Midterm impacts on AI data centers, tariffs and Iran",
       "title": "Midterm impacts on AI data centers, tariffs and Iran",
-      "published": null,
+      "published": "2026-11-11",
       "categories": [
         "AI・半導体"
       ],
@@ -381,7 +385,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "AI・半導体"
       ],
@@ -400,16 +404,17 @@
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
-      "published_candidate": "2026-11-11"
+      "published_candidate": "2026-11-11",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "Capital Group",
       "official_url": "https://www.capitalgroup.com/institutional/insights/articles/5-charts-worried-rising-rates.html",
       "link_title": "5 charts to consider if worried about rising rates",
       "title": "5 charts to consider if worried about rising rates",
-      "published": null,
+      "published": "2026-10-14",
       "categories": [
         "債券・金利"
       ],
@@ -418,7 +423,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "債券・金利"
@@ -437,16 +442,17 @@
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
-      "published_candidate": "2026-10-14"
+      "published_candidate": "2026-10-14",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "Capital Group",
       "official_url": "https://www.capitalgroup.com/institutional/insights/articles/how-bond-investors-can-ride-debt-wave.html",
       "link_title": "How bond investors can ride the debt wave",
       "title": "How bond investors can ride the debt wave",
-      "published": null,
+      "published": "2026-10-28",
       "categories": [
         "債券・金利",
         "クレジット",
@@ -457,7 +463,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "債券・金利"
       ],
@@ -479,16 +485,17 @@
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
-      "published_candidate": "2026-10-28"
+      "published_candidate": "2026-10-28",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "Capital Group",
       "official_url": "https://www.capitalgroup.com/institutional/insights/articles/ai-boom-doom-your-questions-answered.html",
       "link_title": "AI boom or doom? Your questions answered",
       "title": "AI boom or doom? Your questions answered",
-      "published": null,
+      "published": "2026-10-15",
       "categories": [
         "AI・半導体"
       ],
@@ -497,7 +504,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "AI・半導体"
       ],
@@ -516,23 +523,24 @@
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
-      "published_candidate": "2026-10-15"
+      "published_candidate": "2026-10-15",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "Capital Group",
       "official_url": "https://www.capitalgroup.com/institutional/insights/articles/active-muni-investing.html",
       "link_title": "How active muni investing can extract value amid volatility",
       "title": "How active muni investing can extract value amid volatility",
-      "published": null,
+      "published": "2026-10-16",
       "categories": [],
       "excerpt": "THIS WEBSITE IS INTENDED FOR INSTITUTIONAL INVESTORS who are U.S. residents ONLY; not intended for access or distribution to retail investors. In order to access the Capital Group U.S. Institutional website (the “Site”), please read the following information and affirm by clicking the accept button that you have read and understand the information provided. You must attest that you meet the qualifications of an institutional investor as described herein and accept these Terms and Conditions in order to access the Site. Some content may require additional registration for access. The Site is solely intended for U.S. residents who are institutional investors or are acting on behalf of an institutional investor who has agreed to these Terms and Conditions. Institutional investors include, but are not limited to any person acting on behalf of/any pension fund, financial intermediary, consultant, endowment and foundation, bank, savings and loan association, insurance company, investment company registered under the Investment Company Act of 1940, investment adviser registered with the U.S. Securities and Exchange Commission or under applicable state law, government entity, entity with total assets of at least $50 million, employee benefit or qualified retirement plan with at least 100 participants, defined contribution/benefit plan, and qualified client or purchaser as defined by the U.S. Securities and Exchange Commission. By agreeing to these Terms and Conditions you are affirming your understanding that the Site is not intended for retail investors, individual plan participants or others who may not possess the financial sophistication to independently understand the content nor should it be redistributed to such persons. You understand that the Site does not constitute a",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -549,9 +557,10 @@
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
-      "published_candidate": "2026-10-16"
+      "published_candidate": "2026-10-16",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "BlackRock",
@@ -569,7 +578,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Market-related candidate; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "投資戦略・資金フロー"
       ],
@@ -607,7 +616,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -640,7 +649,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -675,7 +684,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "債券・金利"
       ],
@@ -712,7 +721,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "債券・金利"
@@ -747,7 +756,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -779,7 +788,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -805,7 +814,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -837,7 +846,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -869,7 +878,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -894,14 +903,14 @@
       "official_url": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles/salim-ramji-bloomberg-masters-business.html",
       "link_title": "Salim Ramji Vanguard Chief Executive Officer Financial wellness & planning Salim Ramji on Bloomberg's Masters in Business",
       "title": "Salim Ramji on Bloomberg's Masters in Business",
-      "published": null,
+      "published": "2026-11-16",
       "categories": [],
       "excerpt": "In a recent episode of Bloomberg’s Masters in Business podcast, Vanguard CEO Salim Ramji reflected on the experiences that have shaped his views on financial security and explored some of the biggest questions facing investors and the industry. Vanguard is owned by its funds, which are owned by Vanguard's fund shareholders. Our retail direct investment advisory strategies, in turn, are built on core investments in the Vanguard funds. For more information about Vanguard funds, visit vanguard.com to obtain a prospectus or, if available, a summary prospectus. Investment objectives, risks, charges, expenses, and other important information are contained in the prospectus; read and consider it carefully before investing. Vanguard ETF Shares are not redeemable with the issuing Fund other than in very large aggregations worth millions of dollars. Instead, investors must buy and sell Vanguard ETF Shares in the secondary market and hold those shares in a brokerage account. In doing so, the investor may incur brokerage commissions and may pay more than net asset value when buying and receive less than net asset value when selling. All investing is subject to risk, including possible loss of principal. Be aware that fluctuations in the financial markets and other factors may cause declines in the value of your account. There is no guarantee that any particular asset allocation or mix of funds will meet your investment objectives or provide you with a given level of income.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -913,15 +922,16 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
       "published_candidate": "2026-11-16",
-      "publication_date_status": "unknown",
-      "is_verified_new": false
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Vanguard",
       "official_url": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles/better-vantage-season-three-episode-three.html",
       "link_title": "Mona Mahajan speaking into a microphone with a \"Better Vantage by Vanguard\" microphone flag. Portfolio considerations Is your portfolio ready for the next decade?",
       "title": "Is your portfolio ready for the next decade?",
-      "published": null,
+      "published": "2026-11-11",
       "categories": [
         "投資戦略・資金フロー"
       ],
@@ -930,7 +940,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Market-related candidate; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "投資戦略・資金フロー"
       ],
@@ -944,15 +954,16 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
       "published_candidate": "2026-11-11",
-      "publication_date_status": "unknown",
-      "is_verified_new": false
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Vanguard",
       "official_url": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles/beyond-ccc-high-yield-appears-resilient.html",
       "link_title": "Four closely grouped red spheres on a white background beside four spaced white spheres on a red background. Economics & markets Beyond CCCs, high-yield appears resilient",
       "title": "Beyond CCCs, high-yield appears resilient",
-      "published": null,
+      "published": "2026-11-10",
       "categories": [
         "債券・金利"
       ],
@@ -961,7 +972,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Market-related candidate; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "債券・金利"
       ],
@@ -975,8 +986,9 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
       "published_candidate": "2026-11-10",
-      "publication_date_status": "unknown",
-      "is_verified_new": false
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Vanguard",
@@ -990,7 +1002,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1016,7 +1028,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1042,7 +1054,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1061,7 +1073,7 @@
       "official_url": "https://www.pimco.com/us/en/insights/growth-holds-risks-widen",
       "link_title": "Read Article",
       "title": "Growth Holds, Risks Widen | PIMCO",
-      "published": null,
+      "published": "2026-10-06",
       "categories": [
         "投資戦略・資金フロー",
         "その他の産業テーマ"
@@ -1071,7 +1083,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Market-related candidate; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "投資戦略・資金フロー",
@@ -1086,8 +1098,9 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
       "published_candidate": "2026-10-06",
-      "publication_date_status": "unknown",
-      "is_verified_new": false
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Fidelity",
@@ -1103,7 +1116,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "株式"
@@ -1137,7 +1150,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1163,7 +1176,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1189,7 +1202,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1222,7 +1235,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1248,7 +1261,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1274,7 +1287,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1302,7 +1315,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "債券・金利"
@@ -1339,7 +1352,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "AI・半導体"
@@ -1367,7 +1380,7 @@
       "official_url": "https://www.pimco.com/us/en/insights/income-fund-update-standout-returns-powered-by-active-management",
       "link_title": "Income Fund Update Standout Returns Powered By Active Management",
       "title": "Income Fund Update: Standout Returns, Powered by Active Management | PIMCO",
-      "published": null,
+      "published": "2026-02-10",
       "categories": [
         "債券・金利"
       ],
@@ -1376,7 +1389,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "債券・金利"
@@ -1390,21 +1403,22 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-02-10",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "インカムファンド最新情報：アクティブ運用による際立ったリターン | PIMCO",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "2025年は固定収益資産にとって好調な年となり、2026年に向けての環境も引き続き非常に建設的なものとなっています。魅力的な初期利回り、世界経済の状況の分化、市場の変化により、PIMCOが10年以上ぶりのアクティブな債券投資の絶好の機会と考える状況が生まれています。ここでは、アルフレッド・ムラタ氏、ジョシュ・アンダーソン氏とともにPIMCOインカムファンドを運用するダン・イヴァシン氏が質問にお答えします。"
+      "excerpt_ja": "2025年は固定収益資産にとって好調な年となり、2026年に向けての環境も引き続き非常に建設的なものとなっています。魅力的な初期利回り、世界経済の状況の分化、市場の変化により、PIMCOが10年以上ぶりのアクティブな債券投資の絶好の機会と考える状況が生まれています。ここでは、アルフレッド・ムラタ氏、ジョシュ・アンダーソン氏とともにPIMCOインカムファンドを運用するダン・イヴァシン氏が質問にお答えします。",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "PIMCO",
       "official_url": "https://www.pimco.com/us/en/insights/a-systematic-lens-on-global-equity-opportunities-within-multi-asset-portfolios",
       "link_title": "A Systematic Lens On Global Equity Opportunities Within Multi Asset Portfolios",
       "title": "A Systematic Lens on Global Equity Opportunities Within Multi-Asset Portfolios | PIMCO",
-      "published": null,
+      "published": "2026-04-01",
       "categories": [
         "株式",
         "投資戦略・資金フロー"
@@ -1414,7 +1428,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "株式"
       ],
@@ -1430,21 +1444,22 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-04-01",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "マルチアセットポートフォリオにおけるグローバル株式投資機会への体系的な視点 | PIMCO",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "システマティック株式投資とは、憶測や勘ではなく、明確なルールとデータを用いて株式市場に投資する方法です。このアプローチでは、トレンドやニュースの見出しに基づいて株式を選ぼうとするのではなく、リサーチ、データ、テクノロジーを活用して、世界の市場における機会を体系的に特定します。その目標とは？PIMCOのマルチアセット戦略の投資家が、より安定的に投資を成長させ、過剰な集中を回避できるようにすることです。"
+      "excerpt_ja": "システマティック株式投資とは、憶測や勘ではなく、明確なルールとデータを用いて株式市場に投資する方法です。このアプローチでは、トレンドやニュースの見出しに基づいて株式を選ぼうとするのではなく、リサーチ、データ、テクノロジーを活用して、世界の市場における機会を体系的に特定します。その目標とは？PIMCOのマルチアセット戦略の投資家が、より安定的に投資を成長させ、過剰な集中を回避できるようにすることです。",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "PIMCO",
       "official_url": "https://www.pimco.com/us/en/insights/5-themes-defining-bond-etf-investing-today",
       "link_title": "5 Themes Defining Bond Etf Investing Today",
       "title": "5 Themes Defining Bond ETF Investing Today | PIMCO",
-      "published": null,
+      "published": "2025-06-17",
       "categories": [
         "債券・金利"
       ],
@@ -1453,7 +1468,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "債券・金利"
       ],
@@ -1467,28 +1482,29 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2025-06-17",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "今日の債券ETF投資を特徴づける5つのテーマ | PIMCO",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "トップダウンのマクロ経済および市場を規定する傾向と、ボトムアップの動向、フロー、リスクの両方を評価することで、現在債券ETFを特徴づけ、将来の機会を推進する可能性が高いいくつかの主要なテーマを特定しました。絶えず変化する投資環境において、柔軟性は、固定収益投資家にとってのキーワードになりつつあります。アクティブコアおよびマルチセクターの固定金利ETFの急増がその証拠です。"
+      "excerpt_ja": "トップダウンのマクロ経済および市場を規定する傾向と、ボトムアップの動向、フロー、リスクの両方を評価することで、現在債券ETFを特徴づけ、将来の機会を推進する可能性が高いいくつかの主要なテーマを特定しました。絶えず変化する投資環境において、柔軟性は、固定収益投資家にとってのキーワードになりつつあります。アクティブコアおよびマルチセクターの固定金利ETFの急増がその証拠です。",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "PIMCO",
       "official_url": "https://www.pimco.com/us/en/insights/ecb-remains-attentive-and-focused",
       "link_title": "Ecb Remains Attentive And Focused",
       "title": "ECB Remains Attentive and Focused | PIMCO",
-      "published": null,
+      "published": "2023-12-14",
       "categories": [],
       "excerpt": "The European Central Bank (ECB) left its policy rate unchanged at 4% in December. As interest rates have presumably reached peak level, the focus has shifted towards when the ECB might start to cut. While recent inflation developments have been encouraging, the market is now fully pricing swift disinflation back to the central bank target, with the first rate cut around March next year. Although economic momentum in the euro area remains weak and recent inflation prints surprised to the downside, labour markets remain in good shape and the medium-term inflation trajectory uncertain. Underlying inflation is still at 3.6%, well above the 2% headline target. For inflation to evolve in line with ECB projections, growth in unit labour costs needs to falls back to levels consistent with 2% inflation, and firms need to use their profit margins as a buffer to limit the pass-through of the current strong wage increases to consumer prices. More clarity is needed for the ECB to change course. While the new staff macroeconomic projections include the inaugural estimates for 2026, the ECB has made clear that it aims to achieve its inflation target no later than in 2025. Overall, activity and inflation data have been softening since the last projection round in September, so there have been downward revisions in December. For headline inflation, the projections show the harmonised index of consumer prices (HICP) in 2024 revised down to 2.7%, unchanged at 2.1% in 2025, and at 1.9% from Q1 2026 onwards. President Lagarde stressed that financial conditions are currently easier than embedded in the projections. The ECB terminated asset purchase programme (APP) reinvestments in July. At its December meeting, the ECB decided to communicate an earlier cutback in pandemic emergency purchase ",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1500,28 +1516,29 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2023-12-14",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "ECBは引き続き警戒し、注視している | PIMCO",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "欧州中央銀行（ECB）は12月、政策金利を4%のまま据え置きました。金利はおそらくピークに達したと思われるため、焦点はECBがいつ利下げを開始するかへと移っています。最近のインフレの動きは好ましいものでしたが、市場は現在、中央銀行の目標に向けて迅速なデフレが進むことを完全に織り込んでおり、来年3月頃に最初の利下げが行われると見込んでいます。ユーロ圏の経済モメンタムは"
+      "excerpt_ja": "欧州中央銀行（ECB）は12月、政策金利を4%のまま据え置きました。金利はおそらくピークに達したと思われるため、焦点はECBがいつ利下げを開始するかへと移っています。最近のインフレの動きは好ましいものでしたが、市場は現在、中央銀行の目標に向けて迅速なデフレが進むことを完全に織り込んでおり、来年3月頃に最初の利下げが行われると見込んでいます。ユーロ圏の経済モメンタムは",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "PIMCO",
       "official_url": "https://www.pimco.com/us/en/insights/feds-dovish-pivot-reflects-lessons-from-history",
       "link_title": "Feds Dovish Pivot Reflects Lessons From History",
       "title": "Fed’s Dovish Pivot Reflects Lessons From History | PIMCO",
-      "published": null,
+      "published": "2023-12-14",
       "categories": [],
       "excerpt": "Following its December meeting, Federal Reserve officials underscored a growing confidence in their ability to guide the U.S. economy toward a soft landing, and therefore begin the process of cutting rates. As Fed Chair Jerome Powell himself stated in a 2018 speech, monetary policy strategy is an exercise in risk management. By softening the hiking bias embedded in previous Federal Open Market Committee (FOMC) statements, and lowering the projected path of the federal funds rate, FOMC participants signaled they believe the balance of risks has shifted squarely in favor of achieving sustainably lower inflation. Thus, chances of further rate hikes have diminished, and FOMC discussion is quickly shifting toward the economic conditions that would warrant rate cuts. Because Chair Powell told reporters afterward that the FOMC had discussed the prospect of rate cuts at this meeting, markets have begun to focus on how soon and how many cuts could come. However, with the economy still proving resilient, Fed officials will likely want to hold off until additional evidence shows inflation is continuing to moderate back to the central bank’s 2% target. Still, history suggests that once the Fed does begin to cut, the pace could be more rapid than that implied by the FOMC’s projected median interest rate path through 2025. Both forecasters and markets have tended to underestimate the speed and magnitude of the central bank cutting cycle when rates are at their peak. The central bank held its policy rate steady at 5.25%–5.5%. It also released updated economic projections that we view as consistent with growing confidence that the U.S. economy will achieve a soft landing. These projections include a median outlook for 75 basis points (bps) of net rate cuts in 2024 – up from 50 bps prev",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1533,14 +1550,15 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2023-12-14",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "FRBのハト派的な方針転換は歴史から学んだ教訓を反映 | PIMCO",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "12月の会合の後、米連邦準備制度理事会（FRB）の当局者は、米国経済をソフトランディングに導き、それによって利下げのプロセスを開始する能力に対する自信が高まっていることを強調しました。2018年の演説でジェローム・パウエルFRB議長自身が述べたように、金融政策戦略はリスク管理の一環です。これまでの連邦公開市場委員会（FOMC）の声明に組み込まれていた利上げ傾向を緩和することで、"
+      "excerpt_ja": "12月の会合の後、米連邦準備制度理事会（FRB）の当局者は、米国経済をソフトランディングに導き、それによって利下げのプロセスを開始する能力に対する自信が高まっていることを強調しました。2018年の演説でジェローム・パウエルFRB議長自身が述べたように、金融政策戦略はリスク管理の一環です。これまでの連邦公開市場委員会（FOMC）の声明に組み込まれていた利上げ傾向を緩和することで、",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Schroders",
@@ -1554,7 +1572,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1581,7 +1599,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1608,7 +1626,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1635,7 +1653,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1664,7 +1682,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Market-related candidate; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "投資戦略・資金フロー"
       ],
@@ -1693,7 +1711,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1720,7 +1738,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1747,7 +1765,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1776,7 +1794,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Market-related candidate; review required",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "債券・金利",
@@ -1806,7 +1824,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1832,14 +1850,14 @@
       "official_url": "https://www.pimco.com/us/en/insights/the-aftershock-economy",
       "link_title": "The Aftershock Economy",
       "title": "Secular Outlook: The Aftershock Economy | PIMCO",
-      "published": null,
+      "published": "2023-06-06",
       "categories": [],
       "excerpt": "The first few years of the 2020s have seen a number of acute economic, financial, and geopolitical disruptions on a worldwide scale, and it will take time for the ultimate consequences of these shocks to be fully felt. At PIMCO’s latest Secular Forum, we discussed how recent short-term cyclical dynamics are likely to have longer-lasting secular consequences. The global economy is exiting a period of massive fiscal and monetary policy interventions that are unlikely to be repeated over our secular horizon. After the post-pandemic surge in global inflation, central bankers are starting to recognize that unconventional monetary policies bear costs as well as deliver benefits, while surging sovereign debt levels will likely limit fiscal capacity to address future downturns. With the era of volatility-suppressing policies possibly over, markets are likely in for a period of heightened volatility, with an unusually large array of potential aftershocks. We believe the risks to global growth are skewed to the downside over our five-year secular horizon, and that returns across asset classes are likely to be more differentiated in this new era. We expect central banks to maintain their existing inflation targets and to prioritize keeping longer-term inflation expectations anchored at those target levels. We believe that neutral long-run real policy rates in advanced economies will remain anchored in a range of 0% to 1%. With rising government debt and the possible return of an inflation risk premium, we expect the yield curve to steepen as investors demand more compensation on longer-term bonds over the secular horizon. Our expectations of low neutral rates and a return to near-target inflation reinforce a positive outlook for core and high quality fixed income. After rising sha",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1851,14 +1869,15 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2023-06-06",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "長期見通し：余震経済 | PIMCO",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "2020年代の最初の数年間には、世界規模で深刻な経済的、財政的、地政学的な混乱が数多く発生しており、これらのショックの最終的な影響が完全に現れるまでには時間がかかるでしょう。PIMCOの最新のセキュラーフォーラムでは、最近の短期的な景気循環の動きが、より長期的な構造的な影響をもたらす可能性について議論しました。世界経済は、大規模な財政政策と"
+      "excerpt_ja": "2020年代の最初の数年間には、世界規模で深刻な経済的、財政的、地政学的な混乱が数多く発生しており、これらのショックの最終的な影響が完全に現れるまでには時間がかかるでしょう。PIMCOの最新のセキュラーフォーラムでは、最近の短期的な景気循環の動きが、より長期的な構造的な影響をもたらす可能性について議論しました。世界経済は、大規模な財政政策と",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Vanguard",
@@ -1872,7 +1891,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1908,7 +1927,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "株式",
         "投資戦略・資金フロー"
@@ -1944,7 +1963,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1977,7 +1996,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2003,7 +2022,7 @@
       "official_url": "https://research-center.amundi.com/article/2026-mid-year-outlook",
       "link_title": "Global Outlook 2026.06-Invitation-2026-Mid-Year-Outlook-Header",
       "title": "Mid-year Investment Outlook 2026",
-      "published": null,
+      "published": "2026-06-29",
       "categories": [
         "投資戦略・資金フロー",
         "債券・金利",
@@ -2014,7 +2033,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "投資戦略・資金フロー"
       ],
@@ -2031,21 +2050,22 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-06-29",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "2026年中間投資見通し",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "世界経済は転換点にあります。成長の減速は地域によってばらつきがあり、財政政策がより顕著な制約となりつつあることが見て取れます。一方、地政学的なショックがエネルギー価格、食料や肥料のコスト、海上輸送ルートにますます影響を及ぼすにつれ、インフレリスクが高まっています。それでも、人工知能（AI）は地域全体、そしてますます多くのセクターにおいて、強力な収益の原動力であり続けています。今後6か月間は"
+      "excerpt_ja": "世界経済は転換点にあります。成長の減速は地域によってばらつきがあり、財政政策がより顕著な制約となりつつあることが見て取れます。一方、地政学的なショックがエネルギー価格、食料や肥料のコスト、海上輸送ルートにますます影響を及ぼすにつれ、インフレリスクが高まっています。それでも、人工知能（AI）は地域全体、そしてますます多くのセクターにおいて、強力な収益の原動力であり続けています。今後6か月間は",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "Amundi",
       "official_url": "https://research-center.amundi.com/article/global-investment-views-november-2026",
       "link_title": "Investment Views Amundi Global Investment Views",
       "title": "Global Investment Views - November 2026",
-      "published": null,
+      "published": "2026-11-09",
       "categories": [
         "マクロ経済",
         "投資戦略・資金フロー"
@@ -2055,7 +2075,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "マクロ経済",
@@ -2070,21 +2090,22 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-11-09",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "グローバル投資の見通し - 2026年11月",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ここ数週間、エネルギー市場、財政余地、人工知能（AI）関連株、新興市場におけるリスクの再評価が行われています。投資家は、堅牢なバランスシート、価格決定力、構造的な供給制約へのエクスポージャーを持つ企業をますます好むようになっています。エネルギー市場では、地政学的プレミアムがより顕著に見られ、これは供給ルートの逼迫と高騰を反映しており、"
+      "excerpt_ja": "ここ数週間、エネルギー市場、財政余地、人工知能（AI）関連株、新興市場におけるリスクの再評価が行われています。投資家は、堅牢なバランスシート、価格決定力、構造的な供給制約へのエクスポージャーを持つ企業をますます好むようになっています。エネルギー市場では、地政学的プレミアムがより顕著に見られ、これは供給ルートの逼迫と高騰を反映しており、",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "Amundi",
       "official_url": "https://research-center.amundi.com/article/cross-asset-investment-strategy-october-2026",
       "link_title": "Cross Asset Research HEADER1.png",
       "title": "Cross Asset Investment Strategy - October 2026",
-      "published": null,
+      "published": "2026-10-22",
       "categories": [
         "株式",
         "債券・金利"
@@ -2094,7 +2115,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "株式",
@@ -2109,21 +2130,22 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-10-22",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "クロスアセット投資戦略 - 2026年10月",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "米国のThe midterm elections（中間選挙）により、下院の過半数と上院の3分の1が決定されます。下院の全435議席と、上院の通常議席33議席が選挙の対象となります。現在、共和党が両院を支配しています。下院は共和党220議席に対し、民主党215議席、上院は共和党53議席、民主党45議席、そして民主党と連携する無所属議員が2議席となっています。最も多数派が入れ替わる可能性が高いのは"
+      "excerpt_ja": "米国のThe midterm elections（中間選挙）により、下院の過半数と上院の3分の1が決定されます。下院の全435議席と、上院の通常議席33議席が選挙の対象となります。現在、共和党が両院を支配しています。下院は共和党220議席に対し、民主党215議席、上院は共和党53議席、民主党45議席、そして民主党と連携する無所属議員が2議席となっています。最も多数派が入れ替わる可能性が高いのは",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "Amundi",
       "official_url": "https://research-center.amundi.com/article/asset-class-returns-forecasts-h2-2026",
       "link_title": "Capital Market Assumptions Capital Market Assumptions 2026",
       "title": "Asset Class Returns Forecasts H2 2026",
-      "published": null,
+      "published": "2026-08-19",
       "categories": [
         "株式",
         "債券・金利"
@@ -2133,7 +2155,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "株式",
@@ -2148,21 +2170,22 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-08-19",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "資産クラスリターンの予測（2026年下半期）",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "断絶の体制がさらに確固たるものとなっています。2026年のCMAでは、今後数年間を地政学的、技術的、エネルギー関連の構造的断絶が重なり合う時期として特定しました。このような環境では、インフレはより粘着性があり、財政赤字はより拡大し、マクロ経済の不確実性はより高くなります。2026年の上半期は、この見方をさらに強化しました。イラン戦争とホルムズ海峡の封鎖により、"
+      "excerpt_ja": "断絶の体制がさらに確固たるものとなっています。2026年のCMAでは、今後数年間を地政学的、技術的、エネルギー関連の構造的断絶が重なり合う時期として特定しました。このような環境では、インフレはより粘着性があり、財政赤字はより拡大し、マクロ経済の不確実性はより高くなります。2026年の上半期は、この見方をさらに強化しました。イラン戦争とホルムズ海峡の封鎖により、",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "Amundi",
       "official_url": "https://research-center.amundi.com/article/high-rates-higher-interest-payments",
       "link_title": "High rates, higher interest payments",
       "title": "High rates, higher interest payments",
-      "published": null,
+      "published": "2026-11-16",
       "categories": [
         "債券・金利",
         "マクロ経済"
@@ -2172,7 +2195,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "債券・金利",
@@ -2187,14 +2210,15 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-11-16",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "金利が高ければ、利払いも高くなる",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "政府債務の高さがFRBの政策を左右するわけではありませんが、マクロ経済におけるリスクを高めることになります。金利の上昇により、すでに高い債務返済コストがさらに増大するからです。高いインフレ率と相まって、債券市場のボラティリティが続く可能性が高く、分散投資アプローチの必要性が強調されます。債券市場は、財政赤字の高さや高い債務水準などの要因に起因する高い不確実性に直面しています。"
+      "excerpt_ja": "政府債務の高さがFRBの政策を左右するわけではありませんが、マクロ経済におけるリスクを高めることになります。金利の上昇により、すでに高い債務返済コストがさらに増大するからです。高いインフレ率と相まって、債券市場のボラティリティが続く可能性が高く、分散投資アプローチの必要性が強調されます。債券市場は、財政赤字の高さや高い債務水準などの要因に起因する高い不確実性に直面しています。",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "BNP Paribas",
@@ -2208,7 +2232,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2240,7 +2264,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2274,7 +2298,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "マクロ経済"
@@ -2311,7 +2335,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "AI・半導体"
       ],
@@ -2347,7 +2371,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -2379,7 +2403,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "マクロ経済"
@@ -2416,7 +2440,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "債券・金利"
       ],
@@ -2451,7 +2475,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2487,7 +2511,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "債券・金利"
       ],
@@ -2524,7 +2548,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2559,7 +2583,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "債券・金利"
       ],
@@ -2586,14 +2610,14 @@
       "official_url": "https://www.invesco.com/ae/en/insights/european-etf-snapshot.html",
       "link_title": "European Etf Snapshot.Html",
       "title": "European ETF Snapshot",
-      "published": null,
+      "published": "2025-04-25",
       "categories": [],
       "excerpt": "The European ETF market had its best quarter in terms of flows, with US$93 billion of NNA in Q1 eclipsing the US$91 billion in Q4 2024. The total AUM of US$2.38 trillion at the end of the quarter was helped by strong commodity returns (particularly from gold) and solid gains in fixed income markets. Equity returns were broadly flat in the quarter. The percentage of flows going into equities (80%) was in-line with the average in 2024, but we saw a shift away from the US towards Europe as the quarter progressed. This included broad European exposures, country-specific (namely Germany) and sectors. Global equities took top spot in the quarter, while smart beta continued to see increased demand. Equal weight, low volatility, value and high dividends were among the more defensive strategies that gathered interest as equity markets came under pressure. Investors' risk-off attitude was also reflected in fixed income and commodity flows. Cash management was the only fixed income category that made it into the top 10 for net inflows although Euro government bonds also saw healthy demand. Sentiment towards US Treasuries waned in March, but net flows remained positive for the quarter. Gold was the big winner in the commodity asset class. Flows into gold ETPs have been positive for the past four months after being largely absent for most of the gold price rally before then. Gold was the best-performing asset in Q1 with a 19% return, driven by the allure of its perceived \"safe haven\" characteristics as equity markets fell and the economic outlook became increasingly uncertain. In our latest ETF Snapshot, we’ve highlighted opportunities across asset classes that might be worth considering in the current market environment, including a few spotlight ETFs that may be of interest.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2605,14 +2629,15 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2025-04-25",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "欧州ETFのスナップショット",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "欧州のETF市場は、フローの面で最高の四半期を記録しました。第1四半期のNNAは930億米ドルとなり、2024年第4四半期の910億米ドルを上回りました。四半期末時点の総運用資産額2兆3,800億米ドルは、堅調なコモディティリターン（特に金）と、債券市場の堅調な上昇に支えられました。株式の収益率は、この四半期は概ね横ばいでした。株式への資金流入の割合（80%）は、"
+      "excerpt_ja": "欧州のETF市場は、フローの面で最高の四半期を記録しました。第1四半期のNNAは930億米ドルとなり、2024年第4四半期の910億米ドルを上回りました。四半期末時点の総運用資産額2兆3,800億米ドルは、堅調なコモディティリターン（特に金）と、債券市場の堅調な上昇に支えられました。株式の収益率は、この四半期は概ね横ばいでした。株式への資金流入の割合（80%）は、",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Invesco",
@@ -2628,7 +2653,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "投資戦略・資金フロー"
       ],
@@ -2662,7 +2687,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2687,14 +2712,14 @@
       "official_url": "https://www.invesco.com/ae/en/insights/capital-markets-assumptions.html",
       "link_title": "Capital Markets Assumptions.Html",
       "title": "Capital market assumptions | Q3 2026",
-      "published": null,
+      "published": "2026-10-12",
       "categories": [],
       "excerpt": "Invesco Solutions develops capital market assumptions (CMAs) that provide long-term estimates for the behaviour of major asset classes globally. The assumptions, which are based on a 10-year investment time horizon, are intended to guide strategic asset allocations. For each selected asset class, we develop assumptions for expected return, standard deviation of return (volatility) and correlation with other asset classes. The value of investments and any income will fluctuate (this may partly be the result of exchange rate fluctuations) and investors may not get back the full amount invested. Views and opinions are based on current market conditions and are subject to change. This is marketing material and not financial advice. It is not intended as a recommendation to buy or sell any particular asset class, security or strategy. Regulatory requirements that require impartiality of investment/investment strategy recommendations are therefore not applicable nor are any prohibitions to trade before publication. Please help us get you to the page you requested by following the steps below.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2706,14 +2731,15 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-10-12",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "資本市場の前提条件 | 2026年第3四半期",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "Invesco Solutionsは、世界の主要資産クラスの動向に関する長期的な予測を提供する資本市場仮定（CMA）を作成しています。これらの仮定は、10年の投資期間を前提としており、戦略的な資産配分の指針となることを目的としています。選択された各資産クラスについて、予想リターン、リターンの標準偏差（ボラティリティ）、および他の資産クラスとの相関に関する仮定を作成します。"
+      "excerpt_ja": "Invesco Solutionsは、世界の主要資産クラスの動向に関する長期的な予測を提供する資本市場仮定（CMA）を作成しています。これらの仮定は、10年の投資期間を前提としており、戦略的な資産配分の指針となることを目的としています。選択された各資産クラスについて、予想リターン、リターンの標準偏差（ボラティリティ）、および他の資産クラスとの相関に関する仮定を作成します。",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "J.P. Morgan Asset Management",
@@ -2727,7 +2753,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2759,7 +2785,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2791,7 +2817,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2823,7 +2849,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2855,7 +2881,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2889,7 +2915,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "債券・金利"
@@ -2918,7 +2944,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -2948,7 +2974,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "債券・金利"
       ],
@@ -2978,7 +3004,7 @@
       "official_url": "https://www.goldmansachs.com/insights/articles/the-global-economy-is-forecast-to-grow-2-point-8-percent-in-2027-as-oil-prices-decline",
       "link_title": "hero-card-gridOutlooksThe Global Economy Is Forecast to Grow 2.8% in 2027 as Oil Prices DeclineNov 13, 2026",
       "title": "The Global Economy Is Forecast to Grow 2.8% in 2027 as Oil Prices Decline",
-      "published": null,
+      "published": "2026-11-13",
       "categories": [
         "マクロ経済",
         "AI・半導体"
@@ -2988,7 +3014,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "マクロ経済",
@@ -3003,28 +3029,29 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-11-13",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "原油価格の下落により、2027年の世界経済は2.8%成長すると予測されている",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。ゴールドマン・サックス・リサーチは、2027年の世界経済の着実な成長を予測しています。エネルギー価格の下落と人工知能（AI）への依然として力強い設備投資が、金融環境の引き締めやより中立的な財政政策の影響を上回るためです。世界のGDPは、2027年に2.8%増加すると予測されており、2026年の2%から上昇します。"
+      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。ゴールドマン・サックス・リサーチは、2027年の世界経済の着実な成長を予測しています。エネルギー価格の下落と人工知能（AI）への依然として力強い設備投資が、金融環境の引き締めやより中立的な財政政策の影響を上回るためです。世界のGDPは、2027年に2.8%増加すると予測されており、2026年の2%から上昇します。",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Goldman Sachs",
       "official_url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/playing-for-scale-the-future-of-sports-investing",
       "link_title": "hero-card-gridExchangesPlaying for Scale: The Future of Sports InvestingPodcast|Nov 10, 2026",
       "title": "Playing for Scale: The Future of Sports Investing",
-      "published": null,
+      "published": "2026-11-10",
       "categories": [],
       "excerpt": "Analysis and forecasts on global economies and markets for the year ahead from economists and strategists across Goldman Sachs. Investors are finding opportunities in sports as the media rights market surges and team valuations climb, Nicole Pullen Ross, lead of Sports and Entertainment Solutions within Goldman Sachs Private Wealth Management, explains on the Exchanges podcast. Read the related report. The value of sports media rights is soaring: The global sports media market grew 41% from 2020 through 2025 and has continued climbing to an expected $67 billion in 2026. Private equity and institutional investments are accelerating: Surging media rights are the core driver of growth, lifting sports franchise valuations to historic highs. Infrastructure and real estate are key: Modern venues and surrounding entertainment districts create benefits that go beyond game day and complement technology-driven fan personalization.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -3036,21 +3063,22 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-11-10",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "規模を狙う：スポーツ投資の未来",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。ゴールドマン・サックス・プライベート・ウェルスマネジメントのスポーツ＆エンターテイメント・ソリューション部門の責任者であるニコル・プーレン・ロス氏は、Exchangesポッドキャストで、メディア権市場が急成長し、チームの評価額が上昇する中、投資家がスポーツ分野で機会を見出していると説明しています。関連レポートを読む。スポーツの価値"
+      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。ゴールドマン・サックス・プライベート・ウェルスマネジメントのスポーツ＆エンターテイメント・ソリューション部門の責任者であるニコル・プーレン・ロス氏は、Exchangesポッドキャストで、メディア権市場が急成長し、チームの評価額が上昇する中、投資家がスポーツ分野で機会を見出していると説明しています。関連レポートを読む。スポーツの価値",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Goldman Sachs",
       "official_url": "https://www.goldmansachs.com/insights/the-markets/how-will-higher-than-expected-inflation-data-impact-the-feds-next-rate-decisions",
       "link_title": "hero-card-gridThe MarketsHow Will Higher-than-Expected Inflation Data Impact the Fed's Next Rate Decisions? Podcast|Nov 13, 2026",
       "title": "How Will Higher than Expected Inflation Data Impact the Feds Next Rate Decisions",
-      "published": null,
+      "published": "2026-11-13",
       "categories": [
         "マクロ経済",
         "株式",
@@ -3061,7 +3089,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "マクロ経済"
       ],
@@ -3078,21 +3106,22 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-11-13",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "予想を上回るインフレデータがFRBの次回利上げ決定に与える影響",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。小幅な利上げがより可能性が高いものの、10月の予想を上回るインフレデータにより、12月のFRB会合で50ベーシスポイントの利上げが行われる可能性が出てきたと、ゴールドマン・サックスFICCおよびエクイティ部門の北米金利商品セールス＆トレーディング共同責任者であるムハンマド・クバジ氏は述べています。"
+      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。小幅な利上げがより可能性が高いものの、10月の予想を上回るインフレデータにより、12月のFRB会合で50ベーシスポイントの利上げが行われる可能性が出てきたと、ゴールドマン・サックスFICCおよびエクイティ部門の北米金利商品セールス＆トレーディング共同責任者であるムハンマド・クバジ氏は述べています。",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Goldman Sachs",
       "official_url": "https://www.goldmansachs.com/insights/articles/why-european-companies-are-forecast-to-have-robust-earnings-growth",
       "link_title": "hero-card-gridEuropeWhy European Companies Are Forecast to Have Robust Earnings GrowthNov 13, 2026",
       "title": "Why European Companies Are Forecast to Have Robust Earnings Growth",
-      "published": null,
+      "published": "2026-11-13",
       "categories": [
         "株式"
       ],
@@ -3101,7 +3130,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "株式"
       ],
@@ -3115,14 +3144,15 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-11-13",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "欧州企業が堅調な利益成長を遂げると予測される理由",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。欧州企業の収益は急速に伸びており、ユーロ圏経済よりも速いペースで成長しています。ゴールドマン・サックスの欧州株式担当シニアストラテジストであるシャロン・ベル氏は、堅調な収益が株式市場において、債券利回りの上昇、エネルギー価格の高騰、および国内経済成長の低迷を吸収するのに役立ったと述べています。"
+      "excerpt_ja": "ゴールドマン・サックスのエコノミストとストラテジストによる、来年の世界経済と市場に関する分析と予測。欧州企業の収益は急速に伸びており、ユーロ圏経済よりも速いペースで成長しています。ゴールドマン・サックスの欧州株式担当シニアストラテジストであるシャロン・ベル氏は、堅調な収益が株式市場において、債券利回りの上昇、エネルギー価格の高騰、および国内経済成長の低迷を吸収するのに役立ったと述べています。",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Schroders",
@@ -3138,7 +3168,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "株式"
@@ -3173,7 +3203,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -3206,7 +3236,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -3236,7 +3266,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -3265,7 +3295,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -3296,7 +3326,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "その他の産業テーマ"
@@ -3329,7 +3359,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "その他の産業テーマ"
@@ -3360,7 +3390,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -3389,7 +3419,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -3420,7 +3450,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "債券・金利"
       ],
@@ -3452,7 +3482,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -3482,7 +3512,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -3505,14 +3535,14 @@
       "official_url": "https://www.pimco.com/us/en/insights/income-fund-update-navigating-rate-cuts-with-flexibility-and-a-high-quality-focus",
       "link_title": "Income Fund Update Navigating Rate Cuts With Flexibility And A High Quality Focus",
       "title": "Income Fund Update: Navigating Rate Cuts With Flexibility and a High Quality Focus | PIMCO",
-      "published": null,
+      "published": "2024-11-18",
       "categories": [],
       "excerpt": "Yields remain elevated, adding to the appeal of bonds, while volatility and economic uncertainty create a prime environment for active asset management, in our view. Here, Dan Ivascyn, who manages the PIMCO Income Fund with Alfred Murata and Josh Anderson, responds to questions from Esteban Burbano, fixed income strategist. They discuss how the fund is positioned for current high yields and the potential path for central bank policy rates. We believe the U.S. is most likely headed for a soft landing, but we’re also mindful of rising economic and geopolitical uncertainty. Q: We saw significant market and economic activity in the past few months. What are your main takeaways? A: One major development was the U.S. Federal Reserve kicked off a rate-cutting cycle: It lowered its policy rate 50 basis points at its September meeting, and another 25 basis points in November. Although the Fed will likely continue to be data-dependent, we expect the central bank to continue easing over the next few quarters. Interestingly, after the September rate cut, yields on longer-maturity securities rose by a significant amount. We have not seen this dynamic in quite some time, and we’re monitoring it closely as we assess duration and yield curve positioning. The U.S. election was another event investors watched closely. While the longer-term ramifications aren’t clear, post-election market movements suggest many investors anticipate a fiscal and regulatory policy environment that supports U.S. growth. And this means we should also be watching closely for signs of inflation reigniting. On that point, U.S. inflation has generally continued to moderate, but the numbers have been bumpy. And after some signs of economic weakness, more recent data indicate a more resilient economy.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -3527,8 +3557,9 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2024-11-18",
-      "publication_date_status": "unknown",
-      "is_verified_new": false
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "BNP Paribas",
@@ -3542,7 +3573,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -3573,7 +3604,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "マクロ経済"
@@ -3606,7 +3637,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "株式"
       ],
@@ -3640,7 +3671,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "投資戦略・資金フロー"
@@ -3677,7 +3708,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "株式"
       ],
@@ -3705,7 +3736,7 @@
       "official_url": "https://research-center.amundi.com/article/great-mid-term-rotation",
       "link_title": "Weekly Market Directions 9/11/2026 The great mid-term rotation Over the past few weeks, we have seen a rotation away from US tech due to scrutiny of the massive capex and results of the US mid terms. More",
       "title": "The great mid-term rotation",
-      "published": null,
+      "published": "2026-11-09",
       "categories": [
         "AI・半導体",
         "その他の産業テーマ"
@@ -3715,7 +3746,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "AI・半導体",
@@ -3730,28 +3761,29 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-11-09",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "素晴らしい中期ローテーション",
       "translation_provider": {
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "米国中間選挙の結果と企業の巨額の設備投資に対する投資家の厳しい監視によって促進された強力なローテーションは、地域やセクターを超えて AI テーマ以外にも多様化する必要性を思い出させます。過去数週間にわたり、巨額の設備投資と米国の中期決算の精査により、米国のテクノロジー離れが見られました。対照的に、世界の防衛セクターとインドなどの一部の地域は増加を記録した"
+      "excerpt_ja": "米国中間選挙の結果と企業の巨額の設備投資に対する投資家の厳しい監視によって促進された強力なローテーションは、地域やセクターを超えて AI テーマ以外にも多様化する必要性を思い出させます。過去数週間にわたり、巨額の設備投資と米国の中期決算の精査により、米国のテクノロジー離れが見られました。対照的に、世界の防衛セクターとインドなどの一部の地域は増加を記録した",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "Amundi",
       "official_url": "https://www.amundi.com/globaldistributor/article/high-rates-higher-interest-payments",
       "link_title": "Weekly Market Directions 16.11.2026 16/11/2026 | Weekly Market Directions High rates, higher interest payments High rates, higher interest payments More",
       "title": "High rates, higher interest payments",
-      "published": null,
+      "published": "2026-11-16",
       "categories": [],
       "excerpt": "While high government debt does not dictate Fed policy, it does raise the macro stakes, with higher interest rates compounding already elevated debt-servicing costs. Combined with high inflation, this means volatility in bond markets is likely to persist, underscoring the need for a diversified approach. Unless otherwise stated, all information contained in this document is from Amundi Asset Management S.A.S. and is as of 16 November 2026. Diversification does not guarantee a profit or protect against a loss. The views expressed regarding market and economic trends are those of the author and not necessarily Amundi Asset Management S.A.S. and are subject to change at any time based on market and other conditions, and there can be no assurance that countries, markets or sectors will perform as expected. These views should not be relied upon as investment advice, a security recommendation, or as an indication of trading for any Amundi product. This material does not constitute an offer or solicitation to buy or sell any security, fund units or services. Investment involves risks, including market, political, liquidity and currency risks. Past performance is not a guarantee or indicative of future results. To provide you with the most relevant information, we have developed an interface to present the full range of products available for your investor profile and country of residence Visit this website if you offer professional investment advice as a financial planner, a private banker or a wealth manager or, if you are a fund selector or a portfolio manager The information contained in the Website is solely intended for Professional Clients (as defined in EU Directive 2004/39/EC). If you are not “professional”, you are asked to leave this page and to navigate to the www.a",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -3763,14 +3795,15 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2026-11-16",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "高金利、高額な利息支払い",
       "translation_provider": {
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "政府債務の高さがFRBの政策を左右するわけではないが、金利上昇によりすでに高騰している債務返済コストがさらに悪化するため、マクロ的なリスクは増大する。これは高インフレと相まって、債券市場のボラティリティが今後も続く可能性が高く、多様なアプローチの必要性を浮き彫りにしています。特に明記されていない限り、この文書に含まれるすべての情報は Amundi Asset Management S.A.S からのものです。そしてそれは"
+      "excerpt_ja": "政府債務の高さがFRBの政策を左右するわけではないが、金利上昇によりすでに高騰している債務返済コストがさらに悪化するため、マクロ的なリスクは増大する。これは高インフレと相まって、債券市場のボラティリティが今後も続く可能性が高く、多様なアプローチの必要性を浮き彫りにしています。特に明記されていない限り、この文書に含まれるすべての情報は Amundi Asset Management S.A.S からのものです。そしてそれは",
+      "publication_date_evidence": "html_meta"
     },
     {
       "firm": "State Street",
@@ -3786,7 +3819,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "債券・金利"
       ],
@@ -3824,7 +3857,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "債券・金利",
         "マクロ経済"
@@ -3862,7 +3895,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "マクロ経済"
@@ -3895,7 +3928,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "債券・金利"
       ],
@@ -3920,22 +3953,24 @@
   "archive_quality": {
     "previous_unique": 114,
     "new_unique": 0,
-    "current_unique": 84,
+    "current_unique": 77,
     "duplicate_urls_previous": 0,
     "duplicate_urls_current": 0,
     "total_unique": 114,
     "published_dates_verified": 0,
-    "translation_available": 90
+    "translation_available": 90,
+    "published_dates_declared_unverified": 33
   },
   "archive_note": "first_seen is a GMI tracking date, never a publication date. Unverified dates remain published_candidate, never displayed as confirmed. Excerpts are partial and machine translations are not full-article summaries.",
   "date_verification": {
     "examined": 114,
     "verified": 0,
+    "publisher_declared_unverified": 33,
+    "unknown": 81,
     "unverified_reasons": {
-      "missing_or_conflicting_independent_metadata": 45,
-      "no_publication_metadata": 68,
+      "no_publication_metadata": 80,
       "too_large": 1
     },
-    "method": "Official-page publication metadata cross-checked against article JSON-LD; publisher-declared, not independently fact-checked"
+    "method": "Publisher page metadata: matching HTML meta + article JSON-LD = crosschecked; single source = publisher-declared, unverified; conflicting/missing = unknown"
   }
 }
