@@ -15,7 +15,7 @@
 .review button{margin-top:10px}
 .stance-chip{display:inline-block;padding:4px 7px;border-radius:6px;background:#edf3fb;font-size:12px}
 @media(max-width:650px){.review .review-grid{grid-template-columns:1fr}}
-.evidence-hints{margin:12px 0;padding:11px;background:#f3f6fb;border-radius:10px;font-size:12px}.evidence-hints summary{cursor:pointer;font-weight:600}.hint{border-top:1px solid #dce5f1;margin-top:9px;padding-top:8px}.hint p{margin:5px 0;line-height:1.6;overflow-wrap:anywhere}</style></head><body>
+.evidence-hints{margin:12px 0;padding:11px;background:#f3f6fb;border-radius:10px;font-size:12px}.evidence-hints summary{cursor:pointer;font-weight:600}.hint{border-top:1px solid #dce5f1;margin-top:9px;padding-top:8px}.hint p{margin:5px 0;line-height:1.6;overflow-wrap:anywhere}.change-entry{padding:12px;margin:9px 0;border:1px solid #dce5f1;border-radius:10px;background:#f8fafd}.change-entry p{margin:7px 0;font-size:12px;line-height:1.6}.change-entry a{font-size:12px;margin-right:10px}</style></head><body>
 <header><div class="inner"><h1>Global Market Intelligence</h1><p>世界の金融機関による公式マーケット記事を検索・閲覧</p></div></header>
 <main class="wrap"><div class="stats"><div class="stat"><b id="n">—</b><span>収録記事</span></div><div class="stat"><b id="f">—</b><span>情報源数</span></div><div class="stat"><b id="updated">—</b><span>最終収集日（JST）</span></div></div>
 <div class="notice" id="status">公式記事データを読み込んでいます。掲載内容は本文の一部であり、記事全体の要約や投資判断ではありません。</div>
@@ -26,6 +26,8 @@
 <p class="muted">金融機関の公式記事を読み、根拠を確認したものだけを記録する機能です。AIが強気・弱気を推測して確定することはありません。記録はこのiPhone内に保存されます。</p>
 <div id="stanceStats" class="stance-summary"></div>
 <div class="controls"><input id="stanceq" type="search" placeholder="機関名・記事名で検索" aria-label="評価記録を検索"><select id="stancefirm" aria-label="金融機関"><option value="">全機関</option></select><select id="stancefilter" aria-label="評価状態"><option value="">全件</option><option value="reviewed">評価済み</option><option value="pending">未評価</option></select></div>
+<div class="row" style="margin:12px 0;align-items:center"><b>評価変化の履歴</b><button class="secondary" id="stanceExport" type="button">評価記録をCSV保存</button></div>
+<div id="stanceChanges" aria-live="polite"></div>
 <p class="muted" id="stanceCount"></p><div id="stanceGroups"></div></div></section>
 <section id="saved" class="hidden"><div id="savedItems"></div></section>
 <section id="sources" class="hidden panel"><h2>金融機関一覧</h2><p class="muted">現在保存されている公式記事候補の発行元です。全レポートの網羅を保証しません。</p><div id="sourceItems"></div></section>
@@ -95,12 +97,30 @@ function drawStance(){
  const all=records.filter(aiCandidate),q=$('stanceq').value.toLocaleLowerCase().trim(),firm=$('stancefirm').value,filter=$('stancefilter').value;
  const reviewed=all.filter(r=>validAssessment(assessments[r.id]));
  const grouped=new Map();for(const r of reviewed){if(!grouped.has(r.firm))grouped.set(r.firm,[]);grouped.get(r.firm).push({r,a:assessments[r.id]})}
- let changes=0;for(const list of grouped.values()){list.sort((x,y)=>x.a.date.localeCompare(y.a.date));if(list.length>=2&&list.some((v,i)=>i>0&&v.a.date!==list[i-1].a.date&&v.a.stance!==list[i-1].a.stance))changes++}
+ const changesList=[];
+ for(const [name,list] of grouped){
+   list.sort((x,y)=>x.a.date.localeCompare(y.a.date)||x.r.id.localeCompare(y.r.id));
+   for(let i=1;i<list.length;i++){
+     const prev=list[i-1],curr=list[i];
+     if(prev.a.date!==curr.a.date&&prev.a.stance!==curr.a.stance)
+       changesList.push({firm:name,prev,curr});
+   }
+ }
+ const changes=new Set(changesList.map(x=>x.firm)).size;
  $('stanceStats').innerHTML=`<div><b>${all.length}</b>AI候補</div><div><b>${reviewed.length}</b>根拠付き評価</div><div><b>${changes}</b>評価変化のある機関</div>`;
+ $('stanceChanges').innerHTML=changesList.length?changesList.sort((a,b)=>b.curr.a.date.localeCompare(a.curr.a.date)).map(x=>`<div class="change-entry"><b>${esc(x.firm)}</b><p>${esc(x.prev.a.date)} ${esc(stanceLabels[x.prev.a.stance])} → ${esc(x.curr.a.date)} ${esc(stanceLabels[x.curr.a.stance])}</p><div class="meta"><a href="${esc(validUrl(x.prev.r.url))}" target="_blank" rel="noopener noreferrer">前回記事</a><a href="${esc(validUrl(x.curr.r.url))}" target="_blank" rel="noopener noreferrer">今回記事</a></div><p class="muted">記録した評価の差です。金融機関の正式な格付け変更を意味しません。</p></div>`).join(''):'<p class="muted">異なる公表日の根拠付き評価が2件以上あり、分類が変わった機関はまだありません。</p>';
  const selected=all.filter(r=>(!firm||r.firm===firm)&&(!q||[r.firm,r.title,r.originalTitle].join(' ').toLocaleLowerCase().includes(q))&&(!filter||(filter==='reviewed'?validAssessment(assessments[r.id]):!validAssessment(assessments[r.id]))));
  $('stanceCount').textContent=`${selected.length}件を表示。評価の変化は、異なる確認済み公表日の記録が2件以上ある場合のみ検出します。`;
  const groups=new Map();for(const r of selected){if(!groups.has(r.firm))groups.set(r.firm,[]);groups.get(r.firm).push(r)}
  $('stanceGroups').innerHTML=selected.length?[...groups].map(([name,items])=>`<div class="ai-group"><h3>${esc(name)}</h3>${items.map(assessmentForm).join('')}</div>`).join(''):'<div class="empty">該当する記事はありません。</div>';
+}
+function exportAssessmentsCSV(){
+ const csvCell=v=>'"'+String(v??'').replace(/"/g,'""').replace(/^[=+\-@\t\r]/,'\u0027$&')+'"';
+ const rows=[['金融機関','記事名','公式URL','確認済み公表日','評価','判断根拠']];
+ for(const r of records){const a=assessments[r.id];if(validAssessment(a))rows.push([r.firm,r.title,r.url,a.date,stanceLabels[a.stance],a.evidence])}
+ const csv='\ufeff'+rows.map(row=>row.map(csvCell).join(',')).join('\r\n');
+ const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+ const link=document.createElement('a');link.href=url;link.download='gmi-ai-assessments.csv';document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);
 }
 function saveAssessments(){try{localStorage.setItem('gmi_assessments_v1',JSON.stringify(assessments));return true}catch{return false}}
 
@@ -118,6 +138,7 @@ if(saveAssessment||deleteAssessment){
  assessments[id]=a;if(!saveAssessments()){alert('端末への保存に失敗しました');return}drawStance();return;
 }
 const save=event.target.closest('[data-save]');if(save){const id=save.dataset.save;saved.has(id)?saved.delete(id):saved.add(id);try{localStorage.setItem('gmi_saved',JSON.stringify([...saved]))}catch{}draw()}const tab=event.target.closest('[data-tab]');if(tab){document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('active',x===tab));['feed','ai','stance','saved','sources','about'].forEach(x=>$(x).classList.toggle('hidden',x!==tab.dataset.tab))}});
+$('stanceExport').addEventListener('click',exportAssessmentsCSV);
 ['stanceq','stancefirm','stancefilter'].forEach(id=>$(id).addEventListener(id==='stanceq'?'input':'change',drawStance));
 ['aiq','aifirm','aisort'].forEach(id=>$(id).addEventListener(id==='aiq'?'input':'change',drawAI));
 ['q','topic','firm'].forEach(id=>$(id).addEventListener(id==='q'?'input':'change',draw));$('clear').onclick=()=>{$('q').value='';$('topic').value='';$('firm').value='';draw()};
