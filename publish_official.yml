@@ -41,6 +41,8 @@ jobs:
         run: python official_pilot.py
       - name: Merge article history
         run: python archive_official.py
+      - name: Verify official publication dates
+        run: python verify_publication_dates.py
       - name: Verify archive and quality
         run: |
           python - <<'PY'
