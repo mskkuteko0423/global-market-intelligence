@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T23:18:43.551069+00:00",
+  "updated": "2026-11-20T23:19:56.879270+00:00",
   "pilot": true,
   "method": "v9: broad-market; bounded dual-provider machine translation; excerpts not summaries; dates unverified; no stance inferred",
   "stats": [
@@ -26,9 +26,9 @@
     },
     {
       "firm": "Capital Group",
-      "official_url_candidates": 449,
+      "official_url_candidates": 10,
       "tested": 7,
-      "extracted": 5,
+      "extracted": 7,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "firm": "Fidelity",
-      "official_url_candidates": 25,
+      "official_url_candidates": 24,
       "tested": 7,
       "extracted": 7,
       "error": null
@@ -77,7 +77,7 @@
       "firm": "Schroders",
       "official_url_candidates": 7,
       "tested": 7,
-      "extracted": 1,
+      "extracted": 2,
       "error": null
     },
     {
@@ -89,7 +89,7 @@
     },
     {
       "firm": "State Street",
-      "official_url_candidates": 364,
+      "official_url_candidates": 366,
       "tested": 7,
       "extracted": 7,
       "error": null
@@ -292,7 +292,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-10-05"
@@ -329,7 +329,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-09-29"
@@ -366,7 +366,7 @@
       "excerpt_ja": "AI エージェントが消費者に代わって意思決定や購入を行う能力が高まるにつれ、モルガン・スタンレー・リサーチはどの業界が恩恵を受ける可能性があるのか​​、またどの業界が競争圧力の増大に直面しているのかを調査しています。強力な消費者向け AI エージェントの最近の発売により、人工知能が小売、保険から運輸、ライブ エンターテイメントに至るまでの業界にどのような変革をもたらす可能性があるかについての議論が再燃しています。従来とは異なり",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-11-09"
@@ -376,7 +376,7 @@
       "official_url": "https://www.capitalgroup.com/institutional/insights/articles/midterm-impacts-AI-data-centers-tariffs-Iran.html",
       "link_title": "Midterm impacts on AI data centers, tariffs and Iran",
       "title": "Midterm impacts on AI data centers, tariffs and Iran",
-      "published": "2026-11-11",
+      "published": null,
       "categories": [
         "AI・半導体"
       ],
@@ -385,7 +385,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "publisher_declared_unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "AI・半導体"
       ],
@@ -403,18 +403,17 @@
       "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (「サイト」) にアクセスするには、次の情報を読み、提供された情報を読んで理解したことを確認し、同意するボタンをクリックして同意してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
-      "publication_date_status": "publisher_declared_unverified",
+      "last_seen": "2026-11-20",
+      "publication_date_status": "unknown",
       "is_verified_new": false,
-      "published_candidate": "2026-11-11",
-      "publication_date_evidence": "html_meta"
+      "published_candidate": "2026-11-11"
     },
     {
       "firm": "Capital Group",
       "official_url": "https://www.capitalgroup.com/institutional/insights/articles/5-charts-worried-rising-rates.html",
       "link_title": "5 charts to consider if worried about rising rates",
       "title": "5 charts to consider if worried about rising rates",
-      "published": "2026-10-14",
+      "published": null,
       "categories": [
         "債券・金利"
       ],
@@ -423,7 +422,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "publisher_declared_unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "債券・金利"
@@ -442,17 +441,16 @@
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
-      "publication_date_status": "publisher_declared_unverified",
+      "publication_date_status": "unknown",
       "is_verified_new": false,
-      "published_candidate": "2026-10-14",
-      "publication_date_evidence": "html_meta"
+      "published_candidate": "2026-10-14"
     },
     {
       "firm": "Capital Group",
       "official_url": "https://www.capitalgroup.com/institutional/insights/articles/how-bond-investors-can-ride-debt-wave.html",
       "link_title": "How bond investors can ride the debt wave",
       "title": "How bond investors can ride the debt wave",
-      "published": "2026-10-28",
+      "published": null,
       "categories": [
         "債券・金利",
         "クレジット",
@@ -463,7 +461,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "publisher_declared_unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "債券・金利"
       ],
@@ -484,18 +482,17 @@
       "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (「サイト」) にアクセスするには、次の情報を読み、提供された情報を読んで理解したことを確認し、同意するボタンをクリックして同意してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
-      "publication_date_status": "publisher_declared_unverified",
+      "last_seen": "2026-11-20",
+      "publication_date_status": "unknown",
       "is_verified_new": false,
-      "published_candidate": "2026-10-28",
-      "publication_date_evidence": "html_meta"
+      "published_candidate": "2026-10-28"
     },
     {
       "firm": "Capital Group",
       "official_url": "https://www.capitalgroup.com/institutional/insights/articles/ai-boom-doom-your-questions-answered.html",
       "link_title": "AI boom or doom? Your questions answered",
       "title": "AI boom or doom? Your questions answered",
-      "published": "2026-10-15",
+      "published": null,
       "categories": [
         "AI・半導体"
       ],
@@ -504,7 +501,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "publisher_declared_unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "AI・半導体"
       ],
@@ -522,25 +519,24 @@
       "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (「サイト」) にアクセスするには、次の情報を読み、提供された情報を読んで理解したことを確認し、同意するボタンをクリックして同意してください。研究所の資格を満たしていることを証明する必要があります",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
-      "publication_date_status": "publisher_declared_unverified",
+      "last_seen": "2026-11-20",
+      "publication_date_status": "unknown",
       "is_verified_new": false,
-      "published_candidate": "2026-10-15",
-      "publication_date_evidence": "html_meta"
+      "published_candidate": "2026-10-15"
     },
     {
       "firm": "Capital Group",
       "official_url": "https://www.capitalgroup.com/institutional/insights/articles/active-muni-investing.html",
       "link_title": "How active muni investing can extract value amid volatility",
       "title": "How active muni investing can extract value amid volatility",
-      "published": "2026-10-16",
+      "published": null,
       "categories": [],
       "excerpt": "THIS WEBSITE IS INTENDED FOR INSTITUTIONAL INVESTORS who are U.S. residents ONLY; not intended for access or distribution to retail investors. In order to access the Capital Group U.S. Institutional website (the “Site”), please read the following information and affirm by clicking the accept button that you have read and understand the information provided. You must attest that you meet the qualifications of an institutional investor as described herein and accept these Terms and Conditions in order to access the Site. Some content may require additional registration for access. The Site is solely intended for U.S. residents who are institutional investors or are acting on behalf of an institutional investor who has agreed to these Terms and Conditions. Institutional investors include, but are not limited to any person acting on behalf of/any pension fund, financial intermediary, consultant, endowment and foundation, bank, savings and loan association, insurance company, investment company registered under the Investment Company Act of 1940, investment adviser registered with the U.S. Securities and Exchange Commission or under applicable state law, government entity, entity with total assets of at least $50 million, employee benefit or qualified retirement plan with at least 100 participants, defined contribution/benefit plan, and qualified client or purchaser as defined by the U.S. Securities and Exchange Commission. By agreeing to these Terms and Conditions you are affirming your understanding that the Site is not intended for retail investors, individual plan participants or others who may not possess the financial sophistication to independently understand the content nor should it be redistributed to such persons. You understand that the Site does not constitute a",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "publisher_declared_unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -557,10 +553,9 @@
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
-      "publication_date_status": "publisher_declared_unverified",
+      "publication_date_status": "unknown",
       "is_verified_new": false,
-      "published_candidate": "2026-10-16",
-      "publication_date_evidence": "html_meta"
+      "published_candidate": "2026-10-16"
     },
     {
       "firm": "BlackRock",
@@ -632,7 +627,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-11-16"
@@ -665,7 +660,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-05-06"
@@ -696,7 +691,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-10-21",
@@ -733,7 +728,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "published_candidate": "2026-10-19",
@@ -766,7 +761,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "コーポレート・レスポンシビリティに関する記事と洞察 | J.P. Morgan",
@@ -824,7 +819,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "証券サービス",
@@ -856,7 +851,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "セキュリティとレジリエンスのイニシアティブ",
@@ -888,7 +883,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "市場と経済に関する洞察 | J.P. Morgan",
@@ -1128,7 +1123,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "市場のボラティリティ：ボラティリティの高い市場における投資戦略 | Fidelity",
@@ -1212,7 +1207,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2025-12-31",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -1327,7 +1322,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-01-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -1364,7 +1359,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-10-26",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -1401,7 +1396,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-02-10",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -1442,7 +1437,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-04-01",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -1480,7 +1475,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2025-06-17",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -1514,7 +1509,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2023-12-14",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -1548,7 +1543,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2023-12-14",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -1592,14 +1587,14 @@
       "official_url": "https://www.schroders.com/zh-cn/cn/intermediary/insights/evolving-objectives-drive-flexible-allocations-across-the-credit-continuum/",
       "link_title": "Evolving Objectives Drive Flexible Allocations Across The Credit Continuum",
       "title": "施罗德投资：投资目标演变，推动更灵",
-      "published": null,
+      "published": "2026-07-09",
       "categories": [],
       "excerpt": "日前，施罗德投资《2026 全球投资者洞察调查》显示，在评估信贷投资机会时，近半数投资者（49%）会从整体投资组合角度出发，同步评估公开市场与非公开市场的信贷机会。 这也反映出投资者配置信贷资产的诉求早已不再局限于赚取收益。调查数据同时表明，市场不再将信贷视作单一资产品类，而是根据不同组合目标，匹配对应的信贷投资策略。 值得注意的是，施罗德投资的调查结果还清晰划分了不同信贷品类的核心功能——投资级信贷主要用于获取稳定收入；房地产债、基础设施债侧重增强组合韧性；高风险特色信贷策略则用于博取超额收益。 若以获取稳健真实收益为目标，投资者首选投资级企业债券。这一偏好源于全球金融危机、疫情超低利率周期结束后，固定收益市场经历重新定价。现阶段多数投资级企业债实际收益为正，可稳定贡献现金流。与此同时，即便宏观、地缘风险交织扰动，企业基本面依旧稳固，违约率维持低位，信贷质量未出现明显走弱。 此外，发达市场主权国债同样位列稳定真实收益的两大优选工具之一。一方面名义收益率较过往显著修复，另一方面部分市场发行通胀保值债券，可对冲实际现金流缩水风险。",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unknown",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1611,8 +1606,9 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-17",
       "published_candidate": "2026-07-09",
-      "publication_date_status": "unknown",
-      "is_verified_new": false
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Schroders",
@@ -1646,14 +1642,14 @@
       "official_url": "https://www.schroders.com/zh-cn/cn/intermediary/insights/gold-s-structural-case-is-still-intact-gold-equities-may-be-the-bigger-opportunity/",
       "link_title": "Gold S Structural Case Is Still Intact Gold Equities May Be The Bigger Opportunity",
       "title": "施罗德投资：黄金结构性利好因素未变，金矿股或蕴藏更大投资机遇",
-      "published": null,
+      "published": "2026-07-22",
       "categories": [],
       "excerpt": "过去三个月，黄金走势步履维艰。美元强势、美国利率预期转变，加上市场重拾对“美国例外论”（US exceptionalism）的信心，均令投资情绪受压。对于仅关注美联储下一次议息会议的投资者而言，这或许足以令他们选择在场外观望。然而，他们却忽略了宏观大局。施罗德投资表示，看好黄金的依据，绝非单纯对利率的周期性研判，而是应对全球沉重债务负担、宽松财政政策、地缘政治碎片化，以及对以美元为基础的体系信心日渐瓦解的结构性回应。 施罗德投资进一步指出，从宏观环境来看，各发达国家政府目前承受的债务负担，与以往加息周期相比有着本质上的不同。各国央行可以简单复制1980年代初「伏克尔方案」（Volcker playbook）的想法，未免流于不切实际的幻想。当前的经济体系债务水平更高、赤字规模更大，且对利息成本的敏感度大得多。各央行的影响力依然存在，但其运作正承受更形严峻的政治与财政掣肘。这对黄金走势而言至关重要，归根结底，黄金是抗衡货币贬值的终极对冲工具。若各国政府持续放宽财政政策，试图利用名义经济增长来「跑赢」其债务负担，那么货币供应的增长速度很可能继续超越实际经济产出。在这种环境下，黄金作为价值储藏的功能依然极具意义。 “这股趋势并非美国独有。日本、中国、英国及部分欧洲国家均面临各自的财政与货币挑战。然而，美国的动向最受瞩目，因为美元目前仍是全球的核心储备货币。当该体系受到质疑时，黄金是少数在体系之外的独立资产类别。”施罗德投资表示，引申到“去美元化”的议题，世界正走向多极化的新秩序。美国虽然依旧强大，但其影响力正遭遇挑战，而其将美元体系「武器化」的意向， 也对多方美元资产持有者构成威胁。那些未来可能与美国产生分歧的国家，显然有强烈诱因推动储备多元化，减少对美元资产的依赖。 施罗德投资强调，各国央行的买盘正是这一转变的最有力证据。新兴市场央行的黄金储备占其整体储备的比率，仍远低于发达国家央行，这项差距意味着后市仍有漫长的持续买入空间。以中国为例，即使经过多年的持续增持，其黄金配置占整体外汇储备的比重依然偏低。若要显著提高这配置比率，所需的黄金总量相对全球黄金的年供应量而言将极为庞大。因此，为了避免黄金市场出现无序飙升，此类买盘只能循序渐进地进行。因此，评估黄金市场不应只着眼于西方交易所买卖基金( ETF) 的资金流向或短期的利率预期。西方投资者可能仍将黄金视为一种周期性对冲工具：美联储减息时买入，言论鹰派时卖出。相反，新兴市场央行显然将黄金视为策略性储备资产。这代表了截然不同的需求本质。 具体到投资层面，金矿股相比实物黄金或更具吸引力。尽管金矿股近年表现强劲，但其估值相对于实物黄金（bullion）而言依旧显得非常较低。在许多情况下，金矿商股价所隐含的折算金价，远远低于目前的现货价格。与此同时，该板块的经济效益已发生剧变。金矿商出售黄金赚取现货金价，而其盈利能力则取决于金价与生产成本之间的差距。由于金价处于高位，且平均总维持成本（All-in sustaining costs, AISC）远低于现货价，行业的利润空间维持在极高水平。举例而言，金矿商现时每盎司黄金售价约为 4,000 美元，而成本仅约 1,800 美元，其利润率已较 2020 年夏季高出一倍以上。",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Unclear; review required",
       "error": null,
-      "date_status": "unknown",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {
@@ -1665,8 +1661,9 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-07-22",
-      "publication_date_status": "unknown",
-      "is_verified_new": false
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Vanguard",
@@ -1867,7 +1864,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2023-06-06",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -1901,7 +1898,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-09-04",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -1940,7 +1937,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-08-14",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -1973,7 +1970,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-01-26",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -2006,7 +2003,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-03-05",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -2088,7 +2085,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-11-09",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -2128,7 +2125,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-10-22",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -2168,7 +2165,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-08-19",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -2208,7 +2205,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-11-16",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -2242,7 +2239,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "エコノミック・リサーチによるナウキャスト、更新されたシナリオ、および予測 - 2026年11月16日",
@@ -2274,7 +2271,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "EcoCharts | 企業の設立と倒産 - 2026年9月時点の月次データによる部分的な更新",
@@ -2310,7 +2307,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "エネルギーショック：ダッシュボード2026年 vs. 2022年 - 2026年11月",
@@ -2349,7 +2346,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-17",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "AIは、米国と欧州の両方で起業を促進しています",
@@ -2384,7 +2381,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-03-04",
       "publication_date_status": "unknown",
       "is_verified_new": false
@@ -2415,7 +2412,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-01-12",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -2452,7 +2449,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-09-28",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -2485,7 +2482,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-01-23",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -2525,7 +2522,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-03-10",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -2558,7 +2555,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-04-29",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -2595,7 +2592,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "インベスコ・グローバル・トータル・リターン・ボンド・ファンドのご紹介",
@@ -2627,7 +2624,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2025-04-25",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -2665,7 +2662,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "資産配分に関する洞察 | Invesco",
@@ -2682,7 +2679,7 @@
       "title": "Russia-Ukraine Crisis",
       "published": null,
       "categories": [],
-      "excerpt": "economic and geopolitical implications Russia-Ukraine crisis Read our commentary on the war in Ukraine for insights into the economics of conflict. And, how has it affected the international geopolitical order and financial markets? ETF What’s driving the Nasdaq-100’s long-term strength? Chris Mellor Built around companies driving innovation and adapting to change, the Nasdaq-100 may be well positioned to be the index of the future. 12 November 2026 Private credit Broadening the opportunity set in upper middle market Michael Craig Discover how combining lending markets can broaden credit opportunities in Europe's upper middle market as borrower needs evolve. 10 November 2026 Markets and Economy Monthly Market Roundup | Global Market Insights & Analysis Invesco Download Invesco's Monthly Market Roundup for expert analysis of global markets, including Europe, the UK, US, Asia, emerging markets and Fixed Income. 4 November 2026 Asset allocation Capital market assumptions | Q3 2026 Invesco Investment Solutions, Invesco Invesco Solutions develops capital market assumptions (CMAs) that provide long-term estimates for the behaviour of major asset classes globally. 12 October 2026 Fixed Income Global Fixed Income Strategy Monthly Report | October 2026 Invesco Discover our Global Fixed Income Strategy Monthly Report, we offer an outlook for interest rates and currencies and look at which fixed income assets are favoured across a range of market environments. 9 October 2026 ETC Quarterly Gold Insights: A review of gold in Q3 2026 and outlook for the rest of the year Sam Whitehead, Benjamin Jones, David Scales Explore the latest gold price trends, inflation and Fed rate expectations, plus our outlook for gold and how an allocation might help with portfolio diversification. 7 Octob",
+      "excerpt": "economic and geopolitical implications Russia-Ukraine crisis Read our commentary on the war in Ukraine for insights into the economics of conflict. And, how has it affected the international geopolitical order and financial markets? Fixed Income Constructing resilient fixed income portfolios Invesco We explore where we see the most compelling value in fixed income markets, how our strategies are positioned to capture it, and what could potentially change our views. 19 November 2026 ETF What’s driving the Nasdaq-100’s long-term strength? Chris Mellor Built around companies driving innovation and adapting to change, the Nasdaq-100 may be well positioned to be the index of the future. 12 November 2026 Private credit Broadening the opportunity set in upper middle market Michael Craig Discover how combining lending markets can broaden credit opportunities in Europe's upper middle market as borrower needs evolve. 10 November 2026 Markets and Economy Monthly Market Roundup | Global Market Insights & Analysis Invesco Download Invesco's Monthly Market Roundup for expert analysis of global markets, including Europe, the UK, US, Asia, emerging markets and Fixed Income. 4 November 2026 Asset allocation Capital market assumptions | Q3 2026 Invesco Investment Solutions, Invesco Invesco Solutions develops capital market assumptions (CMAs) that provide long-term estimates for the behaviour of major asset classes globally. 12 October 2026 Fixed Income Global Fixed Income Strategy Monthly Report | October 2026 Invesco Discover our Global Fixed Income Strategy Monthly Report, we offer an outlook for interest rates and currencies and look at which fixed income assets are favoured across a range of market environments. 9 October 2026 ETC Quarterly Gold Insights: A review of gold in Q3 2026 ",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
@@ -2697,7 +2694,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "ロシア・ウクライナ危機",
@@ -2729,7 +2726,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-10-12",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -2763,7 +2760,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "ファンドバナーページ1",
@@ -2795,7 +2792,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "基金バナー ページ 2",
@@ -2827,7 +2824,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "GTA株式市場相関利回り",
@@ -2859,7 +2856,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "GTA 管理分散",
@@ -2891,7 +2888,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "GTA ベンチャーキャピタル",
@@ -2906,7 +2903,7 @@
       "official_url": "https://www.schroders.com/id-id/id/investasi-reksadana/insights/schroders-indonesia-monthly-market-recap-commentary-september-2026/",
       "link_title": "Schroders Indonesia Monthly Market Recap Commentary September 2026",
       "title": "Schroders Indonesia Monthly Market Recap & Commentary - September 2026",
-      "published": null,
+      "published": "2026-10-12",
       "categories": [
         "債券・金利"
       ],
@@ -2915,7 +2912,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unknown",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "債券・金利"
@@ -2929,8 +2926,9 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-18",
       "published_candidate": "2026-10-12",
-      "publication_date_status": "unknown",
-      "is_verified_new": false
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Schroders",
@@ -3027,7 +3025,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-11-13",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -3061,7 +3059,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-11-10",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -3104,7 +3102,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-11-13",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -3142,7 +3140,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-11-13",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -3159,7 +3157,7 @@
       "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2026-take-an-active-approach-to-valuation-risk-and-seek-opportunities-to-diversify/",
       "link_title": "Outlook 2026 Take An Active Approach To Valuation Risk And Seek Opportunities To Diversify",
       "title": "Take an active approach to valuation risk and seek opportunities to diversify",
-      "published": "2025-11-24",
+      "published": null,
       "categories": [
         "株式"
       ],
@@ -3168,7 +3166,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "publisher_declared_unverified",
+      "date_status": "unknown",
       "primary_categories": [],
       "secondary_categories": [
         "株式"
@@ -3182,15 +3180,14 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2025-11-24",
-      "publication_date_status": "publisher_declared_unverified",
+      "publication_date_status": "unknown",
       "is_verified_new": false,
       "title_ja": "評価リスクに積極的に取り組み、分散の機会を模索する",
       "translation_provider": {
         "title_ja": "mymemory_public",
         "excerpt_ja": "mymemory_public"
       },
-      "excerpt_ja": "株式市場は引き続き堅調に推移していますが、指数の集中度を考えると、銘柄固有のレベルでリスクと機会を管理することが重要です。つまり、ファンダメンタルズ分析に基づいた慎重なポジションを取るということです。2026年を迎えるにあたり、株式市場の評価額について多くの懸念があります。ハイパースケール企業による多額の投資が行われていることから、1999～2000年のドットコムバブルと比較されています。",
-      "publication_date_evidence": "article_jsonld"
+      "excerpt_ja": "株式市場は引き続き堅調に推移していますが、指数の集中度を考えると、銘柄固有のレベルでリスクと機会を管理することが重要です。つまり、ファンダメンタルズ分析に基づいた慎重なポジションを取るということです。2026年を迎えるにあたり、株式市場の評価額について多くの懸念があります。ハイパースケール企業による多額の投資が行われていることから、1999～2000年のドットコムバブルと比較されています。"
     },
     {
       "firm": "Schroders",
@@ -3231,14 +3228,14 @@
       "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2025-income-returns-and-resilience---opportunities-in-public-and-private-markets/",
       "link_title": "Outlook 2025 Income Returns And Resilience Opportunities In Public And Private Markets",
       "title": "Outlook 2025: Income, returns and resilience - opportunities in public and private markets",
-      "published": null,
+      "published": "2024-12-01",
       "categories": [],
       "excerpt": "The economic backdrop is still conducive for returns, but diversification will be essential for building resilient portfolios. News of Donald Trump’s conclusive US election win has led to endless speculation about what his policies might be. In this environment, it is always useful to step back and focus on the bigger picture trends. We have written before about the changing investment regime: a shift to a multipolar world, more proactive fiscal policies, and higher interest rates compared to the last decade. The post-Global Financial Crisis environment of tight fiscal policy, zero interest rates and liberalised global trade was not working for the average person in the West, leading to support for more populist policies. In this context Trump is more of a symptom than a cause of the political environment. His second term will represent an intensification of trends that were already in place: loose fiscal policy and an ongoing reaction against globalisation in the form of higher tariffs (note that Biden did not reverse the tariffs imposed by Trump in his previous term). What does this mean for markets in 2025? Leaving aside political risks, the economic backdrop remains benign. Inflation has moved in the right direction and interest rates are falling in the US and Europe. We expect a soft landing, and our expectation is that growth will reaccelerate as we move through 2025.",
       "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unknown",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [],
       "translation_errors": {},
@@ -3251,10 +3248,11 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-18",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2024-12-01",
-      "publication_date_status": "unknown",
-      "is_verified_new": false
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Goldman Sachs",
@@ -3281,7 +3279,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -3310,7 +3308,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -3343,7 +3341,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -3376,7 +3374,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -3405,7 +3403,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -3434,7 +3432,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -3467,7 +3465,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-10-19",
       "publication_date_status": "unknown",
       "is_verified_new": false
@@ -3497,7 +3495,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-10-12",
       "publication_date_status": "unknown",
       "is_verified_new": false
@@ -3527,7 +3525,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-03-03",
       "publication_date_status": "unknown",
       "is_verified_new": false
@@ -3557,7 +3555,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2024-11-18",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -3588,7 +3586,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -3621,7 +3619,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -3630,7 +3628,7 @@
       "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2026-robust-earnings-and-ongoing-investment-in-new-technologies-may-continue-to-support-global-equities/",
       "link_title": "Outlook 2026 Robust Earnings And Ongoing Investment In New Technologies May Continue To Support Global Equities",
       "title": "Outlook 2026: Robust earnings and ongoing investment in new technologies may continue to support global equities",
-      "published": "2025-11-24",
+      "published": null,
       "categories": [
         "株式"
       ],
@@ -3639,7 +3637,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "publisher_declared_unverified",
+      "date_status": "unknown",
       "primary_categories": [
         "株式"
       ],
@@ -3656,16 +3654,15 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2025-11-24",
-      "publication_date_status": "publisher_declared_unverified",
-      "is_verified_new": false,
-      "publication_date_evidence": "article_jsonld"
+      "publication_date_status": "unknown",
+      "is_verified_new": false
     },
     {
       "firm": "Schroders",
       "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2025-private-markets/",
       "link_title": "Outlook 2025 Private Markets",
       "title": "Private Markets Outlook 2025: An attractive vintage year awaits",
-      "published": null,
+      "published": "2024-12-02",
       "categories": [
         "投資戦略・資金フロー"
       ],
@@ -3674,7 +3671,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unknown",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [],
       "secondary_categories": [
         "投資戦略・資金フロー"
@@ -3688,21 +3685,22 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2024-12-02",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "2025 年のプライベート マーケットの見通し: 魅力的なヴィンテージの年が待っています",
       "translation_provider": {
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "プライベートマーケットの資産クラスは、収益と収益の向上、ポートフォリオの回復力の向上、主要な世界的メガテーマへの差別化されたアクセスの可能性を提供し続けており、2025 年は投資にとって強力なヴィンテージとなりつつあります。当社は、2025 年が新たな民間市場への投資にとって魅力的な環境になると予想しており、民間市場に関連するサイクルとして収益と収入の両方を生み出す可能性を提供します。"
+      "excerpt_ja": "プライベートマーケットの資産クラスは、収益と収益の向上、ポートフォリオの回復力の向上、主要な世界的メガテーマへの差別化されたアクセスの可能性を提供し続けており、2025 年は投資にとって強力なヴィンテージとなりつつあります。当社は、2025 年が新たな民間市場への投資にとって魅力的な環境になると予想しており、民間市場に関連するサイクルとして収益と収入の両方を生み出す可能性を提供します。",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Schroders",
       "official_url": "https://www.schroders.com/en-ca/qu/professional/insights/outlook-2025-equities/",
       "link_title": "Outlook 2025 Equities",
       "title": "Outlook 2025: Equities",
-      "published": null,
+      "published": "2024-12-02",
       "categories": [
         "株式"
       ],
@@ -3711,7 +3709,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unknown",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "株式"
       ],
@@ -3723,16 +3721,17 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2024-12-02",
-      "publication_date_status": "unknown",
+      "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
       "title_ja": "2025 年の見通し: 株式",
       "translation_provider": {
         "title_ja": "google_public",
         "excerpt_ja": "google_public"
       },
-      "excerpt_ja": "アレックス・テダーとトム・ウィルソンは、市場環境の進化に合わせて注目しているセクター、国、テーマを探りながら、来年の株式収益の機会を検討します。本稿執筆時点で、S&P 500指数は年初から米ドルベースで25％上昇し、MSCIオールカントリーワールド指数は18％上昇している（トータルリターン、2024年11月20日終値まで、出典：ファクトセット）。どう見ても素晴らしいリターン、そして"
+      "excerpt_ja": "アレックス・テダーとトム・ウィルソンは、市場環境の進化に合わせて注目しているセクター、国、テーマを探りながら、来年の株式収益の機会を検討します。本稿執筆時点で、S&P 500指数は年初から米ドルベースで25％上昇し、MSCIオールカントリーワールド指数は18％上昇している（トータルリターン、2024年11月20日終値まで、出典：ファクトセット）。どう見ても素晴らしいリターン、そして",
+      "publication_date_evidence": "article_jsonld"
     },
     {
       "firm": "Amundi",
@@ -3834,7 +3833,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2025-02-28",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -3873,7 +3872,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-06-25",
       "publication_date_status": "unknown",
       "is_verified_new": false,
@@ -3913,7 +3912,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -3946,7 +3945,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -3979,7 +3978,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-11-09",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -4010,7 +4009,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-11-02",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -4045,7 +4044,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-10-26",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -4076,7 +4075,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-10-26",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -4107,7 +4106,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
     },
@@ -4140,7 +4139,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-11-11",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -4246,7 +4245,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-11-19",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -4281,7 +4280,7 @@
       "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
       "first_seen": "2026-11-19",
       "first_seen_status": "recorded_by_gmi",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
       "published_candidate": "2026-11-19",
       "publication_date_status": "publisher_declared_unverified",
       "is_verified_new": false,
@@ -4292,7 +4291,7 @@
       "official_url": "https://www.amundi.com/globaldistributor/article/2027-investment-outlook-price-power",
       "link_title": "2027 Amundi investment outlook 19/11/2027 2027 Investment Outlook: \"The Price of Power\" More",
       "title": "2027 Investment Outlook: \"The Price of Power\"",
-      "published": null,
+      "published": "2026-11-19",
       "categories": [
         "投資戦略・資金フロー",
         "その他の産業テーマ"
@@ -4302,7 +4301,7 @@
       "page_type": "article_candidate",
       "market_relevance": "Needs human review",
       "error": null,
-      "date_status": "unknown",
+      "date_status": "publisher_declared_unverified",
       "primary_categories": [
         "投資戦略・資金フロー"
       ],
@@ -4321,31 +4320,203 @@
       "first_seen_status": "recorded_by_gmi",
       "last_seen": "2026-11-19",
       "published_candidate": "2027-11-19",
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "html_meta"
+    },
+    {
+      "firm": "Capital Group",
+      "official_url": "https://www.capitalgroup.com/institutional/insights/articles/investing-in-ai-lessons-from-china-industrial-boom.html",
+      "link_title": "Investing in AI: Lessons from China’s industrial boom",
+      "title": "Investing in AI: Lessons from China’s industrial boom",
+      "published": null,
+      "categories": [
+        "AI・半導体",
+        "その他の産業テーマ"
+      ],
+      "excerpt": "THIS WEBSITE IS INTENDED FOR INSTITUTIONAL INVESTORS who are U.S. residents ONLY; not intended for access or distribution to retail investors. In order to access the Capital Group U.S. Institutional website (the “Site”), please read the following information and affirm by clicking the accept button that you have read and understand the information provided. You must attest that you meet the qualifications of an institutional investor as described herein and accept these Terms and Conditions in order to access the Site. Some content may require additional registration for access. The Site is solely intended for U.S. residents who are institutional investors or are acting on behalf of an institutional investor who has agreed to these Terms and Conditions. Institutional investors include, but are not limited to any person acting on behalf of/any pension fund, financial intermediary, consultant, endowment and foundation, bank, savings and loan association, insurance company, investment company registered under the Investment Company Act of 1940, investment adviser registered with the U.S. Securities and Exchange Commission or under applicable state law, government entity, entity with total assets of at least $50 million, employee benefit or qualified retirement plan with at least 100 participants, defined contribution/benefit plan, and qualified client or purchaser as defined by the U.S. Securities and Exchange Commission. By agreeing to these Terms and Conditions you are affirming your understanding that the Site is not intended for retail investors, individual plan participants or others who may not possess the financial sophistication to independently understand the content nor should it be redistributed to such persons. You understand that the Site does not constitute a",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unknown",
+      "primary_categories": [
+        "AI・半導体"
+      ],
+      "secondary_categories": [
+        "その他の産業テーマ"
+      ],
+      "translation_errors": {},
+      "title_ja": "AI への投資: 中国の産業ブームからの教訓",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-20",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-20",
       "publication_date_status": "unknown",
       "is_verified_new": false
+    },
+    {
+      "firm": "Capital Group",
+      "official_url": "https://www.capitalgroup.com/institutional/insights/articles/why-us-economy-stronger-you-might-think.html",
+      "link_title": "Why the U.S. economy is stronger than you might think",
+      "title": "Why the U.S. economy is stronger than you might think",
+      "published": null,
+      "categories": [],
+      "excerpt": "THIS WEBSITE IS INTENDED FOR INSTITUTIONAL INVESTORS who are U.S. residents ONLY; not intended for access or distribution to retail investors. In order to access the Capital Group U.S. Institutional website (the “Site”), please read the following information and affirm by clicking the accept button that you have read and understand the information provided. You must attest that you meet the qualifications of an institutional investor as described herein and accept these Terms and Conditions in order to access the Site. Some content may require additional registration for access. The Site is solely intended for U.S. residents who are institutional investors or are acting on behalf of an institutional investor who has agreed to these Terms and Conditions. Institutional investors include, but are not limited to any person acting on behalf of/any pension fund, financial intermediary, consultant, endowment and foundation, bank, savings and loan association, insurance company, investment company registered under the Investment Company Act of 1940, investment adviser registered with the U.S. Securities and Exchange Commission or under applicable state law, government entity, entity with total assets of at least $50 million, employee benefit or qualified retirement plan with at least 100 participants, defined contribution/benefit plan, and qualified client or purchaser as defined by the U.S. Securities and Exchange Commission. By agreeing to these Terms and Conditions you are affirming your understanding that the Site is not intended for retail investors, individual plan participants or others who may not possess the financial sophistication to independently understand the content nor should it be redistributed to such persons. You understand that the Site does not constitute a",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unknown",
+      "primary_categories": [],
+      "secondary_categories": [],
+      "translation_errors": {},
+      "title_ja": "米国経済が思っているよりも強い理由",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-20",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-20",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Capital Group",
+      "official_url": "https://www.capitalgroup.com/institutional/insights/articles/ai-debt-boom-balancing-risk-opportunity.html",
+      "link_title": "The AI debt boom: Balancing risk and opportunity",
+      "title": "The AI debt boom: Balancing risk and opportunity",
+      "published": null,
+      "categories": [
+        "AI・半導体",
+        "債券・金利"
+      ],
+      "excerpt": "THIS WEBSITE IS INTENDED FOR INSTITUTIONAL INVESTORS who are U.S. residents ONLY; not intended for access or distribution to retail investors. In order to access the Capital Group U.S. Institutional website (the “Site”), please read the following information and affirm by clicking the accept button that you have read and understand the information provided. You must attest that you meet the qualifications of an institutional investor as described herein and accept these Terms and Conditions in order to access the Site. Some content may require additional registration for access. The Site is solely intended for U.S. residents who are institutional investors or are acting on behalf of an institutional investor who has agreed to these Terms and Conditions. Institutional investors include, but are not limited to any person acting on behalf of/any pension fund, financial intermediary, consultant, endowment and foundation, bank, savings and loan association, insurance company, investment company registered under the Investment Company Act of 1940, investment adviser registered with the U.S. Securities and Exchange Commission or under applicable state law, government entity, entity with total assets of at least $50 million, employee benefit or qualified retirement plan with at least 100 participants, defined contribution/benefit plan, and qualified client or purchaser as defined by the U.S. Securities and Exchange Commission. By agreeing to these Terms and Conditions you are affirming your understanding that the Site is not intended for retail investors, individual plan participants or others who may not possess the financial sophistication to independently understand the content nor should it be redistributed to such persons. You understand that the Site does not constitute a",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unknown",
+      "primary_categories": [
+        "AI・半導体"
+      ],
+      "secondary_categories": [
+        "債券・金利"
+      ],
+      "translation_errors": {},
+      "title_ja": "AI 債務ブーム: リスクと機会のバランス",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-20",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-20",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Capital Group",
+      "official_url": "https://www.capitalgroup.com/institutional/insights/articles/investing-in-a-new-global-rate-regime.html",
+      "link_title": "Investing in a new global rate regime",
+      "title": "Investing in a new global rate regime",
+      "published": null,
+      "categories": [
+        "債券・金利"
+      ],
+      "excerpt": "THIS WEBSITE IS INTENDED FOR INSTITUTIONAL INVESTORS who are U.S. residents ONLY; not intended for access or distribution to retail investors. In order to access the Capital Group U.S. Institutional website (the “Site”), please read the following information and affirm by clicking the accept button that you have read and understand the information provided. You must attest that you meet the qualifications of an institutional investor as described herein and accept these Terms and Conditions in order to access the Site. Some content may require additional registration for access. The Site is solely intended for U.S. residents who are institutional investors or are acting on behalf of an institutional investor who has agreed to these Terms and Conditions. Institutional investors include, but are not limited to any person acting on behalf of/any pension fund, financial intermediary, consultant, endowment and foundation, bank, savings and loan association, insurance company, investment company registered under the Investment Company Act of 1940, investment adviser registered with the U.S. Securities and Exchange Commission or under applicable state law, government entity, entity with total assets of at least $50 million, employee benefit or qualified retirement plan with at least 100 participants, defined contribution/benefit plan, and qualified client or purchaser as defined by the U.S. Securities and Exchange Commission. By agreeing to these Terms and Conditions you are affirming your understanding that the Site is not intended for retail investors, individual plan participants or others who may not possess the financial sophistication to independently understand the content nor should it be redistributed to such persons. You understand that the Site does not constitute a",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "unknown",
+      "primary_categories": [],
+      "secondary_categories": [
+        "債券・金利"
+      ],
+      "translation_errors": {},
+      "title_ja": "新しい世界的な金利制度への投資",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "このウェブサイトは、米国居住の機関投資家のみを対象としています。個人投資家へのアクセスや配布を目的としたものではありません。 Capital Group U.S. Institutional の Web サイト (以下「サイト」) にアクセスするには、以下の情報を読み、提供された情報を読んで理解したことを承諾するボタンをクリックして承認してください。研究所の資格を満たしていることを証明する必要があります",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-20",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-20",
+      "publication_date_status": "unknown",
+      "is_verified_new": false
+    },
+    {
+      "firm": "Amundi",
+      "official_url": "https://www.amundi.com/globaldistributor/article/2027-outlook-price-power",
+      "link_title": "2027 Amundi investment outlook 19/11/2026 2027 Outlook: \"The Price of Power\" More",
+      "title": "2027 Outlook: \"The Price of Power\"",
+      "published": "2026-11-19",
+      "categories": [
+        "投資戦略・資金フロー",
+        "その他の産業テーマ"
+      ],
+      "excerpt": "The Amundi Investment Institute’s 2027 Outlook explores the costs and trade-offs of a macroeconomic regime shaped by five forces: Together, these forces are creating a complex macroeconomic backdrop in which portfolio construction will need to account for a broad range of risks and return drivers. Investment needs are rising just as fiscal constraints are pushing up financing costs. For 2027, the Amundi Investment Institute projects global GDP growth of 3.3%, with different regional dynamics. Inflation is expected to remain above central bank targets but to ease gradually over the course of the year, with synchronised monetary tightening for the Federal Reserve, European Central Bank and Bank of England likely to peak in the first quarter. Opportunities are currently available in short- to intermediate-dated bonds, while greater caution is needed on longer maturities. Active management and careful security selection, with a focus on quality, remain essential. Emerging market bonds should take on a greater role as a core portfolio allocation. Within corporate credit, investment grade is favoured over high yield, given refinancing and dispersion risks. AI remains a key theme, but the narrative is shifting from who can invest the most to who can generate the highest returns. The next wave of opportunities should increasingly stem from technology adoption, electrification, infrastructure and industrial transformation. There is also scope for market gains to broaden across Europe, Japan and selected emerging markets. In 2027, the traditional 60/40 portfolio should be strengthened through additional sources of diversification, with greater allocations to real and alternative assets, commodities, gold and liquidity. Hedging should complement asset allocation, but no single hed",
+      "excerpt_status": "Cleaned candidate excerpt; editorial verification required",
+      "page_type": "article_candidate",
+      "market_relevance": "Needs human review",
+      "error": null,
+      "date_status": "publisher_declared_unverified",
+      "primary_categories": [],
+      "secondary_categories": [
+        "投資戦略・資金フロー",
+        "その他の産業テーマ"
+      ],
+      "translation_errors": {},
+      "title_ja": "2027 年の展望:「電力の価格」",
+      "translation_provider": {
+        "title_ja": "google_public",
+        "excerpt_ja": "google_public"
+      },
+      "excerpt_ja": "アムンディ投資研究所の 2027 年の見通しでは、5 つの力によって形成されるマクロ経済体制のコストとトレードオフを調査しています。これらの力が合わさって複雑なマクロ経済的背景を生み出しており、その中でポートフォリオの構築には幅広いリスクとリターン要因を考慮する必要があります。財政制約により資金調達コストが上昇すると同時に、投資ニーズも高まっています。 2027 年に向けて、アムンディ投資は",
+      "japanese_status": "machine_translation_of_partial_excerpt_not_summary",
+      "first_seen": "2026-11-20",
+      "first_seen_status": "recorded_by_gmi",
+      "last_seen": "2026-11-20",
+      "published_candidate": "2026-11-19",
+      "publication_date_status": "publisher_declared_unverified",
+      "is_verified_new": false,
+      "publication_date_evidence": "html_meta"
     }
   ],
   "archive_enabled": true,
-  "archive_count": 125,
+  "archive_count": 130,
   "archive_quality": {
-    "previous_unique": 121,
-    "new_unique": 4,
-    "current_unique": 84,
+    "previous_unique": 125,
+    "new_unique": 5,
+    "current_unique": 87,
     "duplicate_urls_previous": 0,
     "duplicate_urls_current": 0,
-    "total_unique": 125,
+    "total_unique": 130,
     "published_dates_verified": 0,
-    "translation_available": 101,
-    "published_dates_declared_unverified": 45
+    "translation_available": 106,
+    "published_dates_declared_unverified": 46
   },
   "archive_note": "first_seen is a GMI tracking date, never a publication date. Unverified dates remain published_candidate, never displayed as confirmed. Excerpts are partial and machine translations are not full-article summaries.",
   "date_verification": {
-    "examined": 125,
+    "examined": 130,
     "verified": 0,
-    "publisher_declared_unverified": 45,
-    "unknown": 80,
+    "publisher_declared_unverified": 46,
+    "unknown": 84,
     "unverified_reasons": {
-      "no_publication_metadata": 79,
+      "no_publication_metadata": 83,
       "too_large": 1
     },
     "method": "Publisher page metadata: matching HTML meta + article JSON-LD = crosschecked; single source = publisher-declared, unverified; conflicting/missing = unknown"
